@@ -48,10 +48,10 @@ def create_item_label_to_code_map() -> Dict[str, int]:
 
 ITEM_GROUPS = {
     "Badges": {
-        "Stone Badge", "Knuckle Badge",
-        "Dynamo Badge", "Heat Badge",
-        "Balance Badge", "Feather Badge",
-        "Mind Badge", "Rain Badge"
+        "Coal Badge", "Forest Badge",
+        "Cobble Badge", "Fen Badge",
+        "Relic Badge", "Mine Badge",
+        "Icicle Badge", "Beacon Badge"
     },
     "HMs": {
         "HM01 Cut", "HM02 Fly",

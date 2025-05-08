@@ -1,23 +1,3 @@
-{
-  "gym_rewards": [
-    "Gym 1 - TM Reward",
-    "Gym 1 - Badge Reward",
-    "Gym 2 - TM Reward",
-    "Gym 2 - Badge Reward",
-    "Gym 3 - TM Reward",
-    "Gym 3 - Badge Reward",
-    "Gym 4 - TM Reward",
-    "Gym 4 - Badge Reward",
-    "Gym 5 - TM Reward",
-    "Gym 5 - Badge Reward",
-    "Gym 6 - TM Reward",
-    "Gym 6 - Badge Reward",
-    "Gym 7 - TM Reward",
-    "Gym 7 - Badge Reward",
-    "Gym 8 - TM Reward",
-    "Gym 8 - Badge Reward"
-  ]
-},
 
 	# Overworld Items
 
@@ -89,7 +69,7 @@
      "long_description": "Eterna City - Next to the Gym",
      "location": "Eterna City",
      "item_flag": "0x0410",
-     "vanilla_item": 026
+     "vanilla_item": 026,
     "requirements": []
  },
  
@@ -98,7 +78,7 @@
      "long_description": "Eterna City - Obtained from Cynthia outside the Team Galactic Eterna Building",
      "location": "Eterna City",
      "item_flag": "0x",
-     "vanilla_item": 420
+     "vanilla_item": 420,
     "requirements": []
  },
  
@@ -107,7 +87,7 @@
      "long_description": "Eterna City - North of the statue, accessed from behind the Team Galactic Eterna Building (requires Cut)",
      "location": "Eterna City",
      "item_flag": "0x040E",
-     "vanilla_item": 373
+     "vanilla_item": 373,
     "requirements": ["HM_CUT"]
  },
  
@@ -116,7 +96,7 @@
      "long_description": "Eterna City - Obtained from the Underground Man in the house next to the Pokémon Center",
      "location": "Eterna City",
      "item_flag": "0x0079",
-     "vanilla_item": 428
+     "vanilla_item": 428,
     "requirements": []
  },
  
@@ -125,7 +105,7 @@
      "long_description": "Eterna City - Obtained from Rad Rickshaw after saving him from Team Galactic",
      "location": "Eterna City",
      "item_flag": "0x0082",
-     "vanilla_item": 450
+     "vanilla_item": 450,
     "requirements": []
  },
  
@@ -134,7 +114,7 @@
      "long_description": "Eterna City - Given by Professor Oak after obtaining the National Pokédex and meeting him at the Pal Park",
      "location": "Eterna City",
      "item_flag": "0x0119",
-     "vanilla_item": 252
+     "vanilla_item": 252,
     "requirements": []
  },
 
@@ -143,7 +123,7 @@
      "long_description": "Eterna Forest Exterior - West end of the path in the cliff on the shortcut path",
      "location": "Eterna Forest Exterior",
      "item_flag": "0x0413",
-     "vanilla_item": 222
+     "vanilla_item": 222,
     "requirements": []
  },
  
@@ -152,7 +132,7 @@
      "long_description": "Eterna Forest Exterior - East end of the path in the cliff on the shortcut path",
      "location": "Eterna Forest Exterior",
      "item_flag": "0x0412",
-     "vanilla_item": 409
+     "vanilla_item": 409,
     "requirements": []
  },
  
@@ -161,7 +141,7 @@
      "long_description": "Eterna Forest Interior - In the field of grass just west of the southern entrance",
      "location": "Eterna Forest Interior",
      "item_flag": "0x0408",
-     "vanilla_item": 018
+     "vanilla_item": 018,
     "requirements": []
  },
  
@@ -170,7 +150,7 @@
      "long_description": "Eterna Forest Interior - Northeast of the entrance, just north of the first path segment",
      "location": "Eterna Forest Interior",
      "item_flag": "0x0409",
-     "vanilla_item": 022
+     "vanilla_item": 022,
     "requirements": []
  },
  
@@ -179,7 +159,7 @@
      "long_description": "Eterna Forest Interior - In the southwest corner of the field of grass south of the long path segment	",
      "location": "Eterna Forest Interior",
      "item_flag": "0x040A",
-     "vanilla_item": 006
+     "vanilla_item": 006,
     "requirements": []
  },
  
@@ -188,7 +168,7 @@
      "long_description": "Eterna Forest Interior - In the grass at the southeast corner of the forest",
      "location": "Eterna Forest Interior",
      "item_flag": "0x04EF",
-     "vanilla_item": 017
+     "vanilla_item": 017,
     "requirements": []
  },
  
@@ -197,7 +177,7 @@
      "long_description": "Eterna Forest Interior - In the grass southwest of the cuttable trees leading to the Old Chateau",
      "location": "Eterna Forest Interior",
      "item_flag": "0x040B",
-     "vanilla_item": 075
+     "vanilla_item": 075,
     "requirements": []
  },
  
@@ -206,7 +186,7 @@
      "long_description": "Eterna Forest Interior - 	On the right side of the Old Chateau (requires Cut)",
      "location": "Eterna Forest Interior",
      "item_flag": "0x044B",
-     "vanilla_item": 038
+     "vanilla_item": 038,
     "requirements": ["HM_CUT"]
  },
  
@@ -215,7 +195,7 @@
      "long_description": "Eterna Forest Interior - Gift from Cheryl at the exit",
      "location": "Eterna Forest Interior",
      "item_flag": "0x139",
-     "vanilla_item": 218
+     "vanilla_item": 218,
     "requirements": []
  },
  
@@ -737,7 +717,7 @@
      "long_description": "Old Chateau - 2F, in the room west of the entrance",
      "location": "Old Chateau",
      "item_flag": "0x040C",
-     "vanilla_item": 054
+     "vanilla_item": 054,
     "requirements": []
  },
  
@@ -746,7 +726,7 @@
      "long_description": "Old Chateau - 1F Dining Area, on the west side",
      "location": "Old Chateau",
      "item_flag": "0x0501",
-     "vanilla_item": 050
+     "vanilla_item": 050,
     "requirements": []
  },
  
@@ -755,7 +735,7 @@
      "long_description": "Old Chateau - 1F Dining Area, on the east side",
      "location": "Old Chateau",
      "item_flag": "0x0502",
-     "vanilla_item": 089
+     "vanilla_item": 089,
     "requirements": []
  },
  
@@ -764,7 +744,7 @@
      "long_description": "Old Chateau - 2F, in the easternmost bedroom",
      "location": "Old Chateau",
      "item_flag": "0x04EE",
-     "vanilla_item": 417
+     "vanilla_item": 417,
     "requirements": []
  },
  
@@ -773,7 +753,7 @@
      "long_description": "Old Chateau - 2F, in the westernmost bedroom",
      "location": "Old Chateau",
      "item_flag": "0x04ED",
-     "vanilla_item": 312
+     "vanilla_item": 312,
     "requirements": []
  },
  
@@ -1955,7 +1935,7 @@
  	"long_description": "Route 225 - In the southwest corner of the route (requires Rock Climb)",
  	"location": "Route 225",
  	"item_flag": "0x04BC",
- 	"vanilla_item": 327
+ 	"vanilla_item": 327,
 	"requirements": ["HM_ROCK_CLIMB"]
  },
  
@@ -1964,7 +1944,7 @@
  	"long_description": "Route 225 - East of Bird Keeper Audrey, Pokémon Ranger Ashlee, and Psychic Daisy (requires Cut)",
  	"location": "Route 225",
  	"item_flag": "0x04BD",
- 	"vanilla_item": 050
+ 	"vanilla_item": 050,
 	"requirements": ["HM_CUT"]
  },
  
@@ -1973,7 +1953,7 @@
  	"long_description": "Route 225 - On ledge east of Pokémon Ranger Dwayne",
  	"location": "Route 225",
  	"item_flag": "0x04BE",
- 	"vanilla_item": 045
+ 	"vanilla_item": 045,
 	"requirements": []
  },
  
@@ -1982,7 +1962,7 @@
  	"long_description": "Route 225 - Northwest of Pokémon Ranger Dwayne",
  	"location": "Route 225",
  	"item_flag": "0x04C2",
- 	"vanilla_item": 028
+ 	"vanilla_item": 028,
 	"requirements": []
  },
  
@@ -1991,7 +1971,7 @@
  	"long_description": "Route 225 - West of the house (requires Cut)",
  	"location": "Route 225",
  	"item_flag": "0x04BF",
- 	"vanilla_item": 255
+ 	"vanilla_item": 255,
 	"requirements": ["HM_CUT"]
  },
   
@@ -2000,7 +1980,7 @@
  	"long_description": "Route 225 - Item On the other side of the lake north of the house (requires Surf)",
  	"location": "Route 225",
  	"item_flag": "0x04C0",
- 	"vanilla_item": 324
+ 	"vanilla_item": 324,
 	"requirements": ["HM_SURF"]
  },
   
@@ -2009,7 +1989,7 @@
  	"long_description": "Route 225 - Northeast patch of grass, east of the berry patch",
  	"location": "Route 225",
  	"item_flag": "0x0529",
- 	"vanilla_item": 075
+ 	"vanilla_item": 075,
 	"requirements": []
  },
    
@@ -2018,7 +1998,7 @@
  	"long_description": "Route 225 - Item Atop a ledge at the northern end of the route (requires Rock Climb)",
  	"location": "Route 225",
  	"item_flag": "0x04C1",
- 	"vanilla_item": 109
+ 	"vanilla_item": 109,
 	"requirements": ["HM_ROCK_CLIMB"]
  },
  
@@ -2027,7 +2007,7 @@
  	"long_description": "Route 226 - To the far left of the area reached by Rock Climbing downwards twice (requires Rock Climb)",
  	"location": "Route 226",
  	"item_flag": "0x04C5",
- 	"vanilla_item": 048
+ 	"vanilla_item": 048,
 	"requirements": ["HM_ROCK_CLIMB"]
  },
  
@@ -2036,7 +2016,7 @@
  	"long_description": "Route 226 - On the ledge reached by using Rock Climb to move upwards twice from the location of the Carbos (requires Rock Climb)",
  	"location": "Route 226",
  	"item_flag": "0x04C4",
- 	"vanilla_item": 279
+ 	"vanilla_item": 279,
 	"requirements": ["HM_ROCK_CLIMB"]
  },
  
@@ -2045,7 +2025,7 @@
  	"long_description": "Route 226 - On the ledge west of Meister's House (requires Rock Climb)",
  	"location": "Route 226",
  	"item_flag": "0x04C3",
- 	"vanilla_item": 380
+ 	"vanilla_item": 380,
 	"requirements": ["HM_ROCK_CLIMB"]
  },
 
@@ -2054,7 +2034,7 @@
  	"long_description": "Route 227 - In the grassy patch northwest of where Buck initially stands",
  	"location": "Route 227",
  	"item_flag": "0x052A",
- 	"vanilla_item": 074
+ 	"vanilla_item": 074,
 	"requirements": []
  },
  
@@ -2063,7 +2043,7 @@
  	"long_description": "Route 227 - East of the right pond (requires Rock Climb)",
  	"location": "Route 227",
  	"item_flag": "0x04C6",
- 	"vanilla_item": 249
+ 	"vanilla_item": 249,
 	"requirements": ["HM_ROCK_CLIMB"]
  },
  
@@ -2072,7 +2052,7 @@
  	"long_description": "Route 227 - West of Ace Trainer Mikayla",
  	"location": "Route 227",
  	"item_flag": "0x04C7",
- 	"vanilla_item": 052
+ 	"vanilla_item": 052,
 	"requirements": []
  },
  
@@ -2081,7 +2061,7 @@
  	"long_description": "Route 228 - In the pit east of Ace Trainer Jose",
  	"location": "Route 228",
  	"item_flag": "0x04D6",
- 	"vanilla_item": 321
+ 	"vanilla_item": 321,
 	"requirements": ["BICYCLE"]
  },
  
@@ -2090,7 +2070,7 @@
  	"long_description": "Route 228 - On the ledge northwest of the Move Tutor's house (requires Rock Smash)",
  	"location": "Route 228",
  	"item_flag": "0x04D9",
- 	"vanilla_item": 295
+ 	"vanilla_item": 295,
 	"requirements": ["HM_ROCK_SMASH"]
  },
  
@@ -2099,7 +2079,7 @@
  	"long_description": "Route 228 - Northeast of the Move Tutor's house",
  	"location": "Route 228",
  	"item_flag": "0x04D7",
- 	"vanilla_item": 047
+ 	"vanilla_item": 047,
 	"requirements": []
  },
  
@@ -2108,7 +2088,7 @@
  	"long_description": "Route 228 - Southwest of Pokémon Rangers Kyler and Krista",
  	"location": "Route 228",
  	"item_flag": "0x04DA",
- 	"vanilla_item": 364
+ 	"vanilla_item": 364,
 	"requirements": []
  },
  
@@ -2117,7 +2097,7 @@
  	"long_description": "Route 228 - At the end of a narrow bridge south of Pokémon Rangers Kyler and Krista",
  	"location": "Route 228",
  	"item_flag": "0x04D8",
- 	"vanilla_item": 107
+ 	"vanilla_item": 107,
 	"requirements": ["BICYCLE"]
  },
  
@@ -2126,7 +2106,7 @@
  	"long_description": "Route 228 - Inside Regirock's cave in the middle of the route",
  	"location": "Route 228",
  	"item_flag": "0x053B",
- 	"vanilla_item": 238
+ 	"vanilla_item": 238,
 	"requirements": []
  },
  
@@ -2135,7 +2115,7 @@
      "long_description": "Route 229 - East of cuttable tree northeast of Ace Trainer Dana (requires Cut)",
      "location": "Route 229",
      "item_flag": "0x04DB",
-     "vanilla_item": 325
+     "vanilla_item": 325,
     "requirements": ["HM_CUT"]
  },
  
@@ -2144,7 +2124,7 @@
      "long_description": "Route 229 - Northeast corner of the route",
      "location": "Route 229",
      "item_flag": "0x04DD",
-     "vanilla_item": 023
+     "vanilla_item": 023,
     "requirements": []
  },
 
@@ -2153,7 +2133,7 @@
      "long_description": "Route 229 - Northeast of the pond (requires Cut)",
      "location": "Route 229",
      "item_flag": "0x04DC",
-     "vanilla_item": 046
+     "vanilla_item": 046,
     "requirements": ["HM_CUT"]
  },
  
@@ -2162,7 +2142,7 @@
      "long_description": "Route 230 - On the west side of the island (requires Surf and Rock Smash)",
      "location": "Route 230",
      "item_flag": "0x052B",
-     "vanilla_item": 073
+     "vanilla_item": 073,
     "requirements": ["HM_SURF & HM_ROCK_SMASH"]
  },
  
@@ -2171,7 +2151,7 @@
      "long_description": "Route 230 - On the east side of the island (requires Surf and Rock Smash)",
      "location": "Route 230",
      "item_flag": "0x04DF",
-     "vanilla_item": 050
+     "vanilla_item": 050,
     "requirements": ["HM_SURF & HM_ROCK_SMASH"]
  },
  
@@ -2189,7 +2169,7 @@
  	"long_description": "Snowpoint City - Item by crane",
  	"location": "Snowpoint City",
  	"item_flag": "0x052D",
- 	"vanilla_item": 002
+ 	"vanilla_item": 002,
 	"requirements": []
  },
  
@@ -2270,7 +2250,7 @@
  	"long_description": "Stark Mountain Entrance - In the southwestern corner (requires Strength)",
  	"location": "Stark Mountain Entrance",
  	"item_flag": "0x04CB",
- 	"vanilla_item": 078
+ 	"vanilla_item": 078,
 	"requirements": ["HM_STRENGTH"]
  },
    
@@ -2279,7 +2259,7 @@
  	"long_description": "Stark Mountain Entrance - In the southeastern corner (requires Strength)",
  	"location": "Stark Mountain Entrance",
  	"item_flag": "0x04CC",
- 	"vanilla_item": 051
+ 	"vanilla_item": 051,
 	"requirements": ["HM_STRENGTH"]
  },
    
@@ -2288,7 +2268,7 @@
  	"long_description": "Stark Mountain Entrance - In the northwestern corner (requires Strength)",
  	"location": "Stark Mountain Entrance",
  	"item_flag": "0x04CA",
- 	"vanilla_item": 027
+ 	"vanilla_item": 027,
 	"requirements": ["HM_STRENGTH"]
  },
  
@@ -2297,7 +2277,7 @@
  	"long_description": "Stark Mountain Entrance - East of the entrance to the second room (requires Strength and Rock Smash)",
  	"location": "Stark Mountain Entrance",
  	"item_flag": "0x04CD",
- 	"vanilla_item": 023
+ 	"vanilla_item": 023,
    "requirements": ["HM_STRENGTH & HM_ROCK_SMASH"]
  },
  
@@ -2306,7 +2286,7 @@
  	"long_description": "Stark Mountain Exterior - 	In the southwestern corner (requires Rock Climb)",
  	"location": "Stark Mountain Exterior",
  	"item_flag": "0x04C9",
- 	"vanilla_item": 270
+ 	"vanilla_item": 270,
 	"requirements": ["HM_ROCK_CLIMB"]
  },
  
@@ -2315,7 +2295,7 @@
  	"long_description": "Stark Mountain Exterior - North of the grass patch",
  	"location": "Stark Mountain Exterior",
  	"item_flag": "0x04C8",
- 	"vanilla_item": 041
+ 	"vanilla_item": 041,
 	"requirements": []
  },
 
@@ -2324,7 +2304,7 @@
  	"long_description": "Stark Mountain Main Cavern - At the end of the pit west of Ace Trainers Keenan and Kassandra",
  	"location": "Stark Mountain Main Cavern",
  	"item_flag": "0x04D2",
- 	"vanilla_item": 050
+ 	"vanilla_item": 050,
 	"requirements": []
  },
  
@@ -2333,7 +2313,7 @@
  	"long_description": "Stark Mountain Main Cavern - South of Ace Trainers Stefan and Jasmin (requires Strength)",
  	"location": "Stark Mountain Main Cavern",
  	"item_flag": "0x04CE",
- 	"vanilla_item": 377
+ 	"vanilla_item": 377,
 	"requirements": ["HM_STRENGTH"]
  },
  
@@ -2342,7 +2322,7 @@
  	"long_description": "Stark Mountain Main Cavern - In the pit north of Bird Keeper Krystal and Black Belt Ray",
  	"location": "Stark Mountain Main Cavern",
  	"item_flag": "0x04D5",
- 	"vanilla_item": 049
+ 	"vanilla_item": 049,
 	"requirements": []
  },
  
@@ -2351,7 +2331,7 @@
  	"long_description": "Stark Mountain Main Cavern - At the end of the pit west of Psychics Chelsey and Sterling",
  	"location": "Stark Mountain Main Cavern",
  	"item_flag": "0x04CF",
- 	"vanilla_item": 278
+ 	"vanilla_item": 278,
 	"requirements": []
  },
  
@@ -2360,7 +2340,7 @@
  	"long_description": "Stark Mountain Main Cavern - Northwest of Veteran Harlan",
  	"location": "Stark Mountain Main Cavern",
  	"item_flag": "0x04D4",
- 	"vanilla_item": 029
+ 	"vanilla_item": 029,
 	"requirements": []
  },
  
@@ -2369,7 +2349,7 @@
  	"long_description": "Stark Mountain Main Cavern - Atop the hill northwest of Bird Keeper Krystal and Black Belt Ray (requires Rock Climb)",
  	"location": "Stark Mountain Main Cavern",
  	"item_flag": "0x04D3",
- 	"vanilla_item": 002
+ 	"vanilla_item": 002,
 	"requirements": ["HM_ROCK_CLIMB"]
  },
  
@@ -2378,7 +2358,7 @@
  	"long_description": "Stark Mountain Main Cavern - At the southern end of the pit northwest of Ace Trainers Abel and Monique (requires Rock Climb)",
  	"location": "Stark Mountain Main Cavern",
  	"item_flag": "0x04D0",
- 	"vanilla_item": 041
+ 	"vanilla_item": 041,
 	"requirements": ["HM_ROCK_CLIMB"]
  },
  
@@ -2387,7 +2367,7 @@
  	"long_description": "Stark Mountain Main Cavern - In the northeastern corner of the room (requires Rock Climb)",
  	"location": "Stark Mountain Main Cavern",
  	"item_flag": "0x04D1",
- 	"vanilla_item": 092
+ 	"vanilla_item": 092,
 	"requirements": ["HM_ROCK_CLIMB"]
  },
  
@@ -2768,7 +2748,7 @@
      "long_description": "Eterna City - Behind the statue of Dialga/Palkia (hidden)",
      "location": "Eterna City",
      "item_flag": "0x02DC",
-     "vanilla_item": 311
+     "vanilla_item": 311,
     "requirements": []
  },
  
@@ -2777,7 +2757,7 @@
      "long_description": "Eterna City - In the far northeast corner of the city (requires Surf) (hidden)",
      "location": "Eterna City",
      "item_flag": "0x03BE",
-     "vanilla_item": 081
+     "vanilla_item": 081,
     "requirements": ["HM_SURF"]
  },
  
@@ -2786,7 +2766,7 @@
      "long_description": "Eterna Forest Interior - In the wall on the right side of the Old Chateau (requires Cut) (hidden)",
      "location": "Eterna Forest Interior",
      "item_flag": "0x02DB",
-     "vanilla_item": 308
+     "vanilla_item": 308,
     "requirements": ["HM_CUT"]
  },
 
@@ -3791,7 +3771,7 @@
  
  {
  	"tag": "Suite Key",
- 	"long_description": "Route 213 - Hidden Item before entrance to heal hotel", might need to trigger a flag for it
+ 	"long_description": "Route 213 - Hidden Item before entrance to heal hotel",
  	"location": "Route 213",
  	"item_flag": "0x3B2",
  	"vanilla_item": 451,
@@ -4263,7 +4243,7 @@
  	"long_description": "Route 225 - Atop hill northeast of Psychic Daisy (hidden)",
  	"location": "Route 225",
  	"item_flag": "0x0327",
- 	"vanilla_item": 087
+ 	"vanilla_item": 087,
 	"requirements": []
  },
  
@@ -4272,7 +4252,7 @@
  	"long_description": "Route 225 - On lower ledge southeast of Ace Trainer Quinn (hidden)",
  	"location": "Route 225",
  	"item_flag": "0x035C",
- 	"vanilla_item": 050
+ 	"vanilla_item": 050,
 	"requirements": []
  },
  
@@ -4281,7 +4261,7 @@
  	"long_description": "Route 225 - In the grass south of the house (hidden)",
  	"location": "Route 225",
  	"item_flag": "0x03A6",
- 	"vanilla_item": 002
+ 	"vanilla_item": 002,
 	"requirements": []
  },
  
@@ -4290,7 +4270,7 @@
  	"long_description": "Route 226 - In the grass northwest of Swimmer Lydia (requires Rock Climb) (hidden)",
  	"location": "Route 226",
  	"item_flag": "0x0360",
- 	"vanilla_item": 087
+ 	"vanilla_item": 087,
 	"requirements": ["HM_ROCK_CLIMB"]
  },
  
@@ -4299,7 +4279,7 @@
  	"long_description": "Route 226 - In the grass northwest of Swimmer Lydia (requires Rock Climb) (hidden)",
  	"location": "Route 226",
  	"item_flag": "0x035E",
- 	"vanilla_item": 086
+ 	"vanilla_item": 086,
 	"requirements": ["HM_ROCK_CLIMB"]
  },
  
@@ -4308,7 +4288,7 @@
  	"long_description": "Route 226 - In the grass northwest of Swimmer Lydia (requires Rock Climb) (hidden)",
  	"location": "Route 226",
  	"item_flag": "0x035F",
- 	"vanilla_item": 053
+ 	"vanilla_item": 053,
 	"requirements": ["HM_ROCK_CLIMB"]
  },
  
@@ -4317,7 +4297,7 @@
  	"long_description": "Route 226 - On the isolated beach southwest of Swimmer Lydia (requires Surf) (hidden)",
  	"location": "Route 226",
  	"item_flag": "0x361",
- 	"vanilla_item": 093
+ 	"vanilla_item": 093,
 	"requirements": ["HM_SURF"]
  },
  
@@ -4326,7 +4306,7 @@
  	"long_description": "Route 226 - In a gap in the trees behind the Meister's house (requires Surf) (hidden)",
  	"location": "Route 226",
  	"item_flag": "0x0379",
- 	"vanilla_item": 050
+ 	"vanilla_item": 050,
 	"requirements": ["HM_SURF"]
  },
  
@@ -4335,7 +4315,7 @@
  	"long_description": "Route 227 - Between the ponds (requires Rock Climb) (hidden)",
  	"location": "Route 227",
  	"item_flag": "0x0363",
- 	"vanilla_item": 077
+ 	"vanilla_item": 077,
 	"requirements": ["HM_ROCK_CLIMB"]
  },
  
@@ -4344,7 +4324,7 @@
  	"long_description": "Route 227 - On a rock west of the big grassy patch (hidden)",
  	"location": "Route 227",
  	"item_flag": "0x0362",
- 	"vanilla_item": 091
+ 	"vanilla_item": 091,
 	"requirements": []
  },
  
@@ -4353,7 +4333,7 @@
  	"long_description": "Route 228 - Southwest of Ace Trainer Jose (hidden)",
  	"location": "Route 228",
  	"item_flag": "0x03A8",
- 	"vanilla_item": 077
+ 	"vanilla_item": 077,
 	"requirements": []
  },
  
@@ -4362,7 +4342,7 @@
  	"long_description": "Route 228 - Southeast of the gate connecting Routes 226 and 228 (hidden)",
  	"location": "Route 228",
  	"item_flag": "0x03A7",
- 	"vanilla_item": 050
+ 	"vanilla_item": 050,
 	"requirements": []
  },
  
@@ -4371,7 +4351,7 @@
  	"long_description": "Route 228 - In the grass south of Ace Trainer Moira (hidden)",
  	"location": "Route 228",
  	"item_flag": "0x036A",
- 	"vanilla_item": 023
+ 	"vanilla_item": 023,
 	"requirements": []
  },
  
@@ -4380,7 +4360,7 @@
  	"long_description": "Route 228 - On a small rock southwest of the pond below the Move Tutor's house (hidden)",
  	"location": "Route 228",
  	"item_flag": "0x0369",
- 	"vanilla_item": 091
+ 	"vanilla_item": 091,
 	"requirements": []
  },
 
@@ -4389,7 +4369,7 @@
  	"long_description": "Route 228 - At the south end of the route on the hill with one large rock (hidden)",
  	"location": "Route 228",
  	"item_flag": "0x0368",
- 	"vanilla_item": 049
+ 	"vanilla_item": 049,
 	"requirements": ["BICYCLE"]
  },
  
@@ -4398,7 +4378,7 @@
  	"long_description": "Route 228 - In the southwestern-most grass patch (hidden)",
  	"location": "Route 228",
  	"item_flag": "0x03A9",
- 	"vanilla_item": 053
+ 	"vanilla_item": 053,
 	"requirements": []
  },
  
@@ -4407,7 +4387,7 @@
  	"long_description": "Route 228 - Inside Regirock's cave in the middle of the route, northeast of the Hard Stone (hidden)",
  	"location": "Route 228",
  	"item_flag": "0x03EE",
- 	"vanilla_item": 092
+ 	"vanilla_item": 092,
 	"requirements": ["BICYCLE"]
  },
  
@@ -4416,7 +4396,7 @@
      "long_description": "Route 229 - By the southwest end of the pond (requires Cut and Surf) (hidden)",
      "location": "Route 229",
      "item_flag": "0x036B",
-     "vanilla_item": 083
+     "vanilla_item": 083,
     "requirements": ["HM_CUT & HM_SURF"]
  },
  
@@ -4425,7 +4405,7 @@
      "long_description": "Route 230 - On the north side of the island (requires Surf and Rock Smash) (hidden)",
      "location": "Route 230",
      "item_flag": "0x036D",
-     "vanilla_item": 002
+     "vanilla_item": 002,
     "requirements": ["HM_SURF & HM_ROCK_SMASH"]
  },
  
@@ -4434,7 +4414,7 @@
      "long_description": "Route 230 - West of the Rare Candy (requires Surf and Rock Smash) (hidden)",
      "location": "Route 230",
      "item_flag": "0x036E",
-     "vanilla_item": 084
+     "vanilla_item": 084,
     "requirements": ["HM_SURF & HM_ROCK_SMASH"]
  },
  
@@ -4443,7 +4423,7 @@
  	"long_description": "Snowpoint City - Hidden Item right of arena",
  	"location": "Snowpoint City",
  	"item_flag": "0x038C",
- 	"vanilla_item": 050
+ 	"vanilla_item": 050,
 	"requirements": []
  },
  
@@ -4497,7 +4477,7 @@
  	"long_description": "Stark Mountain Exterior - In the wall north of the Full Restore (requires Strength and Rock Smash) (hidden)",
  	"location": "Stark Mountain Exterior",
  	"item_flag": "0x0364",
- 	"vanilla_item": 091
+ 	"vanilla_item": 091,
   "requirements": ["HM_STRENGTH & HM_ROCK_SMASH"]
  },
  
@@ -4506,7 +4486,7 @@
  	"long_description": "Stark Mountain Main Cavern - On the west side, at the end of a dead-end path, in the wall (hidden)",
  	"location": "Stark Mountain Main Cavern",
  	"item_flag": "0x0365",
- 	"vanilla_item": 298
+ 	"vanilla_item": 298,
 	"requirements": []
  },
  
@@ -4515,7 +4495,7 @@
  	"long_description": "Stark Mountain Main Cavern - On a small boulder northeast of Bird Keeper Krystal and Black Belt Ray (hidden)",
  	"location": "Stark Mountain Main Cavern",
  	"item_flag": "0x038A",
- 	"vanilla_item": 091
+ 	"vanilla_item": 091,
 	"requirements": []
  },
  
@@ -4524,7 +4504,7 @@
  	"long_description": "Stark Mountain Main Cavern - West of the Iron Ball (hidden)",
  	"location": "Stark Mountain Main Cavern",
  	"item_flag": "0x0389",
- 	"vanilla_item": 029
+ 	"vanilla_item": 029,
 	"requirements": []
  },
  
@@ -4533,7 +4513,7 @@
  	"long_description": "Stark Mountain Main Cavern - 	On the east side, on a small boulder northeast of Ace Trainers Abel and Monique (hidden)",
  	"location": "Stark Mountain Main Cavern",
  	"item_flag": "0x0366",
- 	"vanilla_item": 090
+ 	"vanilla_item": 090,
 	"requirements": []
  },
  
@@ -4542,7 +4522,7 @@
  	"long_description": "Stark Mountain Main Cavern - Near the northeastern corner, at the end of a raised dead-end path (hidden)",
  	"location": "Stark Mountain Main Cavern",
  	"item_flag": "0x0367",
- 	"vanilla_item": 278
+ 	"vanilla_item": 278,
 	"requirements": []
  },
  
@@ -4551,7 +4531,7 @@
  	"long_description": "Stark Mountain Main Cavern - On a large boulder in the northwest corner of the room (requires Rock Smash) (hidden)",
  	"location": "Stark Mountain Main Cavern",
  	"item_flag": "0x03E6",
- 	"vanilla_item": 082
+ 	"vanilla_item": 082,
 	"requirements": ["HM_ROCK_SMASH"]
  },
  
@@ -4560,7 +4540,7 @@
  	"long_description": "Stark Mountain Main Cavern - 	Near the southwestern corner, in an area between small boulders west of Ace Trainers Keenan and Kassandra (requires Rock Climb) (hidden)",
  	"location": "Stark Mountain Main Cavern",
  	"item_flag": "0x0038B",
- 	"vanilla_item": 002
+ 	"vanilla_item": 002,
 	"requirements": ["HM_ROCK_CLIMB"]
  },
  

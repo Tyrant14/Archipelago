@@ -22,7 +22,7 @@ from .locations import (LOCATION_GROUPS, PokemonPlatinumLocation, create_locatio
                         create_locations_with_tags)
 from .options import (Goal, ItemPoolType, RandomizeWildPokemon, RandomizeBadges, RandomizeTrainerParties, RandomizeHms,
                       RandomizeStarters, LevelUpMoves, RandomizeAbilities, RandomizeTypes, TmCompatibility,
-                      HmCompatibility, RandomizeStaticEncounters, NormanRequirement, PokemonPlatinumOptions)
+                      HmCompatibility, RandomizeStaticEncounters, cyrusRequirement, PokemonPlatinumOptions)
 from .pokemon import get_random_species, get_random_move, get_random_damaging_move, get_random_type
 from .regions import create_regions
 from .rom import PokemonPlatinumDeltaPatch, generate_output, location_visited_event_to_id_map
@@ -60,9 +60,9 @@ class PokemonPlatinumSettings(settings.Group):
 
 class PokemonPlatinumWorld(World):
     """
-    Pokémon Platinum is the definitive Gen III Pokémon game and one of the most beloved in the franchise.
-    Catch, train, and battle Pokémon, explore the Hoenn region, thwart the plots
-    of Team Magma and Team Aqua, challenge gyms, and become the Pokémon champion!
+    Pokémon Platinum is the definitive Gen IV Pokémon game and one of the most beloved in the franchise.
+    Catch, train, and battle Pokémon, explore the Sinnoh region, thwart the plots
+    of Team Galactic, challenge gyms, and become the Pokémon champion!
     """
     game = "Pokemon Platinum"
     web = PokemonPlatinumWebWorld()
@@ -104,31 +104,23 @@ class PokemonPlatinumWorld(World):
         return "Great Ball"
 
     def generate_early(self) -> None:
-        # If badges or HMs are vanilla, Norman locks you from using Surf, which means you're not guaranteed to be
-        # able to reach Fortree Gym, Mossdeep Gym, or Sootopolis Gym. So we can't require reaching those gyms to
-        # challenge Norman or it creates a circular dependency.
-        # This is never a problem for completely random badges/hms because the algo will not place Surf/Balance Badge
-        # on Norman on its own. It's never a problem for shuffled badges/hms because there is no scenario where Cut or
-        # the Stone Badge can be a lynchpin for access to any gyms, so they can always be put on Norman in a worst case
-        # scenario.
-        # This will also be a problem in warp rando if direct access to Norman's room requires Surf or if access
-        # any gym leader in general requires Surf. We will probably have to force this to 0 in that case.
-        max_norman_count = 7
+        # If badges or HMs are vanilla, 
+        max_cyrus_count = 7
 
         if self.options.badges == RandomizeBadges.option_vanilla:
-            max_norman_count = 4
+            max_cyrus_count = 4
 
         if self.options.hms == RandomizeHms.option_vanilla:
-            if self.options.norman_requirement == NormanRequirement.option_badges:
+            if self.options.Cyrus_requirement == CyrusRequirement.option_badges:
                 if self.options.badges != RandomizeBadges.option_completely_random:
-                    max_norman_count = 4
-            if self.options.norman_requirement == NormanRequirement.option_gyms:
-                max_norman_count = 4
+                    max_cyrus_count = 4
+            if self.options.cyrus_requirement == CyrusRequirement.option_gyms:
+                max_cyrus_count = 4
 
-        if self.options.norman_count.value > max_norman_count:
-            logging.warning("Pokemon Platinum: Norman requirements for Player %s (%s) are unsafe in combination with "
+        if self.options.cyrus_count.value > max_cyrus_count:
+            logging.warning("Pokemon Platinum: Cyrus requirements for Player %s (%s) are unsafe in combination with "
                             "other settings. Reducing to 4.", self.player, self.multiworld.get_player_name(self.player))
-            self.options.norman_count.value = max_norman_count
+            self.options.cyrus_count.value = max_cyrus_count
 
     def create_regions(self) -> None:
         regions = create_regions(self)
@@ -140,8 +132,6 @@ class PokemonPlatinumWorld(World):
             tags.add("HiddenItem")
         if self.options.npc_gifts:
             tags.add("NpcGift")
-        if self.options.enable_ferry:
-            tags.add("Ferry")
         create_locations_with_tags(self, regions, tags)
 
         self.multiworld.regions.extend(regions.values())
@@ -158,46 +148,31 @@ class PokemonPlatinumWorld(World):
         if self.options.goal == Goal.option_champion:
             # Always required to beat champion before receiving this
             exclude_locations([
-                "Littleroot Town - S.S. Ticket from Norman"
+                ""
             ])
 
-            # S.S. Ticket requires beating champion, so ferry is not accessible until after goal
-            if not self.options.enable_ferry:
-                exclude_locations([
-                    "SS Tidal - Hidden Item in Lower Deck Trash Can",
-                    "SS Tidal - TM49 from Thief"
-                ])
 
             # Construction workers don't move until champion is defeated
-            if "Safari Zone Construction Workers" not in self.options.remove_roadblocks.value:
+            if "" not in self.options.remove_roadblocks.value:
                 exclude_locations([
-                    "Safari Zone NE - Hidden Item North",
-                    "Safari Zone NE - Hidden Item East",
-                    "Safari Zone NE - Item on Ledge",
-                    "Safari Zone SE - Hidden Item in South Grass 1",
-                    "Safari Zone SE - Hidden Item in South Grass 2",
-                    "Safari Zone SE - Item in Grass"
+                    "Jubilife City Poketch",
+                    "Eterna Forest Galactic Grunts",
+                    "Solaceon Town Psyducks",
+                    "Route 222 Lady",
+                    "Canalave City Battlers",
                 ])
-        elif self.options.goal == Goal.option_norman:
-            # If the player sets their options such that Surf or the Balance
-            # Badge is vanilla, a very large number of locations become
-            # "post-Norman". Similarly, access to the E4 may require you to
-            # defeat Norman as an event or to get his badge, making postgame
-            # locations inaccessible. Detecting these situations isn't trivial
+        elif self.options.goal == Goal.option_cryus:
+            # Detecting these situations isn't trivial
             # and excluding all locations requiring Surf would be a bad idea.
             # So for now we just won't touch it and blame the user for
             # constructing their options in this way. Players usually expect
             # to only partially complete their world when playing this goal
             # anyway.
 
-            # Locations which are directly unlocked by defeating Norman.
+            # Locations which are directly unlocked by defeating Cyrus.
             exclude_locations([
-                "Petalburg Gym - Balance Badge",
-                "Petalburg Gym - TM42 from Norman",
-                "Petalburg City - HM03 from Wally's Uncle",
-                "Dewford Town - TM36 from Sludge Bomb Man",
-                "Mauville City - Basement Key from Wattson",
-                "Mauville City - TM24 from Wattson"
+                "",
+               
             ])
 
     def create_items(self) -> None:
@@ -302,19 +277,20 @@ class PokemonPlatinumWorld(World):
 
         # Set our free fly location
         # If not enabled, set it to Littleroot Town by default
-        fly_location_name = "EVENT_VISITED_LITTLEROOT_TOWN"
+        fly_location_name = "EVENT_VISITED_TWINLEAF_TOWN"
         if self.options.free_fly_location:
             fly_location_name = self.random.choice([
-                "EVENT_VISITED_SLATEPORT_CITY",
-                "EVENT_VISITED_MAUVILLE_CITY",
-                "EVENT_VISITED_VERDANTURF_TOWN",
-                "EVENT_VISITED_FALLARBOR_TOWN",
-                "EVENT_VISITED_LAVARIDGE_TOWN",
-                "EVENT_VISITED_FORTREE_CITY",
-                "EVENT_VISITED_LILYCOVE_CITY",
-                "EVENT_VISITED_MOSSDEEP_CITY",
-                "EVENT_VISITED_SOOTOPOLIS_CITY",
-                "EVENT_VISITED_EVER_GRANDE_CITY"
+                "EVENT_VISITED_JUBILIFE_CITY",
+                "EVENT_VISITED_OREBURGH_CITY",
+                "EVENT_VISITED_ETERNA_CITY",
+                "EVENT_VISITED_HEARTHOME_CITY",
+                "EVENT_VISITED_VEILSTONE_CITY",
+                "EVENT_VISITED_PASTORIA_CITY",
+                "EVENT_VISITED_CELESITC_TOWN",
+                "EVENT_VISITED_SNOWPOINT_CITY",
+                "EVENT_VISITED_SUNYSHORE_CITY",
+                "EVENT_VISITED_POKEMON_LEAGUE",
+                "EVENT_VISITED_FIGHT_AREA"
             ])
 
         self.free_fly_location_id = location_visited_event_to_id_map[fly_location_name]
@@ -350,18 +326,16 @@ class PokemonPlatinumWorld(World):
 
             # Sort order makes `fill_restrictive` try to place important badges later, which
             # makes it less likely to have to swap at all, and more likely for swaps to work.
-            # In the case of vanilla HMs, navigating Granite Cave is required to access more than 2 gyms,
-            # so Knuckle Badge deserves highest priority if Flash is logically required.
             badge_locations, badge_items = [list(l) for l in zip(*self.badge_shuffle_info)]
             badge_priority = {
-                "Knuckle Badge": 0 if (self.options.hms == RandomizeHms.option_vanilla and self.options.require_flash) else 3,
-                "Balance Badge": 1,
-                "Dynamo Badge": 1,
-                "Mind Badge": 2,
-                "Heat Badge": 2,
-                "Rain Badge": 3,
-                "Stone Badge": 4,
-                "Feather Badge": 5
+                "Coal Badge": 0 if (self.options.hms == RandomizeHms.option_vanilla and self.options.require_flash) else 3,
+                "Forest Badge": 1,
+                "Cobble Badge": 1,
+                "Fen Badge": 2,
+                "Relic Badge": 2,
+                "Mine Badge": 3,
+                "Icicle Badge": 4,
+                "Beacon Badge": 5
             }
             badge_items.sort(key=lambda item: badge_priority.get(item.name, 0))
 
@@ -398,12 +372,12 @@ class PokemonPlatinumWorld(World):
             # so Flash deserves highest priority if it's logically required.
             hm_locations, hm_items = [list(l) for l in zip(*self.hm_shuffle_info)]
             hm_priority = {
-                "HM05 Flash": 0 if (self.options.badges == RandomizeBadges.option_vanilla and self.options.require_flash) else 3,
                 "HM03 Surf": 1,
                 "HM06 Rock Smash": 1,
-                "HM08 Dive": 2,
+                "HM05 Defog": 2,
                 "HM04 Strength": 2,
                 "HM07 Waterfall": 3,
+                "HM08 Rock Climb": 3,
                 "HM01 Cut": 4,
                 "HM02 Fly": 5
             }
@@ -798,40 +772,35 @@ class PokemonPlatinumWorld(World):
             # Putting the unchosen starter onto the rival's team
             rival_teams: List[List[Tuple[str, int, bool]]] = [
                 [
-                    ("TRAINER_BRENDAN_ROUTE_103_TREECKO", 0, False),
-                    ("TRAINER_BRENDAN_RUSTBORO_TREECKO",  1, False),
-                    ("TRAINER_BRENDAN_ROUTE_110_TREECKO", 2, True ),
-                    ("TRAINER_BRENDAN_ROUTE_119_TREECKO", 2, True ),
-                    ("TRAINER_BRENDAN_LILYCOVE_TREECKO",  3, True ),
-                    ("TRAINER_MAY_ROUTE_103_TREECKO",     0, False),
-                    ("TRAINER_MAY_RUSTBORO_TREECKO",      1, False),
-                    ("TRAINER_MAY_ROUTE_110_TREECKO",     2, True ),
-                    ("TRAINER_MAY_ROUTE_119_TREECKO",     2, True ),
-                    ("TRAINER_MAY_LILYCOVE_TREECKO",      3, True )
+                    ("TRAINER_BARRY_ROUTE_201_TURTWIG", 0, False),
+                    ("TRAINER_BARRY_ROUTE_203_TURTWIG", 1, False),
+                    ("TRAINER_BARRY_ROUTE_209_TURTWIG", 2, True),
+                    ("TRAINER_BARRY_PASTORIA_CITY_TURTWIG", 2, True),
+                    ("TRAINER_BARRY_CANALAVE_CITY_TURTWIG", 3, True),
+                    ("TRAINER_BARRY_POKEMON_LEAGUE_TURTWIG", 3, True),
+                    ("TRAINER_BARRY_FIGHT_AREA_TURTWIG", 4, True),
+                    ("TRAINER_BARRY_SURVIVAL_AREA_TURTWIG", 5, True)
+                    
                 ],
                 [
-                    ("TRAINER_BRENDAN_ROUTE_103_TORCHIC", 0, False),
-                    ("TRAINER_BRENDAN_RUSTBORO_TORCHIC",  1, False),
-                    ("TRAINER_BRENDAN_ROUTE_110_TORCHIC", 2, True ),
-                    ("TRAINER_BRENDAN_ROUTE_119_TORCHIC", 2, True ),
-                    ("TRAINER_BRENDAN_LILYCOVE_TORCHIC",  3, True ),
-                    ("TRAINER_MAY_ROUTE_103_TORCHIC",     0, False),
-                    ("TRAINER_MAY_RUSTBORO_TORCHIC",      1, False),
-                    ("TRAINER_MAY_ROUTE_110_TORCHIC",     2, True ),
-                    ("TRAINER_MAY_ROUTE_119_TORCHIC",     2, True ),
-                    ("TRAINER_MAY_LILYCOVE_TORCHIC",      3, True )
+                    ("TRAINER_BARRY_ROUTE_201_CHIMCHAR", 0, False),
+                    ("TRAINER_BARRY_ROUTE_203_CHIMCHAR", 1, False),
+                    ("TRAINER_BARRY_ROUTE_209_CHIMCHAR", 2, True),
+                    ("TRAINER_BARRY_PASTORIA_CITY_CHIMCHAR", 2, True),
+                    ("TRAINER_BARRY_CANALAVE_CITY_CHIMCHAR", 3, True),
+                    ("TRAINER_BARRY_POKEMON_LEAGUE_TURTWIG", 3, True),
+                    ("TRAINER_BARRY_FIGHT_AREA_TURTWIG", 4, True),
+                    ("TRAINER_BARRY_SURVIVAL_AREA_TURTWIG", 5, True)
                 ],
                 [
-                    ("TRAINER_BRENDAN_ROUTE_103_MUDKIP", 0, False),
-                    ("TRAINER_BRENDAN_RUSTBORO_MUDKIP",  1, False),
-                    ("TRAINER_BRENDAN_ROUTE_110_MUDKIP", 2, True ),
-                    ("TRAINER_BRENDAN_ROUTE_119_MUDKIP", 2, True ),
-                    ("TRAINER_BRENDAN_LILYCOVE_MUDKIP",  3, True ),
-                    ("TRAINER_MAY_ROUTE_103_MUDKIP",     0, False),
-                    ("TRAINER_MAY_RUSTBORO_MUDKIP",      1, False),
-                    ("TRAINER_MAY_ROUTE_110_MUDKIP",     2, True ),
-                    ("TRAINER_MAY_ROUTE_119_MUDKIP",     2, True ),
-                    ("TRAINER_MAY_LILYCOVE_MUDKIP",      3, True )
+                    ("TRAINER_BARRY_ROUTE_201_PIPLUP", 0, False),
+                    ("TRAINER_BARRY_ROUTE_203_PIPLUP", 1, False),
+                    ("TRAINER_BARRY_ROUTE_209_PIPLUP", 2, True),
+                    ("TRAINER_BARRY_PASTORIA_CITY_PIPLUP", 2, True),
+                    ("TRAINER_BARRY_CANALAVE_CITY_PIPLUP", 3, True),
+                    ("TRAINER_BARRY_POKEMON_LEAGUE_TURTWIG", 3, True),
+                    ("TRAINER_BARRY_FIGHT_AREA_TURTWIG", 4, True),
+                    ("TRAINER_BARRY_SURVIVAL_AREA_TURTWIG", 5, True)
                 ]
             ]
 
@@ -906,9 +875,8 @@ class PokemonPlatinumWorld(World):
             "enable_ferry",
             "elite_four_requirement",
             "elite_four_count",
-            "norman_requirement",
-            "norman_count",
-            "extra_boulders",
+            "cyrus_requirement",
+            "cyrus_count",           
             "remove_roadblocks",
             "free_fly_location",
             "fly_without_badge",

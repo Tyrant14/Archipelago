@@ -1,0 +1,648 @@
+
+{
+	"tag": "LOCATION_TWINLEAF_TOWN",
+	"connections": ["LOCATION_ROUTE_201"],
+	"requirements": []
+}  
+
+{
+	"tag": "LOCATION_ROUTE_201",
+	"connections": ["LOCATION_VERITY_LAKEFRONT", "LOCATION_TWINLEAF_TOWN", "LOCATION_SANDGEM_TOWN"],
+	"requirements": []
+}
+
+{
+	"tag": "LOCATION_VERITY_LAKEFRONT",
+	"connections": ["LOCATION_ROUTE_201", "LOCATION_VERITY_CAVERN"],
+	"requirements": []
+} 
+
+{
+	"tag": "LOCATION_VERITY_CAVERN",
+	"connections": ["LOCATION_VERITY_LAKEFRONT"],
+	"requirements": []
+}
+
+{
+	"tag": "LOCATION_SANDGEM_TOWN",
+	"connections": ["LOCATION_ROUTE_201", "LOCATION_ROUTE_219", "LOCATION_ROUTE_202"],
+	"requirements": []
+} 
+
+{
+	"tag": "LOCATION_ROUTE_202",
+	"connections": ["LOCATION_SANDGEM_TOWN", "LOCATION_JUBILIFE_CITY"],
+	"requirements": []
+} 
+
+{
+	"tag": "LOCATION_ROUTE_219",
+	"connections": ["LOCATION_SANDGEM_TOWN", "LOCATION_ROUTE_220"],
+	"requirements": []
+} 
+
+{
+	"tag": "LOCATION_ROUTE_220",
+	"connections": ["LOCATION_ROUTE_219", "LOCATION_ROUTE_221"],
+	"requirements": []
+} 
+
+{
+	"tag": "LOCATION_ROUTE_221",
+	"connections": ["LOCATION_ROUTE_220", "LOCATION_PAL_PARK"],
+	"requirements": []
+} 
+
+{
+	"tag": "LOCATION_PAL_PARK",
+	"connections": ["LOCATION_ROUTE_221"],
+	"requirements": []
+} 
+
+{
+	"tag": "LOCATION_JUBILIFE_CITY",
+	"connections": ["LOCATION_ROUTE_202", "LOCATION_ROUTE_203", "LOCATION_ROUTE_204_SOUTH", "LOCATION_ROUTE_218"],
+	"requirements": []
+} 
+
+{
+	"tag": "LOCATION_ROUTE_203",
+	"connections": ["LOCATION_JUBILIFE_CITY", "LOCATION_OREBURGH_GATE"],
+	"requirements": []
+} 
+
+{
+	"tag": "LOCATION_OREBURGH_GATE",
+	"connections": ["LOCATION_ROUTE_203", "LOCATION_OREBURGH_CITY", "LOCATION_OREBURGH_GATE_B1F"],
+	"requirements": []
+} 
+
+{
+	"tag": "LOCATION_OREBURGH_GATE_B1F",
+	"connections": ["LOCATION_OREBURGH_GATE"],
+	"requirements": []
+} 
+
+{
+	"tag": "LOCATION_OREBURGH_CITY",
+	"connections": ["LOCATION_OREBURGH_GATE", "LOCATION_OREBURGH_MINE_B1F", "LOCATION_ROUTE_207"],
+	"requirements": []
+} 
+
+{
+	"tag": "LOCATION_OREBURGH_MINE_B1F",
+	"connections": ["LOCATION_OREBURGH_CITY", "LOCATION_OREBURGH_MINE_B2F"],
+	"requirements": []
+} 
+
+{
+	"tag": "LOCATION_OREBURGH_MINE_B2F",
+	"connections": ["LOCATION_OREBURGH_MINE_B1F"],
+	"requirements": []
+} 
+
+{
+	"tag": "LOCATION_ROUTE_204_SOUTH",
+	"connections": ["LOCATION_JUBILIFE_CITY", "LOCATION_RAVAGED_PATH"],
+	"requirements": []
+} 
+
+{
+	"tag": "LOCATION_RAVAGED_PATH",
+	"connections": ["LOCATION_ROUTE_204_SOUTH", "LOCATION_ROUTE_204_NORTH"],
+	"requirements": []
+} 
+
+{
+	"tag": "LOCATION_ROUTE_204_NORTH",
+	"connections": ["LOCATION_RAVAGED_PATH", "LOCATION_FLOAROMA_TOWN"],
+	"requirements": []
+} 
+
+{
+	"tag": "LOCATION_FLOAROMA_TOWN",
+	"connections": ["LOCATION_ROUTE_204_NORTH", "LOCATION_FLOAROMA_MEADOW", "LOCATION_ROUTE_205_SOUTH"],
+	"requirements": []
+} 
+
+{
+	"tag": "LOCATION_FLOAROMA_MEADOW",
+	"connections": ["LOCATION_FLOAROMA_TOWN", "LOCATION_FUEGO_IRONWORKS"],
+	"requirements": []
+} 
+
+{
+	"tag": "LOCATION_FUEGO_IRONWORKS",
+	"connections": ["LOCATION_FLOAROMA_MEADOW", "LOCATION_ROUTE_205_SOUTH"],
+	"requirements": []
+} 
+
+{
+	"tag": "LOCATION_ROUTE_205_SOUTH",
+	"connections": ["LOCATION_FLOAROMA_TOWN", "LOCATION_FUEGO_IRONWORKS", "LOCATION_VALLEY_WINDWORKS", "LOCATION_ETERNA_FOREST", "LOCATION_ETERNA_FOREST_EXTERIOR"],
+	"requirements": []
+} 
+
+{
+	"tag": "LOCATION_VALLEY_WINDWORKS",
+	"connections": ["LOCATION_ROUTE_205_SOUTH"],
+	"requirements": []
+} 
+
+{
+	"tag": "LOCATION_ETERNA_FOREST_EXTERIOR",
+	"connections": ["LOCATION_ROUTE_205_SOUTH", "LOCATION_ROUTE_205_NORTH"],
+	"requirements": []
+} 
+
+{
+	"tag": "LOCATION_ETERNA_FOREST",
+	"connections": ["LOCATION_ROUTE_205_SOUTH", "LOCATION_ROUTE_205_NORTH", "LOCATION_OLD_CHATEAU"],
+	"requirements": []
+} 
+
+{
+	"tag": "LOCATION_OLD_CHATEAU",
+	"connections": ["LOCATION_ETERNA_FOREST"],
+	"requirements": []
+} 
+
+{
+	"tag": "LOCATION_ROUTE_205_NORTH",
+	"connections": ["LOCATION_ETERNA_FOREST_EXTERIOR", "LOCATION_ETERNA_CITY"],
+	"requirements": []
+} 
+
+{
+	"tag": "LOCATION_ETERNA_CITY",
+	"connections": ["LOCATION_ROUTE_205_NORTH", "LOCATION_ROUTE_211_WEST", "LOCATION_ROUTE_206", "LOCATION_TEAM_GALACTIC_ETERNA_BUILDING"],
+	"requirements": []
+}
+
+{
+	"tag": "LOCATION_TEAM_GALACTIC_ETERNA_BUILDING",
+	"connections": ["LOCATION_ETERNA_CITY"],
+	"requirements": []
+} 
+
+{
+	"tag": "LOCATION_ROUTE_206",
+	"connections": ["LOCATION_ETERNA_CITY", "LOCATION_ROUTE_207", "LOCATION_WAYWARD_CAVE", "LOCATION_WAYWARD_CAVE_SECRET"],
+	"requirements": []
+}
+
+{
+	"tag": "LOCATION_WAYWARD_CAVE",
+	"connections": ["LOCATION_ROUTE_206"],
+	"requirements": []
+}
+
+{
+	"tag": "LOCATION_WAYWARD_CAVE_SECRET",
+	"connections": ["LOCATION_ROUTE_206"],
+	"requirements": []
+}
+
+{
+	"tag": "LOCATION_ROUTE_211_WEST",
+	"connections": ["LOCATION_ETERNA_CITY", "LOCATION_MOUNT_CORONET_NORTH"],
+	"requirements": []
+}
+
+{
+	"tag": "LOCATION_ROUTE_207",
+	"connections": ["LOCATION_OREBURGH_CITY", "LOCATION_ROUTE_206", "LOCATION_MOUNT_CORONET_SOUTH"],
+	"requirements": []
+}
+
+{
+	"tag": "LOCATION_MOUNT_CORONET_SOUTH",
+	"connections": ["LOCATION_ROUTE_207", "LOCATION_ROUTE_208", "LOCATION_MOUNT_CORONET_SUMMIT"],
+	"requirements": []
+}
+
+{
+	"tag": "LOCATION_ROUTE_208",
+	"connections": ["LOCATION_MOUNT_CORONET_SOUTH", "LOCATION_HEARTHOME_CITY"],
+	"requirements": []
+}
+
+{
+	"tag": "LOCATION_HEARTHOME_CITY",
+	"connections": ["LOCATION_ROUTE_208", "LOCATION_ROUTE_212_NORTH", "LOCATION_ROUTE_209", "LOCATION_AMITY_SQUARE"],
+	"requirements": []
+}
+
+{
+	"tag": "LOCATION_AMITY_SQUARE",
+	"connections": ["LOCATION_HEARTHOME_CITY"],
+	"requirements": []
+}
+
+{
+	"tag": "LOCATION_ROUTE_209",
+	"connections": ["LOCATION_HEARTHOME_CITY", "LOCATION_SOLACEON_TOWN", "LOCATION_LOST_TOWER"],
+	"requirements": []
+}
+
+{
+	"tag": "LOCATION_LOST_TOWER",
+	"connections": ["LOCATION_ROUTE_209"],
+	"requirements": []
+}
+
+{
+	"tag": "LOCATION_SOLACEON_TOWN",
+	"connections": ["LOCATION_ROUTE_209", "LOCATION_SOLACEON_RUINS", "LOCATION_ROUTE_210_SOUTH"],
+	"requirements": []
+}
+
+{
+	"tag": "LOCATION_SOLACEON_RUINS",
+	"connections": ["LOCATION_SOLACEON_TOWN"],
+	"requirements": []
+}
+
+{
+	"tag": "LOCATION_ROUTE_210_SOUTH",
+	"connections": ["LOCATION_ROUTE_210_NORTH", "LOCATION_ROUTE_215"],
+	"requirements": []
+}
+
+{
+	"tag": "LOCATION_ROUTE_210_NORTH",
+	"connections": ["LOCATION_ROUTE_210_SOUTH", "LOCATION_CELESTIC_TOWN"],
+	"requirements": []
+}
+
+{
+	"tag": "LOCATION_CELESTIC_TOWN",
+	"connections": ["LOCATION_ROUTE_210_NORTH", "LOCATION_CELESTIC_RUINS", "LOCATION_ROUTE_211_EAST"],
+	"requirements": []
+}
+
+{
+	"tag": "LOCATION_CELESTIC_RUINS",
+	"connections": ["LOCATION_CELESTIC_TOWN"],
+	"requirements": []
+}
+
+{
+	"tag": "LOCATION_ROUTE_211_EAST",
+	"connections": ["LOCATION_CELESTIC_TOWN", "LOCATION_MOUNT_CORONET_NORTH"],
+	"requirements": []
+}
+
+{
+	"tag": "LOCATION_MOUNT_CORONET_NORTH",
+	"connections": ["LOCATION_ROUTE_211_EAST", "LOCATION_ROUTE_211_WEST", "LOCATION_MOUNT_CORONET_SUMMIT", "LOCATION_ROUTE_216"],
+	"requirements": []
+}
+
+{
+	"tag": "LOCATION_ROUTE_215",
+	"connections": ["LOCATION_ROUTE_210_SOUTH", "LOCATION_VEILSTONE_CITY"],
+	"requirements": []
+}
+
+{
+	"tag": "LOCATION_VEILSTONE_CITY",
+	"connections": ["LOCATION_ROUTE_215", "LOCATION_ROUTE_214", "LOCATION_TEAM_GALACTIC_HQ_WAREHOUSE", "LOCATION_TEAM_GALACTIC_HQ"],
+	"requirements": []
+}
+
+{
+	"tag": "LOCATION_TEAM_GALACTIC_HQ_WAREHOUSE",
+	"connections": ["LOCATION_VEILSTONE_CITY", "LOCATION_TEAM_GALACTIC_HQ"],
+	"requirements": []
+}
+
+{
+	"tag": "LOCATION_TEAM_GALACTIC_HQ",
+	"connections": ["LOCATION_VEILSTONE_CITY", "LOCATION_TEAM_GALACTIC_HQ_WAREHOUSE"],
+	"requirements": []
+}
+
+{
+	"tag": "LOCATION_ROUTE_214",
+	"connections": ["LOCATION_VEILSTONE_CITY", "LOCATION_SENDOFF_SPRING", "LOCATION_MANIAC_TUNNEL", "LOCATION_VALOR_LAKEFRONT"],
+	"requirements": []
+}
+
+{
+	"tag": "LOCATION_SENDOFF_SPRING",
+	"connections": ["LOCATION_ROUTE_214", "LOCATION_TURNBACK_CAVE"],
+	"requirements": []
+}
+
+{
+	"tag": "LOCATION_TURNBACK_CAVE",
+	"connections": ["LOCATION_SENDOFF_SPRING"],
+	"requirements": []
+}
+
+{
+	"tag": "LOCATION_MANIAC_TUNNEL",
+	"connections": ["LOCATION_SOLACEON_TOWN", "LOCATION_ROUTE_214"],
+	"requirements": []
+}
+
+{
+	"tag": "LOCATION_VALOR_LAKEFRONT",
+	"connections": ["LOCATION_ROUTE_214", "LOCATION_LAKE_VALOR", "LOCATION_ROUTE_213", "LOCATION_ROUTE_222"],
+	"requirements": []
+}
+
+{
+	"tag": "LOCATION_LAKE_VALOR",
+	"connections": ["LOCATION_VALOR_LAKEFRONT", "LOCATION_VALOR_CAVERN"],
+	"requirements": []
+}
+
+{
+	"tag": "LOCATION_VALOR_CAVERN",
+	"connections": ["LOCATION_LAKE_VALOR"],
+	"requirements": []
+}
+
+{
+	"tag": "LOCATION_ROUTE_213",
+	"connections": ["LOCATION_VALOR_LAKEFRONT", "LOCATION_PASTORIA_CITY"],
+	"requirements": []
+}
+
+{
+	"tag": "LOCATION_PASTORIA_CITY",
+	"connections": ["LOCATION_ROUTE_213", "LOCATION_ROUTE_212_SOUTH", "LOCATION_GREAT_MARSH"],
+	"requirements": []
+}
+
+{
+	"tag": "LOCATION_GREAT_MARSH",
+	"connections": ["LOCATION_PASTORIA_CITY"],
+	"requirements": []
+}
+
+{
+	"tag": "LOCATION_ROUTE_212_SOUTH",
+	"connections": ["LOCATION_PASTORIA_CITY", "LOCATION_ROUTE_212_NORTH"],
+	"requirements": []
+}
+
+{
+	"tag": "LOCATION_ROUTE_212_NORTH",
+	"connections": ["LOCATION_HEARTHOME_CITY", "LOCATION_ROUTE_212_SOUTH", "LOCATION_POKEMON_MANSION"],
+	"requirements": []
+}
+
+{
+	"tag": "LOCATION_POKEMON_MANSION",
+	"connections": ["LOCATION_ROUTE_212_NORTH", "LOCATION_TROPHY_GARDEN"],
+	"requirements": []
+}
+
+{
+	"tag": "LOCATION_TROPHY_GARDEN",
+	"connections": ["LOCATION_POKEMON_MANSION"],
+	"requirements": []
+}
+
+{
+	"tag": "LOCATION_ROUTE_218",
+	"connections": ["LOCATION_JUBILIFE_CITY", "LOCATION_CANALAVE_CITY"],
+	"requirements": []
+}
+
+{
+	"tag": "LOCATION_CANALAVE_CITY",
+	"connections": ["LOCATION_ROUTE_218", "LOCATION_NEWMOON_ISLAND", "LOCATION_FULLMOON_ISLAND", "LOCATION_IRON_ISLAND"],
+	"requirements": []
+}
+
+{
+	"tag": "LOCATION_FULLMOON_ISLAND",
+	"connections": ["LOCATION_FULLMOON_ISLAND_INTERIOR", "LOCATION_CANALAVE_CITY"],
+	"requirements": []
+}
+
+{
+	"tag": "LOCATION_FULLMOON_ISLAND_INTERIOR",
+	"connections": ["LOCATION_FULLMOON_ISLAND"],
+	"requirements": []
+}
+
+{
+	"tag": "LOCATION_NEWMOON_ISLAND",
+	"connections": ["LOCATION_NEWMOON_ISLAND_INTERIOR", "LOCATION_CANALAVE_CITY"],
+	"requirements": []
+}
+
+{
+	"tag": "LOCATION_NEWMOON_ISLAND_INTERIOR",
+	"connections": ["LOCATION_NEWMOON_ISLAND"],
+	"requirements": []
+}
+
+{
+	"tag": "LOCATION_IRON_ISLAND",
+	"connections": ["LOCATION_IRON_ISLAND_INTERIOR", "LOCATION_CANALAVE_CITY"],
+	"requirements": []
+}
+
+{
+	"tag": "LOCATION_IRON_ISLAND_INTERIOR",
+	"connections": ["LOCATION_IRON_ISLAND"],
+	"requirements": []
+}
+
+{
+	"tag": "LOCATION_MOUNT_CORONET_SUMMIT",
+	"connections": ["LOCATION_MOUNT_CORONET_NORTH", "LOCATION_MOUNT_CORONET_SOUTH", "LOCATION_MOUNT_CORONET_CENTER", "LOCATION_MOUNT_CORONET_TUNNEL"],
+	"requirements": []
+}
+
+{
+	"tag": "LOCATION_MOUNT_CORONET_CENTER",
+	"connections": ["LOCATION_MOUNT_CORONET_SUMMIT"],
+	"requirements": []
+}
+
+{
+	"tag": "LOCATION_MOUNT_CORONET_TUNNEL",
+	"connections": ["LOCATION_MOUNT_CORONET_SUMMIT", "LOCATION_SPEAR_PILLAR"],
+	"requirements": []
+}
+
+{
+	"tag": "LOCATION_SPEAR_PILLAR",
+	"connections": ["LOCATION_MOUNT_CORONET_TUNNEL"],
+	"requirements": []
+}
+
+{
+	"tag": "LOCATION_ROUTE_216",
+	"connections": ["LOCATION_ROUTE_217", "LOCATION_MOUNT_CORONET_NORTH"],
+	"requirements": []
+}
+
+{
+	"tag": "LOCATION_ROUTE_217",
+	"connections": ["LOCATION_ROUTE_216", "LOCATION_ACUITY_LAKEFRONT"],
+	"requirements": []
+}
+
+{
+	"tag": "LOCATION_ACUITY_LAKEFRONT",
+	"connections": ["LOCATION_ROUTE_217", "LOCATION_SNOWPOINT_CITY", "LOCATION_LAKE_ACUITY"],
+	"requirements": []
+}
+
+{
+	"tag": "LOCATION_LAKE_ACUITY",
+	"connections": ["LOCATION_ACUITY_LAKEFRONT", "LOCATION_ACUITY_CAVERN"],
+	"requirements": []
+}
+
+{
+	"tag": "LOCATION_ACUITY_CAVERN",
+	"connections": ["LOCATION_LAKE_ACUITY"],
+	"requirements": []
+}
+
+{
+	"tag": "LOCATION_SNOWPOINT_CITY",
+	"connections": ["LOCATION_ACUITY_LAKEFRONT", "LOCATION_SNOWPOINT_TEMPLE"],
+	"requirements": []
+}
+
+{
+	"tag": "LOCATION_SNOWPOINT_TEMPLE",
+	"connections": ["LOCATION_SNOWPOINT_CITY"],
+	"requirements": []
+}
+
+{
+	"tag": "LOCATION_ROUTE_222",
+	"connections": ["LOCATION_VALOR_LAKEFRONT", "LOCATION_SUNYSHORE_CITY"],
+	"requirements": []
+}
+
+{
+	"tag": "LOCATION_SUNYSHORE_CITY",
+	"connections": ["LOCATION_ROUTE_222", "LOCATION_ROUTE_223"],
+	"requirements": []
+}
+
+{
+	"tag": "LOCATION_ROUTE_223",
+	"connections": ["LOCATION_SUNYSHORE_CITY", "LOCATION_POKEMON_LEAGUE"],
+	"requirements": []
+}
+
+{
+	"tag": "LOCATION_POKEMON_LEAGUE",
+	"connections": ["LOCATION_ROUTE_223", "LOCATION_VICTORY_ROAD", "LOCATION_POKEMON_LEAGUE_LOBBY"],
+	"requirements": []
+}
+
+{
+	"tag": "LOCATION_POKEMON_LEAGUE_LOBBY",
+	"connections": ["LOCATION_POKEMON_LEAGUE"],
+	"requirements": []
+}
+
+{
+	"tag": "LOCATION_VICTORY_ROAD",
+	"connections": ["LOCATION_POKEMON_LEAGUE", "LOCATION_VICTORY_ROAD_SECRET"],
+	"requirements": []
+}
+
+{
+	"tag": "LOCATION_VICTORY_ROAD_SECRET",
+	"connections": ["LOCATION_VICTORY_ROAD", "LOCATION_ROUTE_224"],
+	"requirements": []
+}
+
+{
+	"tag": "LOCATION_ROUTE_224",
+	"connections": ["LOCATION_VICTORY_ROAD_SECRET", "LOCATION_FLOWER_PARADISE"],
+	"requirements": []
+}
+
+{
+	"tag": "LOCATION_FLOWER_PARADISE",
+	"connections": ["LOCATION_ROUTE_224"],
+	"requirements": []
+}
+
+{
+	"tag": "LOCATION_FIGHT_AREA",
+	"connections": ["LOCATION_ROUTE_230", "LOCATION_ROUTE_225", "LOCATION_BATTLE_FRONTIER"],
+	"requirements": []
+}
+
+{
+	"tag": "LOCATION_BATTLE_FRONTIER",
+	"connections": ["LOCATION_FIGHT_AREA"],
+	"requirements": []
+}
+
+{
+	"tag": "LOCATION_ROUTE_225",
+	"connections": ["LOCATION_FIGHT_AREA", "LOCATION_SURVIVAL_AREA"],
+	"requirements": []
+}
+
+{
+	"tag": "LOCATION_SURVIVAL_AREA",
+	"connections": ["LOCATION_ROUTE_225", "LOCATION_ROUTE_226"],
+	"requirements": []
+}
+
+{
+	"tag": "LOCATION_ROUTE_226",
+	"connections": ["LOCATION_SURVIVAL_AREA", "LOCATION_ROUTE_227", "LOCATION_ROUTE_228"],
+	"requirements": []
+}
+
+{
+	"tag": "LOCATION_ROUTE_227",
+	"connections": ["LOCATION_ROUTE_226", "LOCATION_STARK_MOUNTAIN_EXTERIOR"],
+	"requirements": []
+}
+
+{
+	"tag": "LOCATION_STARK_MOUNTAIN_EXTERIOR",
+	"connections": ["LOCATION_ROUTE_227", "LOCATION_STARK_MOUNTAIN"],
+	"requirements": []
+}
+
+{
+	"tag": "LOCATION_STARK_MOUNTAIN",
+	"connections": ["LOCATION_STARK_MOUNTAIN_EXTERIOR"],
+	"requirements": []
+}
+
+{
+	"tag": "LOCATION_ROUTE_228",
+	"connections": ["LOCATION_ROUTE_226", "LOCATION_ROUTE_229", "LOCATION_ROCK_PEAK_RUINS"],
+	"requirements": []
+}
+
+{
+	"tag": "LOCATION_ROCK_PEAK_RUINS",
+	"connections": ["LOCATION_ROUTE_228"],
+	"requirements": []
+}
+
+{
+	"tag": "LOCATION_ROUTE_229",
+	"connections": ["LOCATION_ROUTE_228", "LOCATION_ROUTE_230", "LOCATION_RESORT_AREA"],
+	"requirements": []
+}
+
+{
+	"tag": "LOCATION_RESORT_AREA",
+	"connections": ["LOCATION_ROUTE_229"],
+	"requirements": []
+}

@@ -1,0 +1,14 @@
+{
+  "REGION_ROUTE201/MAIN": {
+    "parent_map": "MAP_ROUTE201",
+    "has_grass": true,
+    "has_water": false,
+    "has_fishing": false,
+    "locations": [],
+    "events": [],
+    "exits": [
+      "REGION_TWINLEAF_TOWN/MAIN",
+      "REGION_SANDGEM_TOWN/MAIN"
+    ],
+    "warps": []
+  },

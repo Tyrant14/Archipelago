@@ -17,6 +17,7 @@ class Goal(Choice):
     Rival: Beat the Rival at the Survival Area
     Champion2: Beat the E4 for the Second Time (2nd and beyond are harder than first)
     Cyrus: Beat Cyrus in Celestic Town
+    Plate Hunt Goal?
     """
     display_name = "Goal"
     default = 0
