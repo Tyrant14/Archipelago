@@ -533,6 +533,7 @@
     "warps": []
   },
   
+ { 
   "REGION_TWINLEAF_TOWN/MAIN": {
 	"parent_map": "MAP_TWINLEAF_TOWN",
 	"has_grass": false,
@@ -540,38 +541,40 @@
     "has_fishing": false,
     "locations": [],
     "events": [
-	"EVENT_VISITED_TWINLEAF_TOWN",
-	"FREE_FLY_LOCATION"],
+	  "EVENT_VISITED_TWINLEAF_TOWN",
+	  "FREE_FLY_LOCATION"],
     "exits": [
-	"REGION_ROUTE201/MAIN",
-    "REGION_POKEDEX",
-    "REGION_SKY"
+	  "REGION_ROUTE201/MAIN",
+      "REGION_POKEDEX",
+      "REGION_SKY"
 	]
 	"warps": [
-	"MAP_TWINLEAF_TOWN:0/MAP_TWINLEAF_TOWN_PLAYERS_HOUSE_1F:1",
-	"MAP_TWINLEAF_TOWN:1/MAP_TWINLEAF_TOWN_HOUSE1:0",
-	"MAP_TWINLEAF_TOWN:2/MAP_TWINLEAF_TOWN_BARRYS_HOUSE_1F:1",
-	"MAP_TWINLEAF_TOWN:3/MAP_TWINLEAF_TOWN_HOUSE2:0"
+	  "MAP_TWINLEAF_TOWN:0/MAP_TWINLEAF_TOWN_PLAYERS_HOUSE_1F:0",
+	  "MAP_TWINLEAF_TOWN:1/MAP_TWINLEAF_TOWN_HOUSE1:0",
+	  "MAP_TWINLEAF_TOWN:2/MAP_TWINLEAF_TOWN_BARRYS_HOUSE_1F:0",
+	  "MAP_TWINLEAF_TOWN:3/MAP_TWINLEAF_TOWN_HOUSE2:0"
 	]
   },
   
+  { 
   "REGION_TWINLEAF_TOWN_PLAYERS_HOUSE_1F/MAIN": {
 	"parent_map": "MAP_TWINLEAF_TOWN_PLAYERS_HOUSE_1F",
 	"has_grass": false,
     "has_water": false,
     "has_fishing": false,
     "locations": [
-	"NPC_GIFT_RECEIVED_JOURNAL",
-    "NPC_GIFT_RECEIVED_PARCEL"
+	  "NPC_GIFT_RECEIVED_JOURNAL",
+      "NPC_GIFT_RECEIVED_PARCEL"
 	],
     "events": [],
     "exits": [],
     "warps": [
-	"MAP_TWINLEAF_TOWN_PLAYERS_HOUSE_1F:0,1/MAP_TWINLEAF_TOWN:0",
-	"MAP_TWINLEAF_TOWN_PLAYERS_HOUSE_1F:2/MAP_TWINLEAF_TOWN_PLAYERS_HOUSE_2F:0"
+	  "MAP_TWINLEAF_TOWN_PLAYERS_HOUSE_1F:0/MAP_TWINLEAF_TOWN:0",
+  	  "MAP_TWINLEAF_TOWN_PLAYERS_HOUSE_1F:1/MAP_TWINLEAF_TOWN_PLAYERS_HOUSE_2F:0"
 	]
   },
   
+  {
   "REGION_TWINLEAF_TOWN_PLAYERS_HOUSE_2F/MAIN": {
 	"parent_map": "MAP_TWINLEAF_TOWN_PLAYERS_HOUSE_2F",
 	"has_grass": false,
@@ -581,10 +584,11 @@
     "events": [],
     "exits": [],
     "warps": [
-	"MAP_TWINLEAF_TOWN_PLAYERS_HOUSE_2F:0/MAP_TWINLEAF_TOWN_PLAYERS_HOUSE_1F:2"
+	  "MAP_TWINLEAF_TOWN_PLAYERS_HOUSE_2F:0/MAP_TWINLEAF_TOWN_PLAYERS_HOUSE_1F:1"
 	]
   },
   
+  {
   "REGION_TWINLEAF_TOWN_HOUSE1/MAIN": {
 	"parent_map": "MAP_TWINLEAF_TOWN_HOUSE1",
 	"has_grass": false,
@@ -594,10 +598,11 @@
     "events": [],
     "exits": [],
     "warps": [
-	"MAP_TWINLEAF_TOWN_HOUSE1:0,1/MAP_TWINLEAF_TOWN:1"
+	  "MAP_TWINLEAF_TOWN_HOUSE1:0/MAP_TWINLEAF_TOWN:1"
 	]
   },
   
+  {
    "REGION_TWINLEAF_TOWN_BARRYS_HOUSE_1F/MAIN": {
 	"parent_map": "MAP_TWINLEAF_TOWN_BARRYS_HOUSE_1F",
 	"has_grass": false,
@@ -607,11 +612,12 @@
     "events": [],
     "exits": [],
     "warps": [
-	"MAP_TWINLEAF_TOWN_BARRYS_HOUSE_1F:0,1/MAP_TWINLEAF_TOWN:2",
-	"MAP_TWINLEAF_TOWN_BARRYS_HOUSE_1F:2/MAP_TWINLEAF_TOWN_BARRYS_HOUSE_2F:0"
+	  "MAP_TWINLEAF_TOWN_BARRYS_HOUSE_1F:0/MAP_TWINLEAF_TOWN:2",
+	  "MAP_TWINLEAF_TOWN_BARRYS_HOUSE_1F:1/MAP_TWINLEAF_TOWN_BARRYS_HOUSE_2F:0"
 	]
   },
   
+  {
   "REGION_TWINLEAF_TOWN_BARRYS_HOUSE_2F/MAIN": {
 	"parent_map": "MAP_TWINLEAF_TOWN_BARRYS_HOUSE_2F",
 	"has_grass": false,
@@ -621,10 +627,11 @@
     "events": [],
     "exits": [],
     "warps": [
-	"MAP_TWINLEAF_TOWN_BARRYS_HOUSE_2F:0/MAP_TWINLEAF_TOWN_BARRYS_HOUSE_1F:2"
+	  "MAP_TWINLEAF_TOWN_BARRYS_HOUSE_2F:0/MAP_TWINLEAF_TOWN_BARRYS_HOUSE_1F:1"
 	]
   },
   
+  {
     "REGION_TWINLEAF_TOWN_HOUSE2/MAIN": {
 	"parent_map": "MAP_TWINLEAF_TOWN_HOUSE2",
 	"has_grass": false,
@@ -634,6 +641,1672 @@
     "events": [],
     "exits": [],
     "warps": [
-	"MAP_TWINLEAF_TOWN_HOUSE2:0,1/MAP_TWINLEAF_TOWN:3"
+	  "MAP_TWINLEAF_TOWN_HOUSE2:0/MAP_TWINLEAF_TOWN:3"
+	]
+  },
+  
+{ 
+  "REGION_SANDGEM_TOWN/MAIN": {
+	"parent_map": "MAP_SANDGEM_TOWN",
+	"has_grass": false,
+    "has_water": false,
+    "has_fishing": false,
+    "locations": [
+	  "NPC_GIFT_RECEIVED_TM_RETURN"
+	],
+    "events": [
+	  "EVENT_VISITED_SANDGEM_TOWN",
+	],
+    "exits": [
+	  "REGION_ROUTE201/MAIN",
+	  "REGION_ROUTE202/MAIN",
+	  "REGION_ROUTE219/MAIN"
+	]
+	"warps": [
+	  "MAP_SANDGEM_TOWN:0/MAP_SANDGEM_TOWN_RESEARCH_LAB:0",
+	  "MAP_SANDGEM_TOWN:1/MAP_SANDGEM_TOWN_HOUSE1:0",
+	  "MAP_SANDGEM_TOWN:2/MAP_SANDGEM_TOWN_LUCASS_HOUSE_1F:0",
+	  "MAP_SANDGEM_TOWN:3/MAP_SANDGEM_TOWN_POKEMON_CENTER_1F:0",
+	  "MAP_SANDGEM_TOWN:4/MAP_SANDGEM_TOWN_MART:0"
+	]
+  },
+  
+{ 
+  "REGION_SANDGEM_TOWN_RESEARCH_LAB/MAIN": {
+    "parent_map": "MAP_SANDGEM_TOWN_RESEARCH_LAB",
+    "has_grass": false,
+    "has_water": false,
+    "has_fishing": false,
+    "locations": [],
+    "events": [],
+    "exits": []
+	"warps": [
+	  "MAP_SANDGEM_TOWN_RESEARCH_LAB:0/MAP_SANDGEM_TOWN:0"
+	]
+  },
+  
+{ 
+  "REGION_SANDGEM_TOWN_HOUSE1/MAIN": {
+    "parent_map": "MAP_SANDGEM_TOWN_HOUSE1",
+    "has_grass": false,
+    "has_water": false,
+    "has_fishing": false,
+    "locations": [],
+    "events": [],
+    "exits": []
+	"warps": [
+	  "MAP_SANDGEM_TOWN_HOUSE1:0/MAP_SANDGEM_TOWN:1"
+	]
+  },
+  
+{ 
+  "REGION_SANDGEM_TOWN_LUCASS_HOUSE_1F/MAIN": {
+    "parent_map": "MAP_SANDGEM_TOWN_LUCASS_HOUSE_1F",
+    "has_grass": false,
+    "has_water": false,
+    "has_fishing": false,
+    "locations": [],
+    "events": [],
+    "exits": []
+	"warps": [
+	  "MAP_SANDGEM_TOWN_LUCASS_HOUSE_1F:0/MAP_SANDGEM_TOWN:2",
+	  "MAP_SANDGEM_TOWN_LUCASS_HOUSE_1F:1/MAP_SANDGEM_TOWN_LUCASS_HOUSE_2F:0"
+	]
+  },
+  
+{ 
+  "REGION_SANDGEM_TOWN_LUCASS_HOUSE_2F/MAIN": {
+    "parent_map": "MAP_SANDGEM_TOWN_LUCASS_HOUSE_2F",
+    "has_grass": false,
+    "has_water": false,
+    "has_fishing": false,
+    "locations": [],
+    "events": [],
+    "exits": []
+	"warps": [
+	  "MAP_SANDGEM_TOWN_LUCASS_HOUSE_2F:0/MAP_SANDGEM_TOWN_LUCASS_HOUSE_1F:1"
+	]
+  },
+
+{ 
+  "REGION_SANDGEM_TOWN_POKEMON_CENTER_1F/MAIN": {
+    "parent_map": "MAP_SANDGEM_TOWN_POKEMON_CENTER_1F",
+    "has_grass": false,
+    "has_water": false,
+    "has_fishing": false,
+    "locations": [],
+    "events": [],
+    "exits": []
+	"warps": [
+	  "MAP_SANDGEM_TOWN_POKEMON_CENTER_1F:0/MAP_SANDGEM_TOWN:3",
+	  "MAP_SANDGEM_TOWN_POKEMON_CENTER_1F:1/MAP_SANDGEM_TOWN_POKEMON_CENTER_B1F:0",
+	  "MAP_SANDGEM_TOWN_POKEMON_CENTER_1F:2/MAP_SANDGEM_TOWN_POKEMON_CENTER_2F:0"
+	  
+	]
+  },
+
+{ 
+  "REGION_SANDGEM_TOWN_POKEMON_CENTER_B1F/MAIN": {
+    "parent_map": "MAP_SANDGEM_TOWN_POKEMON_CENTER_B1F",
+    "has_grass": false,
+    "has_water": false,
+    "has_fishing": false,
+    "locations": [],
+    "events": [],
+    "exits": []
+	"warps": [
+	  "MAP_SANDGEM_TOWN_POKEMON_CENTER_B1F:0/MAP_SANDGEM_TOWN_POKEMON_CENTER_1F:1"
+	]
+  },
+
+{ 
+  "REGION_SANDGEM_TOWN_POKEMON_CENTER_2F/MAIN": {
+    "parent_map": "MAP_SANDGEM_TOWN_POKEMON_CENTER_2F",
+    "has_grass": false,
+    "has_water": false,
+    "has_fishing": false,
+    "locations": [],
+    "events": [],
+    "exits": []
+	"warps": [
+	  "MAP_SANDGEM_TOWN_POKEMON_CENTER_2F:0/MAP_SANDGEM_TOWN_POKEMON_CENTER_1F:2"
+	]
+  },
+  
+{ 
+  "REGION_SANDGEM_TOWN_MART/MAIN": {
+    "parent_map": "MAP_SANDGEM_TOWN_MART",
+    "has_grass": false,
+    "has_water": false,
+    "has_fishing": false,
+    "locations": [],
+    "events": [],
+    "exits": []
+	"warps": [
+	  "MAP_SANDGEM_TOWN_MART:0/MAP_SANDGEM_TOWN:4"
+	]
+  },
+  
+{ 
+  "REGION_JUBILIFE_CITY/MAIN": {
+	"parent_map": "MAP_JUBILIFE_CITY",
+	"has_grass": false,
+    "has_water": false,
+    "has_fishing": false,
+    "locations": [
+	  "NPC_GIFT_RECEIVED_COUPON_1",
+	  "NPC_GIFT_RECEIVED_COUPON_2",
+	  "NPC_GIFT_RECEIVED_COUPON_3",
+	  "NPC_GIFT_RECEIVED_FASHION_CASE",
+	  "TRAINER_GALACTIC_GRUNT_AND_GALACTIC_GRUNT1_REWARD"
+	],
+    "events": [
+	  "EVENT_VISITED_JUBILIFE_CITY",
+	],
+    "exits": [
+	  "REGION_ROUTE203/MAIN",
+	  "REGION_ROUTE204_SOUTH/MAIN"
+	]
+	"warps": [
+	  "MAP_JUBILIFE_CITY:0,1/MAP_JUBILIFE_CITY_POKETCH_COMPANY_1F:0,1",
+	  "MAP_JUBILIFE_CITY:2/MAP_JUBILIFE_CITY_GLOBAL_TERMINAL:0",
+	  "MAP_JUBILIFE_CITY:3/MAP_JUBILIFE_CITY_HOUSE1_1F:0",
+	  "MAP_JUBILIFE_CITY:4/MAP_JUBILIFE_CITY_HOUSE2_1F:0",
+	  "MAP_JUBILIFE_CITY:5/MAP_JUBILIFE_CITY_TRAINERS_SCHOOL:0"
+	  "MAP_JUBILIFE_CITY:6/MAP_JUBILIFE_CITY_JUBILIFE_TV:0",
+	  "MAP_JUBILIFE_CITY:7/MAP_JUBILIFE_CITY_POKEMON_CENTER_1F:0",
+	  "MAP_JUBILIFE_CITY:8/MAP_JUBILIFE_CITY_MART:0",
+	  "MAP_JUBILIFE_CITY:9/MAP_JUBILIFE_CITY_HOUSE3_1F:0",
+	  "MAP_JUBILIFE_CITY:10,11/MAP_JUBILIFE_CITY_ROUTE218_GATE_EAST:0"
+	]
+  },
+  
+{ 
+  "REGION_JUBILIFE_CITY_POKEMON_CENTER_1F/MAIN": {
+    "parent_map": "MAP_JUBILIFE_CITY_POKEMON_CENTER_1F",
+    "has_grass": false,
+    "has_water": false,
+    "has_fishing": false,
+    "locations": [],
+    "events": [],
+    "exits": []
+	"warps": [
+	  "MAP_JUBILIFE_CITY_POKEMON_CENTER_1F:0/MAP_JUBILIFE_CITY:7",
+	  "MAP_JUBILIFE_CITY_POKEMON_CENTER_1F:1/MAP_JUBILIFE_CITY_POKEMON_CENTER_B1F:0",
+	  "MAP_JUBILIFE_CITY_POKEMON_CENTER_1F:2/MAP_JUBILIFE_CITY_POKEMON_CENTER_2F:0"
+	  
+	]
+  },
+
+{ 
+  "REGION_JUBILIFE_CITY_POKEMON_CENTER_B1F/MAIN": {
+    "parent_map": "MAP_JUBILIFE_CITY_POKEMON_CENTER_B1F",
+    "has_grass": false,
+    "has_water": false,
+    "has_fishing": false,
+    "locations": [],
+    "events": [],
+    "exits": []
+	"warps": [
+	  "MAP_JUBILIFE_CITY_POKEMON_CENTER_B1F:0/MAP_JUBILIFE_CITY_POKEMON_CENTER_1F:1"
+	]
+  },
+
+{ 
+  "REGION_JUBILIFE_CITY_POKEMON_CENTER_2F/MAIN": {
+    "parent_map": "MAP_JUBILIFE_CITY_POKEMON_CENTER_2F",
+    "has_grass": false,
+    "has_water": false,
+    "has_fishing": false,
+    "locations": [],
+    "events": [],
+    "exits": []
+	"warps": [
+	  "MAP_JUBILIFE_CITY_POKEMON_CENTER_2F:0/MAP_JUBILIFE_CITY_POKEMON_CENTER_1F:2"
+	]
+  },
+  
+{ 
+  "REGION_OREBURGH_CITY/MAIN": {
+	"parent_map": "MAP_OREBURGH_CITY",
+	"has_grass": false,
+    "has_water": false,
+    "has_fishing": false,
+    "locations": [
+	  "NPC_GIFT_RECEIVED_SUPER_POTION",
+	  "ITEM_OREBURGH_CITY_DIRE_HIT",
+	  "ITEM_OREBURGH_CITY_YELLOW_SHARD",
+	  "HIDDEN_ITEM_OREBURGH_CITY_HEART_SCALE",
+	  "HIDDEN_ITEM_OREBURGH_CITY_PEARL"
+	],
+    "events": [
+	  "EVENT_VISITED_OREBURGH_CITY",
+	],
+    "exits": [
+	  "REGION_"
+	]
+	"warps": [
+	  "MAP_OREBURGH_CITY:0/MAP_OREBURGH_CITY_HOUSE1_1F:0",
+	  "MAP_OREBURGH_CITY:1/MAP_OREBURGH_CITY_HOUSE2_1F:0",
+	  "MAP_OREBURGH_CITY:2/MAP_OREBURGH_CITY_HOUSE3:0",
+      "MAP_OREBURGH_CITY:3/MAP_OREBURGH_CITY_MART:0",
+	  "MAP_OREBURGH_CITY:4/MAP_OREBURGH_CITY_GYM:0",
+	  "MAP_OREBURGH_CITY:5/MAP_OREBURGH_CITY_HOUSE4:0",
+	  "MAP_OREBURGH_CITY:6/MAP_OREBURGH_CITY_POKEMON_CENTER_1F:0"
+	  "MAP_OREBURGH_CITY:7/MAP_OREBURGH_CITY_MINING_MUSEUM:0",
+	  "MAP_OREBURGH_CITY:8/MAP_OREBURGH_CITY_HOUSE1:0",
+	  "MAP_OREBURGH_CITY:9/MAP_OREBURGH_CITY_HOUSE1:0",
+      "MAP_OREBURGH_CITY:10/MAP_OREBURGH_CITY_HOUSE1:0",
+	  "MAP_OREBURGH_CITY:11/MAP_OREBURGH_CITY_HOUSE1:0",
+	  "MAP_OREBURGH_CITY:12,13,14,15,16/MAP_OREBURGH_MINE_B1F:0"
+	]
+  },
+
+{ 
+  "REGION_OREBURGH_CITY_HOUSE1_1F/MAIN": {
+	"parent_map": "MAP_OREBURGH_CITY_HOUSE1_1F",
+	"has_grass": false,
+    "has_water": false,
+    "has_fishing": false,
+    "locations": [],
+    "events": [],
+    "exits": []
+	"warps": [
+	  "MAP_OREBURGH_CITY_HOUSE1_1F:0/MAP_OREBURGH_CITY:0"
+	  "MAP_OREBURGH_CITY_HOUSE1_1F:1/MAP_OREBURGH_CITY_HOUSE1_2F:0"
+	]
+  },
+
+{ 
+  "REGION_OREBURGH_CITY_HOUSE1_2F/MAIN": {
+	"parent_map": "MAP_OREBURGH_CITY_HOUSE1_2F",
+	"has_grass": false,
+    "has_water": false,
+    "has_fishing": false,
+    "locations": [
+	  "NPC_GIFT_RECEIVED_DUSK_BALL"
+	],
+    "events": [],
+    "exits": []
+	"warps": [
+	  "MAP_OREBURGH_CITY_HOUSE1_2F:0/MAP_OREBURGH_CITY_HOUSE1_1F:1"
+	]
+  },
+  
+{ 
+  "REGION_OREBURGH_CITY_GYM/MAIN": {
+	"parent_map": "MAP_OREBURGH_CITY_GYM",
+	"has_grass": false,
+    "has_water": false,
+    "has_fishing": false,
+    "locations": [
+	  "NPC_GIFT_RECEIVED_TM_STEALTH_ROCK",
+	  "BADGE_1",
+	  "TRAINER_YOUNGSTER_JONATHAN",
+	  "TRAINER_YOUNGSTER_DARIUS",
+	  "TRAINER_ROARK_1_REWARD"
+	],
+    "events": [
+	  "EVENT_DEFEAT_ROARK"
+	],
+    "exits": []
+	"warps": [
+	  "MAP_OREBURGH_CITY_GYM:0/MAP_OREBURGH_CITY:4"
+	]
+  },
+  
+{ 
+  "REGION_OREBURGH_CITY_POKEMON_CENTER_1F/MAIN": {
+    "parent_map": "MAP_OREBURGH_CITY_POKEMON_CENTER_1F",
+    "has_grass": false,
+    "has_water": false,
+    "has_fishing": false,
+    "locations": [],
+    "events": [],
+    "exits": []
+	"warps": [
+	  "MAP_OREBURGH_CITY_POKEMON_CENTER_1F:0/MAP_OREBURGH_CITY:6",
+	  "MAP_OREBURGH_CITY_POKEMON_CENTER_1F:1/MAP_OREBURGH_CITY_POKEMON_CENTER_B1F:0",
+	  "MAP_OREBURGH_CITY_POKEMON_CENTER_1F:2/MAP_OREBURGH_CITY_POKEMON_CENTER_2F:0"
+	  
+	]
+  },
+
+{ 
+  "REGION_OREBURGH_CITY_POKEMON_CENTER_B1F/MAIN": {
+    "parent_map": "MAP_OREBURGH_CITY_POKEMON_CENTER_B1F",
+    "has_grass": false,
+    "has_water": false,
+    "has_fishing": false,
+    "locations": [],
+    "events": [],
+    "exits": []
+	"warps": [
+	  "MAP_OREBURGH_CITY_POKEMON_CENTER_B1F:0/MAP_OREBURGH_CITY_POKEMON_CENTER_1F:1"
+	]
+  },
+
+{ 
+  "REGION_OREBURGH_CITY_POKEMON_CENTER_2F/MAIN": {
+    "parent_map": "MAP_OREBURGH_CITY_POKEMON_CENTER_2F",
+    "has_grass": false,
+    "has_water": false,
+    "has_fishing": false,
+    "locations": [],
+    "events": [],
+    "exits": []
+	"warps": [
+	  "MAP_OREBURGH_CITY_POKEMON_CENTER_2F:0/MAP_OREBURGH_CITY_POKEMON_CENTER_1F:2"
+	]
+  },
+  
+ { 
+  "REGION_FLOAROMA_TOWN/MAIN": {
+	"parent_map": "MAP_FLOAROMA_TOWN",
+	"has_grass": false,
+    "has_water": false,
+    "has_fishing": false,
+    "locations": [
+	  "BERRY_TREE_1",
+	  "BERRY_TREE_2"
+	],
+    "events": [
+	  "EVENT_VISITED_FLOAROMA_TOWN",
+	],
+    "exits": [
+	  "REGION_ROUTE204_NORTH/MAIN",
+	  "REGION_ROUTE205_SOUTH/MAIN"
+	]
+	"warps": [
+	  "MAP_FLOAROMA_TOWN:0/MAP_FLOAROMA_TOWN_HOUSE1:0",
+	  "MAP_FLOAROMA_TOWN:1,2/MAP_FLOAROMA_TOWN_FLOAROMA_MEADOW:0,1",
+	  "MAP_FLOAROMA_TOWN:3/MAP_FLOAROMA_TOWN_POKEMON_CENTER_1F:0:"
+	  "MAP_FLOAROMA_TOWN:4/MAP_FLOAROMA_TOWN_HOUSE2:0",
+	  "MAP_FLOAROMA_TOWN:5/MAP_FLOAROMA_TOWN_MART:0",
+	  "MAP_FLOAROMA_TOWN:6/MAP_FLOAROMA_TOWN_FLOWER_SHOP:0"
+	]
+  },
+  
+{ 
+  "REGION_FLOAROMA_TOWN_POKEMON_CENTER_1F/MAIN": {
+    "parent_map": "MAP_FLOAROMA_TOWN_POKEMON_CENTER_1F",
+    "has_grass": false,
+    "has_water": false,
+    "has_fishing": false,
+    "locations": [],
+    "events": [],
+    "exits": []
+	"warps": [
+	  "MAP_FLOAROMA_TOWN_POKEMON_CENTER_1F:0/MAP_FLOAROMA_TOWN:3",
+	  "MAP_FLOAROMA_TOWN_POKEMON_CENTER_1F:1/MAP_FLOAROMA_TOWN_POKEMON_CENTER_B1F:0",
+	  "MAP_FLOAROMA_TOWN_POKEMON_CENTER_1F:2/MAP_FLOAROMA_TOWN_POKEMON_CENTER_2F:0"
+	  
+	]
+  },
+
+{ 
+  "REGION_FLOAROMA_TOWN_POKEMON_CENTER_B1F/MAIN": {
+    "parent_map": "MAP_FLOAROMA_TOWN_POKEMON_CENTER_B1F",
+    "has_grass": false,
+    "has_water": false,
+    "has_fishing": false,
+    "locations": [],
+    "events": [],
+    "exits": []
+	"warps": [
+	  "MAP_FLOAROMA_TOWN_POKEMON_CENTER_B1F:0/MAP_FLOAROMA_TOWN_POKEMON_CENTER_1F:1"
+	]
+  },
+
+{ 
+  "REGION_FLOAROMA_TOWN_POKEMON_CENTER_2F/MAIN": {
+    "parent_map": "MAP_FLOAROMA_TOWN_POKEMON_CENTER_2F",
+    "has_grass": false,
+    "has_water": false,
+    "has_fishing": false,
+    "locations": [],
+    "events": [],
+    "exits": []
+	"warps": [
+	  "MAP_FLOAROMA_TOWN_POKEMON_CENTER_2F:0/MAP_FLOAROMA_TOWN_POKEMON_CENTER_1F:2"
+	]
+  },
+  
+{ 
+  "REGION_ETERNA_CITY/MAIN": {
+	"parent_map": "MAP_ETERNA_CITY",
+	"has_grass": false,
+    "has_water": false,
+    "has_fishing": false,
+    "locations": [
+	  "NPC_GIFT_RECEIVED_HM_CUT",
+	  "ITEM_SUPER_POTION",
+	  "HIDDEN_ITEM_MOON_STONE",
+	  "ITEM_TM_THIEF",
+	  "NPC_GIFT_RECEIVED_EGG"
+	],
+    "events": [
+	  "EVENT_VISITED_ETERNA_CITY"
+	],
+    "exits": [
+	  "REGION_ROUTE205_NORTH/MAIN",
+	  "REGION_ROUTE211_WEST/MAIN"
+	]
+	"warps": [
+	  "MAP_ETERNA_CITY:0/MAP_ETERNA_CITY_HOUSE1:0",
+	  "MAP_ETERNA_CITY:1/MAP_ETERNA_CITY_POKEMON_CENTER_1F:0",
+	  "MAP_ETERNA_CITY:2/MAP_ETERNA_CITY_TEAM_GALACTIC_ETERNA_BUILDING_1F:0",
+	  "MAP_ETERNA_CITY:3/MAP_ETERNA_CITY_GYM:0",
+	  "MAP_ETERNA_CITY:4/MAP_ETERNA_CITY_MART:0",
+	  "MAP_ETERNA_CITY:5/MAP_ETERNA_CITY_ETERNA_CONDOMINIUM_1F:0",
+	  "MAP_ETERNA_CITY:6/MAP_ETERNA_CITY_BICYCLE_SHOP:0",
+	  "MAP_ETERNA_CITY:7/MAP_ETERNA_CITY_UNDERGROUND_MANS_HOUSE:0",
+	  "MAP_ETERNA_CITY:8/MAP_ETERNA_CITY_HERB_SHOP:0",
+	  "MAP_ETERNA_CITY:9/MAP_ETERNA_CITY_HOUSE2:0"
+	  "MAP_ETERNA_CITY:10,11/MAP_ROUTE206_NORTH_GATE:0"
+	]
+  },
+  
+{
+  "REGION_ETERNA_CITY_HOUSE1/MAIN": {
+    "parent_map": "MAP_ETERNA_CITY_HOUSE1",
+    "has_grass": false,
+    "has_water": false,
+    "has_fishing": false,
+    "locations": [],
+    "events": [
+	   "EVENT_RELEASE_LEGENDARIES"
+	],
+    "exits": [],
+    "warps": [
+	"MAP_ETERNA_CITY_HOUSE1:0:MAP_ETERNA_CITY:0"
+	]
+  },
+
+{ 
+  "REGION_ETERNA_CITY_POKEMON_CENTER_1F/MAIN": {
+    "parent_map": "MAP_ETERNA_CITY_POKEMON_CENTER_1F",
+    "has_grass": false,
+    "has_water": false,
+    "has_fishing": false,
+    "locations": [],
+    "events": [],
+    "exits": []
+	"warps": [
+	  "MAP_ETERNA_CITY_POKEMON_CENTER_1F:0/MAP_ETERNA_CITY:1",
+	  "MAP_ETERNA_CITY_POKEMON_CENTER_1F:1/MAP_ETERNA_CITY_POKEMON_CENTER_B1F:0",
+	  "MAP_ETERNA_CITY_POKEMON_CENTER_1F:2/MAP_ETERNA_CITY_POKEMON_CENTER_2F:0"
+	  
+	]
+  },
+
+{ 
+  "REGION_ETERNA_CITY_POKEMON_CENTER_B1F/MAIN": {
+    "parent_map": "MAP_ETERNA_CITY_POKEMON_CENTER_B1F",
+    "has_grass": false,
+    "has_water": false,
+    "has_fishing": false,
+    "locations": [],
+    "events": [],
+    "exits": []
+	"warps": [
+	  "MAP_ETERNA_CITY_POKEMON_CENTER_B1F:0/MAP_ETERNA_CITY_POKEMON_CENTER_1F:1"
+	]
+  },
+
+{ 
+  "REGION_ETERNA_CITY_POKEMON_CENTER_2F/MAIN": {
+    "parent_map": "MAP_ETERNA_CITY_POKEMON_CENTER_2F",
+    "has_grass": false,
+    "has_water": false,
+    "has_fishing": false,
+    "locations": [],
+    "events": [],
+    "exits": []
+	"warps": [
+	  "MAP_ETERNA_CITY_POKEMON_CENTER_2F:0/MAP_ETERNA_CITY_POKEMON_CENTER_1F:2"
+	]
+  },
+
+{
+  "REGION_ETERNA_CITY_TEAM_GALACTIC_ETERNA_BUILDING_1F/MAIN": {
+    "parent_map": "MAP_ETERNA_CITY_TEAM_GALACTIC_ETERNA_BUILDING_1F",
+    "has_grass": false,
+    "has_water": false,
+    "has_fishing": false,
+    "locations": [
+	  "TRAINER_GALACTIC_GRUNT_1_REWARD",
+	  "TRAINER_GALACTIC_GRUNT_2_REWARD"
+	],
+    "events": [],
+    "exits": [],
+    "warps": [
+	"MAP_ETERNA_CITY_TEAM_GALACTIC_ETERNA_BUILDING_1F:0/MAP_ETERNA_CITY:2",
+	"MAP_ETERNA_CITY_TEAM_GALACTIC_ETERNA_BUILDING_1F:1/MAP_ETERNA_CITY_TEAM_GALACTIC_ETERNA_BUILDING_2F1:0",
+	"MAP_ETERNA_CITY_TEAM_GALACTIC_ETERNA_BUILDING_1F:2/MAP_ETERNA_CITY:TEAM_GALACTIC_ETERNA_BUILDING_2F2:0"
+	]
+  },
+  
+{
+  "REGION_ETERNA_CITY_TEAM_GALACTIC_ETERNA_BUILDING_2F1/MAIN": {
+    "parent_map": "MAP_ETERNA_CITY_TEAM_GALACTIC_ETERNA_BUILDING_2F1",
+    "has_grass": false,
+    "has_water": false,
+    "has_fishing": false,
+    "locations": [
+	  "TRAINER_GALACTIC_GRUNT_1_REWARD",
+	  "ITEM_X_SPEED"
+	],
+    "events": [],
+    "exits": [],
+    "warps": [
+	"MAP_ETERNA_CITY_TEAM_GALACTIC_ETERNA_BUILDING_2F1:0/MAP_ETERNA_CITY_TEAM_GALACTIC_ETERNA_BUILDING_1F:1",
+	]
+  },
+
+{
+  "REGION_ETERNA_CITY_TEAM_GALACTIC_ETERNA_BUILDING_2F2/MAIN": {
+    "parent_map": "MAP_ETERNA_CITY_TEAM_GALACTIC_ETERNA_BUILDING_2F2",
+    "has_grass": false,
+    "has_water": false,
+    "has_fishing": false,
+    "locations": [
+	  "TRAINER_GALACTIC_GRUNT_1_REWARD",
+	  "TRAINER_GALACTIC_GRUNT_2_REWARD"
+	],
+    "events": [],
+    "exits": [],
+    "warps": [
+	"MAP_ETERNA_CITY_TEAM_GALACTIC_ETERNA_BUILDING_2F2:0/MAP_ETERNA_CITY_TEAM_GALACTIC_ETERNA_BUILDING_1F:1",
+	"MAP_ETERNA_CITY_TEAM_GALACTIC_ETERNA_BUILDING_2F2:1/MAP_ETERNA_CITY_TEAM_GALACTIC_ETERNA_BUILDING_3F1:0",
+	"MAP_ETERNA_CITY_TEAM_GALACTIC_ETERNA_BUILDING_2F2:2/MAP_ETERNA_CITY_TEAM_GALACTIC_ETERNA_BUILDING_3F2:1",
+	]
+  },
+  
+{
+  "REGION_ETERNA_CITY_TEAM_GALACTIC_ETERNA_BUILDING_3F1/MAIN": {
+    "parent_map": "MAP_ETERNA_CITY_TEAM_GALACTIC_ETERNA_BUILDING_3F1",
+    "has_grass": false,
+    "has_water": false,
+    "has_fishing": false,
+    "locations": [
+	  "TRAINER_SCIENTIST_TRAVON_REWARD"
+	],
+    "events": [],
+    "exits": [],
+    "warps": [
+	"MAP_ETERNA_CITY_TEAM_GALACTIC_ETERNA_BUILDING_3F1:0/MAP_ETERNA_CITY_TEAM_GALACTIC_ETERNA_BUILDING_2F2:1",
+	"MAP_ETERNA_CITY_TEAM_GALACTIC_ETERNA_BUILDING_3F1:1/MAP_ETERNA_CITY_TEAM_GALACTIC_ETERNA_BUILDING_4F1:0",
+	"MAP_ETERNA_CITY_TEAM_GALACTIC_ETERNA_BUILDING_3F1:2/MAP_ETERNA_CITY:TEAM_GALACTIC_ETERNA_BUILDING_4F2:0",
+	]
+  },
+  
+{
+  "REGION_ETERNA_CITY_TEAM_GALACTIC_ETERNA_BUILDING_3F2/MAIN": {
+    "parent_map": "MAP_ETERNA_CITY_TEAM_GALACTIC_ETERNA_BUILDING_3F1",
+    "has_grass": false,
+    "has_water": false,
+    "has_fishing": false,
+    "locations": [
+	  "TRAINER_GALACTIC_GRUNT_1_REWARD",
+	  "ITEM_X_SPECIAL"
+	],
+    "events": [],
+    "exits": [],
+    "warps": [
+	"MAP_ETERNA_CITY_TEAM_GALACTIC_ETERNA_BUILDING_3F2:1/MAP_ETERNA_CITY_TEAM_GALACTIC_ETERNA_BUILDING_2F2:2",
+	]
+  },
+  
+  
+{
+  "REGION_ETERNA_CITY_TEAM_GALACTIC_ETERNA_BUILDING_4F1/MAIN": {
+    "parent_map": "MAP_ETERNA_CITY_TEAM_GALACTIC_ETERNA_BUILDING_4F1",
+    "has_grass": false,
+    "has_water": false,
+    "has_fishing": false,
+    "locations": [
+	  "TRAINER_COMMANDER_JUPTIER_REWARD",
+	  "ITEM_UP-GRADE"
+	],
+    "events": [],
+    "exits": [],
+    "warps": [
+	"MAP_ETERNA_CITY_TEAM_GALACTIC_ETERNA_BUILDING_4F1:0/MAP_ETERNA_CITY_TEAM_GALACTIC_ETERNA_BUILDING_3F1:1"
+	]
+  },
+  
+{
+  "REGION_ETERNA_CITY_TEAM_GALACTIC_ETERNA_BUILDING_4F2/MAIN": {
+    "parent_map": "MAP_ETERNA_CITY_TEAM_GALACTIC_ETERNA_BUILDING_4F2",
+    "has_grass": false,
+    "has_water": false,
+    "has_fishing": false,
+    "locations": [
+	  "ITEM_BLUE_SHARD",
+	  "ITEM_REVIVE"
+	],
+    "events": [],
+    "exits": [],
+    "warps": [
+	"MAP_ETERNA_CITY_TEAM_GALACTIC_ETERNA_BUILDING_4F2:0/MAP_ETERNA_CITY_TEAM_GALACTIC_ETERNA_BUILDING_3F1:2"
+	]
+  },
+ 
+{
+  "REGION_ETERNA_CITY_GYM/MAIN": {
+    "parent_map": "MAP_ETERNA_CITY_GYM",
+    "has_grass": false,
+    "has_water": false,
+    "has_fishing": false,
+    "locations": [
+	  "TRAINER_LASS_CAROLINE_REWARD",
+	  "TRAINER_AROMA_LADY_JENNA_REWARD",
+	  "TRAINER_AROMA_LADY_ANGELA_REWARD",
+	  "TRAINER_GARDENIA_1_REWARD"",
+	  "BADGE_2",
+	  "NPC_GIFT_RECEIVED_TM_GRASS_KNOT"
+	],
+    "events": [],
+    "exits": [],
+    "warps": [
+	"MAP_ETERNA_CITY_GYM:0/MAP_ETERNA_CITY:3"
+	]
+  },
+  
+{
+  "REGION_ETERNA_CITY_UNDERGROUND_MANS_HOUSE/MAIN": {
+    "parent_map": "MAP_ETERNA_CITY_UNDERGROUND_MANS_HOUSE",
+    "has_grass": false,
+    "has_water": false,
+    "has_fishing": false,
+    "locations": [
+	  "NPC_GIFT_RECEIVED_EXPLORER_KIT"
+	],
+    "events": [],
+    "exits": [],
+    "warps": [
+	"MAP_ETERNA_CITY_UNDERGROUND_MANS_HOUSE:0/MAP_ETERNA_CITY:7"
+	]
+  },
+  
+{ 
+  "REGION_HEARTHOME_CITY/MAIN": {
+	"parent_map": "MAP_HEARTHOME_CITY",
+	"has_grass": false,
+    "has_water": false,
+    "has_fishing": false,
+    "locations": [
+	  "HIDDEN_ITEM_BIG_MUSHROOM"
+	],
+    "events": [],
+    "exits": []
+	"warps": [
+	  "MAP_HEARTHOME_CITY:0,1/MAP_HEARTHOME_CITY_ROUTE208_GATE:1",
+	  "MAP_HEARTHOME_CITY:2,3/MAP_HEARTHOME_CITY_ROUTE212_GATE:0",
+	  "MAP_HEARTHOME_CITY:4/MAP_HEARTHOME_CITY_FOREIGN_BUILDING:0",
+	  "MAP_HEARTHOME_CITY:5/MAP_HEARTHOME_CITY_POKEMON_CENTER_1F:0",
+	  "MAP_HEARTHOME_CITY:6,7/MAP_HEARTHOME_CITY_AMITY_SQUARE:0,1",
+	  "MAP_HEARTHOME_CITY:8/MAP_HEARTHOME_CITY_POFFIN_HOUSE:0",
+	  "MAP_HEARTHOME_CITY:9/MAP_HEARTHOME_CITY_HOUSE1:0",
+	  "MAP_HEARTHOME_CITY:10/MAP_HEARTHOME_CITY_POKEMON_CONTEST_HALL:0",
+	  "MAP_HEARTHOME_CITY:11/MAP_HEARTHOME_CITY_MART:0",
+	  "MAP_HEARTHOME_CITY:12/MAP_HEARTHOME_CITY_POKEMON_FAN_CLUB:0",
+	  "MAP_HEARTHOME_CITY:13/MAP_HEARTHOME_CITY_FLAT1_1F:0",
+	  "MAP_HEARTHOME_CITY:14/MAP_HEARTHOME_CITY_FLAT2_1F:0",
+	  "MAP_HEARTHOME_CITY:15,16/MAP_HEARTHOME_CITY_ROUTE209_GATE:0",
+	  "MAP_HEARTHOME_CITY:17/MAP_HEARTHOME_CITY_GYM:0"
+	]
+  },
+  
+{ 
+  "REGION_HEARTHOME_CITY_POKEMON_CENTER_1F/MAIN": {
+    "parent_map": "MAP_HEARTHOME_CITY_POKEMON_CENTER_1F",
+    "has_grass": false,
+    "has_water": false,
+    "has_fishing": false,
+    "locations": [],
+    "events": [],
+    "exits": []
+	"warps": [
+	  "MAP_HEARTHOME_CITY_POKEMON_CENTER_1F:0/MAP_HEARTHOME_CITY:5",
+	  "MAP_HEARTHOME_CITY_POKEMON_CENTER_1F:1/MAP_HEARTHOME_CITY_POKEMON_CENTER_B1F:0",
+	  "MAP_HEARTHOME_CITY_POKEMON_CENTER_1F:2/MAP_HEARTHOME_CITY_POKEMON_CENTER_2F:0"
+	  
+	]
+  },
+
+{ 
+  "REGION_HEARTHOME_CITY_POKEMON_CENTER_B1F/MAIN": {
+    "parent_map": "MAP_HEARTHOME_CITY_POKEMON_CENTER_B1F",
+    "has_grass": false,
+    "has_water": false,
+    "has_fishing": false,
+    "locations": [],
+    "events": [],
+    "exits": []
+	"warps": [
+	  "MAP_HEARTHOME_CITY_POKEMON_CENTER_B1F:0/MAP_HEARTHOME_CITY_POKEMON_CENTER_1F:1"
+	]
+  },
+
+{ 
+  "REGION_HEARTHOME_CITY_POKEMON_CENTER_2F/MAIN": {
+    "parent_map": "MAP_HEARTHOME_CITY_POKEMON_CENTER_2F",
+    "has_grass": false,
+    "has_water": false,
+    "has_fishing": false,
+    "locations": [],
+    "events": [],
+    "exits": []
+	"warps": [
+	  "MAP_HEARTHOME_CITY_POKEMON_CENTER_2F:0/MAP_HEARTHOME_CITY_POKEMON_CENTER_1F:2"
+	]
+  },  
+  
+{
+  "REGION_HEARTHOME_CITY_POKEMON_CONTEST_HALL/MAIN": {
+    "parent_map": "MAP_HEARTHOME_CITY_POKEMON_CONTEST_HALL",
+    "has_grass": false,
+    "has_water": false,
+    "has_fishing": false,
+    "locations": [
+	  "NPC_GIFT_RECEVIED_GLITTER_POWDER",
+	  "NPC_GIFT_RECEIVED_DRESS"
+	],
+    "events": [
+	  "EVENT_TALK_TO_FANTINA"
+	],
+    "exits": [],
+    "warps": [
+	"MAP_HEARTHOME_CITY_POKEMON_CONTEST_HALL:0/MAP_HEARTHOME_CITY:10",
+	"MAP_HEARTHOME_CITY_POKEMON_CONTEST_HALL:1/MAP_HEARTHOME_CITY_POKEMON_CONTEST_HALL_BACKROOM:0"
+	]
+  },
+  
+{
+  "REGION_HEARTHOME_CITY_POKEMON_CONTEST_HALL_BACKROOM/MAIN": {
+    "parent_map": "MAP_HEARTHOME_CITY_POKEMON_CONTEST_HALL_BACKROOM",
+    "has_grass": false,
+    "has_water": false,
+    "has_fishing": false,
+    "locations": [],
+    "events": [],
+    "exits": [],
+    "warps": [
+	"MAP_HEARTHOME_CITY_POKEMON_CONTEST_HALL_BACKROOM:0/MAP_HEARTHOME_CITY_POKEMON_CONTEST_HALL:1"
+	]
+  },
+  
+{
+  "REGION_HEARTHOME_CITY_GYM_MAIN/MAIN": {
+    "parent_map": "MAP_HEARTHOME_CITY_GYM_MAIN",
+    "has_grass": false,
+    "has_water": false,
+    "has_fishing": false,
+    "locations": [],
+    "events": [],
+    "exits": [],
+    "warps": [
+	"MAP_HEARTHOME_CITY_GYM_MAIN:0/MAP_HEARTHOME_CITY:17",
+	"MAP_HEARTHOME_CITY_GYM_MAIN:1/MAP_HEARTHOME_CITY_GYM_ROOM1:0"
+	]
+  },
+  
+{
+  "REGION_HEARTHOME_CITY_GYM_ROOM1/MAIN": {
+    "parent_map": "MAP_HEARTHOME_CITY_GYM_ROOM1",
+    "has_grass": false,
+    "has_water": false,
+    "has_fishing": false,
+    "locations": [
+	  "TRAINER_YOUNGSTER_DONNY_REWARD",
+	  "TRAINER_LASS_MOLLY_REWARD",
+	],
+    "events": [],
+    "exits": [],
+    "warps": [
+	"MAP_HEARTHOME_CITY_GYM_ROOM1:0/MAP_HEARTHOME_CITY_GYM_MAIN:1",
+	"MAP_HEARTHOME_CITY_GYM_ROOM1:1/MAP_HEARTHOME_CITY_GYM_ROOM2:1",
+	"MAP_HEARTHOME_CITY_GYM_ROOM1:2/MAP_HEARTHOME_CITY_GYM_ROOM2:1",
+	"MAP_HEARTHOME_CITY_GYM_ROOM1:3/MAP_HEARTHOME_CITY_GYM_ROOM2:1"
+	]
+  },
+
+{
+  "REGION_HEARTHOME_CITY_GYM_ROOM2/MAIN": {
+    "parent_map": "MAP_HEARTHOME_CITY_GYM_ROOM2",
+    "has_grass": false,
+    "has_water": false,
+    "has_fishing": false,
+    "locations": [
+	  "TRAINER_SCHOOL_KID_MACKENZIE_REWARD",
+	  "TRAINER_SCHOOL_KID_CHANCE_REWARD",
+	  "TRAINER_ACE_TRAINER_ALLEN_REWARD",
+	  "TRAINER_ACE_TRAINER_CATHERINE_REWARD"
+	],
+    "events": [],
+    "exits": [],
+    "warps": [
+	"MAP_HEARTHOME_CITY_GYM_ROOM2:0/MAP_HEARTHOME_CITY_GYM_MAIN:1",
+	"MAP_HEARTHOME_CITY_GYM_ROOM2:1/MAP_HEARTHOME_CITY_GYM_ROOM3:0",
+	"MAP_HEARTHOME_CITY_GYM_ROOM2:2/MAP_HEARTHOME_CITY_GYM_ROOM3:0",
+	"MAP_HEARTHOME_CITY_GYM_ROOM2:3/MAP_HEARTHOME_CITY_GYM_ROOM3:0",
+	"MAP_HEARTHOME_CITY_GYM_ROOM2:4/MAP_HEARTHOME_CITY_GYM_ROOM3:0",
+	"MAP_HEARTHOME_CITY_GYM_ROOM2:5/MAP_HEARTHOME_CITY_GYM_ROOM3:0"
+	]
+  },
+  
+{
+  "REGION_HEARTHOME_CITY_GYM_ROOM3/MAIN": {
+    "parent_map": "MAP_HEARTHOME_CITY_GYM_ROOM3",
+    "has_grass": false,
+    "has_water": false,
+    "has_fishing": false,
+    "locations": [
+	  "BADGE_3",
+	  "ITEM_TM_SHADOW_CLAW",
+	  "TRAINER_LEADER_FANTINA_REWARD"
+	],
+    "events": [],
+    "exits": [],
+    "warps": [
+	"MAP_HEARTHOME_CITY_GYM_ROOM3:0/MAP_HEARTHOME_CITY_GYM_MAIN:1",
+	"MAP_HEARTHOME_CITY_GYM_ROOM3:1/MAP_HEARTHOME_CITY_GYM_MAIN:1"
+	]
+  }, 
+
+{ 
+  "REGION_SOLACEON_TOWN/MAIN": {
+	"parent_map": "MAP_SOLACEON_TOWN",
+	"has_grass": false,
+    "has_water": false,
+    "has_fishing": false,
+    "locations": [
+	  "BERRY_TREE_1",
+	  "BERRY_TREE_2",
+	  "BERRY_TREE_3",
+	  "BERRY_TREE_4",
+	  "ITEM_PP_UP",
+	  "ITEM_RARE_CANDY",
+	  "HIDDEN_ITEM_BIG_MUSHROOM",
+	  "NPC_GIFT_RECEIVED_POKEMON_HISTORY"
+	],
+    "events": [
+	  "EVENT_VISITED_SOLACEON_TOWN",
+	],
+    "exits": [
+	  "REGION_ROUTE209/MAIN",
+	  "REGION_ROUTE210_SOUTH/MAIN"
+	]
+	"warps": [
+	  "MAP_SOLACEON_TOWN:0/MAP_SOLACEON_TOWN_POKEMON_DAY_CARE:0",
+	  "MAP_SOLACEON_TOWN:1/MAP_SOLACEON_TOWN_MART:0",
+	  "MAP_SOLACEON_TOWN:2/MAP_SOLACEON_TOWN_POKEMON_CENTER_1F:0",
+	  "MAP_SOLACEON_TOWN:3/MAP_SOLACEON_TOWN_POKEMON_NEWS_PRESS:0",
+	  "MAP_SOLACEON_TOWN:4/MAP_SOLACEON_TOWN_HOUSE1:0",
+	  "MAP_SOLACEON_TOWN:5/MAP_SOLACEON_TOWN_HOUSE2:0",
+	  "MAP_SOLACEON_TOWN:6/MAP_SOLACEON_TOWN_HOUSE3:0",
+	  "MAP_SOLACEON_TOWN:7/MAP_SOLACEON_TOWN_SOLACEON_RUINS:0",
+	  "MAP_SOLACEON_TOWN:8/MAP_SOLACEON_TOWN_SOLACEON_RUINS_UPPER:0"
+	]
+  },
+  
+{ 
+  "REGION_SOLACEON_TOWN_POKEMON_CENTER_1F/MAIN": {
+    "parent_map": "MAP_SOLACEON_TOWN_POKEMON_CENTER_1F",
+    "has_grass": false,
+    "has_water": false,
+    "has_fishing": false,
+    "locations": [],
+    "events": [],
+    "exits": []
+	"warps": [
+	  "MAP_SOLACEON_TOWN_POKEMON_CENTER_1F:0/MAP_SOLACEON_TOWN:2",
+	  "MAP_SOLACEON_TOWN_POKEMON_CENTER_1F:1/MAP_SOLACEON_TOWN_POKEMON_CENTER_B1F:0",
+	  "MAP_SOLACEON_TOWN_POKEMON_CENTER_1F:2/MAP_SOLACEON_TOWN_POKEMON_CENTER_2F:0"
+	  
+	]
+  },
+
+{ 
+  "REGION_SOLACEON_TOWN_POKEMON_CENTER_B1F/MAIN": {
+    "parent_map": "MAP_SOLACEON_TOWN_POKEMON_CENTER_B1F",
+    "has_grass": false,
+    "has_water": false,
+    "has_fishing": false,
+    "locations": [],
+    "events": [],
+    "exits": []
+	"warps": [
+	  "MAP_SOLACEON_TOWN_POKEMON_CENTER_B1F:0/MAP_SOLACEON_TOWN_POKEMON_CENTER_1F:1"
+	]
+  },
+
+{ 
+  "REGION_SOLACEON_TOWN_POKEMON_CENTER_2F/MAIN": {
+    "parent_map": "MAP_SOLACEON_TOWN_POKEMON_CENTER_2F",
+    "has_grass": false,
+    "has_water": false,
+    "has_fishing": false,
+    "locations": [],
+    "events": [],
+    "exits": []
+	"warps": [
+	  "MAP_SOLACEON_TOWN_POKEMON_CENTER_2F:0/MAP_SOLACEON_TOWN_POKEMON_CENTER_1F:2"
+	]
+  },
+  
+{ 
+  "REGION_VEILSTONE_CITY/MAIN": {
+	"parent_map": "MAP_VEILSTONE_CITY",
+	"has_grass": false,
+    "has_water": false,
+    "has_fishing": false,
+    "locations": [
+	  ""
+	],
+    "events": [
+	  "",
+	],
+    "exits": [
+	  "REGION_"
+	]
+	"warps": [
+	  "MAP_VEILSTONE_CITY:0/MAP_VEILSTONE_CITY_HOUSE1:0",
+	  "MAP_VEILSTONE_CITY:1/MAP_VEILSTONE_CITY_HOUSE2:0",
+	  "MAP_VEILSTONE_CITY:2/MAP_VEILSTONE_CITY_GYM:0",
+	  "MAP_VEILSTONE_CITY:3/MAP_VEILSTONE_CITY_ROUTE_215_GATE_EAST:0",
+	  "MAP_VEILSTONE_CITY:4/MAP_VEILSTONE_CITY_TEAM_GALACTIC_HQ_WAREHOUSE_1F:0",
+	  "MAP_VEILSTONE_CITY:5/MAP_VEILSTONE_CITY_VEILSTONE_GAME_CORNER:0",
+	  "MAP_VEILSTONE_CITY:6/MAP_VEILSTONE_CITY_HOUSE3:0",
+	  "MAP_VEILSTONE_CITY:7/MAP_VEILSTONE_CITY_VEILSTONE_DEPARTMENT_STORE_1F:0",
+	  "MAP_VEILSTONE_CITY:8/MAP_VEILSTONE_CITY_POKEMON_CENTER_1F:0",
+	  "MAP_VEILSTONE_CITY:9/MAP_VEILSTONE_CITY_HOUSE4:0",
+	  "MAP_VEILSTONE_CITY:10/MAP_VEILSTONE_CITY_HOUSE5:0",
+	  "MAP_VEILSTONE_CITY:11/MAP_VEILSTONE_CITY_ROUTE_214_GATE_NORTH:0",
+	  "MAP_VEILSTONE_CITY:12,13,14/MAP_VEILSTONE_CITY_TEAM_GALACTIC_HQ:0,1,2"
+	]
+  },
+  
+{ 
+  "REGION_VEILSTONE_CITY_POKEMON_CENTER_1F/MAIN": {
+    "parent_map": "MAP_VEILSTONE_CITY_POKEMON_CENTER_1F",
+    "has_grass": false,
+    "has_water": false,
+    "has_fishing": false,
+    "locations": [],
+    "events": [],
+    "exits": []
+	"warps": [
+	  "MAP_VEILSTONE_CITY_POKEMON_CENTER_1F:0/MAP_VEILSTONE_CITY:8",
+	  "MAP_VEILSTONE_CITY_POKEMON_CENTER_1F:1/MAP_VEILSTONE_CITY_POKEMON_CENTER_B1F:0",
+	  "MAP_VEILSTONE_CITY_POKEMON_CENTER_1F:2/MAP_VEILSTONE_CITY_POKEMON_CENTER_2F:0"
+	  
+	]
+  },
+
+{ 
+  "REGION_VEILSTONE_CITY_POKEMON_CENTER_B1F/MAIN": {
+    "parent_map": "MAP_VEILSTONE_CITY_POKEMON_CENTER_B1F",
+    "has_grass": false,
+    "has_water": false,
+    "has_fishing": false,
+    "locations": [],
+    "events": [],
+    "exits": []
+	"warps": [
+	  "MAP_VEILSTONE_CITY_POKEMON_CENTER_B1F:0/MAP_VEILSTONE_CITY_POKEMON_CENTER_1F:1"
+	]
+  },
+
+{ 
+  "REGION_VEILSTONE_CITY_POKEMON_CENTER_2F/MAIN": {
+    "parent_map": "MAP_VEILSTONE_CITY_POKEMON_CENTER_2F",
+    "has_grass": false,
+    "has_water": false,
+    "has_fishing": false,
+    "locations": [],
+    "events": [],
+    "exits": []
+	"warps": [
+	  "MAP_VEILSTONE_CITY_POKEMON_CENTER_2F:0/MAP_VEILSTONE_CITY_POKEMON_CENTER_1F:2"
+	]
+  },
+  
+{ 
+  "REGION_PASTORIA_CITY/MAIN": {
+	"parent_map": "MAP_PASTORIA_CITY",
+	"has_grass": false,
+    "has_water": false,
+    "has_fishing": true,
+    "locations": [
+	  ""
+	],
+    "events": [
+	  "",
+	],
+    "exits": [
+	  "REGION_"
+	]
+	"warps": [
+	  "MAP_PASTORIA_CITY:0/MAP_PASTORIA_CITY_HOUSE1:0",
+	  "MAP_PASTORIA_CITY:1/MAP_PASTORIA_CITY_MART:0",
+	  "MAP_PASTORIA_CITY:2/MAP_PASTORIA_CITY_HOUSE2:0",
+	  "MAP_PASTORIA_CITY:3/MAP_PASTORIA_CITY_GYM:0",
+	  "MAP_PASTORIA_CITY:4/MAP_PASTORIA_CITY_HOUSE3:0",
+	  "MAP_PASTORIA_CITY:5/MAP_PASTORIA_CITY_POKEMON_CENTER_1F:0",
+	  "MAP_PASTORIA_CITY:6/MAP_PASTORIA_CITY_HOUSE4:0",
+	  "MAP_PASTORIA_CITY:7/MAP_PASTORIA_CITY_GREAT_MARSH:0",
+	  "MAP_PASTORIA_CITY:8/MAP_PASTORIA_CITY_HOUSE5:0",
+	  "MAP_PASTORIA_CITY:9/MAP_PASTORIA_CITY_ROUTE_213_GATE_WEST"
+	]
+  },
+  
+{ 
+  "REGION_PASTORIA_CITY_POKEMON_CENTER_1F/MAIN": {
+    "parent_map": "MAP_PASTORIA_CITY_POKEMON_CENTER_1F",
+    "has_grass": false,
+    "has_water": false,
+    "has_fishing": false,
+    "locations": [],
+    "events": [],
+    "exits": []
+	"warps": [
+	  "MAP_PASTORIA_CITY_POKEMON_CENTER_1F:0/MAP_PASTORIA_CITY:5",
+	  "MAP_PASTORIA_CITY_POKEMON_CENTER_1F:1/MAP_PASTORIA_CITY_POKEMON_CENTER_B1F:0",
+	  "MAP_PASTORIA_CITY_POKEMON_CENTER_1F:2/MAP_PASTORIA_CITY_POKEMON_CENTER_2F:0"
+	  
+	]
+  },
+
+{ 
+  "REGION_PASTORIA_CITY_POKEMON_CENTER_B1F/MAIN": {
+    "parent_map": "MAP_PASTORIA_CITY_POKEMON_CENTER_B1F",
+    "has_grass": false,
+    "has_water": false,
+    "has_fishing": false,
+    "locations": [],
+    "events": [],
+    "exits": []
+	"warps": [
+	  "MAP_PASTORIA_CITY_POKEMON_CENTER_B1F:0/MAP_PASTORIA_CITY_POKEMON_CENTER_1F:1"
+	]
+  },
+
+{ 
+  "REGION_PASTORIA_CITY_POKEMON_CENTER_2F/MAIN": {
+    "parent_map": "MAP_PASTORIA_CITY_POKEMON_CENTER_2F",
+    "has_grass": false,
+    "has_water": false,
+    "has_fishing": false,
+    "locations": [],
+    "events": [],
+    "exits": []
+	"warps": [
+	  "MAP_PASTORIA_CITY_POKEMON_CENTER_2F:0/MAP_PASTORIA_CITY_POKEMON_CENTER_1F:2"
+	]
+  },
+  
+{ 
+  "REGION_CELESTIC_TOWN/MAIN": {
+	"parent_map": "MAP_CELESTIC_TOWN",
+	"has_grass": false,
+    "has_water": false,
+    "has_fishing": false,
+    "locations": [
+	  ""
+	],
+    "events": [
+	  "",
+	],
+    "exits": [
+	  "REGION_"
+	]
+	"warps": [
+	  "MAP_CELESTIC_TOWN:0/MAP_CELESTIC_TOWN_HOUSE1:0",
+	  "MAP_CELESTIC_TOWN:1/MAP_CELESTIC_TOWN_HOUSE2:0",
+	  "MAP_CELESTIC_TOWN:2/MAP_CELESTIC_TOWN_CELESTIC_RUINS:0",
+	  "MAP_CELESTIC_TOWN:3/MAP_CELESTIC_TOWN_HOUSE3:0",
+	  "MAP_CELESTIC_TOWN:4/MAP_CELESTIC_TOWN_POKEMON_CENTER_1F",
+	  "MAP_CELESTIC_TOWN:5/MAP_CELESTIC_TOWN_HOUSE4:0"
+	]
+  },
+  
+{ 
+  "REGION_CELESTIC_TOWN_POKEMON_CENTER_1F/MAIN": {
+    "parent_map": "MAP_CELESTIC_TOWN_POKEMON_CENTER_1F",
+    "has_grass": false,
+    "has_water": false,
+    "has_fishing": false,
+    "locations": [],
+    "events": [],
+    "exits": []
+	"warps": [
+	  "MAP_CELESTIC_TOWN_POKEMON_CENTER_1F:0/MAP_CELESTIC_TOWN:4",
+	  "MAP_CELESTIC_TOWN_POKEMON_CENTER_1F:1/MAP_CELESTIC_TOWN_POKEMON_CENTER_B1F:0",
+	  "MAP_CELESTIC_TOWN_POKEMON_CENTER_1F:2/MAP_CELESTIC_TOWN_POKEMON_CENTER_2F:0"
+	  
+	]
+  },
+
+{ 
+  "REGION_CELESTIC_TOWN_POKEMON_CENTER_B1F/MAIN": {
+    "parent_map": "MAP_CELESTIC_TOWN_POKEMON_CENTER_B1F",
+    "has_grass": false,
+    "has_water": false,
+    "has_fishing": false,
+    "locations": [],
+    "events": [],
+    "exits": []
+	"warps": [
+	  "MAP_CELESTIC_TOWN_POKEMON_CENTER_B1F:0/MAP_CELESTIC_TOWN_POKEMON_CENTER_1F:1"
+	]
+  },
+
+{ 
+  "REGION_CELESTIC_TOWN_POKEMON_CENTER_2F/MAIN": {
+    "parent_map": "MAP_CELESTIC_TOWN_POKEMON_CENTER_2F",
+    "has_grass": false,
+    "has_water": false,
+    "has_fishing": false,
+    "locations": [],
+    "events": [],
+    "exits": []
+	"warps": [
+	  "MAP_CELESTIC_TOWN_POKEMON_CENTER_2F:0/MAP_CELESTIC_TOWN_POKEMON_CENTER_1F:2"
+	]
+  },
+  
+{ 
+  "REGION_CANALAVE_CITY/MAIN": {
+	"parent_map": "MAP_CANALAVE_CITY",
+	"has_grass": false,
+    "has_water": false,
+    "has_fishing": false,
+    "locations": [
+	  ""
+	],
+    "events": [
+	  "",
+	],
+    "exits": [
+	  "REGION_"
+	]
+	"warps": [
+	  "MAP_CANALAVE_CITY:0/MAP_CANALAVE_CITY_IRON_ISLAND_BOAT:0",
+	  "MAP_CANALAVE_CITY:1/MAP_CANALAVE_CITY_HOUSE1:0",
+	  "MAP_CANALAVE_CITY:2/MAP_CANALAVE_CITY_HOUSE2:0",
+	  "MAP_CANALAVE_CITY:3/MAP_CANALAVE_CITY_GYM:0",
+	  "MAP_CANALAVE_CITY:4/MAP_CANALAVE_CITY_CANALAVE_LIBRARY_1F:0",
+	  "MAP_CANALAVE_CITY:5/MAP_CANALAVE_CITY_ROUTE_218_GATE_WEST:0",
+	  "MAP_CANALAVE_CITY:6/MAP_CANALAVE_CITY_HOUSE3:0",
+	  "MAP_CANALAVE_CITY:7/MAP_CANALAVE_CITY_MART:0",
+	  "MAP_CANALAVE_CITY:8/MAP_CANALAVE_CITY_HOUSE4:0",
+	  "MAP_CANALAVE_CITY:9/MAP_CANALAVE_CITY_POKEMON_CENTER_1F:0",
+	  "MAP_CANALAVE_CITY:10/MAP_CANALAVE_CITY_HOUSE5:0"
+	]
+  },
+  
+{ 
+  "REGION_CANALAVE_CITY_POKEMON_CENTER_1F/MAIN": {
+    "parent_map": "MAP_CANALAVE_CITY_POKEMON_CENTER_1F",
+    "has_grass": false,
+    "has_water": false,
+    "has_fishing": false,
+    "locations": [],
+    "events": [],
+    "exits": []
+	"warps": [
+	  "MAP_CANALAVE_CITY_POKEMON_CENTER_1F:0/MAP_CANALAVE_CITY:9",
+	  "MAP_CANALAVE_CITY_POKEMON_CENTER_1F:1/MAP_CANALAVE_CITY_POKEMON_CENTER_B1F:0",
+	  "MAP_CANALAVE_CITY_POKEMON_CENTER_1F:2/MAP_CANALAVE_CITY_POKEMON_CENTER_2F:0"
+	  
+	]
+  },
+
+{ 
+  "REGION_CANALAVE_CITY_POKEMON_CENTER_B1F/MAIN": {
+    "parent_map": "MAP_CANALAVE_CITY_POKEMON_CENTER_B1F",
+    "has_grass": false,
+    "has_water": false,
+    "has_fishing": false,
+    "locations": [],
+    "events": [],
+    "exits": []
+	"warps": [
+	  "MAP_CANALAVE_CITY_POKEMON_CENTER_B1F:0/MAP_CANALAVE_CITY_POKEMON_CENTER_1F:1"
+	]
+  },
+
+{ 
+  "REGION_CANALAVE_CITY_POKEMON_CENTER_2F/MAIN": {
+    "parent_map": "MAP_CANALAVE_CITY_POKEMON_CENTER_2F",
+    "has_grass": false,
+    "has_water": false,
+    "has_fishing": false,
+    "locations": [],
+    "events": [],
+    "exits": []
+	"warps": [
+	  "MAP_CANALAVE_CITY_POKEMON_CENTER_2F:0/MAP_CANALAVE_CITY_POKEMON_CENTER_1F:2"
+	]
+  },
+  
+{ 
+  "REGION_SNOWPOINT_CITY/MAIN": {
+	"parent_map": "MAP_SNOWPOINT_CITY",
+	"has_grass": false,
+    "has_water": false,
+    "has_fishing": false,
+    "locations": [
+	  ""
+	],
+    "events": [
+	  "",
+	],
+    "exits": [
+	  "REGION_"
+	]
+	"warps": [
+	  "MAP_SNOWPOINT_CITY:0/MAP_SNOWPOINT_CITY_MART:0",
+	  "MAP_SNOWPOINT_CITY:1/MAP_SNOWPOINT_CITY_HOUSE1:0",
+	  "MAP_SNOWPOINT_CITY:2/MAP_SNOWPOINT_CITY_GYM:0",
+	  "MAP_SNOWPOINT_CITY:3/MAP_SNOWPOINT_CITY_SNOWPOINT_TEMPLE:0",
+	  "MAP_SNOWPOINT_CITY:4/MAP_SNOWPOINT_CITY_POKEMON_CENTER_1F:0",
+	  "MAP_SNOWPOINT_CITY:5/MAP_SNOWPOINT_CITY_HOUSE2:0"
+	]
+  },
+  
+{ 
+  "REGION_SNOWPOINT_CITY_POKEMON_CENTER_1F/MAIN": {
+    "parent_map": "MAP_SNOWPOINT_CITY_POKEMON_CENTER_1F",
+    "has_grass": false,
+    "has_water": false,
+    "has_fishing": false,
+    "locations": [],
+    "events": [],
+    "exits": []
+	"warps": [
+	  "MAP_SNOWPOINT_CITY_POKEMON_CENTER_1F:0/MAP_SNOWPOINT_CITY:4",
+	  "MAP_SNOWPOINT_CITY_POKEMON_CENTER_1F:1/MAP_SNOWPOINT_CITY_POKEMON_CENTER_B1F:0",
+	  "MAP_SNOWPOINT_CITY_POKEMON_CENTER_1F:2/MAP_SNOWPOINT_CITY_POKEMON_CENTER_2F:0"
+	  
+	]
+  },
+
+{ 
+  "REGION_SNOWPOINT_CITY_POKEMON_CENTER_B1F/MAIN": {
+    "parent_map": "MAP_SNOWPOINT_CITY_POKEMON_CENTER_B1F",
+    "has_grass": false,
+    "has_water": false,
+    "has_fishing": false,
+    "locations": [],
+    "events": [],
+    "exits": []
+	"warps": [
+	  "MAP_SNOWPOINT_CITY_POKEMON_CENTER_B1F:0/MAP_SNOWPOINT_CITY_POKEMON_CENTER_1F:1"
+	]
+  },
+
+{ 
+  "REGION_SNOWPOINT_CITY_POKEMON_CENTER_2F/MAIN": {
+    "parent_map": "MAP_SNOWPOINT_CITY_POKEMON_CENTER_2F",
+    "has_grass": false,
+    "has_water": false,
+    "has_fishing": false,
+    "locations": [],
+    "events": [],
+    "exits": []
+	"warps": [
+	  "MAP_SNOWPOINT_CITY_POKEMON_CENTER_2F:0/MAP_SNOWPOINT_CITY_POKEMON_CENTER_1F:2"
+	]
+  },
+  
+{ 
+  "REGION_SUNYSHORE_CITY/MAIN": {
+	"parent_map": "MAP_SUNYSHORE_CITY",
+	"has_grass": false,
+    "has_water": false,
+    "has_fishing": false,
+    "locations": [
+	  ""
+	],
+    "events": [
+	  "",
+	],
+    "exits": [
+	  "REGION_"
+	]
+	"warps": [
+	  "MAP_SUNYSHORE_CITY:0/MAP_SUNYSHORE_CITY_ROUTE_222_GATE_EAST:0",
+	  "MAP_SUNYSHORE_CITY:1/MAP_SUNYSHORE_CITY_POKEMON_CENTER_1F:0",
+	  "MAP_SUNYSHORE_CITY:2/MAP_SUNYSHORE_CITY_HOUSE1:0",
+	  "MAP_SUNYSHORE_CITY:3/MAP_SUNYSHORE_CITY_MART:0",
+	  "MAP_SUNYSHORE_CITY:4,5/MAP_SUNYSHORE_CITY_SUNYSHORE_MARKET:0",
+	  "MAP_SUNYSHORE_CITY:6/MAP_SUNYSHORE_CITY_GYM:0",
+	  "MAP_SUNYSHORE_CITY:7/MAP_SUNYSHORE_CITY_LIGHTHOUSE:0",
+	  "MAP_SUNYSHORE_CITY:8/MAP_SUNYSHORE_CITY_HOUSE2:0",
+	  "MAP_SUNYSHORE_CITY:9/MAP_SUNYSHORE_CITY_HOUSE3:0",
+	  "MAP_SUNYSHORE_CITY:10/MAP_SUNYSHORE_CITY_HOUSE4:0"
+	]
+  },
+  
+{ 
+  "REGION_SUNYSHORE_CITY_POKEMON_CENTER_1F/MAIN": {
+    "parent_map": "MAP_SUNYSHORE_CITY_POKEMON_CENTER_1F",
+    "has_grass": false,
+    "has_water": false,
+    "has_fishing": false,
+    "locations": [],
+    "events": [],
+    "exits": []
+	"warps": [
+	  "MAP_SUNYSHORE_CITY_POKEMON_CENTER_1F:0/MAP_SUNYSHORE_CITY:1",
+	  "MAP_SUNYSHORE_CITY_POKEMON_CENTER_1F:1/MAP_SUNYSHORE_CITY_POKEMON_CENTER_B1F:0",
+	  "MAP_SUNYSHORE_CITY_POKEMON_CENTER_1F:2/MAP_SUNYSHORE_CITY_POKEMON_CENTER_2F:0"
+	  
+	]
+  },
+
+{ 
+  "REGION_SUNYSHORE_CITY_POKEMON_CENTER_B1F/MAIN": {
+    "parent_map": "MAP_SUNYSHORE_CITY_POKEMON_CENTER_B1F",
+    "has_grass": false,
+    "has_water": false,
+    "has_fishing": false,
+    "locations": [],
+    "events": [],
+    "exits": []
+	"warps": [
+	  "MAP_SUNYSHORE_CITY_POKEMON_CENTER_B1F:0/MAP_SUNYSHORE_CITY_POKEMON_CENTER_1F:1"
+	]
+  },
+
+{ 
+  "REGION_SUNYSHORE_CITY_POKEMON_CENTER_2F/MAIN": {
+    "parent_map": "MAP_SUNYSHORE_CITY_POKEMON_CENTER_2F",
+    "has_grass": false,
+    "has_water": false,
+    "has_fishing": false,
+    "locations": [],
+    "events": [],
+    "exits": []
+	"warps": [
+	  "MAP_SUNYSHORE_CITY_POKEMON_CENTER_2F:0/MAP_SUNYSHORE_CITY_POKEMON_CENTER_1F:2"
+	]
+  },
+  
+{ 
+  "REGION_POKEMON_LEAGUE/MAIN": {
+	"parent_map": "MAP_POKEMON_LEAGUE",
+	"has_grass": false,
+    "has_water": false,
+    "has_fishing": true,
+    "locations": [
+	  ""
+	],
+    "events": [
+	  "",
+	],
+    "exits": [
+	  "REGION_"
+	]
+	"warps": [
+	  "MAP_POKEMON_LEAGUE:0/MAP_POKEMON_LEAGUE_POKEMON_CENTER_1F:0",
+	  "MAP_POKEMON_LEAGUE:1,2/MAP_POKEMON_LEAGUE_VICTORY_ROAD_1F:0",
+	  "MAP_POKEMON_LEAGUE:3/MAP_POKEMON_LEAGUE_POKEMON_LEAGUE_1F:0"
+	]
+  },
+  
+{ 
+  "REGION_POKEMON_LEAGUE_POKEMON_CENTER_1F/MAIN": {
+    "parent_map": "MAP_POKEMON_LEAGUE_POKEMON_CENTER_1F",
+    "has_grass": false,
+    "has_water": false,
+    "has_fishing": false,
+    "locations": [],
+    "events": [],
+    "exits": []
+	"warps": [
+	  "MAP_POKEMON_LEAGUE_POKEMON_CENTER_1F:0/MAP_POKEMON_LEAGUE:0",
+	  "MAP_POKEMON_LEAGUE_POKEMON_CENTER_1F:1/MAP_POKEMON_LEAGUE_POKEMON_CENTER_B1F:0",
+	  "MAP_POKEMON_LEAGUE_POKEMON_CENTER_1F:2/MAP_POKEMON_LEAGUE_POKEMON_CENTER_2F:0"
+	  
+	]
+  },
+
+{ 
+  "REGION_POKEMON_LEAGUE_POKEMON_CENTER_B1F/MAIN": {
+    "parent_map": "MAP_POKEMON_LEAGUE_POKEMON_CENTER_B1F",
+    "has_grass": false,
+    "has_water": false,
+    "has_fishing": false,
+    "locations": [],
+    "events": [],
+    "exits": []
+	"warps": [
+	  "MAP_POKEMON_LEAGUE_POKEMON_CENTER_B1F:0/MAP_POKEMON_LEAGUE_POKEMON_CENTER_1F:1"
+	]
+  },
+
+{ 
+  "REGION_POKEMON_LEAGUE_POKEMON_CENTER_2F/MAIN": {
+    "parent_map": "MAP_POKEMON_LEAGUE_POKEMON_CENTER_2F",
+    "has_grass": false,
+    "has_water": false,
+    "has_fishing": false,
+    "locations": [],
+    "events": [],
+    "exits": []
+	"warps": [
+	  "MAP_POKEMON_LEAGUE_POKEMON_CENTER_2F:0/MAP_POKEMON_LEAGUE_POKEMON_CENTER_1F:2"
+	]
+  },
+  
+{ 
+  "REGION_FIGHT_AREA/MAIN": {
+	"parent_map": "MAP_FIGHT_AREA",
+	"has_grass": false,
+    "has_water": false,
+    "has_fishing": false,
+    "locations": [
+	  ""
+	],
+    "events": [
+	  "",
+	],
+    "exits": [
+	  "REGION_"
+	]
+	"warps": [
+	  "MAP_FIGHT_AREA:0/MAP_FIGHT_AREA_ROUTE_225_GATE_SOUTH:0",
+	  "MAP_FIGHT_AREA:1/MAP_FIGHT_AREA_HOUSE1:0",
+	  "MAP_FIGHT_AREA:2/MAP_FIGHT_AREA_HOUSE2:0",
+	  "MAP_FIGHT_AREA:3/MAP_FIGHT_AREA_POKEMON_CENTER_1F:0",
+	  "MAP_FIGHT_AREA:4/MAP_FIGHT_AREA_BATTLE_FRONTIER:0",
+	  "MAP_FIGHT_AREA:5/MAP_FIGHT_AREA_MART:0"
+	]
+  },
+  
+{ 
+  "REGION_FIGHT_AREA_POKEMON_CENTER_1F/MAIN": {
+    "parent_map": "MAP_FIGHT_AREA_POKEMON_CENTER_1F",
+    "has_grass": false,
+    "has_water": false,
+    "has_fishing": false,
+    "locations": [],
+    "events": [],
+    "exits": []
+	"warps": [
+	  "MAP_FIGHT_AREA_POKEMON_CENTER_1F:0/MAP_FIGHT_AREA:3",
+	  "MAP_FIGHT_AREA_POKEMON_CENTER_1F:1/MAP_FIGHT_AREA_POKEMON_CENTER_B1F:0",
+	  "MAP_FIGHT_AREA_POKEMON_CENTER_1F:2/MAP_FIGHT_AREA_POKEMON_CENTER_2F:0"
+	  
+	]
+  },
+
+{ 
+  "REGION_FIGHT_AREA_POKEMON_CENTER_B1F/MAIN": {
+    "parent_map": "MAP_FIGHT_AREA_POKEMON_CENTER_B1F",
+    "has_grass": false,
+    "has_water": false,
+    "has_fishing": false,
+    "locations": [],
+    "events": [],
+    "exits": []
+	"warps": [
+	  "MAP_FIGHT_AREA_POKEMON_CENTER_B1F:0/MAP_FIGHT_AREA_POKEMON_CENTER_1F:1"
+	]
+  },
+
+{ 
+  "REGION_FIGHT_AREA_POKEMON_CENTER_2F/MAIN": {
+    "parent_map": "MAP_FIGHT_AREA_POKEMON_CENTER_2F",
+    "has_grass": false,
+    "has_water": false,
+    "has_fishing": false,
+    "locations": [],
+    "events": [],
+    "exits": []
+	"warps": [
+	  "MAP_FIGHT_AREA_POKEMON_CENTER_2F:0/MAP_FIGHT_AREA_POKEMON_CENTER_1F:2"
+	]
+  },
+  
+{ 
+  "REGION_SURVIVAL_AREA/MAIN": {
+	"parent_map": "MAP_SURVIVAL_AREA",
+	"has_grass": false,
+    "has_water": false,
+    "has_fishing": false,
+    "locations": [
+	  ""
+	],
+    "events": [
+	  "",
+	],
+    "exits": [
+	  "REGION_"
+	]
+	"warps": [
+	  "MAP_SURVIVAL_AREA:0/MAP_SURVIVAL_AREA_HOUSE1:0",
+	  "MAP_SURVIVAL_AREA:1/MAP_SURVIVAL_AREA_HOUSE2:0",
+	  "MAP_SURVIVAL_AREA:2/MAP_SURVIVAL_AREA_HOUSE3:0",
+	  "MAP_SURVIVAL_AREA:3/MAP_SURVIVAL_AREA_POKEMON_CENTER_1F:0",
+	  "MAP_SURVIVAL_AREA:4/MAP_SURVIVAL_AREA_MART:0"
+	]
+  },
+  
+{ 
+  "REGION_SURVIVAL_AREA_POKEMON_CENTER_1F/MAIN": {
+    "parent_map": "MAP_SURVIVAL_AREA_POKEMON_CENTER_1F",
+    "has_grass": false,
+    "has_water": false,
+    "has_fishing": false,
+    "locations": [],
+    "events": [],
+    "exits": []
+	"warps": [
+	  "MAP_SURVIVAL_AREA_POKEMON_CENTER_1F:0/MAP_SURVIVAL_AREA:3",
+	  "MAP_SURVIVAL_AREA_POKEMON_CENTER_1F:1/MAP_SURVIVAL_AREA_POKEMON_CENTER_B1F:0",
+	  "MAP_SURVIVAL_AREA_POKEMON_CENTER_1F:2/MAP_SURVIVAL_AREA_POKEMON_CENTER_2F:0"
+	  
+	]
+  },
+
+{ 
+  "REGION_SURVIVAL_AREA_POKEMON_CENTER_B1F/MAIN": {
+    "parent_map": "MAP_SURVIVAL_AREA_POKEMON_CENTER_B1F",
+    "has_grass": false,
+    "has_water": false,
+    "has_fishing": false,
+    "locations": [],
+    "events": [],
+    "exits": []
+	"warps": [
+	  "MAP_SURVIVAL_AREA_POKEMON_CENTER_B1F:0/MAP_SURVIVAL_AREA_POKEMON_CENTER_1F:1"
+	]
+  },
+
+{ 
+  "REGION_SURVIVAL_AREA_POKEMON_CENTER_2F/MAIN": {
+    "parent_map": "MAP_SURVIVAL_AREA_POKEMON_CENTER_2F",
+    "has_grass": false,
+    "has_water": false,
+    "has_fishing": false,
+    "locations": [],
+    "events": [],
+    "exits": []
+	"warps": [
+	  "MAP_SURVIVAL_AREA_POKEMON_CENTER_2F:0/MAP_SURVIVAL_AREA_POKEMON_CENTER_1F:2"
+	]
+  },
+  
+{ 
+  "REGION_RESORT_AREA/MAIN": {
+	"parent_map": "MAP_RESORT_AREA",
+	"has_grass": false,
+    "has_water": false,
+    "has_fishing": true,
+    "locations": [
+	  ""
+	],
+    "events": [
+	  "",
+	],
+    "exits": [
+	  "REGION_"
+	]
+	"warps": [
+	  "MAP_RESORT_AREA:0/MAP_RESORT_AREA_POKEMON_CENTER_1F:0",
+	  "MAP_RESORT_AREA:1/MAP_RESORT_AREA_HOUSE1:0",
+	  "MAP_RESORT_AREA:2/MAP_RESORT_AREA_RIBBON_SYNDICATE:0",
+	  "MAP_RESORT_AREA:3/MAP_RESORT_AREA_VILLA:0"
+	]
+  },
+  
+{ 
+  "REGION_RESORT_AREA_POKEMON_CENTER_1F/MAIN": {
+    "parent_map": "MAP_RESORT_AREA_POKEMON_CENTER_1F",
+    "has_grass": false,
+    "has_water": false,
+    "has_fishing": false,
+    "locations": [],
+    "events": [],
+    "exits": []
+	"warps": [
+	  "MAP_RESORT_AREA_POKEMON_CENTER_1F:0/MAP_RESORT_AREA:0",
+	  "MAP_RESORT_AREA_POKEMON_CENTER_1F:1/MAP_RESORT_AREA_POKEMON_CENTER_B1F:0",
+	  "MAP_RESORT_AREA_POKEMON_CENTER_1F:2/MAP_RESORT_AREA_POKEMON_CENTER_2F:0"
+	  
+	]
+  },
+
+{ 
+  "REGION_RESORT_AREA_POKEMON_CENTER_B1F/MAIN": {
+    "parent_map": "MAP_RESORT_AREA_POKEMON_CENTER_B1F",
+    "has_grass": false,
+    "has_water": false,
+    "has_fishing": false,
+    "locations": [],
+    "events": [],
+    "exits": []
+	"warps": [
+	  "MAP_RESORT_AREA_POKEMON_CENTER_B1F:0/MAP_RESORT_AREA_POKEMON_CENTER_1F:1"
+	]
+  },
+
+{ 
+  "REGION_RESORT_AREA_POKEMON_CENTER_2F/MAIN": {
+    "parent_map": "MAP_RESORT_AREA_POKEMON_CENTER_2F",
+    "has_grass": false,
+    "has_water": false,
+    "has_fishing": false,
+    "locations": [],
+    "events": [],
+    "exits": []
+	"warps": [
+	  "MAP_RESORT_AREA_POKEMON_CENTER_2F:0/MAP_RESORT_AREA_POKEMON_CENTER_1F:2"
 	]
   },

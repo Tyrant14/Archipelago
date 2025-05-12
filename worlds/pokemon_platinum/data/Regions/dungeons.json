@@ -1,28 +1,948 @@
 
 {
-  "REGION_OREBURGH_GATE/MAIN": {
-    "parent_map": "MAP_OREBURGH_GATE",
+  "REGION_OREBURGH_GATE_1F/MAIN": {
+    "parent_map": "MAP_OREBURGH_GATE_1F",
     "has_grass": true,
     "has_water": false,
     "has_fishing": false,
     "locations": [
-      "ITEM_PETALBURG_WOODS_ETHER",
-      "ITEM_PETALBURG_WOODS_PARALYZE_HEAL",
-      "HIDDEN_ITEM_PETALBURG_WOODS_POTION",
-      "HIDDEN_ITEM_PETALBURG_WOODS_POKE_BALL",
-      "NPC_GIFT_RECEIVED_GREAT_BALL_PETALBURG_WOODS",
-      "TRAINER_LYLE_REWARD",
-      "TRAINER_GRUNT_PETALBURG_WOODS_REWARD",
-      "TRAINER_JAMES_1_REWARD"
+      "NPC_GIFT_RECIEVED_HM06_ROCK_SMASH",
+	  "TRAINER_CAMPER_CURTIS_REWARD",
+	  "TRAINER_PICNICKER_DIANA_REWARD"
     ],
     "events": [],
-    "exits": [
-      "REGION_PETALBURG_WOODS/EAST_PATH"
-    ],
+    "exits": [],
     "warps": [
-      "MAP_PETALBURG_WOODS:0,1/MAP_ROUTE104:2,3",
-      "MAP_PETALBURG_WOODS:2,3/MAP_ROUTE104:4,5",
-      "MAP_PETALBURG_WOODS:4,5/MAP_ROUTE104:6,7"
+      "MAP_OREBURGH_GATE_1F:0/MAP_ROUTE203:0",
+	  "MAP_OREBURGH_GATE_1F:1/MAP_OREBURGH_CITY:0",
+	  "MAP_OREBURGH_GATE_1F:2/MAP_OREBURGH_GATE_B1F:0"
+    ]
+  },
+
+{
+  "REGION_OREBURGH_GATE_B1F/MAIN": {
+    "parent_map": "MAP_OREBURGH_GATE_B1F",
+    "has_grass": true,
+    "has_water": false,
+    "has_fishing": true,
+    "locations": [
+      "",
+    ],
+    "events": [],
+    "exits": [],
+    "warps": [
+      "MAP_OREBURGH_GATE_B1F:0/MAP_OREBURGH_GATE_1F:2",
+    ]
+  },
+
+{
+  "REGION_OREBURGH_MINE_B1F/MAIN": {
+    "parent_map": "MAP_OREBURGH_MINE_B1F",
+    "has_grass": true,
+    "has_water": false,
+    "has_fishing": false,
+    "locations": [
+      "ITEM_POKE_BALL"
+    ],
+    "events": [],
+    "exits": [],
+    "warps": [
+      "MAP_OREBURGH_MINE_B1F:0,1,2/MAP_OREBURGH_CITY:12,13,14,15,16",
+	  "MAP_OREBURGH_MINE_B1F:3,4,5/MAP_OREBURGH_MINE_B2F:0"
+    ]
+  },
+
+{
+  "REGION_OREBURGH_MINE_B2F/MAIN": {
+    "parent_map": "MAP_OREBURGH_MINE_B2F",
+    "has_grass": true,
+    "has_water": false,
+    "has_fishing": false,
+    "locations": [
+      "ITEM_ESCAPE_ROPE",
+	  "ITEM_POTION",
+	  "TRAINER_WORKER_MASON_REWARD",
+	  "TRAINER_WORKER_COLIN_REWARD"
+	  
+    ],
+    "events": [
+	  "EVENT_OREBURGH_MINES_ROARK"
+	],
+    "exits": [],
+    "warps": [
+      "MAP_OREBURGH_MINE_B2F:0/MAP_OREBURGH_MINE_B1F:3,4,5",
     ]
   },
   
+{
+  "REGION_RAVAGED_PATH/MAIN": {
+    "parent_map": "MAP_RAVAGED_PATH",
+    "has_grass": true,
+    "has_water": false,
+    "has_fishing": false,
+    "locations": [
+      "ITEM_POTION",
+	  "ITEM_TM_ROCK_TOMB",
+	  "ITEM_LUCK_INCENSE",
+	  "ITEM_TM_WATER_PULSE"
+	  
+    ],
+    "events": [],
+    "exits": [],
+    "warps": [
+      "MAP_RAVAGED_PATH:0/MAP_ROUTE204_SOUTH:0",
+	  "MAP_RAVAGED_PATH:1/MAP_ROUTE204_NORTH:0"
+    ]
+  },
+  
+{
+  "REGION_FLOAROMA_MEADOW/MAIN": {
+    "parent_map": "MAP_FLOAROMA_MEADOW",
+    "has_grass": false,
+    "has_water": false,
+    "has_fishing": false,
+    "locations": [
+      "TRAINER_GALACTIC_GRUNT1_REWARD",
+	  "TRAINER_GALACTIC_GRUNT2_REWARD",
+	  "NPC_GIFT_RECIEVED_WORKS_KEY",
+	  "NPC_GIFT_RECIEVED_HONEY",
+	  "ITEM_LEAF_STONE",
+	  "ITEM_ULTRA_BALL",
+	  "ITEM_MIRACLE_SEED",
+	  "ITEM_RARE_CANDY",
+	  "HIDDEN_ITEM_HONEY",
+	  "HIDDEN_ITEM_HONEY",
+	  "HIDDEN_ITEM_HONEY",
+	  "HIDDEN_ITEM_HONEY",
+	  "HIDDEN_ITEM_HONEY",
+	  "HIDDEN_ITEM_HONEY",
+	  "HIDDEN_ITEM_REVIVE",
+	  "HIDDEN_ITEM_FULL_HEAL",
+	  "HIDDEN_ITEM_MAX_REVIVE",
+	  "HIDDEN_ITEM_PP_UP",
+	  "HIDDEN_ITEM_HYPER_POTION"
+	  
+    ],
+    "events": [],
+    "exits": [],
+    "warps": [
+      "MAP_FLOAROMA_MEADOW:0,1/MAP_FLOAROMA_TOWN:1,2",
+	  "MAP_FLOAROMA_MEADOW:2,3/MAP_FUEGO_IRONWORKS:0,1",
+	  "MAP_FLOAROMA_MEADOW:4/MAP_FLOAROMA_MEADOW_HOUSE1:0"
+    ]
+  },
+  
+{
+  "REGION_ETERNA_FOREST/MAIN": {
+    "parent_map": "MAP_ETERNA_FOREST",
+    "has_grass": true,
+    "has_water": false,
+    "has_fishing": false,
+    "locations": [
+      "ITEM_ANTIDOTE",
+	  "ITEM_PARLYZ_HEAL",
+	  "ITEM_NET_BALL",
+	  "ITEM_GREEN_SHARD",
+	  "ITEM_ETHER",
+	  "HIDDEN_ITEM_POTION",
+	  "HIDDEN_ITEM_INSECT_PLATE",
+	  "TRAINER_BUG_CATCHER_JACK_REWARD",
+	  "TRAINER_LASS_BRIANA_REWARD",
+	  "TRAINER_PSYCHIC_LINDSEY_REWARD",
+	  "TRAINER_PSYCHIC_ELIJAH_REWARD",
+	  "TRAINER_BUG_CATCHER_DONALD_REWARD",
+	  "TRAINER_BUG_CATCHER_PHILLIP_REWARD",
+	  "TRAINER_PSYCHIC_KODY_REWARD",
+	  "TRAINER_PSYCHIC_RACHAEL_REWARD",
+	  "NPC_GIFT_RECIEVED_SOOTHE_BELL"
+	  
+    ],
+    "events": [],
+    "exits": [],
+    "warps": [
+      "MAP_ETERNA_FOREST:0/MAP_OLD_CHATEAU:0",
+	  "MAP_ETERNA_FOREST:1,2/MAP_ROUTE205_NORTH:0,1"
+	  "MAP_ETERNA_FOREST:3,4/MAP_ROUTE205_SOUTH:0,1"
+    ]
+  },
+  
+{
+  "REGION_OLD_CHATEAU/MAIN": {
+    "parent_map": "MAP_OLD_CHATEAU",
+    "has_grass": true,
+    "has_water": false,
+    "has_fishing": false,
+    "locations": [
+      "
+	  
+    ],
+    "events": [
+	  "E
+	],
+    "exits": [],
+    "warps": [
+      "
+    ]
+  },
+  
+{
+  "REGION_WAYWARD_CAVE/MAIN": {
+    "parent_map": "MAP_WAYWARD_CAVE",
+    "has_grass": true,
+    "has_water": false,
+    "has_fishing": false,
+    "locations": [
+      "
+	  
+    ],
+    "events": [
+	  "E
+	],
+    "exits": [],
+    "warps": [
+      "
+    ]
+  },
+  
+{
+  "REGION_WAYWARD_CAVE_SECRET/MAIN": {
+    "parent_map": "MAP_WAYWARD_CAVE_SECRET",
+    "has_grass": true,
+    "has_water": false,
+    "has_fishing": false,
+    "locations": [
+      "
+	  
+    ],
+    "events": [
+	  "E
+	],
+    "exits": [],
+    "warps": [
+      "
+    ]
+  },
+  
+{
+  "REGION_MOUNT_CORONET_SOUTH_1F/MAIN": {
+    "parent_map": "MAP_MOUNT_CORONET_SOUTH_1F",
+    "has_grass": true,
+    "has_water": false,
+    "has_fishing": true,
+    "locations": [
+      "HIDDEN_ITEM_ENERGYPOWDER",
+	  "HIDDEN_ITEM_REVIVE",
+	  "HIDDEN_ITEM_STARDUST",
+	  "ITEM_PROTEIN",
+	  "ITEM_DAWNSTONE"
+    ],
+    "events": [],
+    "exits": [
+	  "REGION_MOUNT_CORONET_SOUTH_1F/WESTPOND",
+	  "REGION_MOUNT_CORONET_SOUTH_1F/SOUTHPOND",
+	  "REGION_MOUNT_CORONET_SOUTH_1F/EASTPOND",
+	  "REGION_MOUNT_CORONET_SOUTH_1F/NORTHPOND",
+	],
+    "warps": [
+      "MAP_MOUNT_CORONET_SOUTH_1F:0/MAP_ROUTE207:0",
+	  "MAP_MOUNT_CORONET_SOUTH_1F:1/MAP_ROUTE208:0",
+	  "MAP_MOUNT_CORONET_SOUTH_1F:2/MAP_MOUNT_CORONET_SOUTH_2F:0"
+    ]
+  },
+  
+},
+  "REGION_MOUNT_CORONET_SOUTH_1F/WESTPOND": {
+    "parent_map": "MAP_MOUNT_CORONET_SOUTH_1F",
+    "has_grass": false,
+    "has_water": true,
+    "has_fishing": true,
+    "locations": [],
+    "events": [],
+    "exits": [],
+    "warps": []
+  },
+
+},
+  "REGION_MOUNT_CORONET_SOUTH_1F/SOUTHPOND": {
+    "parent_map": "MAP_MOUNT_CORONET_SOUTH_1F",
+    "has_grass": false,
+    "has_water": true,
+    "has_fishing": true,
+    "locations": [],
+    "events": [],
+    "exits": [],
+    "warps": []
+  },
+  
+},
+  "REGION_MOUNT_CORONET_SOUTH_1F/EASTPOND": {
+    "parent_map": "MAP_MOUNT_CORONET_SOUTH_1F",
+    "has_grass": false,
+    "has_water": true,
+    "has_fishing": true,
+    "locations": [],
+    "events": [],
+    "exits": [],
+    "warps": []
+  },
+  
+},
+  "REGION_MOUNT_CORONET_SOUTH_1F/NORTHPOND": {
+    "parent_map": "MAP_MOUNT_CORONET_SOUTH_1F",
+    "has_grass": false,
+    "has_water": true,
+    "has_fishing": true,
+    "locations": [],
+    "events": [],
+    "exits": [],
+    "warps": []
+  },
+  
+{
+  "REGION_MOUNT_CORONET_SOUTH_2F/MAIN": {
+    "parent_map": "MAP_MOUNT_CORONET_SOUTH_2F",
+    "has_grass": true,
+    "has_water": false,
+    "has_fishing": false,
+    "locations": [
+      "
+    ],
+    "events": [],
+    "exits": [],
+    "warps": [
+      "MAP_MOUNT_CORONET_SOUTH_2F:0/MAP_ROUTE207:1",
+	  "MAP_MOUNT_CORONET_SOUTH_2F:1/MAP_MOUNT_CORONET_SOUTH_1F:2",
+	  "MAP_MOUNT_CORONET_SOUTH_2F:2/MAP_MOUNT_CORONET_SOUTH_2F2:0"
+    ]
+  },
+  
+{
+  "REGION_MOUNT_CORONET_SOUTH_2F2/MAIN": {
+    "parent_map": "MAP_MOUNT_CORONET_SOUTH_2F2",
+    "has_grass": true,
+    "has_water": false,
+    "has_fishing": false,
+    "locations": [],
+    "events": [],
+    "exits": [],
+    "warps": [
+      "MAP_MOUNT_CORONET_SOUTH_2F2:0/MAP_MOUNT_CORONET_SOUTH_2F:2",
+	  "MAP_MOUNT_CORONET_SOUTH_2F2:1/MAP_MOUNT_CORONET_SOUTH_3F:0",
+    ]
+  },
+  
+{
+  "REGION_MOUNT_CORONET_SOUTH_2F3/MAIN": {
+    "parent_map": "MAP_MOUNT_CORONET_SOUTH_2F3",
+    "has_grass": true,
+    "has_water": false,
+    "has_fishing": false,
+    "locations": [
+	  "HIDDEN_ITEM_STAR_PIECE"
+	],
+    "events": [],
+    "exits": [],
+    "warps": [
+      "MAP_MOUNT_CORONET_SOUTH_2F3:0/MAP_MOUNT_CORONET_SOUTH_3F:1",
+    ]
+  },
+  
+{
+  "REGION_MOUNT_CORONET_SOUTH_3F/MAIN": {
+    "parent_map": "MAP_MOUNT_CORONET_SOUTH_3F",
+    "has_grass": true,
+    "has_water": false,
+    "has_fishing": false,
+    "locations": [],
+    "events": [],
+    "exits": [],
+    "warps": [
+      "MAP_MOUNT_CORONET_SOUTH_3F:0/MAP_MOUNT_CORONET_SOUTH_2F2:1",
+	  "MAP_MOUNT_CORONET_SOUTH_3F:1/MAP_MOUNT_CORONET_SOUTH_2F3:0",
+	  "MAP_MOUNT_CORONET_SOUTH_3F:2/MAP_MOUNT_CORONET_SUMMIT:0",
+    ]
+  },
+
+{
+  "REGION_MOUNT_CORONET_NORTH_1F/MAIN": {
+    "parent_map": "MAP_MOUNT_CORONET_NORTH",
+    "has_grass": true,
+    "has_water": false,
+    "has_fishing": false,
+    "locations": [
+      "
+	  
+    ],
+    "events": [
+	  "E
+	],
+    "exits": [],
+    "warps": [
+      "
+    ]
+  },
+  
+{
+  "REGION_LOST_TOWER_1F/MAIN": {
+    "parent_map": "MAP_LOST_TOWER_1F",
+    "has_grass": true,
+    "has_water": false,
+    "has_fishing": false,
+    "locations": [],
+    "events": [],
+    "exits": [],
+    "warps": [
+      "MAP_LOST_TOWER_1F:0/MAP_ROUTE209:2",
+	  "MAP_LOST_TOWER_1F:1/MAP_LOST_TOWER_2F:0"
+    ]
+  },
+  
+{
+  "REGION_LOST_TOWER_2F/MAIN": {
+    "parent_map": "MAP_LOST_TOWER_2F",
+    "has_grass": true,
+    "has_water": false,
+    "has_fishing": false,
+    "locations": [
+      "ITEM_OVAL_STONE",
+	  "HIDDEN_ITEM_HONEY""
+	  "TRAINER_YOUNGSTER_OLIVER_REWARD"
+	],
+    "events": [],
+    "exits": [],
+    "warps": [
+      "MAP_LOST_TOWER_2F:0/MAP_LOST_TOWER_1F:1",
+	  "MAP_LOST_TOWER_2F:1/MAP_LOST_TOWER_3F:0"
+    ]
+  },
+  
+{
+  "REGION_LOST_TOWER_3F/MAIN": {
+    "parent_map": "MAP_LOST_TOWER_3F",
+    "has_grass": true,
+    "has_water": false,
+    "has_fishing": false,
+    "locations": [
+      "ITEM_REVIVE",
+	  "TRAINER_ROUGHNECK_KIRBY",
+	  "TRAINER_POKEFAN_LEONARD"
+	],
+    "events": [],
+    "exits": [],
+    "warps": [
+      "MAP_LOST_TOWER_3F:0/MAP_LOST_TOWER_2F:1",
+	  "MAP_LOST_TOWER_3F:1/MAP_LOST_TOWER_4F:0"
+    ]
+  },
+
+{
+  "REGION_LOST_TOWER_4F/MAIN": {
+    "parent_map": "MAP_LOST_TOWER_4F",
+    "has_grass": true,
+    "has_water": false,
+    "has_fishing": false,
+    "locations": [
+      "ITEM_TM_RETURN",
+	  "HIDDEN_ITEM_GREAT_BALL",
+	  "TRAINER_POKEFAN_REBEKAH",
+	  "TRAINER_BELLE_&_PA_BETH_&_BOB_REWARD",
+	  "TRAINER_YOUNG_COUPLE_MIKE_&_NAT_REWARD"
+	],
+    "events": [],
+    "exits": [],
+    "warps": [
+      "MAP_LOST_TOWER_4F:0/MAP_LOST_TOWER_3F:1",
+	  "MAP_LOST_TOWER_4F:1/MAP_LOST_TOWER_5F:0"
+    ]
+  },
+
+{
+  "REGION_LOST_TOWER_5F/MAIN": {
+    "parent_map": "MAP_LOST_TOWER_5F",
+    "has_grass": true,
+    "has_water": false,
+    "has_fishing": false,
+    "locations": [
+      "NPC_GIFT_RECEIVED_SPELL_TAG",
+	  "NPC_GIFT_RECEIED_CLEANSE_TAG"
+	],
+    "events": [],
+    "exits": [],
+    "warps": [
+      "MAP_LOST_TOWER_5F:0/MAP_LOST_TOWER_4F:1"
+    ]
+  },
+
+{
+  "REGION_SOLACEON_RUINS_1F/MAIN": {
+    "parent_map": "MAP_SOLACEON_RUINS_1F",
+    "has_grass": false,
+    "has_water": false,
+    "has_fishing": false,
+    "locations": [],
+    "events": [],
+    "exits": [],
+    "warps": [
+      "MAP_SOLACEON_RUINS_1F:0/MAP_SOLACEON_TOWN:7",
+	  "MAP_SOLACEON_RUINS_1F:1/MAP_SOLACEON_RUINS_1FL:0",
+	  "MAP_SOLACEON_RUINS_1F:2/MAP_SOLACEON_RUINS_1FR:0",
+	  "MAP_SOLACEON_RUINS_1F:3/MAP_SOLACEON_RUINS_B1F:0"
+    ]
+  },
+  
+{
+  "REGION_SOLACEON_RUINS_1FL/MAIN": {
+    "parent_map": "MAP_SOLACEON_RUINS_1FL",
+    "has_grass": true,
+    "has_water": false,
+    "has_fishing": false,
+    "locations": [
+	  "HIDDEN_ITEM_FIRE_STONE"
+	],
+    "events": [],
+    "exits": [],
+    "warps": [
+      "MAP_SOLACEON_RUINS_1FL:0/MAP_SOLACEON_RUINS_1F:1"
+    ]
+  },
+
+{
+  "REGION_SOLACEON_RUINS_1FR/MAIN": {
+    "parent_map": "MAP_SOLACEON_RUINS_1FR",
+    "has_grass": true,
+    "has_water": false,
+    "has_fishing": false,
+    "locations": [],
+    "events": [],
+    "exits": [],
+    "warps": [
+      "MAP_SOLACEON_RUINS_1FR:0/MAP_SOLACEON_RUINS_1F:2"
+    ]
+  },
+  
+{
+  "REGION_SOLACEON_RUINS_B1F/MAIN": {
+    "parent_map": "MAP_SOLACEON_RUINS_B1F",
+    "has_grass": true,
+    "has_water": false,
+    "has_fishing": false,
+    "locations": [],
+    "events": [],
+    "exits": [],
+    "warps": [
+      "MAP_SOLACEON_RUINS_B1F:0/MAP_SOLACEON_RUINS_1F:3",
+	  "MAP_SOLACEON_RUINS_B1F:1/MAP_SOLACEON_RUINS_B1FR1:0",
+	  "MAP_SOLACEON_RUINS_B1F:2/MAP_SOLACEON_RUINS_B1FR2:0",
+	  "MAP_SOLACEON_RUINS_B1F:3/MAP_SOLACEON_RUINS_B2F:0"
+    ]
+  },
+ 
+{
+  "REGION_SOLACEON_RUINS_B1FR1/MAIN": {
+    "parent_map": "MAP_SOLACEON_RUINS_B1FR1",
+    "has_grass": true,
+    "has_water": false,
+    "has_fishing": false,
+    "locations": [],
+    "events": [],
+    "exits": [],
+    "warps": [
+      "MAP_SOLACEON_RUINS_B1FR1:0/MAP_SOLACEON_RUINS_B1F:1"
+    ]
+  },
+
+{
+  "REGION_SOLACEON_RUINS_B1FR2/MAIN": {
+    "parent_map": "MAP_SOLACEON_RUINS_B1FR2",
+    "has_grass": true,
+    "has_water": false,
+    "has_fishing": false,
+    "locations": [],
+    "events": [],
+    "exits": [],
+    "warps": [
+      "MAP_SOLACEON_RUINS_B1FR2:0/MAP_SOLACEON_RUINS_B1F:2"
+    ]
+  },
+  
+{
+  "REGION_SOLACEON_RUINS_B2F/MAIN": {
+    "parent_map": "MAP_SOLACEON_RUINS_B2F",
+    "has_grass": true,
+    "has_water": false,
+    "has_fishing": false,
+    "locations": [
+	  "TRAINER_RUIN_MANIAC_KARL_REWARD"
+	],
+    "events": [],
+    "exits": [],
+    "warps": [
+      "MAP_SOLACEON_RUINS_B2F:0/MAP_SOLACEON_RUINS_B1F:3",
+	  "MAP_SOLACEON_RUINS_B2F:1/MAP_SOLACEON_RUINS_B2FL1:0",
+	  "MAP_SOLACEON_RUINS_B2F:2/MAP_SOLACEON_RUINS_B2FL2:0",
+	  "MAP_SOLACEON_RUINS_B2F:3/MAP_SOLACEON_RUINS_B3FR:0"
+    ]
+  },
+  
+{
+  "REGION_SOLACEON_RUINS_B2FL1/MAIN": {
+    "parent_map": "MAP_SOLACEON_RUINS_B2FL1",
+    "has_grass": true,
+    "has_water": false,
+    "has_fishing": false,
+    "locations": [],
+    "events": [],
+    "exits": [],
+    "warps": [
+      "MAP_SOLACEON_RUINS_B2FL1:0/MAP_SOLACEON_RUINS_B2F:1"
+    ]
+  },
+
+
+{
+  "REGION_SOLACEON_RUINS_B2FL2/MAIN": {
+    "parent_map": "MAP_SOLACEON_RUINS_B2FL2",
+    "has_grass": true,
+    "has_water": false,
+    "has_fishing": false,
+    "locations": [
+	  "HIDDEN_ITEM_WATER_STONE"
+	],
+    "events": [],
+    "exits": [],
+    "warps": [
+      "MAP_SOLACEON_RUINS_B2FL2:0/MAP_SOLACEON_RUINS_B2F:2"
+    ]
+  },
+
+{
+  "REGION_SOLACEON_RUINS_B3FR/MAIN": {
+    "parent_map": "MAP_SOLACEON_RUINS_B3FR",
+    "has_grass": true,
+    "has_water": false,
+    "has_fishing": false,
+    "locations": [],
+    "events": [],
+    "exits": [],
+    "warps": [
+      "MAP_SOLACEON_RUINS_B3FR:0/MAP_SOLACEON_RUINS_B2F:3",
+	  "MAP_SOLACEON_RUINS_B3FR:1/MAP_SOLACEON_RUINS_B3FRR:0",
+	  "MAP_SOLACEON_RUINS_B3FR:2/MAP_SOLACEON_RUINS_B4F:0"
+    ]
+  },
+  
+{
+  "REGION_SOLACEON_RUINS_B3FL/MAIN": {
+    "parent_map": "MAP_SOLACEON_RUINS_B3FL",
+    "has_grass": true,
+    "has_water": false,
+    "has_fishing": false,
+    "locations": [],
+    "events": [],
+    "exits": [],
+    "warps": [
+      "MAP_SOLACEON_RUINS_B3FL:0/MAP_SOLACEON_RUINS_B4F:3",
+	  "MAP_SOLACEON_RUINS_B3FL:1/MAP_SOLACEON_RUINS_B3FLL:0",
+	  "MAP_SOLACEON_RUINS_B3FL:2/MAP_SOLACEON_RUINS_B3FLR:0",
+	  "MAP_SOLACEON_RUINS_B3FL:3/MAP_SOLACEON_RUINS_B4F_LAST:0"
+    ]
+  },
+
+{
+  "REGION_SOLACEON_RUINS_B3FLL/MAIN": {
+    "parent_map": "MAP_SOLACEON_RUINS_B3FLL",
+    "has_grass": true,
+    "has_water": false,
+    "has_fishing": false,
+    "locations": [],
+    "events": [],
+    "exits": [],
+    "warps": [
+      "MAP_SOLACEON_RUINS_B3FLL:0/MAP_SOLACEON_RUINS_B3FL:1"
+    ]
+  },
+ 
+{
+  "REGION_SOLACEON_RUINS_B3FLR/MAIN": {
+    "parent_map": "MAP_SOLACEON_RUINS_B3FLR",
+    "has_grass": true,
+    "has_water": false,
+    "has_fishing": false,
+    "locations": [],
+    "events": [],
+    "exits": [],
+    "warps": [
+      "MAP_SOLACEON_RUINS_B3FLR:0/MAP_SOLACEON_RUINS_B3FL:2"
+    ]
+  },
+  
+{
+  "REGION_SOLACEON_RUINS_B3FRR/MAIN": {
+    "parent_map": "MAP_SOLACEON_RUINS_B3FRR",
+    "has_grass": true,
+    "has_water": false,
+    "has_fishing": false,
+    "locations": [],
+    "events": [],
+    "exits": [],
+    "warps": [
+      "MAP_SOLACEON_RUINS_B3FRR:0/MAP_SOLACEON_RUINS_B3FR:1"
+    ]
+  },
+
+{
+  "REGION_SOLACEON_RUINS_B4F/MAIN": {
+    "parent_map": "MAP_SOLACEON_RUINS_B4F",
+    "has_grass": true,
+    "has_water": false,
+    "has_fishing": false,
+    "locations": [],
+    "events": [],
+    "exits": [],
+    "warps": [
+      "MAP_SOLACEON_RUINS_B4F:0/MAP_SOLACEON_RUINS_B3FR:",
+	  "MAP_SOLACEON_RUINS_B4F:1/MAP_SOLACEON_RUINS_B3FL:0",
+	  "MAP_SOLACEON_RUINS_B4F:2/MAP_SOLACEON_RUINS_B4FR:0",
+	  "MAP_SOLACEON_RUINS_B4F:3/MAP_SOLACEON_RUINS_B4FL:0"
+    ]
+  },
+  
+{
+  "REGION_SOLACEON_RUINS_B4FR/MAIN": {
+    "parent_map": "MAP_SOLACEON_RUINS_B4FR",
+    "has_grass": true,
+    "has_water": false,
+    "has_fishing": false,
+    "locations": [
+	  "HIDDEN_ITEM_THUNDERSTONE"
+	],
+    "events": [],
+    "exits": [],
+    "warps": [
+      "MAP_SOLACEON_RUINS_B4FR:0/MAP_SOLACEON_RUINS_B4F:2"
+    ]
+  },
+  
+{
+  "REGION_SOLACEON_RUINS_B4FL/MAIN": {
+    "parent_map": "MAP_SOLACEON_RUINS_B4FL",
+    "has_grass": true,
+    "has_water": false,
+    "has_fishing": false,
+    "locations": [],
+    "events": [],
+    "exits": [],
+    "warps": [
+      "MAP_SOLACEON_RUINS_B4FL:0/MAP_SOLACEON_RUINS_B4F:3"
+    ]
+  },
+  
+{
+  "REGION_SOLACEON_RUINS_B4F_LAST/MAIN": {
+    "parent_map": "MAP_SOLACEON_RUINS_B4F_LAST",
+    "has_grass": true,
+    "has_water": false,
+    "has_fishing": false,
+    "locations": [
+	  "ITEM_HM_DEFOG",
+	  "ITEM_ODD_INCENSE",
+	  "ITEM_NUGGET",
+	  "ITEM_MIND_PLATE"
+	],
+    "events": [],
+    "exits": [],
+    "warps": [
+      "MAP_SOLACEON_RUINS_B4F_LAST:0/MAP_SOLACEON_RUINS_B4FL:3"
+    ]
+  },
+
+{
+  "REGION_MANIAC_TUNNEL/MAIN": {
+    "parent_map": "MAP_MANIAC_TUNNEL",
+    "has_grass": true,
+    "has_water": false,
+    "has_fishing": false,
+    "locations": [
+      "
+	  
+    ],
+    "events": [
+	  "E
+	],
+    "exits": [],
+    "warps": [
+      "
+    ]
+  },
+  
+{
+  "REGION_IRON_ISLAND_1F/MAIN": {
+    "parent_map": "MAP_IRON_ISLAND",
+    "has_grass": true,
+    "has_water": false,
+    "has_fishing": false,
+    "locations": [
+      "
+	  
+    ],
+    "events": [
+	  "E
+	],
+    "exits": [],
+    "warps": [
+      "
+    ]
+  },
+  
+{
+  "REGION_CELESTIC_RUINS/MAIN": {
+    "parent_map": "MAP_CELESTIC_RUINS",
+    "has_grass": true,
+    "has_water": false,
+    "has_fishing": false,
+    "locations": [
+      "
+	  
+    ],
+    "events": [
+	  "E
+	],
+    "exits": [],
+    "warps": [
+      "
+    ]
+  },
+
+{
+  "REGION_SNOWPOINT_TEMPLE_1F/MAIN": {
+    "parent_map": "MAP_SNOWPOINT_TEMPLE",
+    "has_grass": true,
+    "has_water": false,
+    "has_fishing": false,
+    "locations": [
+      "
+	  
+    ],
+    "events": [
+	  "E
+	],
+    "exits": [],
+    "warps": [
+      "
+    ]
+  },
+  
+  
+{
+  "REGION_TURNBACK_CAVE/MAIN": {
+    "parent_map": "MAP_TURNBACK_CAVE",
+    "has_grass": true,
+    "has_water": false,
+    "has_fishing": false,
+    "locations": [
+      "
+	  
+    ],
+    "events": [
+	  "E
+	],
+    "exits": [],
+    "warps": [
+      "
+    ]
+  },
+  
+{
+  "REGION_VICTORY_ROAD_1F/MAIN": {
+    "parent_map": "MAP_VICTORY_ROAD",
+    "has_grass": true,
+    "has_water": false,
+    "has_fishing": false,
+    "locations": [
+      "
+	  
+    ],
+    "events": [
+	  "E
+	],
+    "exits": [],
+    "warps": [
+      "
+    ]
+  },
+  
+{
+  "REGION_VERITY_CAVERN/MAIN": {
+    "parent_map": "MAP_VERITY_CAVERN",
+    "has_grass": true,
+    "has_water": false,
+    "has_fishing": false,
+    "locations": [
+      "
+	  
+    ],
+    "events": [
+	  "E
+	],
+    "exits": [],
+    "warps": [
+      "
+    ]
+  },
+  
+{
+  "REGION_VALOR_CAVERN/MAIN": {
+    "parent_map": "MAP_VALOR_CAVERN",
+    "has_grass": true,
+    "has_water": false,
+    "has_fishing": false,
+    "locations": [
+      "
+	  
+    ],
+    "events": [
+	  "E
+	],
+    "exits": [],
+    "warps": [
+      "
+    ]
+  },
+  
+{
+  "REGION_ACUITY_CAVERN/MAIN": {
+    "parent_map": "MAP_ACUITY_CAVERN",
+    "has_grass": true,
+    "has_water": false,
+    "has_fishing": false,
+    "locations": [
+      "
+	  
+    ],
+    "events": [
+	  "E
+	],
+    "exits": [],
+    "warps": [
+      "
+    ]
+  },
+  
+{
+  "REGION_STARK_MOUNTAIN_1F/MAIN": {
+    "parent_map": "MAP_STARK_MOUNTAIN",
+    "has_grass": true,
+    "has_water": false,
+    "has_fishing": false,
+    "locations": [
+      "
+	  
+    ],
+    "events": [
+	  "E
+	],
+    "exits": [],
+    "warps": [
+      "
+    ]
+  },

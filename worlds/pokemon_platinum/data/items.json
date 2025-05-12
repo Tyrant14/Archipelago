@@ -1073,6 +1073,15 @@
 	"requirements": []
  },
  
+{
+ 	"tag": "PP Up",
+ 	"long_description": "Route 206 - Hidden Item behind cut bush between trees",
+ 	"location": "Route 206",
+ 	"item_flag": "0x415",
+ 	"vanilla_item": 051,
+	"requirements": ["HM_CUT"]
+ },
+ 
   {
 	"tag": "Burn Heal",
 	"long_description": "Route 206 - Item in middle in cycling road gap",
@@ -3479,15 +3488,6 @@
  	"item_flag": "0x370",
  	"vanilla_item": 026,
 	"requirements": []
- },
- 
- {
- 	"tag": "PP Up",
- 	"long_description": "Route 206 - Hidden Item above third tree on right after cut",
- 	"location": "Route 206",
- 	"item_flag": "0x415",
- 	"vanilla_item": 051,
-	"requirements": ["HM_CUT"]
  },
  
  {
