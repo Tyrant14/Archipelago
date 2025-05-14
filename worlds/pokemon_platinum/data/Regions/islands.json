@@ -1,0 +1,33 @@
+{
+  "REGION_IRON_ISLAND/MAIN": {
+    "parent_map": "MAP_IRON_ISLAND",
+    "has_grass": false,
+    "has_water": false,
+    "has_fishing": false,
+    "locations": [
+	  "HIDDEN_ITEM_STAR_PIECE",
+	  "NPC_GIFT_RECEIVED_HM_STRENGTH"
+	],
+    "events": [],
+    "exits": [],
+    "warps": [
+	"MAP_IRON_ISLAND:0/MAP_CANALAVE_CITY:0",
+	"MAP_IRON_ISLAND:1/MAP_IRON_ISLAND_HOUSE1:0",
+	"MAP_IRON_ISLAND:2/MAP_IRON_ISLAND_1F:0",
+	"MAP_IRON_ISLAND:3/MAP_IRON_ISLAND_B3F:0"
+	]
+  },
+
+{
+  "REGION_IRON_ISLAND_HOUSE1/MAIN": {
+    "parent_map": "MAP_IRON_ISLAND_HOUSE1",
+    "has_grass": false,
+    "has_water": false,
+    "has_fishing": false,
+    "locations": [],
+    "events": [],
+    "exits": [],
+    "warps": [
+	"MAP_IRON_ISLAND_HOUSE1:0/MAP_IRON_ISLAND:1"
+	]
+  },

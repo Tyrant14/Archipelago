@@ -305,9 +305,15 @@
     "has_water": false,
     "has_fishing": false,
     "locations": [
-      "
+      "ITEM_MAX_REPEL",
+	  "ITEM_ESCAPE_ROPE",
+	  "ITEM_MAX_REVIVE",
+	  "ITEM_TM_ROCK_SLIDE",
+	  "HIDDEN_ITEM_RED_SHARD"
     ],
-    "events": [],
+    "events": [
+	  "EVENT_TALK_TO_LOOKER"
+	],
     "exits": [],
     "warps": [
       "MAP_MOUNT_CORONET_SOUTH_2F:0/MAP_ROUTE207:1",
@@ -353,35 +359,276 @@
     "has_grass": true,
     "has_water": false,
     "has_fishing": false,
-    "locations": [],
+    "locations": [
+	  "HIDDEN_ITEM_MAX_REPEL",
+	  "TRAINER_GALACTIC_GRUNT_1_REWARD",
+	  "TRAINER_GALACTIC_GRUNT_2_REWARD"
+	],
     "events": [],
     "exits": [],
     "warps": [
       "MAP_MOUNT_CORONET_SOUTH_3F:0/MAP_MOUNT_CORONET_SOUTH_2F2:1",
 	  "MAP_MOUNT_CORONET_SOUTH_3F:1/MAP_MOUNT_CORONET_SOUTH_2F3:0",
-	  "MAP_MOUNT_CORONET_SOUTH_3F:2/MAP_MOUNT_CORONET_SUMMIT:0",
+	  "MAP_MOUNT_CORONET_SOUTH_3F:2/MAP_MOUNT_CORONET_SUMMIT:3",
     ]
   },
 
 {
-  "REGION_MOUNT_CORONET_NORTH_1F/MAIN": {
-    "parent_map": "MAP_MOUNT_CORONET_NORTH",
+  "REGION_MOUNT_CORONET_NORTH_1F_MAIN/MAIN": {
+    "parent_map": "MAP_MOUNT_CORONET_NORTH_1F_MAIN",
     "has_grass": true,
     "has_water": false,
     "has_fishing": false,
     "locations": [
-      "
-	  
+      "ITEM_ESCAPE_ROPE",
+	  "ITEM_ICE_HEAL",
+	  "ITEM_RARE_CANDY",
+	  "ITEM_TM_ROCK_POLISH",
+	  "ITEM_TM_DRAGON_CLAW",
+	  "HIDDEN_ITEM_STARDUST",
+	  "HIDDEN_ITEM_NUGGET",
+	  "HIDDEN_ITEM_RED_SHARD"
     ],
-    "events": [
-	  "E
-	],
+    "events": [],
     "exits": [],
     "warps": [
-      "
+      "MAP_MOUNT_CORONET_NORTH_1F_MAIN:0/MAP_ROUTE211_EAST:0",
+	  "MAP_MOUNT_CORONET_NORTH_1F_MAIN:1/MAP_ROUTE211_WEST:1",
+	  "MAP_MOUNT_CORONET_NORTH_1F_MAIN:2/MAP_MOUNT_CORONET_NORTH_B1F:0",
+	  "MAP_MOUNT_CORONET_NORTH_1F_MAIN:3/MAP_MOUNT_CORONET_NORTH_TUNNEL_ROOM:0",
     ]
   },
   
+{
+  "REGION_MOUNT_CORONET_NORTH_TUNNEL_ROOM/MAIN": {
+    "parent_map": "MAP_MOUNT_CORONET_TUNNEL_ROOM",
+    "has_grass": true,
+    "has_water": false,
+    "has_fishing": false,
+    "locations": [
+      "HIDDEN_ITEM_GREEN_SHARD",
+	  "HIDDEN_ITEM_MAX_POTION",
+	  "HIDDEN_ITEM_STARDUST",
+	  "HIDDEN_ITEM_HEAL_POWDER",
+	  "HIDDEN_ITEM_RARE_CANDY",
+	  "TRAINER_GALACTIC_GRUNT_1_REWARD",
+	  "TRAINER_GALACTIC_GRUNT_2_REWARD",
+	  "TRAINER_GALACTIC_GRUNT_3_REWARD"
+    ],
+    "events": [],
+    "exits": [],
+    "warps": [
+      "MAP_MOUNT_CORONET_NORTH_TUNNEL_ROOM:0/MAP_MOUNT_CORONET_NORTH_1F_MAIN:3",
+	  "MAP_MOUNT_CORONET_NORTH_TUNNEL_ROOM:1/MAP_MOUNT_CORONET_SUMMIT:4"
+    ]
+  },
+  
+{
+  "REGION_MOUNT_CORONET_NORTH_B1F/MAIN": {
+    "parent_map": "MAP_MOUNT_CORONET_NORTH_B1F",
+    "has_grass": true,
+    "has_water": false,
+    "has_fishing": false,
+    "locations": [
+      "ITEM_ULTRA_BALL",
+	  "ITEM_SOFT_SAND",
+	  "ITEM_REVIVE",
+	  "ITEM_MAX_ELIXIR",
+	  "ITEM_FULL_RESTORE",
+	  "ITEM_LIGHT_CLAY",
+	  "HIDDEN_ITEM_GREEN_SHARD",
+	  "HIDDEN_ITEM_BLUE_SHARD",
+	  "HIDDEN_ITEM_STAR_PIECE",
+	  "HIDDEN_ITEM_RARE_CANDY"
+    ],
+    "events": [],
+    "exits": [],
+    "warps": [
+      "MAP_MOUNT_CORONET_NORTH_B1F:0/MAP_MOUNT_CORONET_NORTH_1F_MAIN:2",
+	  "MAP_MOUNT_CORONET_NORTH_B1F:1/MAP_MOUNT_CORONET_NORTH_1F_MINI:2"
+    ]
+  },
+  
+{
+  "REGION_MOUNT_CORONET_NORTH_1F_MINI/MAIN": {
+    "parent_map": "MAP_MOUNT_CORONET_NORTH_1F_MINI",
+    "has_grass": true,
+    "has_water": false,
+    "has_fishing": false,
+    "locations": [
+      "HIDDEN_ITEM_YELLOW_SHARD"
+    ],
+    "events": [],
+    "exits": [],
+    "warps": [
+      "MAP_MOUNT_CORONET_NORTH_1F_MINI:0/MAP_MAP_MOUNT_CORONET_NORTH_B1F:1",
+	  "MAP_MOUNT_CORONET_NORTH_1F_MINI:1/MAP_ICEBERG_RUINS:0",
+	  "MAP_MOUNT_CORONET_NORTH_1F_MINI:2/MAP_ROUTE216:0"
+    ]
+  },
+  
+{
+  "REGION_MOUNT_CORONET_4F1/MAIN": {
+    "parent_map": "MAP_MOUNT_CORONET_4F1",
+    "has_grass": true,
+    "has_water": false,
+    "has_fishing": true,
+    "locations": [
+	  "HIDDEN_ITEM_SUN_STONE",
+	  "HIDDEN_ITEM_FULL_HEAL",
+	  "HIDDEN_ITEM_ULTRA_BALL",
+	  "HIDDEN_ITEM_MAX_REVIVE",
+	  "HIDDEN_ITEM_STARDUST",
+	  "HIDDEN_ITEM_HEAL_POWDER",
+	  "HIDDEN_ITEM_YELLOW_SHARD",
+	  "TRAINER_GALACTIC_GRUNT_1_REWARD",
+	  "TRAINER_GALACTIC_GRUNT_2_REWARD"
+	],
+    "events": [],
+    "exits": [],
+    "warps": [
+      "MAP_MOUNT_CORONET_4F1:0,1,2/MAP_MOUNT_CORONET_SUMMIT:0,1,2",
+	  "MAP_MOUNT_CORONET_4F1:3/MAP_MOUNT_CORONET_4F_BACK:0"
+    ]
+  },
+  
+{
+  "REGION_MOUNT_CORONET_SUMMIT/MAIN": {
+    "parent_map": "MAP_MOUNT_CORONET_SUMMIT",
+    "has_grass": true,
+    "has_water": false,
+    "has_fishing": false,
+    "locations": [
+	  "HIDDEN_ITEM_STARDUST",
+	  "HIDDEN_ITEM_FULL_RESTORE",
+	  "HIDDEN_ITEM_ENERGY_ROOT",
+	  "HIDDEN_ITEM_REVIVAL_HERB",
+	  "HIDDEN_ITEM_MOON_STONE",
+	  "HIDDEN_ITEM_STAR_PIECE",
+	  "HIDDEN_ITEM_STAR_PIECE",
+	  "HIDDEN_ITEM_ENERGY_ROOT",
+	  "HIDDEN_ITEM_MAX_POTION",
+	  "HIDDEN_ITEM_BLUE_SHARD",
+	  "HIDDEN_ITEM_REVIVAL_HERB"
+	],
+    "events": [],
+    "exits": [],
+    "warps": [
+      "MAP_MOUNT_CORONET_SUMMIT:0,1,2/MAP_MOUNT_CORONET_4F1:0,1,2",
+	  "MAP_MOUNT_CORONET_SUMMIT:3/MAP_MOUNT_CORONET_SOUTH_3F:2",
+	  "MAP_MOUNT_CORONET_SUMMIT:4/MAP_MOUNT_CORONET_NORTH_TUNNEL_ROOM:2",
+	  "MAP_MOUNT_CORONET_SUMMIT:5/MAP_MOUNT_CORONET_4F2:0"
+    ]
+  },
+  
+{
+  "REGION_MOUNT_CORONET_4F2/MAIN": {
+    "parent_map": "MAP_MOUNT_CORONET_4F2",
+    "has_grass": true,
+    "has_water": false,
+    "has_fishing": false,
+    "locations": [
+	  "HIDDEN_ITEM_MAX_ELIXIR"
+	],
+    "events": [],
+    "exits": [],
+    "warps": [
+      "MAP_MOUNT_CORONET_4F2:0/MAP_MOUNT_CORONET_SUMMIT:5",
+	  "MAP_MOUNT_CORONET_4F2:1/MAP_MOUNT_CORONET_5F:0"
+    ]
+  },
+  
+{
+  "REGION_MOUNT_CORONET_5F/MAIN": {
+    "parent_map": "MAP_MOUNT_CORONET_5F",
+    "has_grass": true,
+    "has_water": false,
+    "has_fishing": false,
+    "locations": [
+	  "HIDDEN_ITEM_FULL_RESTORE",
+	  "HIDDEN_ITEM_RARE_CANDY",
+	  "TRAINER_GALACTIC_GRUNT_1_REWARD",
+	  "TRAINER_GALACTIC_GRUNT_2_REWARD"
+	],
+    "events": [],
+    "exits": [],
+    "warps": [
+      "MAP_MOUNT_CORONET_5F:0/MAP_MOUNT_CORONET_4F2:1",
+	  "MAP_MOUNT_CORONET_5F:1/MAP_MOUNT_CORONET_6F:0"
+    ]
+  },
+  
+{
+  "REGION_MOUNT_CORONET_6F/MAIN": {
+    "parent_map": "MAP_MOUNT_CORONET_6F",
+    "has_grass": true,
+    "has_water": false,
+    "has_fishing": false,
+    "locations": [
+	  "TRAINER_GALACTIC_GRUNT_1_REWARD"
+	],
+    "events": [],
+    "exits": [],
+    "warps": [
+      "MAP_MOUNT_CORONET_6F:0/MAP_MOUNT_CORONET_5F:1",
+	  "MAP_MOUNT_CORONET_6F:1/MAP_SPEAR_PILLAR:0"
+    ]
+  },
+  
+{
+  "REGION_SPEAR_PILLAR/MAIN": {
+    "parent_map": "MAP_SPEAR_PILLAR",
+    "has_grass": false,
+    "has_water": false,
+    "has_fishing": false,
+    "locations": [
+	  "TRAINER_GALACTIC_GRUNT_&_GALACTIC_GRUNT_REWARD",
+	  "TRAINER_COMMANDER_JUPITER_&_COMMANDER_MARS_REWARD"
+	],
+    "events": [
+	  "EVENT_OPEN_DISATORTION_WORLD"
+	],
+    "exits": [],
+    "warps": [
+      "MAP_SPEAR_PILLAR:0/MAP_MOUNT_CORONET_6F:1"
+	  "MAP_SPEAR_PILLAR:1/MAP_DISTORTION_WORLD:0"
+    ]
+  },
+  
+{
+  "REGION_DISTORTION_WORLD/MAIN": {
+    "parent_map": "MAP_DISTORTION_WORLD",
+    "has_grass": false,
+    "has_water": false,
+    "has_fishing": false,
+    "locations": [
+	  "TRAINER_GALACTIC_BOSS_CYRUS_REWARD"
+	],
+    "events": [
+	  "EVENT_DEFEATED_CYRUS",
+	  "EVENT_DEFEATED_GIRATINA"
+	],
+    "exits": [],
+    "warps": [
+      "MAP_DISTORTION_WORLD:0/MAP_SPEAR_PILLAR:1"
+	  "MAP_DISTORTION_WORLD:1/MAP_SENDOFF_SPRING:1"
+    ]
+  },
+ 
+{
+  "REGION_ICEBERG_RUINS/MAIN": {
+    "parent_map": "MAP_ICEBERG_RUINS",
+    "has_grass": true,
+    "has_water": false,
+    "has_fishing": false,
+    "locations": [],
+    "events": [],
+    "exits": [],
+    "warps": [
+      "MAP_ICEBERG_RUINS:0/MAP_MOUNT_CORONET_NORTH_1F_MINI:1"
+    ]
+  },
+
 {
   "REGION_LOST_TOWER_1F/MAIN": {
     "parent_map": "MAP_LOST_TOWER_1F",
@@ -777,40 +1024,165 @@
   
 {
   "REGION_IRON_ISLAND_1F/MAIN": {
-    "parent_map": "MAP_IRON_ISLAND",
+    "parent_map": "MAP_IRON_ISLAND_1F",
     "has_grass": true,
     "has_water": false,
     "has_fishing": false,
-    "locations": [
-      "
-	  
-    ],
-    "events": [
-	  "E
-	],
+    "locations": [],
+    "events": [],
     "exits": [],
     "warps": [
-      "
+      "MAP_IRON_ISLAND_1F:0/MAP_IRON_ISLAND:2",
+	  "MAP_IRON_ISLAND_1F:1/MAP_IRON_ISLAND_B1F_LEFT:0",
+	  "MAP_IRON_ISLAND_1F:2/MAP_IRON_ISLAND_B1F_RIGHT:0",
     ]
   },
   
 {
-  "REGION_CELESTIC_RUINS/MAIN": {
-    "parent_map": "MAP_CELESTIC_RUINS",
+  "REGION_IRON_ISLAND_B1F_LEFT/MAIN": {
+    "parent_map": "MAP_IRON_ISLAND_B1F_LEFT",
     "has_grass": true,
     "has_water": false,
     "has_fishing": false,
     "locations": [
-      "
-	  
-    ],
+	  "ITEM_YELLOW_SHARD",
+	  "ITEM_PROTECTOR",
+	  "TRAINER_CAMPER_LAWRENCE_REWARD"
+	],
+    "events": [],
+    "exits": [],
+    "warps": [
+      "MAP_IRON_ISLAND_B1F_LEFT:0/MAP_IRON_ISLAND_1F:1",
+    ]
+  },
+  
+{
+  "REGION_IRON_ISLAND_B1F_RIGHT/MAIN": {
+    "parent_map": "MAP_IRON_ISLAND_B1F_RIGHT",
+    "has_grass": true,
+    "has_water": false,
+    "has_fishing": false,
+    "locations": [
+	  "ITEM_ESCAPE_ROPE",
+	  "ITEM_REVIVE",
+	  "ITEM_MAX_REPEL",
+	  "HIDDEN_ITEM_STAR_PIECE",
+	  "TRAINER_PICNICKER_SUMMER_REWARD"
+	],
+    "events": [],
+    "exits": [],
+    "warps": [
+      "MAP_IRON_ISLAND_B1F_RIGHT:0/MAP_IRON_ISLAND_1F:2",
+	  "MAP_IRON_ISLAND_B1F_RIGHT:1/MAP_IRON_ISLAND_B2F_LEFT:0",
+	  "MAP_IRON_ISLAND_B1F_RIGHT:2/MAP_IRON_ISLAND_B2F_RIGHT:0",
+    ]
+  },
+  
+
+  
+{
+  "REGION_IRON_ISLAND_B2F_LEFT/MAIN": {
+    "parent_map": "MAP_IRON_ISLAND_B2F_LEFT",
+    "has_grass": true,
+    "has_water": false,
+    "has_fishing": false,
+    "locations": [
+	  "ITEM_DUSK_BALL",
+	  "ITEM_MAX_POTION",
+	  "ITEM_MAGNET",
+	  "ITEM_RED_SHARD",
+	  "ITEM_ULTRA_BALL",
+	  "ITEM_HP_UP",
+	  "HIDDEN_ITEM_STAR_PIECE",
+	  "HIDDEN_ITEM_STAR_PIECE",
+	  "HIDDEN_ITEM_IRON_PLATE",
+	  "TRAINER_HIKER_DAMON_REWARD",
+	  "TRAINER_HIKER_MAURICE_REWARD",
+	  "TRAINER_WORKER_BRENDON_REWARD",
+	  "TRAINER_WORKER_QUENTIN_REWARD",
+	  "TRAINER_BATTLE_GIRL_TYLER_REWARD",
+	  "TRAINER_BLACK_BELT_KENDAL_REWARD",
+	  "TRAINER_ACE_TRAINER_JONAH_REWARD",
+	  "TRAINER_ACE_TRAINER_BRENDA_REWARD",
+	  "TRAINER_GALACTIC_GRUNT_&_GALACTIC_GRUNT_REWARD",
+	  "NPC_GIFT_RECEIVED_EGG"
+	],
+    "events": [],
+    "exits": [],
+    "warps": [
+      "MAP_IRON_ISLAND_B2F_LEFT:0/MAP_IRON_ISLAND_B1F_RIGHT:1",
+	  "MAP_IRON_ISLAND_B2F_LEFT:1/MAP_IRON_ISLAND_B3F:0"
+    ]
+  },
+  
+{
+  "REGION_IRON_ISLAND_B2F_RIGHT/MAIN": {
+    "parent_map": "MAP_IRON_ISLAND_B1F_RIGHT",
+    "has_grass": true,
+    "has_water": false,
+    "has_fishing": false,
+    "locations": [
+	  "ITEM_ELIXIR",
+	  "ITEM_TM_IRON_TAIL",
+	  "HIDDEN_ITEM_STAR_PIECE",
+	  "TRAINER_WORKER_NOEL_REWARD",
+	  "TRAINER_WORKER_BRADEN_REWARD"
+	],
+    "events": [],
+    "exits": [],
+    "warps": [
+      "MAP_IRON_ISLAND_B2F_RIGHT:0/MAP_IRON_ISLAND_B1F_RIGHT:2",
+    ]
+  },
+  
+{
+  "REGION_IRON_ISLAND_B3F/MAIN": {
+    "parent_map": "MAP_IRON_ISLAND_B3F",
+    "has_grass": true,
+    "has_water": false,
+    "has_fishing": false,
+    "locations": [
+	  "ITEM_SHINY_STONE"
+	],
+    "events": [],
+    "exits": [],
+    "warps": [
+      "MAP_IRON_ISLAND_B3F:0/MAP_IRON_ISLAND:3",
+	  "MAP_IRON_ISLAND_B3F:1/MAP_IRON_RUINS:0"
+    ]
+  },
+ 
+{
+  "REGION_IRON_RUINS/MAIN": {
+    "parent_map": "MAP_IRON_RUINS",
+    "has_grass": true,
+    "has_water": false,
+    "has_fishing": false,
+    "locations": [],
+    "events": [],
+    "exits": [],
+    "warps": [
+      "MAP_IRON_RUINS:0/MAP_IRON_ISLAND_BF3:1",
+    ]
+  },
+
+{
+  "REGION_CELESTIC_TOWN_CELESTIC_RUINS/MAIN": {
+    "parent_map": "MAP_CELESTIC_TOWN_CELESTIC_RUINS",
+    "has_grass": false,
+    "has_water": false,
+    "has_fishing": false,
+    "locations": [
+	  "TRAINER_GALACTIC_BOSS_CYRUS_REWARD",
+	  "NPC_GIFT_RECEIVED_HM_SURF"
+	],
     "events": [
-	  "E
+	  "EVENT_EXAMINE_WALL"
 	],
     "exits": [],
     "warps": [
-      "
-    ]
+	"MAP_CELESTIC_TOWN_CELESTIC_RUINS:0/MAP_CELESTIC_TOWN:2"
+	]
   },
 
 {
@@ -854,58 +1226,193 @@
   
 {
   "REGION_VICTORY_ROAD_1F/MAIN": {
-    "parent_map": "MAP_VICTORY_ROAD",
+    "parent_map": "MAP_VICTORY_ROAD_1F",
+    "has_grass": true,
+    "has_water": false,
+    "has_fishing": false,
+    "locations": [
+      "ITEM_TM_TORMENT",
+	  "ITEM_RARE_CANDY",
+	  "ITEM_MAX_REPEL",
+	  "ITEM_RAZOR_CLAW",
+	  "HIDDEN_ITEM_NUGGET",
+	  "HIDDEN_ITEM_MAX_REVIVE",
+	  "HIDDEN_ITEM_ULTRA_BALL",
+	  "TRAINER_PSYCHIC_BRYCE_REWARD",
+	  "TRAINER_BIRD_KEEPER_HANA_REWARD",
+	  "TRAINER_ACE_TRAINER_MARIAH_REWARD",
+	  "TRAINER_BLACK_BELT_MILES_REWARD",
+	  "TRAINER_VETERAN_EDGAR_REWARD",
+	  "TRAINER_DRAGON_TAMER_CLINTON_REWARD"
+    ],
+    "events": [],
+    "exits": [],
+    "warps": [
+      "MAP_VICTORY_ROAD_1F:0/MAP_POKEMON_LEAGUE_LOWER:1",
+	  "MAP_VICTORY_ROAD_1F:1/MAP_POKEMON_LEAGUE_UPPER:1",
+	  "MAP_VICTORY_ROAD_1F:2,3,4/MAP_VICTORY_ROAD_2F:0,1,2",
+	  "MAP_VICTORY_ROAD_1F:5,6,7/MAP_VICTORY_ROAD_B1F:0,1,2",
+	  "MAP_VICTORY_ROAD_1F:8/MAP_VICTORY_ROAD_SECRET:0"
+    ]
+  },
+  
+{
+  "REGION_VICTORY_ROAD_2F/MAIN": {
+    "parent_map": "MAP_VICTORY_ROAD_2F",
+    "has_grass": true,
+    "has_water": false,
+    "has_fishing": false,
+    "locations": [
+      "ITEM_TM_DARK_PULSE",
+	  "ITEM_TM_STONE_EDGE",
+	  "ITEM_MAX_ELIXIR",
+	  "ITEM_FULL_RESTORE",
+	  "HIDDEN_ITEM_RARE_CANDY",
+	  "HIDDEN_ITEM_FULL_RESTORE",
+	  "TRAINER_ACE_TRAINER_OMAR_REWARD",
+	  "TRAINER_ACE_TRAINER_SYDNEY_REWARD",
+	  "TRAINER_VETERAN_CLAYTON_REWARD",
+	  "TRAINER_DOUBLE_TEAM_AL_&_KAY_REWARD"
+    ],
+    "events": [],
+    "exits": [],
+    "warps": [
+      "MAP_VICTORY_ROAD_2F:0,1,2/MAP_VICTORY_ROAD_1F:2,3,4"
+    ]
+  },
+  
+{
+  "REGION_VICTORY_ROAD_B1F/MAIN": {
+    "parent_map": "MAP_VICTORY_ROAD_B1F",
+    "has_grass": true,
+    "has_water": false,
+    "has_fishing": true,
+    "locations": [
+      "ITEM_TM_DRAGON_PULSE",
+	  "ITEM_ULTRA_BALL",
+	  "ITEM_CALCIUM",
+	  "HIDDEN_ITEM_HEART_SCALE",
+	  "HIDDEN_ITEM_MAX_ELIXIR",
+	  "TRAINER_PSYCHIC_VALENCIA_REWARD",
+	  "TRAINER_ACE_TRAINER_HENRY_REWARD",
+	  "TRAINER_DOUBLE_TEAM_JO_&_PAT_REWARD",
+	  "TRAINER_DRAGON_TAMER_ONDREJ_REWARD"
+    ],
+    "events": [],
+    "exits": [],
+    "warps": [
+      "MAP_VICTORY_ROAD_B1F:0,1,2/MAP_VICTORY_ROAD_1F:5,6,7"
+    ]
+  },
+
+{
+  "REGION_VICTORY_ROAD_SECRET/MAIN": {
+    "parent_map": "MAP_VICTORY_ROAD_SECRET",
     "has_grass": true,
     "has_water": false,
     "has_fishing": false,
     "locations": [
       "
-	  
+    ],
+    "events": [],
+    "exits": [],
+    "warps": [
+      "MAP_VICTORY_ROAD_SECRET:0/MAP_VICTORY_ROAD_1F:8"
+    ]
+  },
+  
+{
+  "REGION_LAKE_VERITY_/MAIN": {
+    "parent_map": "MAP_LAKE_VERITY",
+    "has_grass": false,
+    "has_water": false,
+    "has_fishing": true,
+    "locations": [
+      "ITEM_TM_FIRE_BLAST",
+	  "TRAINER_GALACTIC_GRUNT_1_REWARD",
+	  "TRAINER_GALACTIC_GRUNT_2_REWARD",
+	  "TRAINER_GALACTIC_GRUNT_3_REWARD",
+	  "TRAINER_GALACTIC_GRUNT_4_REWARD",
+	  "TRAINER_COMMANDER_MARS_REWARD"
     ],
     "events": [
-	  "E
+	  "EVENT_DEFEATED_COMMANDER_MARS"
 	],
     "exits": [],
     "warps": [
-      "
+      "MAP_LAKE_VERITY:0/MAP_LAKE_VERITY_LAKEFRONT:3"
+	  "MAP_LAKE_VERITY:1/MAP_VERITY_CAVERN:0"
     ]
   },
   
 {
   "REGION_VERITY_CAVERN/MAIN": {
     "parent_map": "MAP_VERITY_CAVERN",
-    "has_grass": true,
+    "has_grass": false,
     "has_water": false,
     "has_fishing": false,
-    "locations": [
-      "
-	  
-    ],
-    "events": [
-	  "E
-	],
+    "locations": [],
+    "events": [],
     "exits": [],
     "warps": [
-      "
+      "MAP_VERITY_CAVERN:0/MAP_LAKE_VERITY:1"
+    ]
+  },
+  
+{
+  "REGION_LAKE_VALOR_/MAIN": {
+    "parent_map": "MAP_LAKE_VALOR",
+    "has_grass": false,
+    "has_water": false,
+    "has_fishing": true,
+    "locations": [
+      "ITEM_TM_THUNDER",
+	  "TRAINER_GALACTIC_GRUNT_1_REWARD",
+	  "TRAINER_GALACTIC_GRUNT_2_REWARD",
+	  "TRAINER_GALACTIC_GRUNT_3_REWARD"
+    ],
+    "events": [],
+    "exits": [],
+    "warps": [
+      "MAP_LAKE_VALOR:0/MAP_LAKE_VALOR_LAKEFRONT:3"
+	  "MAP_LAKE_VALOR:1/MAP_VALOR_CAVERN:0"
     ]
   },
   
 {
   "REGION_VALOR_CAVERN/MAIN": {
     "parent_map": "MAP_VALOR_CAVERN",
+    "has_grass": false,
+    "has_water": false,
+    "has_fishing": false,
+    "locations": [
+      "TRAINER_COMMANDER_SATURN_REWARD"  
+    ],
+    "events": [
+	  "EVENT_DEFEATED_COMMANDER_SATURN"
+	],
+    "exits": [],
+    "warps": [
+      "MAP_VALOR_CAVERN:0/MAP_LAKE_VALOR:1"
+    ]
+  },
+  
+{
+  "REGION_LAKE_ACUITY/MAIN": {
+    "parent_map": "MAP_LAKE_ACUITY",
     "has_grass": true,
     "has_water": false,
     "has_fishing": false,
     "locations": [
-      "
-	  
+      "ITEM_TM_BLIZZARD"
     ],
     "events": [
-	  "E
+	  "EVENT_TALK_TO_COMMANDER_JUPITER"
 	],
     "exits": [],
     "warps": [
-      "
+      "MAP_LAKE_ACUITY:0/MAP_ACUITY_LAKEFRONT:0",
+	  "MAP_LAKE_ACUITY:1/MAP_ACUITY_CAVERN:0"
     ]
   },
   
@@ -915,16 +1422,11 @@
     "has_grass": true,
     "has_water": false,
     "has_fishing": false,
-    "locations": [
-      "
-	  
-    ],
-    "events": [
-	  "E
-	],
+    "locations": [],
+    "events": [],
     "exits": [],
     "warps": [
-      "
+      "MAP_ACUITY_CAVERN:0/MAP_LAKE_ACUITY:1"
     ]
   },
   

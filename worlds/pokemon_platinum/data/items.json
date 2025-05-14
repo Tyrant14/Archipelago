@@ -3,7 +3,7 @@
 
 {
 	"tag": "Ultra Ball",
-	"long_description": "Acuity Lakefront - Item in northeast corner",
+	"long_description": "Acuity Lakefront - NE Item",
 	"location": "Acuity Lakefront Lower",
 	"item_flag": "0x499",
 	"vanilla_item": 002,
