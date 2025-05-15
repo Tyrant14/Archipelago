@@ -6,7 +6,7 @@
 	"long_description": "Acuity Lakefront - NE Item",
 	"location": "Acuity Lakefront Lower",
 	"item_flag": "0x499",
-	"vanilla_item": 002,
+	"vanilla_item": 2,
 	"requirements": []
  },
  
@@ -59,7 +59,7 @@
  	"tag": "TM89 U-turn",
  	"long_description": "Canalave City - In the south, at the end of the canal",
  	"location": "Canalave City",
- 	"item_flag": "047C",
+ 	"item_flag": "0x47C",
  	"vanilla_item": 416,
 	"requirements": ["HM_SURF"]
  },
@@ -68,8 +68,8 @@
      "tag": "Super Potion",
      "long_description": "Eterna City - Next to the Gym",
      "location": "Eterna City",
-     "item_flag": "0x0410",
-     "vanilla_item": 026,
+     "item_flag": "0x410",
+     "vanilla_item": 26,
     "requirements": []
  },
  
@@ -77,7 +77,7 @@
      "tag": "HM01",
      "long_description": "Eterna City - Obtained from Cynthia outside the Team Galactic Eterna Building",
      "location": "Eterna City",
-     "item_flag": "0x",
+     "item_flag": "0x93",
      "vanilla_item": 420,
     "requirements": []
  },
@@ -86,7 +86,7 @@
      "tag": "TM46",
      "long_description": "Eterna City - North of the statue, accessed from behind the Team Galactic Eterna Building (requires Cut)",
      "location": "Eterna City",
-     "item_flag": "0x040E",
+     "item_flag": "0x40E",
      "vanilla_item": 373,
     "requirements": ["HM_CUT"]
  },
@@ -95,7 +95,7 @@
      "tag": "Explorer Kit",
      "long_description": "Eterna City - Obtained from the Underground Man in the house next to the Pokémon Center",
      "location": "Eterna City",
-     "item_flag": "0x0079",
+     "item_flag": "0x79",
      "vanilla_item": 428,
     "requirements": []
  },
@@ -104,7 +104,7 @@
      "tag": "Bike",
      "long_description": "Eterna City - Obtained from Rad Rickshaw after saving him from Team Galactic",
      "location": "Eterna City",
-     "item_flag": "0x0082",
+     "item_flag": "0x82",
      "vanilla_item": 450,
     "requirements": []
  },
@@ -113,7 +113,7 @@
      "tag": "Up-Grade",
      "long_description": "Eterna City - Given by Professor Oak after obtaining the National Pokédex and meeting him at the Pal Park",
      "location": "Eterna City",
-     "item_flag": "0x0119",
+     "item_flag": "0x119",
      "vanilla_item": 252,
     "requirements": []
  },
@@ -122,7 +122,7 @@
      "tag": "Silver Powder",
      "long_description": "Eterna Forest Exterior - West end of the path in the cliff on the shortcut path",
      "location": "Eterna Forest Exterior",
-     "item_flag": "0x0413",
+     "item_flag": "0x413",
      "vanilla_item": 222,
     "requirements": []
  },
@@ -131,7 +131,7 @@
      "tag": "TM82",
      "long_description": "Eterna Forest Exterior - East end of the path in the cliff on the shortcut path",
      "location": "Eterna Forest Exterior",
-     "item_flag": "0x0412",
+     "item_flag": "0x412",
      "vanilla_item": 409,
     "requirements": []
  },
@@ -140,8 +140,8 @@
      "tag": "Antidote",
      "long_description": "Eterna Forest Interior - In the field of grass just west of the southern entrance",
      "location": "Eterna Forest Interior",
-     "item_flag": "0x0408",
-     "vanilla_item": 018,
+     "item_flag": "0x408",
+     "vanilla_item": 18,
     "requirements": []
  },
  
@@ -149,8 +149,8 @@
      "tag": "Paralyze Heal",
      "long_description": "Eterna Forest Interior - Northeast of the entrance, just north of the first path segment",
      "location": "Eterna Forest Interior",
-     "item_flag": "0x0409",
-     "vanilla_item": 022,
+     "item_flag": "0x409",
+     "vanilla_item": 22,
     "requirements": []
  },
  
@@ -158,8 +158,8 @@
      "tag": "Net Ball",
      "long_description": "Eterna Forest Interior - In the southwest corner of the field of grass south of the long path segment	",
      "location": "Eterna Forest Interior",
-     "item_flag": "0x040A",
-     "vanilla_item": 006,
+     "item_flag": "0x40A",
+     "vanilla_item": 6,
     "requirements": []
  },
  
@@ -167,8 +167,8 @@
      "tag": "Potion",
      "long_description": "Eterna Forest Interior - In the grass at the southeast corner of the forest",
      "location": "Eterna Forest Interior",
-     "item_flag": "0x04EF",
-     "vanilla_item": 017,
+     "item_flag": "0x4EF",
+     "vanilla_item": 17,
     "requirements": []
  },
  
@@ -176,8 +176,8 @@
      "tag": "Green Shard",
      "long_description": "Eterna Forest Interior - In the grass southwest of the cuttable trees leading to the Old Chateau",
      "location": "Eterna Forest Interior",
-     "item_flag": "0x040B",
-     "vanilla_item": 075,
+     "item_flag": "0x40B",
+     "vanilla_item": 75,
     "requirements": []
  },
  
@@ -185,8 +185,8 @@
      "tag": "Ether",
      "long_description": "Eterna Forest Interior - 	On the right side of the Old Chateau (requires Cut)",
      "location": "Eterna Forest Interior",
-     "item_flag": "0x044B",
-     "vanilla_item": 038,
+     "item_flag": "0x44B",
+     "vanilla_item": 38,
     "requirements": ["HM_CUT"]
  },
  
@@ -204,7 +204,7 @@
 	"long_description": "Floaroma Meadow - Item below top entrance",
 	"location": "Floaroma Meadow",
 	"item_flag": "0x4E0",
-	"vanilla_item": 085,
+	"vanilla_item": 85,
 	"requirements": ["HM_SURF"]
  },
  
@@ -222,7 +222,7 @@
 	"long_description": "Floaroma Meadow - Item middle left",
 	"location": "Floaroma Meadow",
 	"item_flag": "0x513",
-	"vanilla_item": 002,
+	"vanilla_item": 2,
 	"requirements": ["HM_SURF"]
  },
  
@@ -231,7 +231,7 @@
 	"long_description": "Floaroma Meadow - Item bottom left above ledge",
 	"location": "Floaroma Meadow",
 	"item_flag": "0x514",
-	"vanilla_item": 050,
+	"vanilla_item": 50,
 	"requirements": ["HM_SURF"]
  },
  
@@ -240,7 +240,7 @@
 	"long_description": "Fuego Ironworks - Item left above first blue crate",
 	"location": "Fuego Ironworks",
 	"item_flag": "0x512",
-	"vanilla_item": 074,
+	"vanilla_item": 74,
 	"requirements": ["HM_SURF"]
  },
  
@@ -249,7 +249,7 @@
 	"long_description": "Fuego Ironworks - Item top left middle below blue crate",
 	"location": "Fuego Ironworks",
 	"item_flag": "0x470",
-	"vanilla_item": 049,
+	"vanilla_item": 49,
 	"requirements": ["HM_SURF"]
  },
  
@@ -258,7 +258,7 @@
 	"long_description": "Fuego Ironworks - Item middle in indent",
 	"location": "Fuego Ironworks",
 	"item_flag": "0x510",
-	"vanilla_item": 072,
+	"vanilla_item": 72,
 	"requirements": ["HM_SURF"]
  },
  
@@ -276,7 +276,7 @@
 	"long_description": "Fuego Ironworks - Item middle right",
 	"location": "Fuego Ironworks",
 	"item_flag": "0x50F",
-	"vanilla_item": 073,
+	"vanilla_item": 73,
 	"requirements": ["HM_SURF"]
  },
  
@@ -285,7 +285,7 @@
 	"long_description": "Fuego Ironworks - Item top middle right",
 	"location": "Fuego Ironworks",
 	"item_flag": "0x511",
-	"vanilla_item": 075,
+	"vanilla_item": 75,
 	"requirements": ["HM_SURF"]
  },
  
@@ -294,7 +294,7 @@
 	"long_description": "Fuego Ironworks - Item top right",
 	"location": "Fuego Ironworks",
 	"item_flag": "0x471",
-	"vanilla_item": 082,
+	"vanilla_item": 82,
 	"requirements": ["HM_SURF"]
  },
  
@@ -321,7 +321,7 @@
  	"long_description": "Great Marsh - Item top left above trees",
  	"location": "Great Marsh",
  	"item_flag": "0x438",
- 	"vanilla_item": 074,
+ 	"vanilla_item": 74,
 	"requirements": []
  },
  
@@ -330,7 +330,7 @@
  	"long_description": "Great Marsh - Item top left below trees",
  	"location": "Great Marsh",
  	"item_flag": "0x439",
- 	"vanilla_item": 004,
+ 	"vanilla_item": 4,
 	"requirements": []
  },
  
@@ -339,7 +339,7 @@
  	"long_description": "Great Marsh - Item top right above ledge",
  	"location": "Great Marsh",
  	"item_flag": "0x43A",
- 	"vanilla_item": 073,
+ 	"vanilla_item": 73,
 	"requirements": []
  },
  
@@ -348,7 +348,7 @@
  	"long_description": "Great Marsh - Item left middle below trainer",
  	"location": "Great Marsh",
  	"item_flag": "0x43C",
- 	"vanilla_item": 003,
+ 	"vanilla_item": 3,
 	"requirements": []
  },
  
@@ -357,7 +357,7 @@
  	"long_description": "Great Marsh - Item right middle above trainer",
  	"location": "Great Marsh",
  	"item_flag": "0x43D",
- 	"vanilla_item": 075,
+ 	"vanilla_item": 75,
 	"requirements": []
  },
  
@@ -366,7 +366,7 @@
  	"long_description": "Great Marsh - Item bottom left",
  	"location": "Great Marsh",
  	"item_flag": "0x43E",
- 	"vanilla_item": 003,
+ 	"vanilla_item": 3,
 	"requirements": []
  },
  
@@ -375,7 +375,7 @@
  	"long_description": "Great Marsh - Item middle right below ledge",
  	"location": "Great Marsh",
  	"item_flag": "0x43B",
- 	"vanilla_item": 004,
+ 	"vanilla_item": 4,
 	"requirements": []
  },
  
@@ -384,7 +384,7 @@
  	"long_description": "Great Marsh - Item bottom right below pond",
  	"location": "Great Marsh",
  	"item_flag": "0x43F",
- 	"vanilla_item": 072,
+ 	"vanilla_item": 72,
 	"requirements": []
  },
  
@@ -393,7 +393,7 @@
 	"long_description": "Jubilife City - Item in between two buildings south of the Poketch Company headquarters",
 	"location": "Jubilife City",
 	"item_flag": "0x4F8",
-	"vanilla_item": 017,
+	"vanilla_item": 17,
 	"requirements": []
  },
  
@@ -438,7 +438,7 @@
 	"long_description": "Lost Tower 3F - Item bottom left",
 	"location": "Lost Tower",
 	"item_flag": "0x453",
-	"vanilla_item": 028,
+	"vanilla_item": 28,
 	"requirements": []
  },
  
@@ -456,7 +456,7 @@
 	"long_description": "Mt. Coronet B1F - Item bottom left behind rock smash",
 	"location": "Mt. Coronet",
 	"item_flag": "0x48F",
-	"vanilla_item": 002,
+	"vanilla_item": 2,
 	"requirements": ["HM_ROCK_SMASH & HM_STRENGTH"]
  },
  
@@ -474,7 +474,7 @@
 	"long_description": "Mt. Coronet B1F - Item top behind strength boulder",
 	"location": "Mt. Coronet",
 	"item_flag": "0x492",
-	"vanilla_item": 028,
+	"vanilla_item": 28,
 	"requirements": ["HM_STRENGTH"]
  },
  
@@ -483,7 +483,7 @@
 	"long_description": "Mt. Coronet B1F - Item top right above pond",
 	"location": "Mt. Coronet",
 	"item_flag": "0x491",
-	"vanilla_item": 041,
+	"vanilla_item": 41,
 	"requirements": ["HM_ROCK_SMASH & HM_STRENGTH"]
  },
  
@@ -492,7 +492,7 @@
 	"long_description": "Mt. Coronet B1F - Item far right behind rock smash",
 	"location": "Mt. Coronet",
 	"item_flag": "0x490",
-	"vanilla_item": 023,
+	"vanilla_item": 23,
 	"requirements": ["HM_ROCK_SMASH & HM_STRENGTH"]
  },
  
@@ -510,7 +510,7 @@
 	"long_description": "Iron Island B1F1 - Item in middle",
 	"location": "Iron Island",
 	"item_flag": "0x516",
-	"vanilla_item": 074,
+	"vanilla_item": 74,
 	"requirements": []
  },
  
@@ -528,7 +528,7 @@
 	"long_description": "Iron Island B1F2 - Item in pocket",
 	"location": "Iron Island",
 	"item_flag": "0x47E",
-	"vanilla_item": 078,
+	"vanilla_item": 78,
 	"requirements": []
  },
  
@@ -537,7 +537,7 @@
 	"long_description": "Iron Island B1F2 - Item right side above rock",
 	"location": "Iron Island",
 	"item_flag": "0x47F",
-	"vanilla_item": 077,
+	"vanilla_item": 77,
 	"requirements": []
  },
  
@@ -546,7 +546,7 @@
 	"long_description": "Iron Island B1F2 - Item above elevator",
 	"location": "Iron Island",
 	"item_flag": "0x518",
-	"vanilla_item": 028,
+	"vanilla_item": 28,
 	"requirements": []
  },
  
@@ -555,7 +555,7 @@
 	"long_description": "Iron Island B2F1 - Item right",
 	"location": "Iron Island",
 	"item_flag": "0x480",
-	"vanilla_item": 040,
+	"vanilla_item": 40,
 	"requirements": []
  },
  
@@ -573,7 +573,7 @@
 	"long_description": "Iron Island B2F2 - Item top left",
 	"location": "Iron Island",
 	"item_flag": "0x482",
-	"vanilla_item": 013,
+	"vanilla_item": 13,
 	"requirements": []
  },
  
@@ -591,7 +591,7 @@
 	"long_description": "Iron Island B2F2 - Item left below 2 rocks ",
 	"location": "Iron Island",
 	"item_flag": "0x483",
-	"vanilla_item": 024,
+	"vanilla_item": 24,
 	"requirements": []
  },
  
@@ -600,7 +600,7 @@
 	"long_description": "Iron Island B2F2 - Item in middle ",
 	"location": "Iron Island",
 	"item_flag": "0x515",
-	"vanilla_item": 072,
+	"vanilla_item": 72,
 	"requirements": []
  },
  
@@ -609,7 +609,7 @@
 	"long_description": "Iron Island B2F2 - Item right on ledge above trainers ",
 	"location": "Iron Island",
 	"item_flag": "0x484",
-	"vanilla_item": 002,
+	"vanilla_item": 2,
 	"requirements": []
  },
  
@@ -618,7 +618,7 @@
 	"long_description": "Iron Island B2F2 - Item above rocks above elevator ",
 	"location": "Iron Island",
 	"item_flag": "0x485",
-	"vanilla_item": 045,
+	"vanilla_item": 45,
 	"requirements": []
  },
  
@@ -645,7 +645,7 @@
 	"long_description": "Mt. Coronet South 1F - Item top middle",
 	"location": "Mt. Coronet",
 	"item_flag": "0x424",
-	"vanilla_item": 046,
+	"vanilla_item": 46,
 	"requirements": ["HM_SURF"]
  },
  
@@ -654,7 +654,7 @@
 	"long_description": "Mt. Coronet 1F - Item middle left of rock smash",
 	"location": "Mt. Coronet",
 	"item_flag": "0x48C",
-	"vanilla_item": 050,
+	"vanilla_item": 50,
 	"requirements": ["HM_ROCK_SMASH & HM_STRENGTH"]
  },
  
@@ -663,7 +663,7 @@
 	"long_description": "Mt. Coronet 1F - Item below right entrance",
 	"location": "Mt. Coronet",
 	"item_flag": "0x48B",
-	"vanilla_item": 078,
+	"vanilla_item": 78,
 	"requirements": []
  },
  
@@ -681,7 +681,7 @@
 	"long_description": "Mt. Coronet 1F - Item middle right of rock",
 	"location": "Mt. Coronet",
 	"item_flag": "0x4FC",
-	"vanilla_item": 020,
+	"vanilla_item": 20,
 	"requirements": ["HM_ROCK_SMASH"]
  },
  
@@ -698,7 +698,7 @@
  	"tag": "Adamant Orb",
  	"long_description": "Mt.Coronet 4F 2 - Atop the waterfall, on a rock inside a small section of cave",
  	"location": "Mt.Coronet",
- 	"item_flag": "041B",
+ 	"item_flag": "0x41B",
  	"vanilla_item": 135,
 	"requirements": ["HM_WATERFALL"]
  },
@@ -707,7 +707,7 @@
  	"tag": "Lustrous Orb",
  	"long_description": "Mt.Coronet 4F 2 - Atop the waterfall, on a rock inside a small section of cave",
  	"location": "Mt.Coronet",
- 	"item_flag": "041D",
+ 	"item_flag": "0x41D",
  	"vanilla_item": 136,
 	"requirements": ["HM_WATERFALL"]
  },
@@ -716,8 +716,8 @@
      "tag": "Old Gateau",
      "long_description": "Old Chateau - 2F, in the room west of the entrance",
      "location": "Old Chateau",
-     "item_flag": "0x040C",
-     "vanilla_item": 054,
+     "item_flag": "0x40C",
+     "vanilla_item": 54,
     "requirements": []
  },
  
@@ -725,8 +725,8 @@
      "tag": "Rare Candy",
      "long_description": "Old Chateau - 1F Dining Area, on the west side",
      "location": "Old Chateau",
-     "item_flag": "0x0501",
-     "vanilla_item": 050,
+     "item_flag": "0x501",
+     "vanilla_item": 50,
     "requirements": []
  },
  
@@ -734,8 +734,8 @@
      "tag": "Big Pearl",
      "long_description": "Old Chateau - 1F Dining Area, on the east side",
      "location": "Old Chateau",
-     "item_flag": "0x0502",
-     "vanilla_item": 089,
+     "item_flag": "0x502",
+     "vanilla_item": 89,
     "requirements": []
  },
  
@@ -743,7 +743,7 @@
      "tag": "TM90",
      "long_description": "Old Chateau - 2F, in the easternmost bedroom",
      "location": "Old Chateau",
-     "item_flag": "0x04EE",
+     "item_flag": "0x4EE",
      "vanilla_item": 417,
     "requirements": []
  },
@@ -752,7 +752,7 @@
      "tag": "Dread Plate",
      "long_description": "Old Chateau - 2F, in the westernmost bedroom",
      "location": "Old Chateau",
-     "item_flag": "0x04ED",
+     "item_flag": "0x4ED",
      "vanilla_item": 312,
     "requirements": []
  },
@@ -771,7 +771,7 @@
 	"long_description": "Oreburgh Gate B1F - Item middle right of cyclist",
 	"location": "Oreburgh Gate",
 	"item_flag": "0x49F",
-	"vanilla_item": 089,
+	"vanilla_item": 89,
 	"requirements": ["HM_ROCK_SMASH"]
  },
  
@@ -807,7 +807,7 @@
 	"long_description": "Oreburgh Mine B1F - Item right of entrance",
 	"location": "Oreburgh Mine",
 	"item_flag": "0x4E1",
-	"vanilla_item": 004,
+	"vanilla_item": 4,
 	"requirements": []
  },
  
@@ -816,7 +816,7 @@
 	"long_description": "Oreburgh Mine B2F - Item right side below rock",
 	"location": "Oreburgh Mine",
 	"item_flag": "0x3FE",
-	"vanilla_item": 017,
+	"vanilla_item": 17,
 	"requirements": []
  },
  
@@ -825,7 +825,7 @@
 	"long_description": "Oreburgh Mine B2F - Item bottom left",
 	"location": "Oreburgh Mine B2F",
 	"item_flag": "0x3FD",
-	"vanilla_item": 078,
+	"vanilla_item": 78,
 	"requirements": []
  },
  
@@ -843,7 +843,7 @@
  	"long_description": "Pokémon Mansion - In the third room left of the entrance",
  	"location": "Pokémon Mansion",
  	"item_flag": "0x430",
- 	"vanilla_item": 011,
+ 	"vanilla_item": 11,
 	"requirements": []
  },
  
@@ -852,7 +852,7 @@
  	"long_description": "Resort Area - Item northwest of the Villa",
  	"location": "Resort Area",
  	"item_flag": "0x4DE",
- 	"vanilla_item": 092,
+ 	"vanilla_item": 92,
 	"requirements": ["HM_SURF"]
  },
  
@@ -861,7 +861,7 @@
  	"long_description": "Valley Windworks - Item right of windmill",
  	"location": "Valley Windworks",
  	"item_flag": "0x4F2",
- 	"vanilla_item": 017,
+ 	"vanilla_item": 17,
 	"requirements": [""]
  },
  
@@ -897,7 +897,7 @@
 	"long_description": "Wayward Cave - Item in middle after rock smash",
 	"location": "Wayward Cave",
 	"item_flag": "0x41A",
-	"vanilla_item": 078,
+	"vanilla_item": 78,
 	"requirements": ["HM_ROCK_SMASH"]
  },
  
@@ -906,7 +906,7 @@
 	"long_description": "Wayward Cave - Item top left after rock smash",
 	"location": "Wayward Cave",
 	"item_flag": "0x419",
-	"vanilla_item": 028,
+	"vanilla_item": 28,
 	"requirements": ["HM_ROCK_SMASH"]
  },
  
@@ -915,7 +915,7 @@
 	"long_description": "Wayward Cave Secret - Item in middle-right after 3 jumps",
 	"location": "Wayward Cave",
 	"item_flag": "0x41E",
-	"vanilla_item": 039,
+	"vanilla_item": 39,
 	"requirements": ["BICYCLE"]
  },
  
@@ -933,7 +933,7 @@
 	"long_description": "Wayward Cave Secret - Item top right after 1 jump",
 	"location": "Wayward Cave",
 	"item_flag": "0x41F",
-	"vanilla_item": 050,
+	"vanilla_item": 50,
 	"requirements": ["BICYCLE"]
  },
  
@@ -951,8 +951,8 @@
 	"tag": "Potion",
 	"long_description": "Route 202 - Item in northwest patch of grass before Jubilife City ",
 	"location": "Route 202",
-	"item_flag": "0x",
-	"vanilla_item": 017,
+	"item_flag": "0x3F6",
+	"vanilla_item": 17,
 	"requirements": []
  },
  
@@ -961,7 +961,7 @@
 	"long_description": "Route 203 - Item above left ledge",
 	"location": "Route 203",
 	"item_flag": "0x3F8",
-	"vanilla_item": 004,
+	"vanilla_item": 4,
 	"requirements": []
  },
  
@@ -970,7 +970,7 @@
 	"long_description": "Route 203 - Item above right ledge",
 	"location": "Route 203",
 	"item_flag": "0x4F6",
-	"vanilla_item": 058,
+	"vanilla_item": 58,
 	"requirements": []
  },
  
@@ -979,7 +979,7 @@
 	"long_description": "Route 203 - Item above pond",
 	"location": "Route 203",
 	"item_flag": "0x3F7",
-	"vanilla_item": 079,
+	"vanilla_item": 79,
 	"requirements": []
  },
  
@@ -988,7 +988,7 @@
 	"long_description": "Route 204 (South) - Item north of pond around the fence and pond ",
 	"location": "Route 204",
 	"item_flag": "0x448",
-	"vanilla_item": 022,
+	"vanilla_item": 22,
 	"requirements": []
  },
  
@@ -1006,7 +1006,7 @@
 	"long_description": "Route 204 (South) - Item across middle pond",
 	"location": "Route 204",
 	"item_flag": "0x400",
-	"vanilla_item": 045,
+	"vanilla_item": 45,
 	"requirements": ["HM_SURF"]
  },
  
@@ -1015,7 +1015,7 @@
 	"long_description": "Route 204 (North) - Item to the right of spinner",
 	"location": "Route 204",
 	"item_flag": "0x4F4",
-	"vanilla_item": 021,
+	"vanilla_item": 21,
 	"requirements": []
  },
  
@@ -1033,7 +1033,7 @@
 	"long_description": "Route 205 (South) - Item right of hiker above grass",
 	"location": "Route 205",
 	"item_flag": "0x407",
-	"vanilla_item": 062,
+	"vanilla_item": 62,
 	"requirements": []
  },
  
@@ -1042,7 +1042,7 @@
 	"long_description": "Route 205 (South) - Item below bridge in middle",
 	"location": "Route 205",
 	"item_flag": "0x406",
-	"vanilla_item": 014,
+	"vanilla_item": 14,
 	"requirements": []
  },
  
@@ -1051,7 +1051,7 @@
 	"long_description": "Route 205 (South) - Item bottomleft corner of walking trainer",
 	"location": "Route 205",
 	"item_flag": "0x474",
-	"vanilla_item": 079,
+	"vanilla_item": 79,
 	"requirements": []
  },
  
@@ -1060,7 +1060,7 @@
 	"long_description": "Route 205 (South) - Item right side below two stairs above ledge",
 	"location": "Route 205",
 	"item_flag": "0x4F3",
-	"vanilla_item": 026,
+	"vanilla_item": 26,
 	"requirements": []
  },
  
@@ -1069,7 +1069,7 @@
 	"long_description": "Route 205 (North) - Item below pond",
 	"location": "Route 205",
 	"item_flag": "0x40D",
-	"vanilla_item": 055,
+	"vanilla_item": 55,
 	"requirements": []
  },
  
@@ -1078,7 +1078,7 @@
  	"long_description": "Route 206 - Hidden Item behind cut bush between trees",
  	"location": "Route 206",
  	"item_flag": "0x415",
- 	"vanilla_item": 051,
+ 	"vanilla_item": 51,
 	"requirements": ["HM_CUT"]
  },
  
@@ -1087,7 +1087,7 @@
 	"long_description": "Route 206 - Item in middle in cycling road gap",
 	"location": "Route 206",
 	"item_flag": "0x417",
-	"vanilla_item": 019,
+	"vanilla_item": 19,
 	"requirements": ["HM_CUT"]
  },
  
@@ -1096,7 +1096,7 @@
 	"long_description": "Route 206 - Item top right below hiker",
 	"location": "Route 206",
 	"item_flag": "0x416",
-	"vanilla_item": 076,
+	"vanilla_item": 76,
 	"requirements": ["HM_CUT"]
  },
  
@@ -1114,7 +1114,7 @@
 	"long_description": "Route 207 - Item top left patch of grass",
 	"location": "Route 207",
 	"item_flag": "0x421",
-	"vanilla_item": 004,
+	"vanilla_item": 4,
 	"requirements": [""]
  },
  
@@ -1123,7 +1123,7 @@
 	"long_description": "Route 207 - Item between two blue posts",
 	"location": "Route 207",
 	"item_flag": "0x487",
-	"vanilla_item": 026,
+	"vanilla_item": 26,
 	"requirements": ["BICYCLE"]
  },
  
@@ -1132,7 +1132,7 @@
 	"long_description": "Route 207 - Item across bridge",
 	"location": "Route 207",
 	"item_flag": "0x422",
-	"vanilla_item": 028,
+	"vanilla_item": 28,
 	"requirements": ["BICYCLE"]
  },
  
@@ -1141,7 +1141,7 @@
 	"long_description": "Route 207 - Item top hill",
 	"location": "Route 207",
 	"item_flag": "0x537",
-	"vanilla_item": 010,
+	"vanilla_item": 10,
 	"requirements": []
  },
  
@@ -1150,7 +1150,7 @@
 	"long_description": "Route 207 - Item below rock climb",
 	"location": "Route 207",
 	"item_flag": "0x423",
-	"vanilla_item": 047,
+	"vanilla_item": 47,
 	"requirements": ["HM_ROCK_CLIMB"]
  },
  
@@ -1159,7 +1159,7 @@
 	"long_description": "Route 208 - Item left down stairs",
 	"location": "Route 208",
 	"item_flag": "0x427",
-	"vanilla_item": 003,
+	"vanilla_item": 3,
 	"requirements": []
  },
  
@@ -1168,7 +1168,7 @@
 	"long_description": "Route 208 - Item behind rock smash",
 	"location": "Route 208",
 	"item_flag": "0x428",
-	"vanilla_item": 038,
+	"vanilla_item": 38,
 	"requirements": ["HM_ROCK_SMASH"]
  },
  
@@ -1177,7 +1177,7 @@
 	"long_description": "Route 208 - Item above waterfall",
 	"location": "Route 208",
 	"item_flag": "0x426",
-	"vanilla_item": 048,
+	"vanilla_item": 48,
 	"requirements": ["HM_SURF & HM_WATERFALL"]
  },
  
@@ -1186,7 +1186,7 @@
 	"long_description": "Route 209 - Item in northeast corner of the tall grass north of the Hearthome City gate",
 	"location": "Route 209",
 	"item_flag": "0x44C",
-	"vanilla_item": 003,
+	"vanilla_item": 3,
 	"requirements": []
  },
 
@@ -1195,7 +1195,7 @@
 	"long_description": "Route 209 - Item due east of Poke Kid",
 	"location": "Route 209",
 	"item_flag": "0x44D",
-	"vanilla_item": 025,
+	"vanilla_item": 25,
 	"requirements": []
  },
 
@@ -1204,7 +1204,7 @@
 	"long_description": "Route 209 - Item in between the trees to the north of the northernmost mudslide pit",
 	"location": "Route 209",
 	"item_flag": "0x44E",
-	"vanilla_item": 049,
+	"vanilla_item": 49,
 	"requirements": ["BICYCLE"]
  },
 
@@ -1231,7 +1231,7 @@
 	"long_description": "Route 209 - Item in the middle of the pit near the Honey Tree",
 	"location": "Route 209",
 	"item_flag": "0x503",
-	"vanilla_item": 038,
+	"vanilla_item": 38,
 	"requirements": []
  },
  
@@ -1240,7 +1240,7 @@
 	"long_description": "Route 210 (South) - Item left in tree cove",
 	"location": "Route 210",
 	"item_flag": "0x459",
-	"vanilla_item": 076,
+	"vanilla_item": 76,
 	"requirements": []
  },
  
@@ -1249,7 +1249,7 @@
 	"long_description": "Route 210 (South) - Item far left after Psyducks",
 	"location": "Route 210",
 	"item_flag": "0x45A",
-	"vanilla_item": 077,
+	"vanilla_item": 77,
 	"requirements": []
  },
  
@@ -1258,7 +1258,7 @@
 	"long_description": "Route 210 (South) - Item above Psyducks",
 	"location": "Route 210",
 	"item_flag": "0x45D",
-	"vanilla_item": 025,
+	"vanilla_item": 25,
 	"requirements": []
  },
 
@@ -1267,7 +1267,7 @@
 	"long_description": "Route 210 (South) - Item top right before fog route",
 	"location": "Route 210",
 	"item_flag": "0x45C",
-	"vanilla_item": 008,
+	"vanilla_item": 8,
 	"requirements": []
  },
 
@@ -1276,7 +1276,7 @@
 	"long_description": "Route 210 (North) - Item left most patch of grass",
 	"location": "Route 210",
 	"item_flag": "0x50D",
-	"vanilla_item": 072,
+	"vanilla_item": 72,
 	"requirements": []
  },
 
@@ -1285,7 +1285,7 @@
 	"long_description": "Route 210 (North) - Item above ledge",
 	"location": "Route 210",
 	"item_flag": "0x50E",
-	"vanilla_item": 052,
+	"vanilla_item": 52,
 	"requirements": ["HM_ROCK_CLIMB"]
  },
 
@@ -1330,7 +1330,7 @@
 	"long_description": "Route 211 (East) - Item in middle of grass patch",
 	"location": "Route 211",
 	"item_flag": "0x533",
-	"vanilla_item": 048,
+	"vanilla_item": 48,
 	"requirements": []
  },
  
@@ -1348,7 +1348,7 @@
 	"long_description": "Route 212 (South) - Item right end of path between trees under bike track",
 	"location": "Route 212",
 	"item_flag": "0x437",
-	"vanilla_item": 028,
+	"vanilla_item": 28,
 	"requirements": []
  },
  
@@ -1357,7 +1357,7 @@
 	"long_description": "Route 212 (South) - Item inbetween sludge-pits",
 	"location": "Route 212",
 	"item_flag": "0x42E",
-	"vanilla_item": 040,
+	"vanilla_item": 40,
 	"requirements": []
  },
  
@@ -1366,7 +1366,7 @@
 	"long_description": "Route 212 (South) - Item after first cut tree",
 	"location": "Route 212",
 	"item_flag": "0x435",
-	"vanilla_item": 025,
+	"vanilla_item": 25,
 	"requirements": ["BICYCLE & HM_CUT"]
  },
  
@@ -1375,7 +1375,7 @@
 	"long_description": "Route 212 (South) - Item above ledge right of house",
 	"location": "Route 212",
 	"item_flag": "0x434",
-	"vanilla_item": 052,
+	"vanilla_item": 52,
 	"requirements": ["BICYCLE & HM_CUT"]
  },
  
@@ -1411,7 +1411,7 @@
 	"long_description": "Route 212 (South) - Item bottom left below scientist",
 	"location": "Route 212",
 	"item_flag": "0x431",
-	"vanilla_item": 027,
+	"vanilla_item": 27,
 	"requirements": []
  },
  
@@ -1420,7 +1420,7 @@
 	"long_description": "Route 212 (South) - Item left of double trainers",
 	"location": "Route 212",
 	"item_flag": "0x509",
-	"vanilla_item": 073,
+	"vanilla_item": 73,
 	"requirements": []
  },
  
@@ -1429,7 +1429,7 @@
 	"long_description": "Route 212 (North) - Item above sign below pond",
 	"location": "Route 212",
 	"item_flag": "0x50A",
-	"vanilla_item": 040,
+	"vanilla_item": 40,
 	"requirements": []
  },
  
@@ -1456,7 +1456,7 @@
 	"long_description": "Route 212 (North) - Item right of manor",
 	"location": "Route 212",
 	"item_flag": "0x508",
-	"vanilla_item": 075,
+	"vanilla_item": 75,
 	"requirements": []
  },
  
@@ -1465,7 +1465,7 @@
 	"long_description": "Route 212 (North) - Item right of northmost pond",
 	"location": "Route 212",
 	"item_flag": "0x507",
-	"vanilla_item": 047,
+	"vanilla_item": 47,
 	"requirements": ["HM_SURF"]
  },
  
@@ -1474,7 +1474,7 @@
 	"long_description": "Route 213 - Item below pool",
 	"location": "Route 213",
 	"item_flag": "0x446",
-	"vanilla_item": 051,
+	"vanilla_item": 51,
 	"requirements": []
  },
  
@@ -1483,7 +1483,7 @@
 	"long_description": "Route 213 - Item right of houses",
 	"location": "Route 213",
 	"item_flag": "0x447",
-	"vanilla_item": 046,
+	"vanilla_item": 46,
 	"requirements": ["HM_ROCK_CLIMB"]
  },
  
@@ -1492,7 +1492,7 @@
 	"long_description": "Route 213 - Item left of heal hotel",
 	"location": "Route 213",
 	"item_flag": "0x443",
-	"vanilla_item": 074,
+	"vanilla_item": 74,
 	"requirements": []
  },
  
@@ -1519,7 +1519,7 @@
 	"long_description": "Route 213 - Item on left island",
 	"location": "Route 213",
 	"item_flag": "0x444",
-	"vanilla_item": 029,
+	"vanilla_item": 29,
 	"requirements": ["HM_SURF"]
  },
  
@@ -1528,7 +1528,7 @@
 	"long_description": "Route 213 - Item on mini island above trainers",
 	"location": "Route 213",
 	"item_flag": "0x445",
-	"vanilla_item": 084,
+	"vanilla_item": 84,
 	"requirements": ["HM_SURF"]
  },
  
@@ -1537,7 +1537,7 @@
  	"long_description": "Route 214 - In the grassy area west of the Honey Tree",
  	"location": "Route 214",
  	"item_flag": "0x467",
- 	"vanilla_item": 072,
+ 	"vanilla_item": 72,
 	"requirements": []
 },
 
@@ -1556,7 +1556,7 @@
  	"long_description": "Route 214 - Right next to PI Carlos",
  	"location": "Route 214",
  	"item_flag": "0x468",
- 	"vanilla_item": 077,
+ 	"vanilla_item": 77,
 	"requirements": []
 },
 
@@ -1566,7 +1566,7 @@
  	"long_description": "Route 214 - Across the pond at the northeastern corner of the route",
  	"location": "Route 214",
  	"item_flag": "0x469",
- 	"vanilla_item": 050,
+ 	"vanilla_item": 50,
 	"requirements": ["HM_SURF"]
 },
 
@@ -1584,7 +1584,7 @@
  	"long_description": "Route 215 - Past the first bridge",
  	"location": "Route 215",
  	"item_flag": "0x460",
- 	"vanilla_item": 039,
+ 	"vanilla_item": 39,
 	"requirements": []
 },
 
@@ -1602,7 +1602,7 @@
  	"long_description": "Route 215 - Across the fourth bridge, south of first Berry patch",
  	"location": "Route 215",
  	"item_flag": "0x45F",
- 	"vanilla_item": 025,
+ 	"vanilla_item": 25,
 	"requirements": []
 },
 
@@ -1611,7 +1611,7 @@
  	"long_description": "Route 215 - Northeast corner of the largest grass patch",
  	"location": "Route 215",
  	"item_flag": "0x505",
- 	"vanilla_item": 045,
+ 	"vanilla_item": 45,
 	"requirements": []
 },
 
@@ -1629,7 +1629,7 @@
  	"long_description": "Route 215 - Below the ledge past Jogger Scott",
  	"location": "Route 215",
  	"item_flag": "0x461",
- 	"vanilla_item": 027,
+ 	"vanilla_item": 27,
 	"requirements": []
 },
 
@@ -1656,7 +1656,7 @@
 	"long_description": "Route 216 - Item at the western end of the middle ledge",
 	"location": "Route 216",
 	"item_flag": "0x495",
-	"vanilla_item": 027,
+	"vanilla_item": 27,
 	"requirements": []
  },
 
@@ -1665,7 +1665,7 @@
 	"long_description": "Route 216 - Item north of Skier Andrea",
 	"location": "Route 216",
 	"item_flag": "0x4EC",
-	"vanilla_item": 045,
+	"vanilla_item": 45,
 	"requirements": ["HM_ROCK_CLIMB"]
  },
 
@@ -1674,7 +1674,7 @@
 	"long_description": "Route 216 - Item south of Skier Andrea",
 	"location": "Route 216",
 	"item_flag": "0x519",
-	"vanilla_item": 024,
+	"vanilla_item": 24,
 	"requirements": ["HM_ROCK_CLIMB"]
  },
 
@@ -1683,7 +1683,7 @@
 	"long_description": "Route 216 - Item south of the west bridge",
 	"location": "Route 216",
 	"item_flag": "0x51A",
-	"vanilla_item": 028,
+	"vanilla_item": 28,
 	"requirements": []
  },
  
@@ -1710,7 +1710,7 @@
 	"long_description": "Route 217 - Item west of the southernmost pair of trees",
 	"location": "Route 217",
 	"item_flag": "0x498",
-	"vanilla_item": 047,
+	"vanilla_item": 47,
 	"requirements": []
  },
 
@@ -1719,7 +1719,7 @@
 	"long_description": "Route 217 - Item northwest of Ace Trainer Dalton",
 	"location": "Route 217",
 	"item_flag": "0x51B",
-	"vanilla_item": 073,
+	"vanilla_item": 73,
 	"requirements": []
  },
 
@@ -1728,7 +1728,7 @@
 	"long_description": "Route 217 - Item next to Ninja Boy Matthew",
 	"location": "Route 217",
 	"item_flag": "0x51C",
-	"vanilla_item": 002,
+	"vanilla_item": 2,
 	"requirements": []
  },
 
@@ -1737,7 +1737,7 @@
 	"long_description": "Route 217 - Item south of Skier Bjorn",
 	"location": "Route 217",
 	"item_flag": "0x51D",
-	"vanilla_item": 050,
+	"vanilla_item": 50,
 	"requirements": []
  },
  
@@ -1746,7 +1746,7 @@
 	"long_description": "Route 219 - Item on left side of the main shore",
 	"location": "Route 219",
 	"item_flag": "0x472",
-	"vanilla_item": 018,
+	"vanilla_item": 18,
 	"requirements": []
  },
  
@@ -1764,7 +1764,7 @@
 	"long_description": "Route 220 - Item on the shallows after the second sandbar",
 	"location": "Route 220",
 	"item_flag": "0x475",
-	"vanilla_item": 048,
+	"vanilla_item": 48,
 	"requirements": []
  },
 
@@ -1773,7 +1773,7 @@
 	"long_description": "Route 220 - Item on top part of first sandbar",
 	"location": "Route 220",
 	"item_flag": "0x476",
-	"vanilla_item": 077,
+	"vanilla_item": 77,
 	"requirements": []
  },
  
@@ -1791,7 +1791,7 @@
 	"long_description": "Route 221 - Item beyond the first southern patch of grass",
 	"location": "Route 221",
 	"item_flag": "0x477",
-	"vanilla_item": 002,
+	"vanilla_item": 2,
 	"requirements": []
  },
 
@@ -1800,7 +1800,7 @@
 	"long_description": "Route 221 - Item on northwestern corner of the land part of the route",
 	"location": "Route 221",
 	"item_flag": "0x478",
-	"vanilla_item": 046,
+	"vanilla_item": 46,
 	"requirements": ["HM_SURF"]
  },
 
@@ -1818,7 +1818,7 @@
  	"long_description": "Route 222 - Item northeast of Sailor Luther",
  	"location": "Route 222",
  	"item_flag": "0x4A5",
- 	"vanilla_item": 048,
+ 	"vanilla_item": 48,
 	"requirements": ["HM_CUT"]
  },
  
@@ -1827,7 +1827,7 @@
 	"long_description": "Route 222 - Item on top of the jumpable ledge west of the man who gives out an item",
 	"location": "Route 222",
 	"item_flag": "0x4A6",
-	"vanilla_item": 023,
+	"vanilla_item": 23,
 	"requirements": []
  },
 
@@ -1836,7 +1836,7 @@
 	"long_description": "Route 222 - Item in large patch of grass east of beach",
 	"location": "Route 222",
 	"item_flag": "0x522",
-	"vanilla_item": 015,
+	"vanilla_item": 15,
 	"requirements": ["HM_SURF", "HM_ROCK_SMASH"]
  },
 
@@ -1845,7 +1845,7 @@
 	"long_description": "Route 222 - Item just right of the Pikachu Fan Club",
 	"location": "Route 222",
 	"item_flag": "0x523",
-	"vanilla_item": 051,
+	"vanilla_item": 51,
 	"requirements": []
  },
  
@@ -1863,7 +1863,7 @@
  	"long_description": "Route 223 - Northeast of Sailor Zachariah",
  	"location": "Route 223",
  	"item_flag": "0x4A8",
- 	"vanilla_item": 002,
+ 	"vanilla_item": 2,
 	"requirements": []
  },
 
@@ -1872,7 +1872,7 @@
  	"long_description": "Route 223 - On an islet north of Swimmer Gabrielle",
  	"location": "Route 223",
  	"item_flag": "0x4A9",
- 	"vanilla_item": 007,
+ 	"vanilla_item": 7,
 	"requirements": []
  },
 
@@ -1881,7 +1881,7 @@
  	"long_description": "Route 223 - On an islet northeast of Swimmer Cassandra",
  	"location": "Route 223",
  	"item_flag": "0x524",
- 	"vanilla_item": 050,
+ 	"vanilla_item": 50,
 	"requirements": []
  },
  
@@ -1908,7 +1908,7 @@
  	"long_description": "Route 224 - Southwest of the Berry trees",
  	"location": "Route 224",
  	"item_flag": "0x527",
- 	"vanilla_item": 053,
+ 	"vanilla_item": 53,
 	"requirements": ["HM_SURF"]
  },
 
@@ -1926,7 +1926,7 @@
  	"long_description": "Route 224 - On the left side of the island southeast of the white rock",
  	"location": "Route 224",
  	"item_flag": "0x528",
- 	"vanilla_item": 002,
+ 	"vanilla_item": 2,
 	"requirements": ["HM_SURF"]
  },
 
@@ -1935,7 +1935,7 @@
  	"long_description": "Route 224 - On the right side of the island southeast of the white rock",
  	"location": "Route 224",
  	"item_flag": "0x526",
- 	"vanilla_item": 009,
+ 	"vanilla_item": 9,
 	"requirements": ["HM_SURF"]
  },
  
@@ -1943,7 +1943,7 @@
  	"tag": "Razor Fang",
  	"long_description": "Route 225 - In the southwest corner of the route (requires Rock Climb)",
  	"location": "Route 225",
- 	"item_flag": "0x04BC",
+ 	"item_flag": "0x4BC",
  	"vanilla_item": 327,
 	"requirements": ["HM_ROCK_CLIMB"]
  },
@@ -1952,8 +1952,8 @@
  	"tag": "Rare Candy",
  	"long_description": "Route 225 - East of Bird Keeper Audrey, Pokémon Ranger Ashlee, and Psychic Daisy (requires Cut)",
  	"location": "Route 225",
- 	"item_flag": "0x04BD",
- 	"vanilla_item": 050,
+ 	"item_flag": "0x4BD",
+ 	"vanilla_item": 50,
 	"requirements": ["HM_CUT"]
  },
  
@@ -1961,8 +1961,8 @@
  	"tag": "HP Up",
  	"long_description": "Route 225 - On ledge east of Pokémon Ranger Dwayne",
  	"location": "Route 225",
- 	"item_flag": "0x04BE",
- 	"vanilla_item": 045,
+ 	"item_flag": "0x4BE",
+ 	"vanilla_item": 45,
 	"requirements": []
  },
  
@@ -1970,8 +1970,8 @@
  	"tag": "Revive",
  	"long_description": "Route 225 - Northwest of Pokémon Ranger Dwayne",
  	"location": "Route 225",
- 	"item_flag": "0x04C2",
- 	"vanilla_item": 028,
+ 	"item_flag": "0x4C2",
+ 	"vanilla_item": 28,
 	"requirements": []
  },
  
@@ -1979,7 +1979,7 @@
  	"tag": "Lax Incense",
  	"long_description": "Route 225 - West of the house (requires Cut)",
  	"location": "Route 225",
- 	"item_flag": "0x04BF",
+ 	"item_flag": "0x4BF",
  	"vanilla_item": 255,
 	"requirements": ["HM_CUT"]
  },
@@ -1988,7 +1988,7 @@
  	"tag": "Dubious Disc",
  	"long_description": "Route 225 - Item On the other side of the lake north of the house (requires Surf)",
  	"location": "Route 225",
- 	"item_flag": "0x04C0",
+ 	"item_flag": "0x4C0",
  	"vanilla_item": 324,
 	"requirements": ["HM_SURF"]
  },
@@ -1997,8 +1997,8 @@
  	"tag": "Green Shard",
  	"long_description": "Route 225 - Northeast patch of grass, east of the berry patch",
  	"location": "Route 225",
- 	"item_flag": "0x0529",
- 	"vanilla_item": 075,
+ 	"item_flag": "0x529",
+ 	"vanilla_item": 75,
 	"requirements": []
  },
    
@@ -2006,7 +2006,7 @@
  	"tag": "Dawn Stone",
  	"long_description": "Route 225 - Item Atop a ledge at the northern end of the route (requires Rock Climb)",
  	"location": "Route 225",
- 	"item_flag": "0x04C1",
+ 	"item_flag": "0x4C1",
  	"vanilla_item": 109,
 	"requirements": ["HM_ROCK_CLIMB"]
  },
@@ -2015,8 +2015,8 @@
  	"tag": "Carbos",
  	"long_description": "Route 226 - To the far left of the area reached by Rock Climbing downwards twice (requires Rock Climb)",
  	"location": "Route 226",
- 	"item_flag": "0x04C5",
- 	"vanilla_item": 048,
+ 	"item_flag": "0x4C5",
+ 	"vanilla_item": 48,
 	"requirements": ["HM_ROCK_CLIMB"]
  },
  
@@ -2024,7 +2024,7 @@
  	"tag": "Lagging Tail",
  	"long_description": "Route 226 - On the ledge reached by using Rock Climb to move upwards twice from the location of the Carbos (requires Rock Climb)",
  	"location": "Route 226",
- 	"item_flag": "0x04C4",
+ 	"item_flag": "0x4C4",
  	"vanilla_item": 279,
 	"requirements": ["HM_ROCK_CLIMB"]
  },
@@ -2033,7 +2033,7 @@
  	"tag": "TM53",
  	"long_description": "Route 226 - On the ledge west of Meister's House (requires Rock Climb)",
  	"location": "Route 226",
- 	"item_flag": "0x04C3",
+ 	"item_flag": "0x4C3",
  	"vanilla_item": 380,
 	"requirements": ["HM_ROCK_CLIMB"]
  },
@@ -2042,8 +2042,8 @@
  	"tag": "Yellow Shard",
  	"long_description": "Route 227 - In the grassy patch northwest of where Buck initially stands",
  	"location": "Route 227",
- 	"item_flag": "0x052A",
- 	"vanilla_item": 074,
+ 	"item_flag": "0x52A",
+ 	"vanilla_item": 74,
 	"requirements": []
  },
  
@@ -2051,7 +2051,7 @@
  	"tag": "Charcoal",
  	"long_description": "Route 227 - East of the right pond (requires Rock Climb)",
  	"location": "Route 227",
- 	"item_flag": "0x04C6",
+ 	"item_flag": "0x4C6",
  	"vanilla_item": 249,
 	"requirements": ["HM_ROCK_CLIMB"]
  },
@@ -2060,8 +2060,8 @@
  	"tag": "Zinc",
  	"long_description": "Route 227 - West of Ace Trainer Mikayla",
  	"location": "Route 227",
- 	"item_flag": "0x04C7",
- 	"vanilla_item": 052,
+ 	"item_flag": "0x4C7",
+ 	"vanilla_item": 52,
 	"requirements": []
  },
  
@@ -2069,7 +2069,7 @@
  	"tag": "Protector",
  	"long_description": "Route 228 - In the pit east of Ace Trainer Jose",
  	"location": "Route 228",
- 	"item_flag": "0x04D6",
+ 	"item_flag": "0x4D6",
  	"vanilla_item": 321,
 	"requirements": ["BICYCLE"]
  },
@@ -2078,7 +2078,7 @@
  	"tag": "Shed Shell",
  	"long_description": "Route 228 - On the ledge northwest of the Move Tutor's house (requires Rock Smash)",
  	"location": "Route 228",
- 	"item_flag": "0x04D9",
+ 	"item_flag": "0x4D9",
  	"vanilla_item": 295,
 	"requirements": ["HM_ROCK_SMASH"]
  },
@@ -2087,8 +2087,8 @@
  	"tag": "Iron",
  	"long_description": "Route 228 - Northeast of the Move Tutor's house",
  	"location": "Route 228",
- 	"item_flag": "0x04D7",
- 	"vanilla_item": 047,
+ 	"item_flag": "0x4D7",
+ 	"vanilla_item": 47,
 	"requirements": []
  },
  
@@ -2096,7 +2096,7 @@
  	"tag": "TM37",
  	"long_description": "Route 228 - Southwest of Pokémon Rangers Kyler and Krista",
  	"location": "Route 228",
- 	"item_flag": "0x04DA",
+ 	"item_flag": "0x4DA",
  	"vanilla_item": 364,
 	"requirements": []
  },
@@ -2105,7 +2105,7 @@
  	"tag": "Shiny Stone",
  	"long_description": "Route 228 - At the end of a narrow bridge south of Pokémon Rangers Kyler and Krista",
  	"location": "Route 228",
- 	"item_flag": "0x04D8",
+ 	"item_flag": "0x4D8",
  	"vanilla_item": 107,
 	"requirements": ["BICYCLE"]
  },
@@ -2114,7 +2114,7 @@
  	"tag": "Hard Stone",
  	"long_description": "Route 228 - Inside Regirock's cave in the middle of the route",
  	"location": "Route 228",
- 	"item_flag": "0x053B",
+ 	"item_flag": "0x53B",
  	"vanilla_item": 238,
 	"requirements": []
  },
@@ -2123,7 +2123,7 @@
      "tag": "Reaper Cloth",
      "long_description": "Route 229 - East of cuttable tree northeast of Ace Trainer Dana (requires Cut)",
      "location": "Route 229",
-     "item_flag": "0x04DB",
+     "item_flag": "0x4DB",
      "vanilla_item": 325,
     "requirements": ["HM_CUT"]
  },
@@ -2132,8 +2132,8 @@
      "tag": "Full Restore",
      "long_description": "Route 229 - Northeast corner of the route",
      "location": "Route 229",
-     "item_flag": "0x04DD",
-     "vanilla_item": 023,
+     "item_flag": "0x4DD",
+     "vanilla_item": 23,
     "requirements": []
  },
 
@@ -2141,8 +2141,8 @@
      "tag": "Protein",
      "long_description": "Route 229 - Northeast of the pond (requires Cut)",
      "location": "Route 229",
-     "item_flag": "0x04DC",
-     "vanilla_item": 046,
+     "item_flag": "0x4DC",
+     "vanilla_item": 46,
     "requirements": ["HM_CUT"]
  },
  
@@ -2150,8 +2150,8 @@
      "tag": "Blue Shard",
      "long_description": "Route 230 - On the west side of the island (requires Surf and Rock Smash)",
      "location": "Route 230",
-     "item_flag": "0x052B",
-     "vanilla_item": 073,
+     "item_flag": "0x52B",
+     "vanilla_item": 73,
     "requirements": ["HM_SURF & HM_ROCK_SMASH"]
  },
  
@@ -2159,8 +2159,8 @@
      "tag": "Rare Candy",
      "long_description": "Route 230 - On the east side of the island (requires Surf and Rock Smash)",
      "location": "Route 230",
-     "item_flag": "0x04DF",
-     "vanilla_item": 050,
+     "item_flag": "0x4DF",
+     "vanilla_item": 50,
     "requirements": ["HM_SURF & HM_ROCK_SMASH"]
  },
  
@@ -2168,7 +2168,7 @@
  	"tag": "TM28 Dig",
  	"long_description": "Ruin Maniac Cave - Behind rocks next to the entrance",
  	"location": "Ruin Maniac Cave",
- 	"item_flag": "046A",
+ 	"item_flag": "0x46A",
  	"vanilla_item": 355,
 	"requirements": []
  },
@@ -2177,8 +2177,8 @@
  	"tag": "Ultra Ball",
  	"long_description": "Snowpoint City - Item by crane",
  	"location": "Snowpoint City",
- 	"item_flag": "0x052D",
- 	"vanilla_item": 002,
+ 	"item_flag": "0x52D",
+ 	"vanilla_item": 2,
 	"requirements": []
  },
  
@@ -2187,7 +2187,7 @@
  	"long_description": "Snowpoint Temple B4F - near southeast corner",
  	"location": "Snowpoint Temple",
  	"item_flag": "0x4E8",
- 	"vanilla_item": 049,
+ 	"vanilla_item": 49,
 	"requirements": []
  },
 
@@ -2196,7 +2196,7 @@
  	"long_description": "Snowpoint Temple B1F - south side of the room",
  	"location": "Snowpoint Temple",
  	"item_flag": "0x4E9",
- 	"vanilla_item": 027,
+ 	"vanilla_item": 27,
 	"requirements": ["HM_STRENGTH"]
  },
 
@@ -2223,7 +2223,7 @@
 	"long_description": "Solaceon Ruins - Item northwest in the final room",
 	"location": "Solaceon Ruins Final Room",
 	"item_flag": "0x457",
-	"vanilla_item": 092,
+	"vanilla_item": 92,
 	"requirements": []
  },
 
@@ -2241,7 +2241,7 @@
 	"long_description": "Solaceon Town - Item on the second to last ledge on the eastern side of town",
 	"location": "Solaceon Town",
 	"item_flag": "0x504",
-	"vanilla_item": 051,
+	"vanilla_item": 51,
 	"requirements": []
  },
  
@@ -2250,7 +2250,7 @@
 	"long_description": "Solaceon Town - Item on top ledge",
 	"location": "Solaceon Town Ledge",
 	"item_flag": "0x50B",
-	"vanilla_item": 050,
+	"vanilla_item": 50,
 	"requirements": []
  },
  
@@ -2258,8 +2258,8 @@
  	"tag": "Escape Rope",
  	"long_description": "Stark Mountain Entrance - In the southwestern corner (requires Strength)",
  	"location": "Stark Mountain Entrance",
- 	"item_flag": "0x04CB",
- 	"vanilla_item": 078,
+ 	"item_flag": "0x4CB",
+ 	"vanilla_item": 78,
 	"requirements": ["HM_STRENGTH"]
  },
    
@@ -2267,8 +2267,8 @@
  	"tag": "PP Up",
  	"long_description": "Stark Mountain Entrance - In the southeastern corner (requires Strength)",
  	"location": "Stark Mountain Entrance",
- 	"item_flag": "0x04CC",
- 	"vanilla_item": 051,
+ 	"item_flag": "0x4CC",
+ 	"vanilla_item": 51,
 	"requirements": ["HM_STRENGTH"]
  },
    
@@ -2276,8 +2276,8 @@
  	"tag": "Full Heal",
  	"long_description": "Stark Mountain Entrance - In the northwestern corner (requires Strength)",
  	"location": "Stark Mountain Entrance",
- 	"item_flag": "0x04CA",
- 	"vanilla_item": 027,
+ 	"item_flag": "0x4CA",
+ 	"vanilla_item": 27,
 	"requirements": ["HM_STRENGTH"]
  },
  
@@ -2285,8 +2285,8 @@
  	"tag": "Full Restore",
  	"long_description": "Stark Mountain Entrance - East of the entrance to the second room (requires Strength and Rock Smash)",
  	"location": "Stark Mountain Entrance",
- 	"item_flag": "0x04CD",
- 	"vanilla_item": 023,
+ 	"item_flag": "0x4CD",
+ 	"vanilla_item": 23,
    "requirements": ["HM_STRENGTH & HM_ROCK_SMASH"]
  },
  
@@ -2294,7 +2294,7 @@
  	"tag": "Life Orb",
  	"long_description": "Stark Mountain Exterior - 	In the southwestern corner (requires Rock Climb)",
  	"location": "Stark Mountain Exterior",
- 	"item_flag": "0x04C9",
+ 	"item_flag": "0x4C9",
  	"vanilla_item": 270,
 	"requirements": ["HM_ROCK_CLIMB"]
  },
@@ -2303,8 +2303,8 @@
  	"tag": "Max Elixer",
  	"long_description": "Stark Mountain Exterior - North of the grass patch",
  	"location": "Stark Mountain Exterior",
- 	"item_flag": "0x04C8",
- 	"vanilla_item": 041,
+ 	"item_flag": "0x4C8",
+ 	"vanilla_item": 41,
 	"requirements": []
  },
 
@@ -2312,8 +2312,8 @@
  	"tag": "Rare Candy",
  	"long_description": "Stark Mountain Main Cavern - At the end of the pit west of Ace Trainers Keenan and Kassandra",
  	"location": "Stark Mountain Main Cavern",
- 	"item_flag": "0x04D2",
- 	"vanilla_item": 050,
+ 	"item_flag": "0x4D2",
+ 	"vanilla_item": 50,
 	"requirements": []
  },
  
@@ -2321,7 +2321,7 @@
  	"tag": "TM50",
  	"long_description": "Stark Mountain Main Cavern - South of Ace Trainers Stefan and Jasmin (requires Strength)",
  	"location": "Stark Mountain Main Cavern",
- 	"item_flag": "0x04CE",
+ 	"item_flag": "0x4CE",
  	"vanilla_item": 377,
 	"requirements": ["HM_STRENGTH"]
  },
@@ -2330,8 +2330,8 @@
  	"tag": "Calcium",
  	"long_description": "Stark Mountain Main Cavern - In the pit north of Bird Keeper Krystal and Black Belt Ray",
  	"location": "Stark Mountain Main Cavern",
- 	"item_flag": "0x04D5",
- 	"vanilla_item": 049,
+ 	"item_flag": "0x4D5",
+ 	"vanilla_item": 49,
 	"requirements": []
  },
  
@@ -2339,7 +2339,7 @@
  	"tag": "Iron Ball",
  	"long_description": "Stark Mountain Main Cavern - At the end of the pit west of Psychics Chelsey and Sterling",
  	"location": "Stark Mountain Main Cavern",
- 	"item_flag": "0x04CF",
+ 	"item_flag": "0x4CF",
  	"vanilla_item": 278,
 	"requirements": []
  },
@@ -2348,8 +2348,8 @@
  	"tag": "Max Revive",
  	"long_description": "Stark Mountain Main Cavern - Northwest of Veteran Harlan",
  	"location": "Stark Mountain Main Cavern",
- 	"item_flag": "0x04D4",
- 	"vanilla_item": 029,
+ 	"item_flag": "0x4D4",
+ 	"vanilla_item": 29,
 	"requirements": []
  },
  
@@ -2357,8 +2357,8 @@
  	"tag": "Ultra Ball",
  	"long_description": "Stark Mountain Main Cavern - Atop the hill northwest of Bird Keeper Krystal and Black Belt Ray (requires Rock Climb)",
  	"location": "Stark Mountain Main Cavern",
- 	"item_flag": "0x04D3",
- 	"vanilla_item": 002,
+ 	"item_flag": "0x4D3",
+ 	"vanilla_item": 2,
 	"requirements": ["HM_ROCK_CLIMB"]
  },
  
@@ -2366,8 +2366,8 @@
  	"tag": "Max Elixir",
  	"long_description": "Stark Mountain Main Cavern - At the southern end of the pit northwest of Ace Trainers Abel and Monique (requires Rock Climb)",
  	"location": "Stark Mountain Main Cavern",
- 	"item_flag": "0x04D0",
- 	"vanilla_item": 041,
+ 	"item_flag": "0x4D0",
+ 	"vanilla_item": 41,
 	"requirements": ["HM_ROCK_CLIMB"]
  },
  
@@ -2375,8 +2375,8 @@
  	"tag": "Nugget",
  	"long_description": "Stark Mountain Main Cavern - In the northeastern corner of the room (requires Rock Climb)",
  	"location": "Stark Mountain Main Cavern",
- 	"item_flag": "0x04D1",
- 	"vanilla_item": 092,
+ 	"item_flag": "0x4D1",
+ 	"vanilla_item": 92,
 	"requirements": ["HM_ROCK_CLIMB"]
  },
  
@@ -2385,7 +2385,7 @@
  	"long_description": "Sunyshore City - Behind the Vista Lighthouse",
  	"location": "Sunyshore City",
  	"item_flag": "0x4A7",
- 	"vanilla_item": 083,
+ 	"vanilla_item": 83,
 	"requirements": []
  },
  
@@ -2394,7 +2394,7 @@
  	"long_description": "Survival Area - behind Pokemart",
  	"location": "Survival Area",
  	"item_flag": "0x531",
- 	"vanilla_item": 050,
+ 	"vanilla_item": 50,
 	"requirements": []
  },
 
@@ -2403,7 +2403,7 @@
  	"long_description": "Survival Area - West of the Move Tutor's house",
  	"location": "Survival Area",
  	"item_flag": "0x52E",
- 	"vanilla_item": 072,
+ 	"vanilla_item": 72,
 	"requirements": ["HM_ROCK_CLIMB"]
  },
 
@@ -2412,7 +2412,7 @@
  	"long_description": "Team Galactic Eterna Building 2F - Item leftmost stairs",
  	"location": "Team Galactic Eterna Building",
  	"item_flag": "0x4FD",
- 	"vanilla_item": 059,
+ 	"vanilla_item": 59,
 	"requirements": []
  },
  
@@ -2421,7 +2421,7 @@
  	"long_description": "Team Galactic Eterna Building 3F - Item second set of stairs from left",
  	"location": "Team Galactic Eterna Building",
  	"item_flag": "0x",
- 	"vanilla_item": 061,
+ 	"vanilla_item": 61,
 	"requirements": []
  },
  
@@ -2430,7 +2430,7 @@
  	"long_description": "Team Galactic Eterna Building 4F - Left Item on second set of stairs",
  	"location": "Team Galactic Eterna Building",
  	"item_flag": "0x4FF",
- 	"vanilla_item": 073,
+ 	"vanilla_item": 73,
 	"requirements": []
  },
  
@@ -2439,7 +2439,7 @@
  	"long_description": "Team Galactic Eterna Building 4F - Right Item on second set of stairs",
  	"location": "Team Galactic Eterna Building",
  	"item_flag": "0x50C",
- 	"vanilla_item": 028,
+ 	"vanilla_item": 28,
 	"requirements": []
  },
  
@@ -2475,7 +2475,7 @@
  	"long_description": "Team Galactic HQ Warehouse B2F - Item in right cubby",
  	"location": "Team Galactic HQ Warehouse",
  	"item_flag": "0x",---
- 	"vanilla_item": 052,
+ 	"vanilla_item": 52,
 	"requirements": []
  },
  
@@ -2520,7 +2520,7 @@
  	"long_description": "Team Galactic HQ 2F - Item right of teleporter",
  	"location": "Team Galactic HQ",
  	"item_flag": "0x",---
- 	"vanilla_item": 075,
+ 	"vanilla_item": 75,
 	"requirements": ["Galactic Key"]
  },
  
@@ -2529,7 +2529,7 @@
  	"long_description": "Team Galactic HQ 2F - Item bottom left of teleporter",
  	"location": "Team Galactic HQ",
  	"item_flag": "0x",---
- 	"vanilla_item": 029,
+ 	"vanilla_item": 29,
 	"requirements": ["Galactic Key"]
  },
  
@@ -2547,7 +2547,7 @@
  	"long_description": "Team Galactic HQ 3F - Item right of teleporter",
  	"location": "Team Galactic HQ",
  	"item_flag": "0x",---
- 	"vanilla_item": 046,
+ 	"vanilla_item": 46,
 	"requirements": ["Galactic Key"]
  },
  
@@ -2556,7 +2556,7 @@
  	"long_description": "Team Galactic HQ 3F - Item below teleporter",
  	"location": "Team Galactic HQ",
  	"item_flag": "0x",---
- 	"vanilla_item": 041,
+ 	"vanilla_item": 41,
 	"requirements": ["Galactic Key"]
  },
  
@@ -2565,7 +2565,7 @@
  	"long_description": "Team Galactic HQ 4F2 - Item right of teleporter",
  	"location": "Team Galactic HQ",
  	"item_flag": "0x",---
- 	"vanilla_item": 023,
+ 	"vanilla_item": 23,
 	"requirements": ["Galactic Key"]
  },
  
@@ -2574,7 +2574,7 @@
 	"long_description": "Valor Lakefront - Item top left patch of grass",
 	"location": "Valor Lakefront",
 	"item_flag": "0x44A",
-	"vanilla_item": 002,
+	"vanilla_item": 2,
 	"requirements": []
  },
  
@@ -2583,7 +2583,7 @@
 	"long_description": "Valor Lakefront - Item left of house surrounded by bushes",
 	"location": "Valor Lakefront",
 	"item_flag": "0x532",
-	"vanilla_item": 047,
+	"vanilla_item": 47,
 	"requirements": ["HM_ROCK_CLIMB"]
  },
 
@@ -2609,7 +2609,7 @@
  	"long_description": "Victory Road 1F 2 Back - Northwest corner of the room, behind Strength boulders (south way) ",
  	"location": "Victory Road",
  	"item_flag": "0x4B5",
- 	"vanilla_item": 023,
+ 	"vanilla_item": 23,
 	"requirements": []
 },
 
@@ -2618,7 +2618,7 @@
  	"long_description": "Victory Road 1F 2 Back - Northeast of the lake northeast of Psychics Deandre and Kendra",
  	"location": "Victory Road",
  	"item_flag": "0x4B7",
- 	"vanilla_item": 092,
+ 	"vanilla_item": 92,
 	"requirements": []
 },
 
@@ -2645,7 +2645,7 @@
  	"long_description": "Victory Road 1F - North of Bird Keeper Hana",
  	"location": "Victory Road",
  	"item_flag": "0x4AC",
- 	"vanilla_item": 077,
+ 	"vanilla_item": 77,
 	"requirements": []
  },
 
@@ -2654,7 +2654,7 @@
  	"long_description": "Victory Road 1F - In an isolated area only reachable via the stairs in the southwest corner of B1F",
  	"location": "Victory Road",
  	"item_flag": "0x4AD",
- 	"vanilla_item": 050,
+ 	"vanilla_item": 50,
 	"requirements": ["HM_ROCK_CLIMB & HM_ROCK_SMASH & HM_STRENGTH"]
  },
 
@@ -2663,7 +2663,7 @@
  	"long_description": "Victory Road 1F - South of the entrance to the blocked area",
  	"location": "Victory Road",
  	"item_flag": "0x4AE",
- 	"vanilla_item": 052,
+ 	"vanilla_item": 52,
 	"requirements": ["HM_ROCK_CLIMB & HM_ROCK_SMASH & HM_STRENGTH"]
  },
 
@@ -2682,7 +2682,7 @@
  	"long_description": "Victory Road 2F - Northwest corner, end of first set of ramps",
  	"location": "Victory Road",
  	"item_flag": "0x4B0",
- 	"vanilla_item": 041,
+ 	"vanilla_item": 41,
 	"requirements": ["HM_ROCK_SMASH & HM_STRENGTH"]
 },
 
@@ -2691,7 +2691,7 @@
  	"long_description": "Victory Road 2F - At end of second set of bike ramps",
  	"location": "Victory Road",
  	"item_flag": "0x4B1",
- 	"vanilla_item": 023,
+ 	"vanilla_item": 23,
 	"requirements": ["HM_ROCK_SMASH & HM_STRENGTH"]
  },
 
@@ -2719,7 +2719,7 @@
  	"long_description": "Victory Road B1F - Northeast of Double Team Jo & Pat",
  	"location": "Victory Road",
  	"item_flag": "0x530",
- 	"vanilla_item": 049,
+ 	"vanilla_item": 49,
 	"requirements": ["HM_SURF"]
 },
 
@@ -2728,7 +2728,7 @@
  	"long_description": "Victory Road B1F - East of Ace Trainer Henry",
  	"location": "Victory Road",
  	"item_flag": "0x52F",
- 	"vanilla_item": 002,
+ 	"vanilla_item": 2,
 	"requirements": ["HM_SURF"]
 },
 
@@ -2748,7 +2748,7 @@
  	"long_description": "Canalave City - South of Sailor Eldritch's house",
  	"location": "Canalave City",
  	"item_flag": "03B4",
- 	"vanilla_item": 089,
+ 	"vanilla_item": 89,
 	"requirements": []
  },
  
@@ -2756,7 +2756,7 @@
      "tag": "Draco Plate",
      "long_description": "Eterna City - Behind the statue of Dialga/Palkia (hidden)",
      "location": "Eterna City",
-     "item_flag": "0x02DC",
+     "item_flag": "0x2DC",
      "vanilla_item": 311,
     "requirements": []
  },
@@ -2765,8 +2765,8 @@
      "tag": "Moon Stone",
      "long_description": "Eterna City - In the far northeast corner of the city (requires Surf) (hidden)",
      "location": "Eterna City",
-     "item_flag": "0x03BE",
-     "vanilla_item": 081,
+     "item_flag": "0x3BE",
+     "vanilla_item": 81,
     "requirements": ["HM_SURF"]
  },
  
@@ -2774,7 +2774,7 @@
      "tag": "Insect Plate",
      "long_description": "Eterna Forest Interior - In the wall on the right side of the Old Chateau (requires Cut) (hidden)",
      "location": "Eterna Forest Interior",
-     "item_flag": "0x02DB",
+     "item_flag": "0x2DB",
      "vanilla_item": 308,
     "requirements": ["HM_CUT"]
  },
@@ -2784,7 +2784,7 @@
 	"long_description": "Floaroma Meadow - Hidden Item on pink flower below entrance",
 	"location": "Floaroma Meadow",
 	"item_flag": "0x3B8",
-	"vanilla_item": 094,
+	"vanilla_item": 94,
 	"requirements": ["HM_SURF"]
  },
  
@@ -2793,7 +2793,7 @@
 	"long_description": "Floaroma Meadow - Hidden Item between purple and blue flowers below entrance",
 	"location": "Floaroma Meadow",
 	"item_flag": "0x3B9",
-	"vanilla_item": 025,
+	"vanilla_item": 25,
 	"requirements": ["HM_SURF"]
  },
  
@@ -2802,7 +2802,7 @@
 	"long_description": "Floaroma Meadow - Hidden Item between yellow and blue flowers",
 	"location": "Floaroma Meadow",
 	"item_flag": "0x3BC",
-	"vanilla_item": 051,
+	"vanilla_item": 51,
 	"requirements": ["HM_SURF"]
  },
  
@@ -2811,7 +2811,7 @@
 	"long_description": "Floaroma Meadow - Hidden Item on pink flower top middle bewteen blue flowers",
 	"location": "Floaroma Meadow",
 	"item_flag": "0x3B7",
-	"vanilla_item": 094,
+	"vanilla_item": 94,
 	"requirements": ["HM_SURF"]
  },
  
@@ -2820,7 +2820,7 @@
 	"long_description": "Floaroma Meadow - Hidden Item on pink flower top left between purple flowers",
 	"location": "Floaroma Meadow",
 	"item_flag": "0x3B6",
-	"vanilla_item": 094,
+	"vanilla_item": 94,
 	"requirements": ["HM_SURF"]
  },
  
@@ -2829,7 +2829,7 @@
 	"long_description": "Floaroma Meadow - Hidden Item top left surrounded by purple flowers",
 	"location": "Floaroma Meadow",
 	"item_flag": "0x3BA",
-	"vanilla_item": 028,
+	"vanilla_item": 28,
 	"requirements": ["HM_SURF"]
  },
  
@@ -2838,7 +2838,7 @@
 	"long_description": "Floaroma Meadow - Hidden Item on pink flower left middle",
 	"location": "Floaroma Meadow",
 	"item_flag": "0x3B5",
-	"vanilla_item": 094,
+	"vanilla_item": 94,
 	"requirements": ["HM_SURF"]
  },
  
@@ -2847,7 +2847,7 @@
 	"long_description": "Floaroma Meadow - Hidden Item in middle next to yellow flower",
 	"location": "Floaroma Meadow",
 	"item_flag": "0x3BD",
-	"vanilla_item": 029,
+	"vanilla_item": 29,
 	"requirements": ["HM_SURF"]
  },
  
@@ -2856,7 +2856,7 @@
 	"long_description": "Floaroma Meadow - Hidden Item bottom left above pink flowers",
 	"location": "Floaroma Meadow",
 	"item_flag": "0x3BB",
-	"vanilla_item": 027,
+	"vanilla_item": 27,
 	"requirements": ["HM_SURF"]
  },
  
@@ -2865,7 +2865,7 @@
 	"long_description": "Fuego Ironworks Exterior - Hidden Item in middle of grass patch",
 	"location": "Fuego Ironworks",
 	"item_flag": "0x376",
-	"vanilla_item": 002,
+	"vanilla_item": 2,
 	"requirements": ["HM_SURF"]
  },
  
@@ -2874,7 +2874,7 @@
 	"long_description": "Fuego Ironworks Exterior - Hidden Item right of building",
 	"location": "Fuego Ironworks",
 	"item_flag": "0x375",
-	"vanilla_item": 087,
+	"vanilla_item": 87,
 	"requirements": ["HM_SURF"]
  },
  
@@ -2883,7 +2883,7 @@
 	"long_description": "Fuego Ironworks - Hidden Item top in cubby",
 	"location": "Fuego Ironworks",
 	"item_flag": "0x308",
-	"vanilla_item": 046,
+	"vanilla_item": 46,
 	"requirements": ["HM_SURF"]
  },
  
@@ -2892,7 +2892,7 @@
 	"long_description": "Fuego Ironworks - Hidden Item right side in lonely red barrel",
 	"location": "Fuego Ironworks",
 	"item_flag": "0x309",
-	"vanilla_item": 091,
+	"vanilla_item": 91,
 	"requirements": ["HM_SURF"]
  },
  
@@ -2901,7 +2901,7 @@
  	"long_description": "Iron Island Exterior - On the small rock in front of the house",
  	"location": "Iron Island",
  	"item_flag": "0x30D",
- 	"vanilla_item": 091,
+ 	"vanilla_item": 91,
 	"requirements": []
  },
  
@@ -2910,7 +2910,7 @@
  	"long_description": "Great Marsh - Hidden Item top left",
  	"location": "Great Marsh",
  	"item_flag": "0x3AC",
- 	"vanilla_item": 050,
+ 	"vanilla_item": 50,
 	"requirements": []
  },
  
@@ -2928,7 +2928,7 @@
  	"long_description": "Great Marsh - Hidden Item middle left in sludge pit left of tree trunk",
  	"location": "Great Marsh",
  	"item_flag": "0x3AE",
- 	"vanilla_item": 085,
+ 	"vanilla_item": 85,
 	"requirements": []
  },
  
@@ -2937,7 +2937,7 @@
  	"long_description": "Great Marsh - Hidden Item middle right inbetween trees above ledge",
  	"location": "Great Marsh",
  	"item_flag": "0x3AF",
- 	"vanilla_item": 025,
+ 	"vanilla_item": 25,
 	"requirements": []
  },
  
@@ -2946,7 +2946,7 @@
  	"long_description": "Great Marsh - Hidden Item bottom left in the bottom right of sludge pit",
  	"location": "Great Marsh",
  	"item_flag": "0x3B0",
- 	"vanilla_item": 087,
+ 	"vanilla_item": 87,
 	"requirements": []
  },
  
@@ -2955,7 +2955,7 @@
  	"long_description": "Great Marsh - Hidden Item bottom right in sludge pit",
  	"location": "Great Marsh",
  	"item_flag": "0x3B1",
- 	"vanilla_item": 077,
+ 	"vanilla_item": 77,
 	"requirements": []
  },
  
@@ -2964,7 +2964,7 @@
 	"long_description": "Jubilife City - Hidden Item in the small indent on the west side of the city's southern entrance",
 	"location": "Jubilife City",
 	"item_flag": "0x37B",
-	"vanilla_item": 090,
+	"vanilla_item": 90,
 	"requirements": []
  },
  
@@ -2973,7 +2973,7 @@
 	"long_description": "Lost Tower 4F - Hidden Item bottom left",
 	"location": "Lost Tower",
 	"item_flag": "0x396",
-	"vanilla_item": 003,
+	"vanilla_item": 3,
 	"requirements": []
  },
  
@@ -2982,7 +2982,7 @@
  	"long_description": "Iron Island B1F2 - Hidden Item in middle right of rock",
  	"location": "Iron Island",
  	"item_flag": "0x30E",
- 	"vanilla_item": 091,
+ 	"vanilla_item": 91,
 	"requirements": []
  },
  
@@ -2991,7 +2991,7 @@
  	"long_description": "Mt.Coronet B2F1 - Hidden Item bottom right",
  	"location": "Iron Island",
  	"item_flag": "0x30F",
- 	"vanilla_item": 091,
+ 	"vanilla_item": 91,
 	"requirements": []
  },
  
@@ -3000,7 +3000,7 @@
  	"long_description": "Iron Island B2F - Hidden Item bottom middle right",
  	"location": "Iron Island",
  	"item_flag": "0x310",
- 	"vanilla_item": 091,
+ 	"vanilla_item": 91,
 	"requirements": []
  },
  
@@ -3018,7 +3018,7 @@
  	"long_description": "Iron Island B2F - Hidden Item bottom middle left",
  	"location": "Iron Island",
  	"item_flag": "0x311",
- 	"vanilla_item": 091,
+ 	"vanilla_item": 91,
 	"requirements": []
  },
  
@@ -3027,7 +3027,7 @@
  	"long_description": "Mt.Coronet South 1F - Hidden Item in rock above entrance",
  	"location": "Mt.Coronet",
  	"item_flag": "0x3E9",
- 	"vanilla_item": 034,
+ 	"vanilla_item": 34,
 	"requirements": []
  },
  
@@ -3036,7 +3036,7 @@
  	"long_description": "Mt.Coronet South 1F - Hidden Item bottom left in open rock",
  	"location": "Mt.Coronet",
  	"item_flag": "0x3EA",
- 	"vanilla_item": 028,
+ 	"vanilla_item": 28,
 	"requirements": []
  },
  
@@ -3045,7 +3045,7 @@
  	"long_description": "Mt.Coronet South 1F - Hidden Item in rock in middle",
  	"location": "Mt.Coronet",
  	"item_flag": "0x2E7",
- 	"vanilla_item": 090,
+ 	"vanilla_item": 90,
 	"requirements": []
  },
  
@@ -3054,7 +3054,7 @@
  	"long_description": "Mt.Coronet South 2F - Hidden Item on rock in middle",
  	"location": "Mt.Coronet",
  	"item_flag": "0x32B",
- 	"vanilla_item": 091,
+ 	"vanilla_item": 91,
 	"requirements": []
  },
  
@@ -3063,7 +3063,7 @@
  	"long_description": "Mt.Coronet South 2F - Hidden Item on rock is small room",
  	"location": "Mt.Coronet",
  	"item_flag": "0x32C",
- 	"vanilla_item": 091,
+ 	"vanilla_item": 91,
 	"requirements": ["HM_STRENGTH"]
  },
  
@@ -3072,7 +3072,7 @@
  	"long_description": "Mt.Coronet 1F - Hidden Item in rock above ledge",
  	"location": "Mt.Coronet",
  	"item_flag": "0x31C",
- 	"vanilla_item": 091,
+ 	"vanilla_item": 91,
 	"requirements": []
  },
  
@@ -3081,7 +3081,7 @@
  	"long_description": "Mt.Coronet 1F - Hidden Item in rock in front of west entrance",
  	"location": "Mt.Coronet",
  	"item_flag": "0x318",
- 	"vanilla_item": 034,
+ 	"vanilla_item": 34,
 	"requirements": []
  },
  
@@ -3090,7 +3090,7 @@
  	"long_description": "Mt.Coronet 1F - Hidden Item in rock in middle",
  	"location": "Mt.Coronet",
  	"item_flag": "0x31A",
- 	"vanilla_item": 090,
+ 	"vanilla_item": 90,
 	"requirements": ["HM_ROCK_SMASH", "HM_STRENGTH"]
  },
  
@@ -3099,7 +3099,7 @@
  	"long_description": "Mt.Coronet 1F - Hidden Item in rock south",
  	"location": "Mt.Coronet",
  	"item_flag": "0x319",
- 	"vanilla_item": 092,
+ 	"vanilla_item": 92,
 	"requirements": ["HM_STRENGTH"]
  },
  
@@ -3108,7 +3108,7 @@
  	"long_description": "Mt.Coronet 1F - Hidden Item top left rock before stairs",
  	"location": "Mt.Coronet",
  	"item_flag": "0x31B",
- 	"vanilla_item": 072,
+ 	"vanilla_item": 72,
 	"requirements": ["HM_STRENGTH"]
  },
  
@@ -3117,7 +3117,7 @@
  	"long_description": "Mt.Coronet B1F - Hidden Item in bottom left rock",
  	"location": "Mt.Coronet",
  	"item_flag": "0x31D",
- 	"vanilla_item": 075,
+ 	"vanilla_item": 75,
 	"requirements": ["HM_ROCK_SMASH"]
  },
  
@@ -3126,7 +3126,7 @@
  	"long_description": "Mt.Coronet B1F - Hidden Item in wall left of pond behind rock smash rock",
  	"location": "Mt.Coronet",
  	"item_flag": "0x31E",
- 	"vanilla_item": 073,
+ 	"vanilla_item": 73,
 	"requirements": ["HM_ROCK_SMASH"]
  },
  
@@ -3135,7 +3135,7 @@
  	"long_description": "Mt.Coronet B1F - Hidden Item in wall above pond between two rocks",
  	"location": "Mt.Coronet",
  	"item_flag": "0x320",
- 	"vanilla_item": 091,
+ 	"vanilla_item": 91,
 	"requirements": []
  },
  
@@ -3144,7 +3144,7 @@
  	"long_description": "Mt.Coronet B1F - Hidden Item on ground before top stairs",
  	"location": "Mt.Coronet",
  	"item_flag": "0x31F",
- 	"vanilla_item": 050,
+ 	"vanilla_item": 50,
 	"requirements": []
  },
  
@@ -3153,7 +3153,7 @@
  	"long_description": "Mt.Coronet 1F - Hidden Item in left rock before Regi entrance",
  	"location": "Mt.Coronet",
  	"item_flag": "0x317",
- 	"vanilla_item": 074,
+ 	"vanilla_item": 74,
 	"requirements": []
  },
  
@@ -3162,7 +3162,7 @@
  	"long_description": "Mt.Coronet Tunnel Room - Hidden Item below top entrance",
  	"location": "Mt.Coronet",
  	"item_flag": "0x345",
- 	"vanilla_item": 024,
+ 	"vanilla_item": 24,
 	"requirements": []
  },
  
@@ -3171,7 +3171,7 @@
  	"long_description": "Mt.Coronet Tunnel Room - Hidden Item in left wall behind rock smash rock",
  	"location": "Mt.Coronet",
  	"item_flag": "0x346",
- 	"vanilla_item": 075,
+ 	"vanilla_item": 75,
 	"requirements": ["HM_ROCK_CLIMB & HM_ROCK_SMASH"]
  },
  
@@ -3180,7 +3180,7 @@
  	"long_description": "Mt.Coronet Tunnel Room - Hidden Item in rock below top entrance behind rock smash",
  	"location": "Mt.Coronet",
  	"item_flag": "0x341",
- 	"vanilla_item": 090,
+ 	"vanilla_item": 90,
 	"requirements": ["HM_ROCK_SMASH"]
  },
  
@@ -3189,7 +3189,7 @@
  	"long_description": "Mt.Coronet Tunnel Room - Hidden Item in rock in middle behind rock smash",
  	"location": "Mt.Coronet",
  	"item_flag": "0x342",
- 	"vanilla_item": 036,
+ 	"vanilla_item": 36,
 	"requirements": ["HM_ROCK_SMASH"]
  },
  
@@ -3198,7 +3198,7 @@
  	"long_description": "Mt.Coronet Tunnel Room - Hidden Item on ground on long right path",
  	"location": "Mt.Coronet",
  	"item_flag": "0x344",
- 	"vanilla_item": 050,
+ 	"vanilla_item": 50,
 	"requirements": ["HM_ROCK_CLIMB"]
  },
  
@@ -3207,7 +3207,7 @@
  	"long_description": "Mt.Coronet Tunnel Room - Hidden Item in rock south",
  	"location": "Mt.Coronet",
  	"item_flag": "0x343",
- 	"vanilla_item": 075,
+ 	"vanilla_item": 75,
 	"requirements": ["HM_ROCK_CLIMB"]
  },
  
@@ -3216,7 +3216,7 @@
  	"long_description": "Mt.Coronet South 3F - Hidden Item top left on ground",
  	"location": "Mt.Coronet",
  	"item_flag": "0x32D",
- 	"vanilla_item": 077,
+ 	"vanilla_item": 77,
 	"requirements": []
  },
  
@@ -3225,7 +3225,7 @@
  	"long_description": "Mt.Coronet 3F - Item near rock in NW corner",
  	"location": "Mt.Coronet",
  	"item_flag": "0x32D",
- 	"vanilla_item": 077,
+ 	"vanilla_item": 77,
 	"requirements": []
  },
  
@@ -3243,7 +3243,7 @@
  	"long_description": "Mt.Coronet 4F 2 - Center of the room",
  	"location": "Mt.Coronet",
  	"item_flag": "0x33E",
- 	"vanilla_item": 041,
+ 	"vanilla_item": 41,
 	"requirements": []
  },
  
@@ -3252,7 +3252,7 @@
  	"long_description": "Mt. Coronet 4F - boulder directly west of eastern entrance, surrounded by breakable rock",
  	"location": "Mt. Coronet",
  	"item_flag": "0x33B",
- 	"vanilla_item" : 074,
+ 	"vanilla_item" : 74,
 	"requirements": ["HM_ROCK_SMASH"]
  },
 
@@ -3261,7 +3261,7 @@
  	"long_description": "Mt. Coronet 4F - Behind the breakable rock northwest of eastern entrance, near the water",
  	"location": "Mt. Coronet",
  	"item_flag": "0x33C",
- 	"vanilla_item": 036,
+ 	"vanilla_item": 36,
 	"requirements": ["HM_ROCK_SMASH"]
  },
 
@@ -3270,7 +3270,7 @@
  	"long_description": "Mt. Coronet 4F - On a boulder on the ledge north of eastern entrance",
  	"location": "Mt. Coronet",
  	"item_flag": "0x33A",
- 	"vanilla_item": 090,
+ 	"vanilla_item": 90,
 	"requirements": []
  },
 
@@ -3279,7 +3279,7 @@
  	"long_description": "Mt. Coronet 4F - In the area above the entrance to the cave above the waterfall",
  	"location": "Mt. Coronet",
  	"item_flag": "0x338",
- 	"vanilla_item": 027,
+ 	"vanilla_item": 27,
 	"requirements": []
  },
 
@@ -3288,7 +3288,7 @@
  	"long_description": "Mt. Coronet 4F - On a boulder in the northwest corner of room, behind a breakable rock",
  	"location": "Mt. Coronet",
  	"item_flag": "0x337",
- 	"vanilla_item": 080,
+ 	"vanilla_item": 80,
 	"requirements": ["HM_ROCK_SMASH"]
  },
 
@@ -3297,7 +3297,7 @@
  	"long_description": "Mt. Coronet 4F - On the ledge northwest of exit to snowy summit",
  	"location": "Mt. Coronet",
  	"item_flag": "0x3DF",
- 	"vanilla_item": 002,
+ 	"vanilla_item": 2,
 	"requirements": []
  },
 
@@ -3306,7 +3306,7 @@
  	"long_description": "Mt. Coronet 4F - On the ledge east of the water area above the waterfall",
  	"location": "Mt. Coronet",
  	"item_flag": "0x339",
- 	"vanilla_item": 029,
+ 	"vanilla_item": 29,
 	"requirements": []
  },
 
@@ -3315,7 +3315,7 @@
  	"long_description": "Mt.Coronet 5F - In the empty space behind the first Galactic Grunt",
  	"location": "Mt.Coronet",
  	"item_flag": "0x340",
- 	"vanilla_item": 023,
+ 	"vanilla_item": 23,
 	"requirements": []
  },
 
@@ -3324,7 +3324,7 @@
  	"long_description": "Mt.Coronet 5F - Northwest of the southeastern corner boulder",
  	"location": "Mt. Coronet",
  	"item_flag": "0x33F",
- 	"vanilla_item" : 050,
+ 	"vanilla_item" : 50,
 	"requirements": []
  },
  
@@ -3333,7 +3333,7 @@
  	"long_description": "Mt.Coronet Summit - In an empty spot in the grass on the ledge above the eastern entrance to 4F",
  	"location": "Mt.Coronet",
  	"item_flag": "0x3E7",
- 	"vanilla_item" : 034,
+ 	"vanilla_item" : 35,
 	"requirements": ["HM_ROCK_SMASH"]
  },
 
@@ -3342,7 +3342,7 @@
  	"long_description": "Mt.Coronet Summit - In the empty space in the corner of the grass patch west of entrance to 5F",
  	"location": "Mt.Coronet",
  	"item_flag": "0x3E8",
- 	"vanilla_item" : 034,
+ 	"vanilla_item" : 35,
 	"requirements": []
  },
 
@@ -3351,7 +3351,7 @@
  	"long_description": "Mt.Coronet Summit - On boulder on ledge above eastern entrance to 4F",
  	"location": "Mt.Coronet",
  	"item_flag": "0x336",
- 	"vanilla_item" : 091,
+ 	"vanilla_item" : 91,
 	"requirements": []
  },
 
@@ -3360,7 +3360,7 @@
  	"long_description": "Mt.Coronet Summit - On west side of breakable rock due south of northern exit from 4F",
  	"location": "Mt.Coronet",
  	"item_flag": "0x32E",
- 	"vanilla_item" : 091,
+ 	"vanilla_item" : 91,
 	"requirements": ["HM_ROCK_SMASH"]
  },
 
@@ -3369,7 +3369,7 @@
  	"long_description": "Mt.Coronet Summit - In the empty spot in middle of grass east of exit from 3F",
  	"location": "Mt.Coronet",
  	"item_flag": "0x334",
- 	"vanilla_item" : 024,
+ 	"vanilla_item" : 24,
 	"requirements": []
  },
 
@@ -3378,7 +3378,7 @@
  	"long_description": "Mt.Coronet Summit - On boulder behind breakable rock due south of western entrance to 4F",
  	"location": "Mt.Coronet",
  	"item_flag": "0x333",
- 	"vanilla_item" : 073,
+ 	"vanilla_item" : 73,
 	"requirements": ["HM_ROCK_SMASH"]
  },
 
@@ -3387,7 +3387,7 @@
  	"long_description": "Mt.Coronet Summit - In the patch of grass south of the western entrance to 4F",
  	"location": "Mt.Coronet",
  	"item_flag": "0x3DE",
- 	"vanilla_item" : 037,
+ 	"vanilla_item" : 37,
 	"requirements": []
  },
 
@@ -3396,7 +3396,7 @@
  	"long_description": "Mt.Coronet Summit - In the horizontal row of grass patches, northwest of the movable boulder",
  	"location": "Mt.Coronet",
  	"item_flag": "0x3E0",
- 	"vanilla_item" : 037,
+ 	"vanilla_item" : 37,
 	"requirements": []
  },
 
@@ -3405,7 +3405,7 @@
  	"long_description": "Mt.Coronet Summit - On a boulder at the east end of the far northernmost ledge",
  	"location": "Mt.Coronet",
  	"item_flag": "0x32F",
- 	"vanilla_item" : 090,
+ 	"vanilla_item" : 90,
 	"requirements": []
  },
 
@@ -3414,7 +3414,7 @@
  	"long_description": "Mt.Coronet Summit - On a boulder north of the entrance to the tunnel to the northern cavern",
  	"location": "Mt.Coronet",
  	"item_flag": "0x332",
- 	"vanilla_item" : 081,
+ 	"vanilla_item" : 81,
 	"requirements": []
  },
 
@@ -3423,7 +3423,7 @@
  	"long_description": "Mt.Coronet Summit - On the narrow empty horizontal ledge, toward the left",
  	"location": "Mt.Coronet",
  	"item_flag": "0x330",
- 	"vanilla_item" : 023,
+ 	"vanilla_item" : 23,
 	"requirements": []
  },
  
@@ -3431,8 +3431,8 @@
      "tag": "Honey",
      "long_description": "Old Chateau - 1F Dining Area, in a box on the west side (hidden)",
      "location": "Old Chateau",
-     "item_flag": "0x0381",
-     "vanilla_item": 094
+     "item_flag": "0x381",
+     "vanilla_item": 94
     "requirements": []
  },
  
@@ -3450,7 +3450,7 @@
  	"long_description": "Pokémon Mansion - In a trash can in the first room left from the entrance",
  	"location": "Pokémon Mansion",
  	"item_flag": "0x37D",
- 	"vanilla_item": 046,
+ 	"vanilla_item": 46,
 	"requirements": []
  },
  
@@ -3459,7 +3459,7 @@
  	"long_description": "Resort Area - Hidden Item south of the Villa",
  	"location": "Resort Area",
  	"item_flag": "0x36C",
- 	"vanilla_item": 092,
+ 	"vanilla_item": 92,
 	"requirements": []
  },
  
@@ -3468,7 +3468,7 @@
  	"long_description": "Valley Windworks - Hidden Item right of windmill in corner next to windmill (Requires surf)",
  	"location": "Valley Windworks",
  	"item_flag": "0x2DA",
- 	"vanilla_item": 041,
+ 	"vanilla_item": 41,
 	"requirements": ["HM_SURF"]
  },
  
@@ -3477,7 +3477,7 @@
  	"long_description": "Route 205 (South) - Hidden Item on hill top left of rotating trainer",
  	"location": "Route 205",
  	"item_flag": "0x3B3",
- 	"vanilla_item": 090,
+ 	"vanilla_item": 90,
 	"requirements": []
  },
  
@@ -3486,7 +3486,7 @@
  	"long_description": "Route 205 (North) - Hidden Item top right of honey tree in grass",
  	"location": "Route 205",
  	"item_flag": "0x370",
- 	"vanilla_item": 026,
+ 	"vanilla_item": 26,
 	"requirements": []
  },
  
@@ -3495,7 +3495,7 @@
  	"long_description": "Route 206 - Hidden Item in patch of grass three tiles to right of honey tree",
  	"location": "Route 206",
  	"item_flag": "0x2DE",
- 	"vanilla_item": 038,
+ 	"vanilla_item": 38,
 	"requirements": ["HM_CUT"]
  },
  
@@ -3504,7 +3504,7 @@
  	"long_description": "Route 206 - Hidden Item below medium patch of grass below berry trees",
  	"location": "Route 206",
  	"item_flag": "0x2DF",
- 	"vanilla_item": 086,
+ 	"vanilla_item": 86,
 	"requirements": ["HM_CUT"]
  },
  
@@ -3513,7 +3513,7 @@
  	"long_description": "Route 207 - Hidden Item top right in patch of grass",
  	"location": "Route 207",
  	"item_flag": "0x335",
- 	"vanilla_item": 004,
+ 	"vanilla_item": 4,
 	"requirements": []
  },
  
@@ -3522,7 +3522,7 @@
  	"long_description": "Route 207 - Hidden Item left of hiker before bridge",
  	"location": "Route 207",
  	"item_flag": "0x2E6",
- 	"vanilla_item": 050,
+ 	"vanilla_item": 50,
 	"requirements": []
  },
  
@@ -3531,7 +3531,7 @@
  	"long_description": "Route 207 - Hidden Item below stairs before ledge",
  	"location": "Route 207",
  	"item_flag": "0x3DA",
- 	"vanilla_item": 028,
+ 	"vanilla_item": 28,
 	"requirements": []
  },
  
@@ -3540,7 +3540,7 @@
  	"long_description": "Route 207 - Hidden Item before Mt. Coronet entrance",
  	"location": "Route 207",
  	"item_flag": "0x371",
- 	"vanilla_item": 003,
+ 	"vanilla_item": 3,
 	"requirements": []
  },
  
@@ -3549,7 +3549,7 @@
  	"long_description": "Route 208 - Hidden Item bottom left patch of grass",
  	"location": "Route 208",
  	"item_flag": "0x2E9",
- 	"vanilla_item": 086,
+ 	"vanilla_item": 86,
 	"requirements": []
  },
  
@@ -3558,7 +3558,7 @@
  	"long_description": "Route 208 - Hidden Item on left wall above hiker",
  	"location": "Route 208",
  	"item_flag": "0x2E8",
- 	"vanilla_item": 091,
+ 	"vanilla_item": 91,
 	"requirements": ["HM_ROCK_CLIMB & HM_ROCK_SMASH"]
  },
  
@@ -3567,7 +3567,7 @@
 	"long_description": "Route 209 - Hidden Item in the center of the patch of grass just outside the Hearthome City gate",
 	"location": "Route 209",
 	"item_flag": "0x2FA",
-	"vanilla_item": 003,
+	"vanilla_item": 3,
 	"requirements": []
  },
  
@@ -3576,7 +3576,7 @@
 	"long_description": "Route 209 - Hidden Item on the rock in the first pit with the mudslide",
 	"location": "Route 209",
 	"item_flag": "0x2FB",
-	"vanilla_item": 090,
+	"vanilla_item": 90,
 	"requirements": []
  },
 
@@ -3585,7 +3585,7 @@
 	"long_description": "Route 209 - Hidden Item southwest of the Honey Tree",
 	"location": "Route 209",
 	"item_flag": "0x2FD",
-	"vanilla_item": 028,
+	"vanilla_item": 28,
 	"requirements": []
  },
 
@@ -3594,7 +3594,7 @@
 	"long_description": "Route 209 - Hidden Item right in front of the first tree west of Twins",
 	"location": "Route 209",
 	"item_flag": "0x373",
-	"vanilla_item": 076,
+	"vanilla_item": 76,
 	"requirements": []
  },
  
@@ -3603,7 +3603,7 @@
  	"long_description": "Route 210 (South) - Hidden Item in grass left of honey tree",
  	"location": "Route 210",
  	"item_flag": "0x374",
- 	"vanilla_item": 050,
+ 	"vanilla_item": 50,
 	"requirements": []
  },
  
@@ -3612,7 +3612,7 @@
  	"long_description": "Route 210 (South) - Hidden Item middle left between two trees",
  	"location": "Route 210",
  	"item_flag": "0x301",
- 	"vanilla_item": 027,
+ 	"vanilla_item": 27,
 	"requirements": []
  },
  
@@ -3621,7 +3621,7 @@
  	"long_description": "Route 210 (South) - Hidden Item in middle patch of deep grass above house",
  	"location": "Route 210",
  	"item_flag": "0x397",
- 	"vanilla_item": 025,
+ 	"vanilla_item": 25,
 	"requirements": []
  },
  
@@ -3630,7 +3630,7 @@
  	"long_description": "Route 210 (South) - Hidden Item top left patch of deep grass",
  	"location": "Route 210",
  	"item_flag": "0x36F",
- 	"vanilla_item": 002,
+ 	"vanilla_item": 2,
 	"requirements": []
  },
  
@@ -3639,7 +3639,7 @@
  	"long_description": "Route 210 (South) - Hidden Item top right patch of deep grass",
  	"location": "Route 210",
  	"item_flag": "0x3A4",
- 	"vanilla_item": 002,
+ 	"vanilla_item": 2,
 	"requirements": []
  },
  
@@ -3666,7 +3666,7 @@
  	"long_description": "Route 211 (West) - Hidden Item in top left patch of grass",
  	"location": "Route 211",
  	"item_flag": "0x2DD",
- 	"vanilla_item": 003,
+ 	"vanilla_item": 3,
 	"requirements": []
  },
  
@@ -3675,7 +3675,7 @@
  	"long_description": "Route 211 (East) - Hidden Item top of ridge (Requires Rock Smash and Climb)",
  	"location": "Route 211",
  	"item_flag": "0x316",
- 	"vanilla_item": 049,
+ 	"vanilla_item": 49,
 	"requirements": ["HM_ROCK_SMASH & HM_ROCK_CLIMB"]
  },
  
@@ -3684,7 +3684,7 @@
  	"long_description": "Route 212 (South) - Hidden Item bottom right of top sludge pit",
  	"location": "Route 212",
  	"item_flag": "0x2F2",
- 	"vanilla_item": 025,
+ 	"vanilla_item": 25,
 	"requirements": []
  },
  
@@ -3693,7 +3693,7 @@
  	"long_description": "Route 212 (South) - Hidden Item top right of top sludge pit",
  	"location": "Route 212",
  	"item_flag": "0x2F0",
- 	"vanilla_item": 002,
+ 	"vanilla_item": 2,
 	"requirements": []
  },
  
@@ -3711,7 +3711,7 @@
  	"long_description": "Route 212 (South) - Hidden Item middle of middle sludge pit",
  	"location": "Route 212",
  	"item_flag": "0x2F3",
- 	"vanilla_item": 027,
+ 	"vanilla_item": 27,
 	"requirements": []
  },
  
@@ -3720,7 +3720,7 @@
  	"long_description": "Route 212 (South) - Hidden Item bottom of middle sludge pit",
  	"location": "Route 212",
  	"item_flag": "0x2EF",
- 	"vanilla_item": 050,
+ 	"vanilla_item": 50,
 	"requirements": []
  },
  
@@ -3729,7 +3729,7 @@
  	"long_description": "Route 212 (South) - Hidden Item top left of left sludge pit",
  	"location": "Route 212",
  	"item_flag": "0x2F1",
- 	"vanilla_item": 077,
+ 	"vanilla_item": 77,
 	"requirements": []
  },
  
@@ -3738,7 +3738,7 @@
  	"long_description": "Route 212 (South) - Hidden Item left of fisherman below trees (Requires surf)",
  	"location": "Route 212",
  	"item_flag": "0x2ED",
- 	"vanilla_item": 039,
+ 	"vanilla_item": 39,
 	"requirements": ["HM_SURF"]
  },
  
@@ -3747,7 +3747,7 @@
  	"long_description": "Route 212 (South) - Hidden Item bottom left ridge (Requires bike and cut)",
  	"location": "Route 212",
  	"item_flag": "0x2EE",
- 	"vanilla_item": 087,
+ 	"vanilla_item": 87,
 	"requirements": ["HM_CUT & BICYCLE"]
  },
  
@@ -3756,7 +3756,7 @@
  	"long_description": "Route 212 (North) - Hidden Item in right middle bush below manor fence",
  	"location": "Route 212",
  	"item_flag": "0x2EC",
- 	"vanilla_item": 002,
+ 	"vanilla_item": 2,
 	"requirements": []
  },
  
@@ -3765,7 +3765,7 @@
  	"long_description": "Route 212 (North) - Hidden Item in left middle bush below top manor statue",
  	"location": "Route 212",
  	"item_flag": "0x2EB",
- 	"vanilla_item": 088,
+ 	"vanilla_item": 88,
 	"requirements": []
  },
  
@@ -3783,7 +3783,7 @@
  	"long_description": "Route 213 - Hidden Item right of girl tuber",
  	"location": "Route 213",
  	"item_flag": "0x37F",
- 	"vanilla_item": 088,
+ 	"vanilla_item": 88,
 	"requirements": []
  },
  
@@ -3792,7 +3792,7 @@
  	"long_description": "Route 213 - Hidden Item on umbrella in pool",
  	"location": "Route 213",
  	"item_flag": "0x380",
- 	"vanilla_item": 029,
+ 	"vanilla_item": 29,
 	"requirements": []
  },
  
@@ -3801,7 +3801,7 @@
  	"long_description": "Route 213 - Hidden Item right of boy tuber",
  	"location": "Route 213",
  	"item_flag": "0x394",
- 	"vanilla_item": 093,
+ 	"vanilla_item": 93,
 	"requirements": []
  },
  
@@ -3810,7 +3810,7 @@
  	"long_description": "Route 213 - Hidden Item left inbetween tubers",
  	"location": "Route 213",
  	"item_flag": "0x37E",
- 	"vanilla_item": 088,
+ 	"vanilla_item": 88,
 	"requirements": []
  },
  
@@ -3819,7 +3819,7 @@
  	"long_description": "Route 213 - Hidden Item left of rock smash rock to the right of the fisherman",
  	"location": "Route 213",
  	"item_flag": "0x2F6",
- 	"vanilla_item": 088,
+ 	"vanilla_item": 88,
 	"requirements": []
  },
  
@@ -3828,7 +3828,7 @@
  	"long_description": "Route 213 - Hidden Item bottom left of fisherman",
  	"location": "Route 213",
  	"item_flag": "0x392",
- 	"vanilla_item": 093,
+ 	"vanilla_item": 93,
 	"requirements": []
  },
  
@@ -3837,7 +3837,7 @@
  	"long_description": "Route 213 - Hidden Item right of honey tree (Requires rock smash)",
  	"location": "Route 213",
  	"item_flag": "0x372",
- 	"vanilla_item": 025,
+ 	"vanilla_item": 25,
 	"requirements": ["HM_ROCK_SMASH"]
  },
  
@@ -3846,7 +3846,7 @@
  	"long_description": "Route 213 - Hidden Item in right patch of grass (Requires Rock Climb)",
  	"location": "Route 213",
  	"item_flag": "0x2F8",
- 	"vanilla_item": 045,
+ 	"vanilla_item": 45,
 	"requirements": ["HM_ROCK_CLIMB"]
  },
  
@@ -3855,7 +3855,7 @@
  	"long_description": "Route 213 - Hidden Item on left island in sand (Requires surf)",
  	"location": "Route 213",
  	"item_flag": "0x2F7",
- 	"vanilla_item": 089,
+ 	"vanilla_item": 89,
 	"requirements": ["HM_SURF"]
  },
  
@@ -3864,7 +3864,7 @@
  	"long_description": "Route 213 - Hidden Item on right island in middle left rock (Requires surf)",
  	"location": "Route 213",
  	"item_flag": "0x393",
- 	"vanilla_item": 089,
+ 	"vanilla_item": 89,
 	"requirements": ["HM_SURF"]
  },
  
@@ -3873,7 +3873,7 @@
  	"long_description": "Route 214 - Empty tile in the grassy pattern around the fence west of Psychic Mitchell",
  	"location": "Route 214",
  	"item_flag": "0x305",
- 	"vanilla_item": 048,
+ 	"vanilla_item": 48,
 	"requirements": []
 },
 
@@ -3882,7 +3882,7 @@
  	"long_description": "Route 214 - In the trees, north-east of Beauty Devon",
  	"location": "Route 214",
  	"item_flag": "0x304",
- 	"vanilla_item": 087,
+ 	"vanilla_item": 87,
 	"requirements": []
 },
 
@@ -3901,7 +3901,7 @@
  	"long_description": "Route 215 - In center of the elevation between bridges two and three",
  	"location": "Route 215",
  	"item_flag": "0x38F",
- 	"vanilla_item": 028,
+ 	"vanilla_item": 28,
 	"requirements": []
 },
 
@@ -3910,7 +3910,7 @@
  	"long_description": "Route 215 - On a tree in the northeast corner of the largest grass patch",
  	"location": "Route 215",
  	"item_flag": "0x391",
- 	"vanilla_item": 052,
+ 	"vanilla_item": 52,
 	"requirements": []
 },
 
@@ -3919,7 +3919,7 @@
  	"long_description": "Route 215 - At the south end of the largest grass patch",
  	"location": "Route 215",
  	"item_flag": "0x390",
- 	"vanilla_item": 002,
+ 	"vanilla_item": 2,
 	"requirements": []
 },
 
@@ -3928,7 +3928,7 @@
 	"long_description": "Route 216 - Hidden Item on the upper ledge southwest of the first bridge",
 	"location": "Route 216",
 	"item_flag": "0x321",
-	"vanilla_item": 051,
+	"vanilla_item": 51,
 	"requirements": []
  },
  
@@ -3937,7 +3937,7 @@
 	"long_description": "Route 217 - Hidden Item south of Ninja Boy Ethan",
 	"location": "Route 217",
 	"item_flag": "0x322",
-	"vanilla_item": 047,
+	"vanilla_item": 47,
 	"requirements": []
  },
 
@@ -3946,7 +3946,7 @@
 	"long_description": "Route 217 - Hidden Item north of Skier Bjorn",
 	"location": "Route 217",
 	"item_flag": "0x323",
-	"vanilla_item": 029,
+	"vanilla_item": 29,
 	"requirements": []
  },
 
@@ -3955,7 +3955,7 @@
 	"long_description": "Route 217 - Hidden Item south of Skier Lexie",
 	"location": "Route 217",
 	"item_flag": "0x39B",
-	"vanilla_item": 002,
+	"vanilla_item": 2,
 	"requirements": []
  },
 
@@ -3964,7 +3964,7 @@
 	"long_description": "Route 217 - Hidden Item southwest of Ninja Boy Matthew",
 	"location": "Route 217",
 	"item_flag": "0x39C",
-	"vanilla_item": 037,
+	"vanilla_item": 37,
 	"requirements": []
  },
 
@@ -3973,7 +3973,7 @@
 	"long_description": "Route 217 - Hidden Item east of the Hiker house",
 	"location": "Route 217",
 	"item_flag": "0x39D",
-	"vanilla_item": 077,
+	"vanilla_item": 77,
 	"requirements": []
  },
 
@@ -3982,7 +3982,7 @@
 	"long_description": "Route 217 - Hidden Item north of the southernmost pair of trees",
 	"location": "Route 217",
 	"item_flag": "0x39E",
-	"vanilla_item": 002,
+	"vanilla_item": 2,
 	"requirements": []
  },
 
@@ -3991,7 +3991,7 @@
 	"long_description": "Route 217 - Hidden Item southeast of the Hiker house",
 	"location": "Route 217",
 	"item_flag": "0x39F",
-	"vanilla_item": 046,
+	"vanilla_item": 46,
 	"requirements": []
  },
 
@@ -4000,7 +4000,7 @@
 	"long_description": "Route 217 - Hidden Item southeast of Skier Bjorn",
 	"location": "Route 217",
 	"item_flag": "0x3A0",
-	"vanilla_item": 024,
+	"vanilla_item": 24,
 	"requirements": []
  },
 
@@ -4009,7 +4009,7 @@
 	"long_description": "Route 217 - Hidden Item near Skier Shawn",
 	"location": "Route 217",
 	"item_flag": "0x3A1",
-	"vanilla_item": 027,
+	"vanilla_item": 27,
 	"requirements": []
  },
 
@@ -4018,7 +4018,7 @@
 	"long_description": "Route 217 - Hidden Item northwest of Skier Madison",
 	"location": "Route 217",
 	"item_flag": "0x3A2",
-	"vanilla_item": 092,
+	"vanilla_item": 92,
 	"requirements": []
  },
  
@@ -4027,7 +4027,7 @@
 	"long_description": "Route 219 - Hidden Item on the island",
 	"location": "Route 219",
 	"item_flag": "0x383",
-	"vanilla_item": 052,
+	"vanilla_item": 52,
 	"requirements": ["HM_SURF"]
  },
  
@@ -4036,7 +4036,7 @@
 	"long_description": "Route 220 - Hidden Item on a wall between the first and second sandbar",
 	"location": "Route 220",
 	"item_flag": "0x30A",
-	"vanilla_item": 089,
+	"vanilla_item": 89,
 	"requirements": []
  },
  
@@ -4045,7 +4045,7 @@
 	"long_description": "Route 221 - Hidden Item on the right side of the level item house",
 	"location": "Route 221",
 	"item_flag": "0x30B",
-	"vanilla_item": 087,
+	"vanilla_item": 87,
 	"requirements": []
  },
 
@@ -4054,7 +4054,7 @@
 	"long_description": "Route 221 - Hidden Item in the lower part of the large southern patch of grass",
 	"location": "Route 221",
 	"item_flag": "0x30C",
-	"vanilla_item": 025,
+	"vanilla_item": 25,
 	"requirements": []
  },
 
@@ -4063,7 +4063,7 @@
 	"long_description": "Route 221 - Hidden Item in the grass below the Berry patch",
 	"location": "Route 221",
 	"item_flag": "0x398",
-	"vanilla_item": 002,
+	"vanilla_item": 2,
 	"requirements": []
  },
 
@@ -4072,7 +4072,7 @@
 	"long_description": "Route 221 - Hidden Item in the southeastern patch of grass",
 	"location": "Route 221",
 	"item_flag": "0x399",
-	"vanilla_item": 048,
+	"vanilla_item": 48,
 	"requirements": []
  },
 
@@ -4081,7 +4081,7 @@
 	"long_description": "Route 221 - Hidden Item in the upper part of the large southern patch of grass",
 	"location": "Route 221",
 	"item_flag": "0x39A",
-	"vanilla_item": 029,
+	"vanilla_item": 29,
 	"requirements": []
  },
  
@@ -4090,7 +4090,7 @@
 	"long_description": "Route 222 - Hidden Item at end of middle path between trees in northwest corner",
 	"location": "Route 222",
 	"item_flag": "0x2E1",
-	"vanilla_item": 051,
+	"vanilla_item": 51,
 	"requirements": []
  },
 
@@ -4099,7 +4099,7 @@
 	"long_description": "Route 222 - Hidden Item in large patch of grass east of beach southwest of item",
 	"location": "Route 222",
 	"item_flag": "0x347",
-	"vanilla_item": 023,
+	"vanilla_item": 23,
 	"requirements": ["HM_SURF", "HM_ROCK_SMASH"]
  },
  
@@ -4108,7 +4108,7 @@
 	"long_description": "Route 222 - Hidden Item in large patch of grass east of beach southeast of item",
 	"location": "Route 222",
 	"item_flag": "0x377",
-	"vanilla_item": 086,
+	"vanilla_item": 86,
 	"requirements": ["HM_SURF", "HM_ROCK_SMASH"]
  },
 
@@ -4117,7 +4117,7 @@
 	"long_description": "Route 222 - Hidden Item in the grass northwest of the man who gives out an item",
 	"location": "Route 222",
 	"item_flag": "0x378",
-	"vanilla_item": 002,
+	"vanilla_item": 2,
 	"requirements": []
  },
 
@@ -4126,7 +4126,7 @@
 	"long_description": "Route 222 - Hidden Item in small patch of grass in far southeast corner",
 	"location": "Route 222",
 	"item_flag": "0x3E1",
-	"vanilla_item": 087,
+	"vanilla_item": 87,
 	"requirements": ["HM_SURF"]
  },
 
@@ -4135,7 +4135,7 @@
 	"long_description": "Route 222 - Hidden Item south of the westernmost rock at the beach",
 	"location": "Route 222",
 	"item_flag": "0x3E2",
-	"vanilla_item": 088,
+	"vanilla_item": 88,
 	"requirements": []
  },
 
@@ -4144,7 +4144,7 @@
 	"long_description": "Route 222 - Hidden Item between Fisherman Brett and Fisherman Cole",
 	"location": "Route 222",
 	"item_flag": "0x3E3",
-	"vanilla_item": 093,
+	"vanilla_item": 93,
 	"requirements": []
  },
  
@@ -4153,7 +4153,7 @@
 	"long_description": "Route 222 - Hidden Item on the beach south of the Pikachu Fan Club",
 	"location": "Route 222",
 	"item_flag": "0x3E4",
-	"vanilla_item": 093,
+	"vanilla_item": 93,
 	"requirements": []
  },
  
@@ -4162,7 +4162,7 @@
  	"long_description": "Route 223 - Southwest of Sailor Zachariah",
  	"location": "Route 223",
  	"item_flag": "0x3E5",
- 	"vanilla_item": 093,
+ 	"vanilla_item": 93,
 	"requirements": []
  },
 
@@ -4171,7 +4171,7 @@
  	"long_description": "Route 223 - On the first islet",
  	"location": "Route 223",
  	"item_flag": "0x34A",
- 	"vanilla_item": 093,
+ 	"vanilla_item": 93,
 	"requirements": []
  },
  
@@ -4180,7 +4180,7 @@
  	"long_description": "Route 224 - Southeast of the entrance to Victory Road",
  	"location": "Route 224",
  	"item_flag": "0x385",
- 	"vanilla_item": 052,
+ 	"vanilla_item": 52,
 	"requirements": []
  },
 
@@ -4189,7 +4189,7 @@
  	"long_description": "Route 224 - At the end of the narrow patch of grass northwest of Veteran Armando",
  	"location": "Route 224",
  	"item_flag": "0x356",
- 	"vanilla_item": 050,
+ 	"vanilla_item": 50,
 	"requirements": []
  },
 
@@ -4198,7 +4198,7 @@
  	"long_description": "Route 224 - On the beach southwest of Black Belt Carl",
  	"location": "Route 224",
  	"item_flag": "0x357",
- 	"vanilla_item": 088,
+ 	"vanilla_item": 88,
 	"requirements": []
  },
 
@@ -4207,7 +4207,7 @@
  	"long_description": "Route 224 - In the north-easternmost rock of the beach",
  	"location": "Route 224",
  	"item_flag": "0x384",
- 	"vanilla_item": 088,
+ 	"vanilla_item": 88,
 	"requirements": []
  },
 
@@ -4216,7 +4216,7 @@
  	"long_description": "Route 224 - On the beach north of Black Belt Carl",
  	"location": "Route 224",
  	"item_flag": "0x358",
- 	"vanilla_item": 093,
+ 	"vanilla_item": 93,
 	"requirements": []
  },
 
@@ -4225,7 +4225,7 @@
  	"long_description": "Route 224 - On the beach just right of the big rock",
  	"location": "Route 224",
  	"item_flag": "0x359",
- 	"vanilla_item": 089,
+ 	"vanilla_item": 89,
 	"requirements": []
  },
 
@@ -4234,7 +4234,7 @@
  	"long_description": "Route 224 - South of the Berry trees",
  	"location": "Route 224",
  	"item_flag": "0x386",
- 	"vanilla_item": 002,
+ 	"vanilla_item": 2,
 	"requirements": []
  },
  
@@ -4242,8 +4242,8 @@
  	"tag": "Big Mushroom",
  	"long_description": "Route 225 - Atop hill northeast of Psychic Daisy (hidden)",
  	"location": "Route 225",
- 	"item_flag": "0x0327",
- 	"vanilla_item": 087,
+ 	"item_flag": "0x327",
+ 	"vanilla_item": 87,
 	"requirements": []
  },
  
@@ -4251,8 +4251,8 @@
  	"tag": "Rare Candy",
  	"long_description": "Route 225 - On lower ledge southeast of Ace Trainer Quinn (hidden)",
  	"location": "Route 225",
- 	"item_flag": "0x035C",
- 	"vanilla_item": 050,
+ 	"item_flag": "0x35C",
+ 	"vanilla_item": 50,
 	"requirements": []
  },
  
@@ -4260,8 +4260,8 @@
  	"tag": "Ultra Ball",
  	"long_description": "Route 225 - In the grass south of the house (hidden)",
  	"location": "Route 225",
- 	"item_flag": "0x03A6",
- 	"vanilla_item": 002,
+ 	"item_flag": "0x3A6",
+ 	"vanilla_item": 2,
 	"requirements": []
  },
  
@@ -4269,8 +4269,8 @@
  	"tag": "Big Mushroom",
  	"long_description": "Route 226 - In the grass northwest of Swimmer Lydia (requires Rock Climb) (hidden)",
  	"location": "Route 226",
- 	"item_flag": "0x0360",
- 	"vanilla_item": 087,
+ 	"item_flag": "0x360",
+ 	"vanilla_item": 87,
 	"requirements": ["HM_ROCK_CLIMB"]
  },
  
@@ -4278,8 +4278,8 @@
  	"tag": "Tiny Mushroom",
  	"long_description": "Route 226 - In the grass northwest of Swimmer Lydia (requires Rock Climb) (hidden)",
  	"location": "Route 226",
- 	"item_flag": "0x035E",
- 	"vanilla_item": 086,
+ 	"item_flag": "0x35E",
+ 	"vanilla_item": 86,
 	"requirements": ["HM_ROCK_CLIMB"]
  },
  
@@ -4287,8 +4287,8 @@
  	"tag": "PP Max",
  	"long_description": "Route 226 - In the grass northwest of Swimmer Lydia (requires Rock Climb) (hidden)",
  	"location": "Route 226",
- 	"item_flag": "0x035F",
- 	"vanilla_item": 053,
+ 	"item_flag": "0x35F",
+ 	"vanilla_item": 53,
 	"requirements": ["HM_ROCK_CLIMB"]
  },
  
@@ -4297,7 +4297,7 @@
  	"long_description": "Route 226 - On the isolated beach southwest of Swimmer Lydia (requires Surf) (hidden)",
  	"location": "Route 226",
  	"item_flag": "0x361",
- 	"vanilla_item": 093,
+ 	"vanilla_item": 93,
 	"requirements": ["HM_SURF"]
  },
  
@@ -4305,8 +4305,8 @@
  	"tag": "Rare Candy",
  	"long_description": "Route 226 - In a gap in the trees behind the Meister's house (requires Surf) (hidden)",
  	"location": "Route 226",
- 	"item_flag": "0x0379",
- 	"vanilla_item": 050,
+ 	"item_flag": "0x379",
+ 	"vanilla_item": 50,
 	"requirements": ["HM_SURF"]
  },
  
@@ -4314,8 +4314,8 @@
  	"tag": "Max Repel",
  	"long_description": "Route 227 - Between the ponds (requires Rock Climb) (hidden)",
  	"location": "Route 227",
- 	"item_flag": "0x0363",
- 	"vanilla_item": 077,
+ 	"item_flag": "0x363",
+ 	"vanilla_item": 77,
 	"requirements": ["HM_ROCK_CLIMB"]
  },
  
@@ -4323,8 +4323,8 @@
  	"tag": "Star Piece",
  	"long_description": "Route 227 - On a rock west of the big grassy patch (hidden)",
  	"location": "Route 227",
- 	"item_flag": "0x0362",
- 	"vanilla_item": 091,
+ 	"item_flag": "0x362",
+ 	"vanilla_item": 91,
 	"requirements": []
  },
  
@@ -4332,8 +4332,8 @@
  	"tag": "Max Repel",
  	"long_description": "Route 228 - Southwest of Ace Trainer Jose (hidden)",
  	"location": "Route 228",
- 	"item_flag": "0x03A8",
- 	"vanilla_item": 077,
+ 	"item_flag": "0x3A8",
+ 	"vanilla_item": 77,
 	"requirements": []
  },
  
@@ -4341,8 +4341,8 @@
  	"tag": "Rare Candy",
  	"long_description": "Route 228 - Southeast of the gate connecting Routes 226 and 228 (hidden)",
  	"location": "Route 228",
- 	"item_flag": "0x03A7",
- 	"vanilla_item": 050,
+ 	"item_flag": "0x3A7",
+ 	"vanilla_item": 50,
 	"requirements": []
  },
  
@@ -4350,8 +4350,8 @@
  	"tag": "Full Restore",
  	"long_description": "Route 228 - In the grass south of Ace Trainer Moira (hidden)",
  	"location": "Route 228",
- 	"item_flag": "0x036A",
- 	"vanilla_item": 023,
+ 	"item_flag": "0x36A",
+ 	"vanilla_item": 23,
 	"requirements": []
  },
  
@@ -4359,8 +4359,8 @@
  	"tag": "Star Piece",
  	"long_description": "Route 228 - On a small rock southwest of the pond below the Move Tutor's house (hidden)",
  	"location": "Route 228",
- 	"item_flag": "0x0369",
- 	"vanilla_item": 091,
+ 	"item_flag": "0x369",
+ 	"vanilla_item": 91,
 	"requirements": []
  },
 
@@ -4368,8 +4368,8 @@
  	"tag": "Calcium",
  	"long_description": "Route 228 - At the south end of the route on the hill with one large rock (hidden)",
  	"location": "Route 228",
- 	"item_flag": "0x0368",
- 	"vanilla_item": 049,
+ 	"item_flag": "0x368",
+ 	"vanilla_item": 49,
 	"requirements": ["BICYCLE"]
  },
  
@@ -4377,8 +4377,8 @@
  	"tag": "PP Max",
  	"long_description": "Route 228 - In the southwestern-most grass patch (hidden)",
  	"location": "Route 228",
- 	"item_flag": "0x03A9",
- 	"vanilla_item": 053,
+ 	"item_flag": "0x3A9",
+ 	"vanilla_item": 53,
 	"requirements": []
  },
  
@@ -4386,8 +4386,8 @@
  	"tag": "Nugget",
  	"long_description": "Route 228 - Inside Regirock's cave in the middle of the route, northeast of the Hard Stone (hidden)",
  	"location": "Route 228",
- 	"item_flag": "0x03EE",
- 	"vanilla_item": 092,
+ 	"item_flag": "0x3EE",
+ 	"vanilla_item": 92,
 	"requirements": ["BICYCLE"]
  },
  
@@ -4395,8 +4395,8 @@
      "tag": "Thunderstone",
      "long_description": "Route 229 - By the southwest end of the pond (requires Cut and Surf) (hidden)",
      "location": "Route 229",
-     "item_flag": "0x036B",
-     "vanilla_item": 083,
+     "item_flag": "0x36B",
+     "vanilla_item": 83,
     "requirements": ["HM_CUT & HM_SURF"]
  },
  
@@ -4404,8 +4404,8 @@
      "tag": "Ultra Ball",
      "long_description": "Route 230 - On the north side of the island (requires Surf and Rock Smash) (hidden)",
      "location": "Route 230",
-     "item_flag": "0x036D",
-     "vanilla_item": 002,
+     "item_flag": "0x36D",
+     "vanilla_item": 2,
     "requirements": ["HM_SURF & HM_ROCK_SMASH"]
  },
  
@@ -4413,8 +4413,8 @@
      "tag": "Water Stone",
      "long_description": "Route 230 - West of the Rare Candy (requires Surf and Rock Smash) (hidden)",
      "location": "Route 230",
-     "item_flag": "0x036E",
-     "vanilla_item": 084,
+     "item_flag": "0x36E",
+     "vanilla_item": 84,
     "requirements": ["HM_SURF & HM_ROCK_SMASH"]
  },
  
@@ -4422,8 +4422,8 @@
  	"tag": "Rare Candy",
  	"long_description": "Snowpoint City - Hidden Item right of arena",
  	"location": "Snowpoint City",
- 	"item_flag": "0x038C",
- 	"vanilla_item": 050,
+ 	"item_flag": "0x38C",
+ 	"vanilla_item": 50,
 	"requirements": []
  },
  
@@ -4431,8 +4431,8 @@
  	"tag": "Full Restore",
  	"long_description": "Snowpoint Temple B3F - on the rock between the stairs",
  	"location": "Snowpoint Temple",
- 	"item_flag": "038D",
- 	"vanilla_item": 023,
+ 	"item_flag": "0x38D",
+ 	"vanilla_item": 23,
 	"requirements": []
  },
  
@@ -4441,7 +4441,7 @@
 	"long_description": "Solaceon Ruins - Hidden Item on the rock in the dead-end down the top right, bottom left, top right, top left, and then bottom right stairwells",
 	"location": "Solaceon Ruins NE SW NE NW SE Dead End",
 	"item_flag": "0x300",
-	"vanilla_item": 083,
+	"vanilla_item": 83,
 	"requirements": []
  },
  
@@ -4450,7 +4450,7 @@
 	"long_description": "Solaceon Ruins - Hidden Item on the rock in the dead-end down the top right, bottom left, and then bottom left stairwells",
 	"location": "Solaceon Ruins NE SW SW Dead End",
 	"item_flag": "0x2FF",
-	"vanilla_item": 084,
+	"vanilla_item": 84,
 	"requirements": []
  },
  
@@ -4459,7 +4459,7 @@
 	"long_description": "Solaceon Ruins - Hidden Item on the rock in the dead-end down the first top left stairwell",
 	"location": "Solaceon Ruins NW Dead End",
 	"item_flag": "0x2FE",
-	"vanilla_item": 082,
+	"vanilla_item": 82,
 	"requirements": []
  },
  
@@ -4468,7 +4468,7 @@
 	"long_description": "Solaceon Town - Hidden Item on a tree in the northeastern corner of the town",
 	"location": "Solaceon Town",
 	"item_flag": "0x2FC",
-	"vanilla_item": 087,
+	"vanilla_item": 87,
 	"requirements": []
  },
  
@@ -4476,8 +4476,8 @@
  	"tag": "Star Piece",
  	"long_description": "Stark Mountain Exterior - In the wall north of the Full Restore (requires Strength and Rock Smash) (hidden)",
  	"location": "Stark Mountain Exterior",
- 	"item_flag": "0x0364",
- 	"vanilla_item": 091,
+ 	"item_flag": "0x364",
+ 	"vanilla_item": 91,
   "requirements": ["HM_STRENGTH & HM_ROCK_SMASH"]
  },
  
@@ -4485,7 +4485,7 @@
  	"tag": "Flame Plate",
  	"long_description": "Stark Mountain Main Cavern - On the west side, at the end of a dead-end path, in the wall (hidden)",
  	"location": "Stark Mountain Main Cavern",
- 	"item_flag": "0x0365",
+ 	"item_flag": "0x365",
  	"vanilla_item": 298,
 	"requirements": []
  },
@@ -4494,8 +4494,8 @@
  	"tag": "Star Piece",
  	"long_description": "Stark Mountain Main Cavern - On a small boulder northeast of Bird Keeper Krystal and Black Belt Ray (hidden)",
  	"location": "Stark Mountain Main Cavern",
- 	"item_flag": "0x038A",
- 	"vanilla_item": 091,
+ 	"item_flag": "0x38A",
+ 	"vanilla_item": 91,
 	"requirements": []
  },
  
@@ -4503,8 +4503,8 @@
  	"tag": "Max Revive",
  	"long_description": "Stark Mountain Main Cavern - West of the Iron Ball (hidden)",
  	"location": "Stark Mountain Main Cavern",
- 	"item_flag": "0x0389",
- 	"vanilla_item": 029,
+ 	"item_flag": "0x389",
+ 	"vanilla_item": 29,
 	"requirements": []
  },
  
@@ -4512,8 +4512,8 @@
  	"tag": "Stardust",
  	"long_description": "Stark Mountain Main Cavern - 	On the east side, on a small boulder northeast of Ace Trainers Abel and Monique (hidden)",
  	"location": "Stark Mountain Main Cavern",
- 	"item_flag": "0x0366",
- 	"vanilla_item": 090,
+ 	"item_flag": "0x366",
+ 	"vanilla_item": 90,
 	"requirements": []
  },
  
@@ -4521,7 +4521,7 @@
  	"tag": "Iron",
  	"long_description": "Stark Mountain Main Cavern - Near the northeastern corner, at the end of a raised dead-end path (hidden)",
  	"location": "Stark Mountain Main Cavern",
- 	"item_flag": "0x0367",
+ 	"item_flag": "0x367",
  	"vanilla_item": 278,
 	"requirements": []
  },
@@ -4530,8 +4530,8 @@
  	"tag": "Fire Stone",
  	"long_description": "Stark Mountain Main Cavern - On a large boulder in the northwest corner of the room (requires Rock Smash) (hidden)",
  	"location": "Stark Mountain Main Cavern",
- 	"item_flag": "0x03E6",
- 	"vanilla_item": 082,
+ 	"item_flag": "0x3E6",
+ 	"vanilla_item": 82,
 	"requirements": ["HM_ROCK_SMASH"]
  },
  
@@ -4539,8 +4539,8 @@
  	"tag": "Ultra Ball",
  	"long_description": "Stark Mountain Main Cavern - 	Near the southwestern corner, in an area between small boulders west of Ace Trainers Keenan and Kassandra (requires Rock Climb) (hidden)",
  	"location": "Stark Mountain Main Cavern",
- 	"item_flag": "0x0038B",
- 	"vanilla_item": 002,
+ 	"item_flag": "0x38B",
+ 	"vanilla_item": 2,
 	"requirements": ["HM_ROCK_CLIMB"]
  },
  
@@ -4549,7 +4549,7 @@
  	"long_description": "Sunyshore City - Between the Sunyshore Market and the blank sign painted white",
  	"location": "Sunyshore City",
  	"item_flag": "0x349",
- 	"vanilla_item": 048,
+ 	"vanilla_item": 48,
 	"requirements": []
  },
 
@@ -4567,7 +4567,7 @@
  	"long_description": "Survival Area - West of the southern house, next to a tree (hidden)",
  	"location": "Survival Area",
  	"item_flag": "0x35D",
- 	"vanilla_item" : 051,
+ 	"vanilla_item" : 51,
 	"requirements": []
  },
  
@@ -4576,7 +4576,7 @@
  	"long_description": "Team Galactic HQ 1F - Hidden Item below green teleporter in box",
  	"location": "Team Galactic HQ",
  	"item_flag": "0x", --- 
- 	"vanilla_item": 051,
+ 	"vanilla_item": 51,
 	"requirements": []
  },
  
@@ -4585,7 +4585,7 @@
  	"long_description": "Team Galactic HQ 2F - Hidden Item in box above teleporter",
  	"location": "Team Galactic HQ",
  	"item_flag": "0x", ---
- 	"vanilla_item": 024,
+ 	"vanilla_item": 24,
 	"requirements": ["Galactic Key"]
  },
  
@@ -4594,7 +4594,7 @@
  	"long_description": "Team Galactic HQ 2F - Hidden Item in right bed",
  	"location": "Team Galactic HQ",
  	"item_flag": "0x", ---
- 	"vanilla_item": 063,
+ 	"vanilla_item": 63,
 	"requirements": ["Galactic Key"]
  },
  
@@ -4603,7 +4603,7 @@
  	"long_description": "Team Galactic HQ 3F - Hidden Item on ground left path",
  	"location": "Team Galactic HQ",
  	"item_flag": "0x", --- 
- 	"vanilla_item": 050,
+ 	"vanilla_item": 50,
 	"requirements": ["Galactic Key"]
  },
  
@@ -4612,7 +4612,7 @@
  	"long_description": "Team Galactic HQ 3F - Hidden Item bottom right of three teleporters",
  	"location": "Team Galactic HQ",
  	"item_flag": "0x", ---
- 	"vanilla_item": 092,
+ 	"vanilla_item": 92,
 	"requirements": ["Galactic Key"]
  },
  
@@ -4621,7 +4621,7 @@
  	"long_description": "Team Galactic HQ 3F - Hidden Item bottom left of teleporter on crate box",
  	"location": "Team Galactic HQ",
  	"item_flag": "0x", ---
- 	"vanilla_item": 040,
+ 	"vanilla_item": 40,
 	"requirements": ["Galactic Key"]
  },
  
@@ -4648,7 +4648,7 @@
 	"long_description": "Verity Lakefront - Hidden Item on the raised-land section, one space north of the southernmost flower",
 	"location": "Verity Lakefront",
 	"item_flag": "0x37A",
-	"vanilla_item": 086,
+	"vanilla_item": 86,
 	"requirements": []
  },
  
@@ -4657,7 +4657,7 @@
  	"long_description": "Victory Road 1F 2 Back - On a boulder between Veteran Terrell and Black Belt Eddie",
  	"location": "Victory Road",
  	"item_flag": "0x355",
- 	"vanilla_item": 093,
+ 	"vanilla_item": 93,
 	"requirements": []
 },
 
@@ -4666,7 +4666,7 @@
  	"long_description": "Victory Road 1F 2 Back - West of the door which leads upstairs",
  	"location": "Victory Road",
  	"item_flag": "0x354",
- 	"vanilla_item": 045,
+ 	"vanilla_item": 45,
 	"requirements": []
 },
 
@@ -4675,7 +4675,7 @@
  	"long_description": "Victory Road 1F 2 Back - Middle of the patch of land at the northeast corner of the lake in the southwest corner of the room",
  	"location": "Victory Road",
  	"item_flag": "0x35A",
- 	"vanilla_item": 002,
+ 	"vanilla_item": 2,
 	"requirements": []
 },
 
@@ -4685,7 +4685,7 @@
  	"long_description": "Victory Road 1F 2 Back - In a dead end in the maze of boulders, southwest of Psychics Deandre and Kendra",
  	"location": "Victory Road",
  	"item_flag": "0x353",
- 	"vanilla_item": 002,
+ 	"vanilla_item": 2,
 	"requirements": []
 },
 
@@ -4695,7 +4695,7 @@
  	"long_description": "Victory Road 1F 2 Back - At a dead end of boulders directly east of the stairs leading down from the lake northeast of Ace Trainers Micah and Brandi, in the southeast jumble of boulders",
  	"location": "Victory Road",
  	"item_flag": "0x35B",
- 	"vanilla_item": 050,
+ 	"vanilla_item": 50,
 	"requirements": []
 },
 
@@ -4704,7 +4704,7 @@
  	"long_description": "Victory Road 1F - On a rock north of Ace Trainer Mariah",
  	"location": "Victory Road",
  	"item_flag": "0x34B",
- 	"vanilla_item": 092,
+ 	"vanilla_item": 92,
 	"requirements": ["HM_ROCK_CLIMB & HM_ROCK_SMASH & HM_STRENGTH"]
  },
 
@@ -4713,7 +4713,7 @@
  	"long_description": "Victory Road 1F - East of Black Belt Miles",
  	"location": "Victory Road",
  	"item_flag": "0x34C",
- 	"vanilla_item": 002,
+ 	"vanilla_item": 2,
 	"requirements": ["HM_ROCK_CLIMB & HM_ROCK_SMASH & HM_STRENGTH"]
  },
 
@@ -4722,7 +4722,7 @@
  	"long_description": "Victory Road 1F - On top of cliff southwest from Veteran Edgar",
  	"location": "Victory Road",
  	"item_flag": "0x34D",
- 	"vanilla_item": 029,
+ 	"vanilla_item": 29,
 	"requirements": ["HM_ROCK_CLIMB & HM_ROCK_SMASH & HM_STRENGTH"]
  },
  
@@ -4731,7 +4731,7 @@
  	"long_description": "Victory Road 2F - Northeast of Ace Trainer Omar",
  	"location": "Victory Road",
  	"item_flag": "0x34F",
- 	"vanilla_item": 050,
+ 	"vanilla_item": 50,
 	"requirements": ["HM_ROCK_SMASH & HM_STRENGTH"]
  },
 
@@ -4740,7 +4740,7 @@
  	"long_description": "Victory Road 2F - Southeast corner, east of the three moveable boulders and one breakable rock",
  	"location": "Victory Road",
  	"item_flag": "0x34E",
- 	"vanilla_item": 023,
+ 	"vanilla_item": 23,
 	"requirements": ["HM_ROCK_SMASH & HM_STRENGTH"]
  },
  
@@ -4749,7 +4749,7 @@
  	"long_description": "Victory Road B1F - On rock southeast of Psychic Valencia",
  	"location": "Victory Road",
  	"item_flag": "0x350",
- 	"vanilla_item": 093,
+ 	"vanilla_item": 93,
 	"requirements": ["HM_SURF"]
 },
 
@@ -4758,7 +4758,7 @@
  	"long_description": "Victory Road B1F - Southwest of Dragon Tamer Ondrej, southeast of the stairs leading up",
  	"location": "Victory Road",
  	"item_flag": "0x351",
- 	"vanilla_item": 041,
+ 	"vanilla_item": 41,
 	"requirements": ["HM_SURF & HM_WATERFALL"]
 }
 

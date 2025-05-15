@@ -14,7 +14,7 @@
     "exits": [],
     "warps": [
       "MAP_OREBURGH_GATE_1F:0/MAP_ROUTE203:0",
-	  "MAP_OREBURGH_GATE_1F:1/MAP_OREBURGH_CITY:0",
+	  "MAP_OREBURGH_GATE_1F:1/MAP_OREBURGH_CITY:10",
 	  "MAP_OREBURGH_GATE_1F:2/MAP_OREBURGH_GATE_B1F:0"
     ]
   },
@@ -26,7 +26,12 @@
     "has_water": false,
     "has_fishing": true,
     "locations": [
-      "",
+      "ITEM_BIG_PEARL",
+	  "ITEM_EARTH_PLATE",
+	  "ITEM_TM_FLASH",
+	  "ITEM_TM_BRICK_BREAK",
+	  "ITEM_TM_FOCUS_PUNCH",
+	  "TRAINER_VETERAN_GRANT_REWARD"
     ],
     "events": [],
     "exits": [],
@@ -47,7 +52,7 @@
     "events": [],
     "exits": [],
     "warps": [
-      "MAP_OREBURGH_MINE_B1F:0,1,2/MAP_OREBURGH_CITY:12,13,14,15,16",
+      "MAP_OREBURGH_MINE_B1F:0,1,2/MAP_OREBURGH_CITY:11,12,13,14,15",
 	  "MAP_OREBURGH_MINE_B1F:3,4,5/MAP_OREBURGH_MINE_B2F:0"
     ]
   },
@@ -85,8 +90,7 @@
 	  "ITEM_TM_ROCK_TOMB",
 	  "ITEM_LUCK_INCENSE",
 	  "ITEM_TM_WATER_PULSE"
-	  
-    ],
+	 ],
     "events": [],
     "exits": [],
     "warps": [
@@ -126,10 +130,33 @@
     "events": [],
     "exits": [],
     "warps": [
-      "MAP_FLOAROMA_MEADOW:0,1/MAP_FLOAROMA_TOWN:1,2",
-	  "MAP_FLOAROMA_MEADOW:2,3/MAP_FUEGO_IRONWORKS:0,1",
-	  "MAP_FLOAROMA_MEADOW:4/MAP_FLOAROMA_MEADOW_HOUSE1:0"
+      "MAP_FLOAROMA_MEADOW:0,1/MAP_FLOAROMA_TOWN:1,2"
+	  "MAP_FLOAROMA_MEADOW:2/MAP_FLOAROMA_MEADOW_HOUSE1:0"
     ]
+  },
+  
+{
+  "REGION_FUEGO_IRONWORKS/MAIN": {
+    "parent_map": "MAP_FUEGO_IRONWORKS",
+    "has_grass": false,
+    "has_water": false,
+    "has_fishing": false,
+    "locations": [
+	  "ITEM_YELLOW_SHARD",
+	  "ITEM_GREEN_SHARD",
+	  "ITEM_BLUE_SHARD",
+	  "ITEM_FIRE_STONE",
+	  "ITEM_ROCK_INCENSE",
+	  "ITEM_CALCIUM",
+	  "ITEM_TM_FLAMETHROWER",
+	  "HIDDEN_ITEM_PROTEIN",
+	  "HIDDEN_ITEM_STAR_PIECE"
+	],
+    "events": [],
+    "exits": [],
+    "warps": [
+	"MAP_FUEGO_IRONWORKS:0/MAP_FUEGO_IRONWORKS_EXTERIOR:0"
+	]
   },
   
 {
@@ -160,31 +187,172 @@
     "events": [],
     "exits": [],
     "warps": [
-      "MAP_ETERNA_FOREST:0/MAP_OLD_CHATEAU:0",
+      "MAP_ETERNA_FOREST:0/MAP_OLD_CHATEAU_MAIN:0",
 	  "MAP_ETERNA_FOREST:1,2/MAP_ROUTE205_NORTH:0,1"
 	  "MAP_ETERNA_FOREST:3,4/MAP_ROUTE205_SOUTH:0,1"
     ]
   },
   
 {
-  "REGION_OLD_CHATEAU/MAIN": {
-    "parent_map": "MAP_OLD_CHATEAU",
+  "REGION_OLD_CHATEAU_LOBBY/MAIN": {
+    "parent_map": "MAP_OLD_CHATEAU_LOBBY",
+    "has_grass": true,
+    "has_water": false,
+    "has_fishing": false,
+    "locations": [],
+    "events": [],
+    "exits": [],
+    "warps": [
+      "MAP_OLD_CHATEAU_LOBBY:0/MAP_ETERNA_FOREST:0",
+	  "MAP_OLD_CHATEAU_LOBBY:1/MAP_OLD_CHATEAU_1F:0",
+	  "MAP_OLD_CHATEAU_LOBBY:2/MAP_OLD_CHATEAU_2FL:0",
+	  "MAP_OLD_CHATEAU_LOBBY:3/MAP_OLD_CHATEAU_2FR:0",
+	  "MAP_OLD_CHATEAU_LOBBY:4/MAP_OLD_CHATEAU_2F:0"
+    ]
+  },
+  
+{
+  "REGION_OLD_CHATEAU_1F/MAIN": {
+    "parent_map": "MAP_OLD_CHATEAU_1F",
     "has_grass": true,
     "has_water": false,
     "has_fishing": false,
     "locations": [
-      "
-	  
-    ],
-    "events": [
-	  "E
+	  "ITEM_RARE_CANDY",
+	  "ITEM_BIG_PEARL",
+	  "HIDDEN_ITEM_HONEY"
 	],
+    "events": [],
     "exits": [],
     "warps": [
-      "
+      "MAP_OLD_CHATEAU_1F:0/MAP_OLD_CHATEAU_LOBBY:1"
     ]
   },
   
+{
+  "REGION_OLD_CHATEAU_2FL/MAIN": {
+    "parent_map": "MAP_OLD_CHATEAU_2FL",
+    "has_grass": true,
+    "has_water": false,
+    "has_fishing": false,
+    "locations": [
+	  "ITEM_OLD_GATEAU"
+	],
+    "events": [],
+    "exits": [],
+    "warps": [
+      "MAP_OLD_CHATEAU_2FL:0/MAP_OLD_CHATEAU_LOBBY:2"
+    ]
+  },
+  
+{
+  "REGION_OLD_CHATEAU_2FR/MAIN": {
+    "parent_map": "MAP_OLD_CHATEAU_2FR",
+    "has_grass": true,
+    "has_water": false,
+    "has_fishing": false,
+    "locations": [],
+    "events": [],
+    "exits": [],
+    "warps": [
+      "MAP_OLD_CHATEAU_2FR:0/MAP_OLD_CHATEAU_LOBBY:3"
+    ]
+  },
+
+{
+  "REGION_OLD_CHATEAU_2F/MAIN": {
+    "parent_map": "MAP_OLD_CHATEAU_2F",
+    "has_grass": true,
+    "has_water": false,
+    "has_fishing": false,
+    "locations": [],
+    "events": [],
+    "exits": [],
+    "warps": [
+      "MAP_OLD_CHATEAU_2F:0/MAP_OLD_CHATEAU_LOBBY:4",
+	  "MAP_OLD_CHATEAU_2F:1/MAP_OLD_CHATEAU_2F_ROOM1:0",
+	  "MAP_OLD_CHATEAU_2F:2/MAP_OLD_CHATEAU_2F_ROOM2:0",
+	  "MAP_OLD_CHATEAU_2F:3/MAP_OLD_CHATEAU_2F_ROOM3:0",
+	  "MAP_OLD_CHATEAU_2F:4/MAP_OLD_CHATEAU_2F_ROOM4:0",
+	  "MAP_OLD_CHATEAU_2F:5/MAP_OLD_CHATEAU_2F_ROOM5:0",
+    ]
+  },
+
+{
+  "REGION_OLD_CHATEAU_2F_ROOM1/MAIN": {
+    "parent_map": "MAP_OLD_CHATEAU_2F_ROOM1",
+    "has_grass": true,
+    "has_water": false,
+    "has_fishing": false,
+    "locations": [
+	  "ITEM_DREAD_PLATE"
+	],
+    "events": [],
+    "exits": [],
+    "warps": [
+      "MAP_OLD_CHATEAU_2F_ROOM1:0/MAP_OLD_CHATEAU_2F:1"
+    ]
+  },
+  
+{
+  "REGION_OLD_CHATEAU_2F_ROOM2/MAIN": {
+    "parent_map": "MAP_OLD_CHATEAU_2F_ROOM2",
+    "has_grass": true,
+    "has_water": false,
+    "has_fishing": false,
+    "locations": [],
+    "events": [
+	  "EVENT_ENCOUNTER_ROTOM"
+	],
+    "exits": [],
+    "warps": [
+      "MAP_OLD_CHATEAU_2F_ROOM2:0/MAP_OLD_CHATEAU_2F:2"
+    ]
+  },
+
+{
+  "REGION_OLD_CHATEAU_2F_ROOM3/MAIN": {
+    "parent_map": "MAP_OLD_CHATEAU_2F_ROOM3",
+    "has_grass": true,
+    "has_water": false,
+    "has_fishing": false,
+    "locations": [],
+    "events": [],
+    "exits": [],
+    "warps": [
+      "MAP_OLD_CHATEAU_2F_ROOM3:0/MAP_OLD_CHATEAU_2F:3"
+    ]
+  },
+  
+{
+  "REGION_OLD_CHATEAU_2F_ROOM4/MAIN": {
+    "parent_map": "MAP_OLD_CHATEAU_2F_ROOM4",
+    "has_grass": true,
+    "has_water": false,
+    "has_fishing": false,
+    "locations": [],
+    "events": [],
+    "exits": [],
+    "warps": [
+      "MAP_OLD_CHATEAU_2F_ROOM4:0/MAP_OLD_CHATEAU_2F:4"
+    ]
+  },
+  
+{
+  "REGION_OLD_CHATEAU_2F_ROOM5/MAIN": {
+    "parent_map": "MAP_OLD_CHATEAU_2F_ROOM5",
+    "has_grass": true,
+    "has_water": false,
+    "has_fishing": false,
+    "locations": [
+	  "ITEM_TM_SUBSTITUTE"
+	],
+    "events": [],
+    "exits": [],
+    "warps": [
+      "MAP_OLD_CHATEAU_2F_ROOM5:0/MAP_OLD_CHATEAU_2F:5"
+    ]
+  },
 {
   "REGION_WAYWARD_CAVE/MAIN": {
     "parent_map": "MAP_WAYWARD_CAVE",
@@ -192,15 +360,20 @@
     "has_water": false,
     "has_fishing": false,
     "locations": [
-      "
-	  
+      "ITEM_ESCAPE_ROPE",
+	  "ITEM_REVIVE",
+	  "ITEM_TM_DOUBLE_TEAM",
+	  "HIDDEN_ITEM_RED_SHARD",
+	  "HIDDEN_ITEM_GREEN_SHARD",
+	  "HIDDEN_ITEM_SUPER_POTION",
+	  "HIDDEN_ITEM_GREAT_BALL",
+	  "HIDDEN_ITEM_BLUE_SHARD",
+	  "HIDDEN_ITEM_YELLOW_SHARD"
     ],
-    "events": [
-	  "E
-	],
+    "events": [],
     "exits": [],
     "warps": [
-      "
+      "MAP_WAYWARD_CAVE:0/MAP_ROUTE206:4"
     ]
   },
   
@@ -211,15 +384,33 @@
     "has_water": false,
     "has_fishing": false,
     "locations": [
-      "
-	  
+      "ITEM_GRIP_CLAW",
+	  "ITEM_MAX_ETHER",
+	  "ITEM_RARE_CANDY",
+	  "HIDDEN_ITEM_DUSK_STONE",
+	  "HIDDEN_ITEM_STARDUST"
     ],
-    "events": [
-	  "E
-	],
+    "events": [],
     "exits": [],
     "warps": [
-      "
+      "MAP_WAYWARD_CAVE_SECRET:0/MAP_ROUTE206:5",
+	  "MAP_WAYWARD_CAVE_SECRET:1/MAP_WAYWARD_CAVE_SECRET_ROOM1:0"
+    ]
+  },
+  
+{
+  "REGION_WAYWARD_CAVE_SECRET_ROOM1/MAIN": {
+    "parent_map": "MAP_WAYWARD_CAVE_SECRET_ROOM1",
+    "has_grass": true,
+    "has_water": false,
+    "has_fishing": false,
+    "locations": [
+      "ITEM_TM_EARTHQUAKE"
+    ],
+    "events": [],
+    "exits": [],
+    "warps": [
+      "MAP_WAYWARD_CAVE_SECRET_ROOM1:0/MAP_WAYWARD_CAVE_SECRET:1"
     ]
   },
   
@@ -1177,7 +1368,8 @@
 	  "NPC_GIFT_RECEIVED_HM_SURF"
 	],
     "events": [
-	  "EVENT_EXAMINE_WALL"
+	  "EVENT_EXAMINE_WALL",
+	  "EVENT_DEFEAT_CYRUS"
 	],
     "exits": [],
     "warps": [
@@ -1187,23 +1379,98 @@
 
 {
   "REGION_SNOWPOINT_TEMPLE_1F/MAIN": {
-    "parent_map": "MAP_SNOWPOINT_TEMPLE",
+    "parent_map": "MAP_SNOWPOINT_TEMPLE_1F",
+    "has_grass": true,
+    "has_water": false,
+    "has_fishing": false,
+    "locations": [],
+    "events": [],
+    "exits": [],
+    "warps": [
+      "MAP_SNOWPOINT_TEMPLE_1F:0/MAP_SNOWPOINT_CITY:3",
+	  "MAP_SNOWPOINT_TEMPLE_1F:1/MAP_SNOWPOINT_TEMPLE_B1F:0"
+    ]
+  },
+  
+{
+  "REGION_SNOWPOINT_TEMPLE_B1F/MAIN": {
+    "parent_map": "MAP_SNOWPOINT_TEMPLE_B1F",
     "has_grass": true,
     "has_water": false,
     "has_fishing": false,
     "locations": [
-      "
-	  
-    ],
-    "events": [
-	  "E
+	  "ITEM_CALCIUM"
 	],
+    "events": [],
     "exits": [],
     "warps": [
-      "
+      "MAP_SNOWPOINT_TEMPLE_B1F:0/MAP_SNOWPOINT_TEMPLE_1F:1",
+	  "MAP_SNOWPOINT_TEMPLE_B1F:1/MAP_SNOWPOINT_TEMPLE_B2F:0"
     ]
   },
   
+{
+  "REGION_SNOWPOINT_TEMPLE_B2F/MAIN": {
+    "parent_map": "MAP_SNOWPOINT_TEMPLE_B2F",
+    "has_grass": true,
+    "has_water": false,
+    "has_fishing": false,
+    "locations": [],
+    "events": [],
+    "exits": [],
+    "warps": [
+      "MAP_SNOWPOINT_TEMPLE_B2F:0/MAP_SNOWPOINT_TEMPLE_B1F:1",
+	  "MAP_SNOWPOINT_TEMPLE_B2F:1/MAP_SNOWPOINT_TEMPLE_B3F:0"
+    ]
+  },
+
+{
+  "REGION_SNOWPOINT_TEMPLE_B3F/MAIN": {
+    "parent_map": "MAP_SNOWPOINT_TEMPLE_B3F",
+    "has_grass": true,
+    "has_water": false,
+    "has_fishing": false,
+    "locations": [
+	  "HIDDEN_ITEM_FULL_RESTORE"
+	],
+    "events": [],
+    "exits": [],
+    "warps": [
+      "MAP_SNOWPOINT_TEMPLE_B3F:0/MAP_SNOWPOINT_TEMPLE_B2F:1",
+	  "MAP_SNOWPOINT_TEMPLE_B3F:1/MAP_SNOWPOINT_TEMPLE_B4F:0"
+    ]
+  },
+  
+{
+  "REGION_SNOWPOINT_TEMPLE_B4F/MAIN": {
+    "parent_map": "MAP_SNOWPOINT_TEMPLE_B4F",
+    "has_grass": true,
+    "has_water": false,
+    "has_fishing": false,
+    "locations": [
+	  "ITEM_FULL_HEAL"
+	],
+    "events": [],
+    "exits": [],
+    "warps": [
+      "MAP_SNOWPOINT_TEMPLE_B4F:0/MAP_SNOWPOINT_TEMPLE_B3F:1",
+	  "MAP_SNOWPOINT_TEMPLE_B4F:1/MAP_SNOWPOINT_TEMPLE_B5F:0"
+    ]
+  },
+  
+{
+  "REGION_SNOWPOINT_TEMPLE_B5F/MAIN": {
+    "parent_map": "MAP_SNOWPOINT_TEMPLE_B5F",
+    "has_grass": true,
+    "has_water": false,
+    "has_fishing": false,
+    "locations": [],
+    "events": [],
+    "exits": [],
+    "warps": [
+      "MAP_SNOWPOINT_TEMPLE_B5F:0/MAP_SNOWPOINT_TEMPLE_B4F:1"
+    ]
+  },
   
 {
   "REGION_TURNBACK_CAVE/MAIN": {
@@ -1431,8 +1698,8 @@
   },
   
 {
-  "REGION_STARK_MOUNTAIN_1F/MAIN": {
-    "parent_map": "MAP_STARK_MOUNTAIN",
+  "REGION_STARK_MOUNTAIN_ROOM1/MAIN": {
+    "parent_map": "MAP_STARK_MOUNTAIN_ROOM1",
     "has_grass": true,
     "has_water": false,
     "has_fishing": false,
@@ -1446,5 +1713,19 @@
     "exits": [],
     "warps": [
       "
+    ]
+  },
+  
+{
+  "REGION_ROCK_PEAK_RUINS/MAIN": {
+    "parent_map": "MAP_ROCK_PEAK_RUINS",
+    "has_grass": true,
+    "has_water": false,
+    "has_fishing": false,
+    "locations": [ ],
+    "events": [],
+    "exits": [],
+    "warps": [
+      "MAP_ROCK_PEAK_RUINS:0/MAP_ROUTE228:2"
     ]
   },
