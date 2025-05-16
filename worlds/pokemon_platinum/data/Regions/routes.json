@@ -76,7 +76,7 @@
   
 
 {
-  "REGION_ROUTE204_SOUTH/MAIN": {
+  "REGION_ROUTE204/SOUTH": {
     "parent_map": "MAP_ROUTE204",
     "has_grass": true,
     "has_water": false,
@@ -92,17 +92,17 @@
     "events": [],
     "exits": [
       "REGION_JUBILIFE_CITY/MAIN",
-	  "REGION_ROUTE204_SOUTH/SOUTHPONG",
-	  "REGION_ROUTE204_SOUTH/WESTPOND",
-	  "REGION_ROUTE204_SOUTH/NORTHPOND"
+	  "REGION_ROUTE204/SOUTHPOND",
+	  "REGION_ROUTE204/WESTPOND",
+	  "REGION_ROUTE204/NORTHPOND"
     ],
     "warps": [
-	"MAP_ROUTE204_SOUTH:0/MAP_RAVAGED_PATH:0"
+	"MAP_ROUTE204/SOUTH:0/MAP_RAVAGED_PATH:0"
 	]
   },
  
 },
-  "REGION_ROUTE204_SOUTH/SOUTHPOND": {
+  "REGION_ROUTE204/SOUTHPOND": {
     "parent_map": "MAP_ROUTE204",
     "has_grass": false,
     "has_water": true,
@@ -114,7 +114,7 @@
   },
   
 },
-  "REGION_ROUTE204_SOUTH/WESTPOND": {
+  "REGION_ROUTE204/WESTPOND": {
     "parent_map": "MAP_ROUTE204",
     "has_grass": false,
     "has_water": true,
@@ -126,7 +126,7 @@
   },
   
 },
-  "REGION_ROUTE204_SOUTH/NORTHPOND": {
+  "REGION_ROUTE204/NORTHPOND": {
     "parent_map": "MAP_ROUTE204",
     "has_grass": false,
     "has_water": true,
@@ -139,7 +139,7 @@
   
 
 {
-  "REGION_ROUTE204_NORTH/MAIN": {
+  "REGION_ROUTE204/NORTH": {
     "parent_map": "MAP_ROUTE204",
     "has_grass": true,
     "has_water": false,
@@ -157,7 +157,7 @@
       "REGION_FLOAROMA_TOWN/MAIN"
     ],
     "warps": [
-	"MAP_ROUTE204_NORTH:0/MAP_RAVAGED_PATH:1"
+	"MAP_ROUTE204/NORTH:0/MAP_RAVAGED_PATH:1"
 	]
   },
   
@@ -176,7 +176,8 @@
 	],
     "events": [],
     "exits": [
-      "REGION_ROUTE205_SOUTH/MAIN"
+      "REGION_ROUTE205/SOUTH",
+	  "REGION_VALLEY_WINDWORKS/RIVER"
     ],
     "warps": [
 	"MAP_VALLEY_WINDWORKS:0/MAP_VALLEY_WINDWORKS_BUILDING:0"
@@ -195,18 +196,28 @@
 	  "TRAINER_COMMANDER_MARS_REWARD"
 	],
     "events": [
-	  "EVENT_MARS_DEFEATED"
+	  "EVENT_DEFEAT_MARS_VALLEY_WINDWORKS"
 	],
-    "exits": [
-      "REGION_ROUTE205_SOUTH/MAIN"
-    ],
+    "exits": [],
     "warps": [
 	"MAP_VALLEY_WINDWORKS_BUILDING:0/MAP_VALLEY_WINDWORKS:0"
 	]
   },
- 
+  
+},
+  "REGION_VALLEY_WINDWORKS/RIVER": {
+    "parent_map": "MAP_VALLEY_WINDWORKS",
+    "has_grass": false,
+    "has_water": true,
+    "has_fishing": true,
+    "locations": [],
+    "events": [],
+    "exits": [],
+    "warps": []
+  },
+  
 {
-  "REGION_ROUTE205_SOUTH/MAIN": {
+  "REGION_ROUTE205/SOUTH": {
     "parent_map": "MAP_ROUTE205",
     "has_grass": true,
     "has_water": false,
@@ -235,13 +246,40 @@
       "REGION_FLOAROMA_TOWN/MAIN",
 	  "REGION_VALLEY_WINDWORKS/MAIN",
 	  "REGION_FUEGO_IRONWORKS_EXTERIOR/MAIN",
-	  "REGION_ETERNA_FOREST_EXTERIOR/MAIN"
+	  "REGION_ETERNA_FOREST_EXTERIOR/MAIN",
+	  "REGION_ROUTE205/LEFTRIVER"
+	  "REGION_ROUTE205/RIGHTRIVER"
     ],
     "warps": [
 	"MAP_ROUTE205:0,1/MAP_ETERNA_FOREST:1,2"
 	"MAP_ROUTE205:2/MAP_HOUSE1:0"
 	]
   },
+  
+},
+  "REGION_ROUTE205/LEFTRIVER": {
+    "parent_map": "MAP_ROUTE205",
+    "has_grass": false,
+    "has_water": true,
+    "has_fishing": true,
+    "locations": [],
+    "events": [],
+    "exits": [],
+    "warps": []
+  },
+
+},
+  "REGION_ROUTE205/RIGHTRIVER": {
+    "parent_map": "MAP_ROUTE205",
+    "has_grass": false,
+    "has_water": true,
+    "has_fishing": true,
+    "locations": [],
+    "events": [],
+    "exits": [],
+    "warps": []
+  },
+  
   
 {
   "REGION_FUEGO_IRONWORKS_EXTERIOR/MAIN": {
@@ -260,7 +298,7 @@
     "events": [],
     "exits": [
 	  "REGION_FLOAROMA_TOWN/MAIN",
-	  "REGION_ROUTE205_SOUTH/MAIN"
+	  "REGION_ROUTE205/SOUTH"
 	],
     "warps": [
 	"MAP_FUEGO_IRONWORKS_EXTERIOR:0/MAP_FUEGO_IRONWORKS:0"
@@ -284,14 +322,14 @@
 	],
     "events": [],
     "exits": [
-        "REGION_ROUTE205_SOUTH/MAIN",
-	    "REGION_ROUTE205_NORTH/MAIN"
+        "REGION_ROUTE205/SOUTH",
+	    "REGION_ROUTE205/NORTH"
     ],
     "warps": []
   },
 
 {
-  "REGION_ROUTE205_NORTH/MAIN": {
+  "REGION_ROUTE205/NORTH": {
     "parent_map": "MAP_ROUTE205",
     "has_grass": true,
     "has_water": false,
@@ -310,12 +348,26 @@
     "events": [],
     "exits": [
       "REGION_ETERNA_CITY/MAIN",
-	  "REGION_ETERNA_FOREST_EXTERIOR/MAIN"
+	  "REGION_ETERNA_FOREST_EXTERIOR/MAIN",
+	  "REGION_ROUTE205/POND"
     ],
     "warps": [
 	"MAP_ROUTE205:0,1/MAP_ETERNA_FOREST:3,4"
 	]
   },
+  
+},
+  "REGION_ROUTE205/POND": {
+    "parent_map": "MAP_ROUTE205",
+    "has_grass": false,
+    "has_water": true,
+    "has_fishing": true,
+    "locations": [],
+    "events": [],
+    "exits": [],
+    "warps": []
+  },
+  
   
 {
   "REGION_ROUTE206_NORTH_GATE/MAIN": {
@@ -470,12 +522,26 @@
 	  "TRAINER_HIKER_ALEXANDER_REWARD"
 	],
     "events": [],
-    "exits": [],
+    "exits": [
+	  "REGION_ROUTE208/RIVER"
+	],
     "warps": [
 	"MAP_ROUTE208:0/MAP_MOUNT_CORONET_SOUTH:0"
 	"MAP_ROUTE208:1/MAP_ROUTE208_BERRY_MASTERS_HOUSE:0"
 	"MAP_ROUTE208:2,3/MAP_ROUTE208_GATE:0"
 	]
+  },
+  
+},
+  "REGION_ROUTE208/RIVER": {
+    "parent_map": "MAP_ROUTE208",
+    "has_grass": false,
+    "has_water": true,
+    "has_fishing": true,
+    "locations": [],
+    "events": [],
+    "exits": [],
+    "warps": []
   },
   
 {
@@ -559,13 +625,27 @@
 	],
     "events": [],
     "exits": [
-	  "REGION_SOLACEON_TOWN/MAIN"
+	  "REGION_SOLACEON_TOWN/MAIN",
+	  "REGION_ROUTE209/LAKE"
     ],
     "warps": [
 	"MAP_ROUTE209:0,1/MAP_ROUTE209_GATE:1",
 	"MAP_ROUTE209:2/MAP_LOST_TOWER:0"
 	]
   },
+  
+},
+  "REGION_ROUTE209/LAKE": {
+    "parent_map": "MAP_ROUTE209",
+    "has_grass": false,
+    "has_water": true,
+    "has_fishing": true,
+    "locations": [],
+    "events": [],
+    "exits": [],
+    "warps": []
+  },
+  
   
 {
   "REGION_ROUTE210_SOUTH/MAIN": {
@@ -626,7 +706,7 @@
     "events": [],
     "exits": [],
     "warps": [
-	"MAP_ROUTE210_SOUTH_CAFE_CABIN:0/MAP_ROUTE210:0"
+	"MAP_CAFE_CABIN:0/MAP_ROUTE210:0"
 	]
   },
 
@@ -661,13 +741,26 @@
     "events": [],
     "exits": [
       "REGION_ROUTE210_SOUTH/MAIN",
-	  "REGION_CELESTIC_TOWN/MAIN"
+	  "REGION_CELESTIC_TOWN/MAIN",
+	  "REGION_ROUTE210/RIVER"
     ],
     "warps": [
 	  "MAP_ROUTE210_NORTH:0/MAP_ROUTE210_NORTH_GRANDMA_WILMAS_HOUSE:0"
 	]
   },
- 
+
+},
+  "REGION_ROUTE210/RIVER": {
+    "parent_map": "MAP_ROUTE210",
+    "has_grass": false,
+    "has_water": true,
+    "has_fishing": true,
+    "locations": [],
+    "events": [],
+    "exits": [],
+    "warps": []
+  },
+  
 {
   "REGION_ROUTE210_NORTH_GRANDMA_WILMAS_HOUSE/MAIN": {
     "parent_map": "MAP_ROUTE210_NORTH_GRANDMA_WILMAS_HOUSE",
@@ -776,11 +869,37 @@
     "events": [],
     "exits": [
       "REGION_PASTORIA_CITY/MAIN",
-	  "REGION_ROUTE212_NORTH/MAIN"
+	  "REGION_ROUTE212_NORTH/MAIN",
+	  "REGION_ROUTE212/WESTLAKE",
+	  "REGION_ROUTE212/MIDDLELAKE"
     ],
     "warps": [
 	  "MAP_ROUTE212_SOUTH:0/MAP_SHARD_HOUSE:0"
 	]
+  },
+  
+},
+  "REGION_ROUTE212/WESTLAKE": {
+    "parent_map": "MAP_ROUTE212",
+    "has_grass": false,
+    "has_water": true,
+    "has_fishing": true,
+    "locations": [],
+    "events": [],
+    "exits": [],
+    "warps": []
+  },
+  
+},
+  "REGION_ROUTE212/MIDDLELAKE": {
+    "parent_map": "MAP_ROUTE212",
+    "has_grass": false,
+    "has_water": true,
+    "has_fishing": true,
+    "locations": [],
+    "events": [],
+    "exits": [],
+    "warps": []
   },
   
 {
@@ -1035,7 +1154,8 @@
 	  "EVENT_CHASE_GALACTIC_GRUNT"
 	],
     "exits": [
-	  "REGION_VALOR_LAKEFRONT/MAIN"
+	  "REGION_VALOR_LAKEFRONT/MAIN",
+	  "REGION_ROUTE213/BEACH"
     ],
     "warps": [
 	  "MAP_ROUTE213:0/MAP_HOUSE1:0",
@@ -1046,6 +1166,19 @@
 	  "MAP_ROUTE213:6,7/MAP_ROUTE213_GATE:0"
 	]
   },
+  
+},
+  "REGION_ROUTE213/BEACH": {
+    "parent_map": "MAP_ROUTE213",
+    "has_grass": false,
+    "has_water": true,
+    "has_fishing": true,
+    "locations": [],
+    "events": [],
+    "exits": [],
+    "warps": []
+  },
+  
   
 {
   "REGION_ROUTE213_HOUSE1/MAIN": {
@@ -1369,8 +1502,8 @@
   },
   
 {
-  "REGION_ROUTE216_HOUSE1/MAIN": {
-    "parent_map": "MAP_ROUTE216_HOUSE1",
+  "REGION_ROUTE217_HOUSE1/MAIN": {
+    "parent_map": "MAP_ROUTE217_HOUSE1",
     "has_grass": false,
     "has_water": false,
     "has_fishing": false,
@@ -1385,8 +1518,8 @@
   },
   
 {
-  "REGION_ROUTE216_HOUSE2/MAIN": {
-    "parent_map": "MAP_ROUTE216_HOUSE2",
+  "REGION_ROUTE217_HOUSE2/MAIN": {
+    "parent_map": "MAP_ROUTE217_HOUSE2",
     "has_grass": false,
     "has_water": false,
     "has_fishing": false,
@@ -1420,12 +1553,27 @@
 	  "TRAINER_GUITARIST_TONY_REWARD"
 	],
     "events": [],
-    "exits": [],
+    "exits": [
+	  "REGION_ROUTE218/WATER"
+	],
     "warps": [
 	  "MAP_ROUTE218:0,1/MAP_ROUTE218_GATE_EAST:0"
 	  "MAP_ROUTE218:2,3/MAP_ROUTE218_GATE_WEST:0"
 	]
   },
+  
+},
+  "REGION_ROUTE218/WATER": {
+    "parent_map": "MAP_ROUTE218",
+    "has_grass": false,
+    "has_water": true,
+    "has_fishing": true,
+    "locations": [],
+    "events": [],
+    "exits": [],
+    "warps": []
+  },
+  
   
 {
   "REGION_ROUTE218_GATE_EAST/MAIN": {
@@ -1475,8 +1623,21 @@
     "events": [],
     "exits": [
       "REGION_SANDGEM_TOWN/MAIN",
-	  "REGION_ROUTE220/MAIN"
+	  "REGION_ROUTE220/MAIN",
+	  "REGION_ROUTE219/WATER"
     ],
+    "warps": []
+  },
+  
+},
+  "REGION_ROUTE219/WATER": {
+    "parent_map": "MAP_ROUTE219",
+    "has_grass": false,
+    "has_water": true,
+    "has_fishing": true,
+    "locations": [],
+    "events": [],
+    "exits": [],
     "warps": []
   },
   
@@ -1536,13 +1697,27 @@
 	],
     "events": [],
     "exits": [
-      "REGION_ROUTE220/MAIN"
+      "REGION_ROUTE220/MAIN",
+	  "REGION_ROUTE221/WATER"
     ],
     "warps": [
 	"MAP_ROUTE221:0/MAP_ROUTE221_HOUSE1:0"
 	"MAP_ROUTE221:1/MAP_PAL_PARK:0"
 	]
   },
+  
+},
+  "REGION_ROUTE221/WATER": {
+    "parent_map": "MAP_ROUTE221",
+    "has_grass": false,
+    "has_water": true,
+    "has_fishing": true,
+    "locations": [],
+    "events": [],
+    "exits": [],
+    "warps": []
+  },
+  
   
 {
   "REGION_ROUTE221_HOUSE1/MAIN": {
@@ -1599,6 +1774,7 @@
     "events": [],
     "exits": [
       "REGION_VALOR_LAKEFRONT/MAIN",
+	  "REGION_ROUTE222/BEACH"
     ],
     "warps": [
 	"MAP_ROUTE222:0/MAP_ROUTE222_FAN_CLUB:0",
@@ -1606,6 +1782,19 @@
 	"MAP_ROUTE222:2,3/MAP_ROUTE222_GATE:0"
 	]
   },
+  
+},
+  "REGION_ROUTE222/BEACH": {
+    "parent_map": "MAP_ROUTE222",
+    "has_grass": false,
+    "has_water": true,
+    "has_fishing": true,
+    "locations": [],
+    "events": [],
+    "exits": [],
+    "warps": []
+  },
+  
   
 {
   "REGION_ROUTE222_FAN_CLUB/MAIN": {
@@ -1696,13 +1885,65 @@
     "has_grass": true,
     "has_water": false,
     "has_fishing": true,
+    "locations": [
+	  "BERRY_TREE_1",
+	  "BERRY_TREE_2",
+	  "BERRY_TREE_3",
+	  "BERRY_TREE_4",
+	  "ITEM_RAZOR_CLAW",
+	  "ITEM_UPGRADE",
+	  "ITEM_PP_MAX",
+	  "ITEM_DESTINY_KNOT",
+	  "ITEM_ULTRA_BALL",
+	  "ITEM_REPEAT_BALL",
+	  "HIDDEN_ITEM_ZINC",
+	  "HIDDEN_ITEM_RARE_CANDY",
+	  "HIDDEN_ITEM_PEARL",
+	  "HIDDEN_ITEM_HEART_SCALE",
+	  "HIDDEN_ITEM_BIG_PEARL",
+	  "HIDDEN_ITEM_PEARL",
+	  "HIDDEN_ITEM_ULTRA_BALL",
+	  "TRAINER_ACE_TRAINER_RUBEN_REWARD",
+	  "TRAINER_VETERAN_ARMANDO_REWARD",
+	  "TRAINER_BLACK_BELT_CARL_REWARD",
+	  "TRAINER_PSYCHIC_BRITTNEY_REWARD",
+	  "TRAINER_PSYCHIC_MAXWELL_REWARD",
+	  "TRAINER_RUIN_MANIAC_LARRY_REWARD",
+	  "TRAINER_DRAGON_TAMER_HAYDEN_REWARD"
+	],
+    "events": [],
+    "exits": [
+	  "REGION_ROUTE224/BEACH",
+	  "REGION_ROUTE224/LAKE"
+	],
+    "warps": [
+	  "MAP_ROUTE224:0/MAP_VICTORY_ROAD_SECRET_ROOM3:1"
+	  "MAP_ROUTE224:1/MAP_FLOWER_PARADISE:0"
+	]  
+  },
+  
+},
+  "REGION_ROUTE224/BEACH": {
+    "parent_map": "MAP_ROUTE224",
+    "has_grass": false,
+    "has_water": true,
+    "has_fishing": true,
     "locations": [],
     "events": [],
     "exits": [],
-    "warps": [
-	  "MAP_ROUTE224:0/MAP_VICTORY_ROAD_SECRET:0"
-	  "MAP_ROUTE224:1/MAP_FLOWER_PARADISE:0"
-	]  
+    "warps": []
+  },
+  
+},
+  "REGION_ROUTE224/LAKE": {
+    "parent_map": "MAP_ROUTE224",
+    "has_grass": false,
+    "has_water": true,
+    "has_fishing": true,
+    "locations": [],
+    "events": [],
+    "exits": [],
+    "warps": []
   },
   
 {
@@ -1739,12 +1980,38 @@
 	],
     "events": [],
     "exits": [
-      "REGION_SURVIVAL_AREA/MAIN"
+      "REGION_SURVIVAL_AREA/MAIN",
+	  "REGION_ROUTE225/EASTPOND",
+	  "REGION_ROUTE225/MIDDLEPOND"
     ],
     "warps": [
 	  "MAP_ROUTE225:0,1/MAP_ROUTE225_GATE:0",
 	  "MAP_ROUTE225:2/MAP_HOUSE1:0"
 	]
+  },
+  
+},
+  "REGION_ROUTE225/EASTPOND": {
+    "parent_map": "MAP_ROUTE225",
+    "has_grass": false,
+    "has_water": true,
+    "has_fishing": true,
+    "locations": [],
+    "events": [],
+    "exits": [],
+    "warps": []
+  },
+  
+},
+  "REGION_ROUTE225/MIDDLEPOND": {
+    "parent_map": "MAP_ROUTE225",
+    "has_grass": false,
+    "has_water": true,
+    "has_fishing": true,
+    "locations": [],
+    "events": [],
+    "exits": [],
+    "warps": []
   },
   
 {
@@ -1806,12 +2073,25 @@
     "events": [],
     "exits": [
       "REGION_SURVIVAL_AREA/MAIN",
-	  "REGION_ROUTE227/MAIN"
+	  "REGION_ROUTE227/MAIN",
+	  "REGION_ROUTE226/LAKE"
     ],
     "warps": [
 	  "MAP_ROUTE226:0/MAP_HOUSE:0",
 	  "MAP_ROUTE226:1,2/MAP_ROUTE228_GATE:0"
 	]
+  },
+  
+},
+  "REGION_ROUTE226/LAKE": {
+    "parent_map": "MAP_ROUTE226",
+    "has_grass": false,
+    "has_water": true,
+    "has_fishing": true,
+    "locations": [],
+    "events": [],
+    "exits": [],
+    "warps": []
   },
   
 {
@@ -1848,13 +2128,39 @@
     "events": [],
     "exits": [
       "REGION_ROUTE226/MAIN",
-	  "REGION_STARK_MOUNTAIN_EXTERIOR"
+	  "REGION_STARK_MOUNTAIN_EXTERIOR",
+	  "REGION_ROUTE227/WESTPOND",
+	  "REGION_ROUTE227/EASTPOND"
     ],
     "warps": [
 	  "MAP_ROUTE227:0/MAP_HOUSE1:0"
 	]
   },
+  
+},
+  "REGION_ROUTE227/WESTPOND": {
+    "parent_map": "MAP_ROUTE227",
+    "has_grass": false,
+    "has_water": true,
+    "has_fishing": true,
+    "locations": [],
+    "events": [],
+    "exits": [],
+    "warps": []
+  },
 
+},
+  "REGION_ROUTE227/EASTPOND": {
+    "parent_map": "MAP_ROUTE227",
+    "has_grass": false,
+    "has_water": true,
+    "has_fishing": true,
+    "locations": [],
+    "events": [],
+    "exits": [],
+    "warps": []
+  },
+  
 {
   "REGION_ROUTE227_HOUSE/MAIN": {
     "parent_map": "MAP_ROUTE227_HOUSE",
@@ -1878,7 +2184,7 @@
     "locations": [
 	  "ITEM_MAX_ELIXIR",
 	  "ITEM_LIFE_ORB",
-	  "TRAINER_
+	  "TRAINER_DRAGON_TAMER_DARIEN"
 	],
     "events": [],
     "exits": [
@@ -1922,7 +2228,9 @@
 	],
     "events": [],
     "exits": [
-	  "REGION_ROUTE229/MAIN"
+	  "REGION_ROUTE229/MAIN",
+	  "REGION_ROUTE228/SOUTHPOND",
+	  "REGION_ROUTE228/NORTHPOND"
     ],
     "warps": [
 	  "MAP_ROUTE228:0/MAP_HOUSE1:0",
@@ -1932,6 +2240,30 @@
 	]
   },
 
+},
+  "REGION_ROUTE228/NORTHPOND": {
+    "parent_map": "MAP_ROUTE228",
+    "has_grass": false,
+    "has_water": true,
+    "has_fishing": true,
+    "locations": [],
+    "events": [],
+    "exits": [],
+    "warps": []
+  },
+
+},
+  "REGION_ROUTE228/SOUTHPOND": {
+    "parent_map": "MAP_ROUTE228",
+    "has_grass": false,
+    "has_water": true,
+    "has_fishing": true,
+    "locations": [],
+    "events": [],
+    "exits": [],
+    "warps": []
+  },
+  
 {
   "REGION_ROUTE228_HOUSE1/MAIN": {
     "parent_map": "MAP_ROUTE228_HOUSE1",
@@ -1998,8 +2330,21 @@
     "exits": [
       "REGION_ROUTE228/MAIN", 
 	  "REGION_ROUTE230/MAIN",
-	  "REGION_RESORT_AREA/MAIN"
+	  "REGION_RESORT_AREA/MAIN",
+	  "REGION_ROUTE229/POND"
 	  ],
+    "warps": []
+  },
+  
+},
+  "REGION_ROUTE229/POND": {
+    "parent_map": "MAP_ROUTE229",
+    "has_grass": false,
+    "has_water": true,
+    "has_fishing": true,
+    "locations": [],
+    "events": [],
+    "exits": [],
     "warps": []
   },
   
@@ -2028,8 +2373,21 @@
     "events": [],
     "exits": [
       "REGION_FIGHT_AREA/MAIN",
-	  "REGION_ROUTE229/MAIN"
+	  "REGION_ROUTE229/MAIN""
+	  "REGION_ROUTE230/WATER"
     ],
+    "warps": []
+  },
+  
+},
+  "REGION_ROUTE230/WATER": {
+    "parent_map": "MAP_ROUTE230",
+    "has_grass": false,
+    "has_water": true,
+    "has_fishing": true,
+    "locations": [],
+    "events": [],
+    "exits": [],
     "warps": []
   },
   

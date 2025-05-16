@@ -17,14 +17,15 @@ class Goal(Choice):
     Rival: Beat the Rival at the Survival Area
     Champion2: Beat the E4 for the Second Time (2nd and beyond are harder than first)
     Cyrus: Beat Cyrus in Celestic Town
-    Plate Hunt Goal?
+    Plate Hunt Goal?: Find all 16 plates to receive the Azure Flute and defeat/catch Arceus at Origin Hall
     """
     display_name = "Goal"
     default = 0
     option_champion = 0
     option_rival = 1
     option_champion2 = 2
-    option_cyrus= 3
+    option_cyrus = 3
+    option_plate_hunt = 4
 
 
 class RandomizeBadges(Choice):
@@ -147,7 +148,7 @@ class EliteFourRequirement(Choice):
     display_name = "Elite Four Requirement"
     default = 0
     option_badges = 0
-   option_gyms = 1
+    option_gyms = 1
 
 
 
@@ -157,6 +158,67 @@ class EliteFourCount(Range):
     range_start = 0
     range_end = 8
     default = 8
+    
+ Sets the requirements to challenge Cyrus at Celestic Ruins
+
+    Badges: Obtain some number of badges
+    "Gyms: Defeat some number of gyms
+
+    display_name = "Cyrus Requirement"
+    default = 0
+    option_badges = 0
+    option_gyms = 1
+
+
+
+class CyrusCount(Range):
+    Sets the number of badges/gyms required to challenge the elite four
+    display_name = "Cyrus Count"
+    range_start = 0
+    range_end = 4
+    default = 4
+    
+class PlateHunt(Toggle):
+   
+    Sets whether plates need to be found to satisfy the Plate Hunt win condition.
+    
+    display_name = "Azure Flute needs Plates"
+
+
+class PlateHunt(Range):
+    
+    Sets the number of Plates that must be found for the Azure Flute to defeat/catch Arceus.
+    
+    display_name = "Plate Hunt Count"
+    range_start = 1
+    range_end = 16
+    default = 6
+
+
+class Plates(OptionSet):
+   
+    Sets which Plates found can contribute to the Plate Hunt goal.
+    
+    display_name = "Allowed Plates"
+    valid_keys = [
+        "Fist Plate",
+        "Sky Plate",
+        "Toxic Plate",
+        "Earth Plate",
+        "Stone Plate",
+        "Insect Plate",
+        "Spooky Plate",
+        "Iron Plate",
+        "Flame Plate",
+        "Splash Plate",
+        "Meadow Plate",
+        "Zap Plate",
+        "Mind Plate",
+        "Icicle Plate",
+        "Draco Plate",
+        "Dread Plate"
+    ]
+    default = valid_keys.copy()
 """
 
 class RandomizeWildPokemon(Choice):
@@ -448,6 +510,7 @@ class RemoveRoadblocks(OptionSet):
     "Solaceon Town Psyducks"
     "Route 222 Lady"
     "Canalave City Battlers"
+    "Hearthome City NPCs" -- maybe?
 
     """
     display_name = "Remove Roadblocks"

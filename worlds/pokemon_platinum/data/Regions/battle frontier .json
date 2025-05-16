@@ -1,0 +1,103 @@
+{
+  "REGION_BATTLE_FRONTIER_GATE/MAIN": {
+    "parent_map": "MAP_BATTLE_FRONTIER_GATE",
+    "has_grass": false,
+    "has_water": false,
+    "has_fishing": false,
+    "locations": [],
+    "events": [],
+    "exits": [],
+    "warps": [
+	"MAP_BATTLE_FRONTIER_GATE:0,1,2/MAP_FIGHT_AREA:5,6",
+	"MAP_BATTLE_FRONTIER_GATE:3,4,5/MAP_BATTLE_FRONTIER:0,1"
+	]
+  },
+ 
+{
+  "REGION_BATTLE_FRONTIER_/MAIN": {
+    "parent_map": "MAP_BATTLE_FRONTIER",
+    "has_grass": false,
+    "has_water": false,
+    "has_fishing": false,
+    "locations": [],
+    "events": [],
+    "exits": [],
+    "warps": [
+	"MAP_BATTLE_FRONTIER:0,1/MAP_BATTLE_FRONTIER_GATE:3,4,5",
+	"MAP_BATTLE_FRONTIER:2,3/MAP_BATTLE_FRONTIER_BATTLE_FACTORY_LOBBY:0",
+	"MAP_BATTLE_FRONTIER:4,5/MAP_BATTLE_FRONTIER_BATTLE_TOWER_LOBBY:0",
+	"MAP_BATTLE_FRONTIER:6,7/MAP_BATTLE_FRONTIER_BATTLE_ARCADE_LOBBY:0",
+	"MAP_BATTLE_FRONTIER:8,9/MAP_BATTLE_FRONTIER_BATTLE_CASTLE_LOBBY:0",
+	"MAP_BATTLE_FRONTIER:10,11/MAP_BATTLE_FRONTIER_BATTLE_HALL_LOBBY:0",
+	]
+  },
+  
+{
+  "REGION_BATTLE_FRONTIER_BATTLE_FACTORY_LOBBY/MAIN": {
+    "parent_map": "MAP_BATTLE_FRONTIER_BATTLE_FACTORY_LOBBY",
+    "has_grass": false,
+    "has_water": false,
+    "has_fishing": false,
+    "locations": [],
+    "events": [],
+    "exits": [],
+    "warps": [
+	"MAP_BATTLE_FRONTIER_BATTLE_FACTORY_LOBBY:0/MAP_BATTLE_FRONTIER:2,3"
+	]
+  },
+  
+{
+  "REGION_BATTLE_FRONTIER_BATTLE_TOWER_LOBBY/MAIN": {
+    "parent_map": "MAP_BATTLE_FRONTIER_BATTLE_TOWER_LOBBY",
+    "has_grass": false,
+    "has_water": false,
+    "has_fishing": false,
+    "locations": [],
+    "events": [],
+    "exits": [],
+    "warps": [
+	"MAP_BATTLE_FRONTIER_BATTLE_TOWER_LOBBY:0/MAP_BATTLE_FRONTIER:4,5"
+	]
+  },
+
+{
+  "REGION_BATTLE_FRONTIER_BATTLE_ARCADE_LOBBY/MAIN": {
+    "parent_map": "MAP_BATTLE_FRONTIER_BATTLE_ARCADE_LOBBY",
+    "has_grass": false,
+    "has_water": false,
+    "has_fishing": false,
+    "locations": [],
+    "events": [],
+    "exits": [],
+    "warps": [
+	"MAP_BATTLE_FRONTIER_BATTLE_ARCADE_LOBBY:0/MAP_BATTLE_FRONTIER:6,7"
+	]
+  },
+  
+{
+  "REGION_BATTLE_FRONTIER_BATTLE_CASTLE_LOBBY/MAIN": {
+    "parent_map": "MAP_BATTLE_FRONTIER_BATTLE_CASTLE_LOBBY",
+    "has_grass": false,
+    "has_water": false,
+    "has_fishing": false,
+    "locations": [],
+    "events": [],
+    "exits": [],
+    "warps": [
+	"MAP_BATTLE_FRONTIER_BATTLE_CASTLE_LOBBY:0/MAP_BATTLE_FRONTIER:8,9"
+	]
+  },
+  
+{
+  "REGION_BATTLE_FRONTIER_BATTLE_HALL_LOBBY/MAIN": {
+    "parent_map": "MAP_BATTLE_FRONTIER_BATTLE_HALL_LOBBY",
+    "has_grass": false,
+    "has_water": false,
+    "has_fishing": false,
+    "locations": [],
+    "events": [],
+    "exits": [],
+    "warps": [
+	"MAP_BATTLE_FRONTIER_BATTLE_HALL_LOBBY:0/MAP_BATTLE_FRONTIER:10,11"
+	]
+  },

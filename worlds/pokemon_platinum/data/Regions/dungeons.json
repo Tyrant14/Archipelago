@@ -34,10 +34,24 @@
 	  "TRAINER_VETERAN_GRANT_REWARD"
     ],
     "events": [],
-    "exits": [],
+    "exits": [
+	  "REGION_OREBURGH_GATE_B1F/WATER"
+	],
     "warps": [
       "MAP_OREBURGH_GATE_B1F:0/MAP_OREBURGH_GATE_1F:2",
     ]
+  },
+  
+},
+  "REGION_OREBURGH_GATE_B1F/WATER": {
+    "parent_map": "MAP_OREBURGH_GATE_B1F",
+    "has_grass": false,
+    "has_water": true,
+    "has_fishing": true,
+    "locations": [],
+    "events": [],
+    "exits": [],
+    "warps": []
   },
 
 {
@@ -80,7 +94,7 @@
   },
   
 {
-  "REGION_RAVAGED_PATH/MAIN": {
+  "REGION_RAVAGED_PATH/SOUTH": {
     "parent_map": "MAP_RAVAGED_PATH",
     "has_grass": true,
     "has_water": false,
@@ -92,11 +106,40 @@
 	  "ITEM_TM_WATER_PULSE"
 	 ],
     "events": [],
+    "exits": [
+	  "REGION_RAVAGED_PATH/WATER"
+	],
+    "warps": [
+      "MAP_RAVAGED_PATH:0/MAP_ROUTE204_SOUTH:0",
+	  "MAP_RAVAGED_PATH:1/MAP_ROUTE204_NORTH:0"
+    ]
+  },
+  
+{
+  "REGION_RAVAGED_PATH/EAST": {
+    "parent_map": "MAP_RAVAGED_PATH",
+    "has_grass": true,
+    "has_water": false,
+    "has_fishing": false,
+    "locations": [],
+    "events": [],
     "exits": [],
     "warps": [
       "MAP_RAVAGED_PATH:0/MAP_ROUTE204_SOUTH:0",
 	  "MAP_RAVAGED_PATH:1/MAP_ROUTE204_NORTH:0"
     ]
+  },
+  
+{
+  "REGION_RAVAGED_PATH/WATER": {
+    "parent_map": "MAP_RAVAGED_PATH",
+    "has_grass": false,
+    "has_water": false,
+    "has_fishing": false,
+    "locations": [],
+    "events": [],
+    "exits": [],
+    "warps": []
   },
   
 {
@@ -633,11 +676,25 @@
 	  "HIDDEN_ITEM_RARE_CANDY"
     ],
     "events": [],
-    "exits": [],
+    "exits": [
+	  "REGION_MOUNT_CORONET_NORTH_B1F/LAKE"
+	],
     "warps": [
       "MAP_MOUNT_CORONET_NORTH_B1F:0/MAP_MOUNT_CORONET_NORTH_1F_MAIN:2",
 	  "MAP_MOUNT_CORONET_NORTH_B1F:1/MAP_MOUNT_CORONET_NORTH_1F_MINI:2"
     ]
+  },
+  
+},
+  "REGION_MOUNT_CORONET_NORTH_B1F/LAKE": {
+    "parent_map": "MAP_MOUNT_CORONET_B1F",
+    "has_grass": false,
+    "has_water": true,
+    "has_fishing": true,
+    "locations": [],
+    "events": [],
+    "exits": [],
+    "warps": []
   },
   
 {
@@ -1201,15 +1258,28 @@
     "has_water": false,
     "has_fishing": false,
     "locations": [
-      "
-	  
-    ],
-    "events": [
-	  "E
-	],
+      "ITEM_TM_DIG"
+	 ],
+    "events": [],
     "exits": [],
     "warps": [
-      "
+      "MAP_MANIAC_TUNNEL:0/MAP_ROUTE214:2",
+	  "MAP_MANIAC_TUNNEL:1/MAP_SOLACEON_RUINS_UPPER"
+    ]
+  },
+
+{
+  "REGION_SOLACEON_RUINS_UPPER/MAIN": {
+    "parent_map": "MAP_SOLACEON_RUINS_UPPER",
+    "has_grass": true,
+    "has_water": false,
+    "has_fishing": false,
+    "locations": [ ],
+    "events": [],
+    "exits": [],
+    "warps": [
+      "MAP_MAP_SOLACEON_RUINS_UPPER:0/MAP_MANIAC_TUNNEL:1",
+	  "MAP_MAP_SOLACEON_RUINS_UPPER:1/MAP_SOLACEON_TOWN:8"
     ]
   },
   
@@ -1358,8 +1428,8 @@
   },
 
 {
-  "REGION_CELESTIC_TOWN_CELESTIC_RUINS/MAIN": {
-    "parent_map": "MAP_CELESTIC_TOWN_CELESTIC_RUINS",
+  "REGION_CELESTIC_RUINS/MAIN": {
+    "parent_map": "MAP_CELESTIC_RUINS",
     "has_grass": false,
     "has_water": false,
     "has_fishing": false,
@@ -1369,11 +1439,11 @@
 	],
     "events": [
 	  "EVENT_EXAMINE_WALL",
-	  "EVENT_DEFEAT_CYRUS"
+	  "EVENT_DEFEAT_CYRUS_CELESTIC_RUINS"
 	],
     "exits": [],
     "warps": [
-	"MAP_CELESTIC_TOWN_CELESTIC_RUINS:0/MAP_CELESTIC_TOWN:2"
+	"MAP_CELESTIC_RUINS:0/MAP_CELESTIC_TOWN:2"
 	]
   },
 
@@ -1478,16 +1548,13 @@
     "has_grass": true,
     "has_water": false,
     "has_fishing": false,
-    "locations": [
-      "
-	  
-    ],
+    "locations": [],
     "events": [
-	  "E
+	  "EVENT_DEFEAT_GIRATINA"
 	],
     "exits": [],
     "warps": [
-      "
+      "MAP_TURNBACK_CAVE:0/MAP_SENDOFF_SPRING:3"
     ]
   },
   
@@ -1519,7 +1586,7 @@
 	  "MAP_VICTORY_ROAD_1F:1/MAP_POKEMON_LEAGUE_UPPER:1",
 	  "MAP_VICTORY_ROAD_1F:2,3,4/MAP_VICTORY_ROAD_2F:0,1,2",
 	  "MAP_VICTORY_ROAD_1F:5,6,7/MAP_VICTORY_ROAD_B1F:0,1,2",
-	  "MAP_VICTORY_ROAD_1F:8/MAP_VICTORY_ROAD_SECRET:0"
+	  "MAP_VICTORY_ROAD_1F:8/MAP_VICTORY_ROAD_SECRET_ROOM1:0"
     ]
   },
   
@@ -1566,25 +1633,276 @@
 	  "TRAINER_DRAGON_TAMER_ONDREJ_REWARD"
     ],
     "events": [],
-    "exits": [],
+    "exits": [
+	  "REGION_VICTORY_ROAD_B1F/MIDDLEPOND",
+	  "REGION_VICTORY_ROAD_B1F/EASTPOND",
+	  "REGION_VICTORY_ROAD_B1F/SOUTHPOND",
+	  "REGION_VICTORY_ROAD_B1F/WESTPOND",
+	  "REGION_VICTORY_ROAD_B1F/NWPOND",
+	  "REGION_VICTORY_ROAD_B1F/WATERFALL"
+	],
     "warps": [
       "MAP_VICTORY_ROAD_B1F:0,1,2/MAP_VICTORY_ROAD_1F:5,6,7"
     ]
   },
+  
+},
+  "REGION_VICTORY_ROAD_B1F/MIDDLEPOND": {
+    "parent_map": "MAP_VICTORY_ROAD_B1F",
+    "has_grass": false,
+    "has_water": true,
+    "has_fishing": true,
+    "locations": [],
+    "events": [],
+    "exits": [],
+    "warps": []
+  },
+  
+},
+  "REGION_VICTORY_ROAD_B1F/EASTPOND": {
+    "parent_map": "MAP_VICTORY_ROAD_B1F",
+    "has_grass": false,
+    "has_water": true,
+    "has_fishing": true,
+    "locations": [],
+    "events": [],
+    "exits": [],
+    "warps": []
+  },
+
+},
+  "REGION_VICTORY_ROAD_B1F/SOUTHPOND": {
+    "parent_map": "MAP_VICTORY_ROAD_B1F",
+    "has_grass": false,
+    "has_water": true,
+    "has_fishing": true,
+    "locations": [],
+    "events": [],
+    "exits": [],
+    "warps": []
+  },
+
+},
+  "REGION_VICTORY_ROAD_B1F/WESTPOND": {
+    "parent_map": "MAP_VICTORY_ROAD_B1F",
+    "has_grass": false,
+    "has_water": true,
+    "has_fishing": true,
+    "locations": [],
+    "events": [],
+    "exits": [],
+    "warps": []
+  },
+
+},
+  "REGION_VICTORY_ROAD_B1F/NWPOND": {
+    "parent_map": "MAP_VICTORY_ROAD_B1F",
+    "has_grass": false,
+    "has_water": true,
+    "has_fishing": true,
+    "locations": [],
+    "events": [],
+    "exits": [],
+    "warps": []
+  },
+
+},
+  "REGION_VICTORY_ROAD_B1F/WATERFALL": {
+    "parent_map": "MAP_VICTORY_ROAD_B1F",
+    "has_grass": false,
+    "has_water": true,
+    "has_fishing": true,
+    "locations": [],
+    "events": [],
+    "exits": [],
+    "warps": []
+  },
 
 {
-  "REGION_VICTORY_ROAD_SECRET/MAIN": {
-    "parent_map": "MAP_VICTORY_ROAD_SECRET",
+  "REGION_VICTORY_ROAD_SECRET_ROOM1/MAIN": {
+    "parent_map": "MAP_VICTORY_ROAD_SECRET_ROOM1",
+    "has_grass": true,
+    "has_water": false,
+    "has_fishing": false,
+    "locations": [],
+    "events": [],
+    "exits": [],
+    "warps": [
+      "MAP_VICTORY_ROAD_SECRET_ROOM1:0/MAP_VICTORY_ROAD_1F:8",
+	  "MAP_VICTORY_ROAD_SECRET_ROOM1:1/MAP_VICTORY_ROAD_SECRET_ROOM2:0"
+    ]
+  },
+  
+{
+  "REGION_VICTORY_ROAD_SECRET_ROOM2/MAIN": {
+    "parent_map": "MAP_VICTORY_ROAD_SECRET_ROOM2",
     "has_grass": true,
     "has_water": false,
     "has_fishing": false,
     "locations": [
-      "
+      "ITEM_DUSK_STONE",
+	  "ITEM_FULL_RESTORE",
+	  "ITEM_NUGGET",
+	  "ITEM_LEFTOVERS",
+	  "HIDDEN_ITEM_HEART_SCALE",
+	  "HIDDEN_ITEM_ULTRA_BALL",
+	  "HIDDEN_ITEM_ULTRA_BALL",
+	  "HIDDEN_ITEM_HP_UP",
+	  "HIDDEN_ITEM_RARE_CANDY"
+	  "TRAINER_ACE_TRAINER_MICAH_REWARD",
+	  "TRAINER_ACE_TRAINER_BRANDI_REWARD",
+	  "TRAINER_PSYCHIC_LANDON_REWARD",
+	  "TRAINER_PSYCHIC_DESIREE_REWARD",
+	  "TRAINER_BLACK_BELT_EDDIE_REWARD",
+	  "TRAINER_VETERAN_TERRELL_REWARD",
+	  "TRAINER_BIRD_KEEPER_AUTUMN_REWARD",
+	  "TRAINER_DRAGON_TAMER_JOE_REWARD",
+	  "TRAINER_PSYCHIC_KENDRA_REWARD",
+	  "TRAINER_PSYCHIC_DEANDRE_REWARD",
+	  "TRAINER_BLACK_BELT_WILLIE_REWARD",
+	  "TRAINER_VETERAN_BRENDEN_REWARD",
+	  "TRAINER_ACE_TRAINER_ARTHUR_REWARD",
+	  "TRAINER_ACE_TRAINER_CLARICE_REWARD"
     ],
+    "events": [],
+    "exits": [
+	  "REGION_VICTORY_ROAD_SECRET_ROOM2/SWPOND",
+	  "REGION_VICTORY_ROAD_SECRET_ROOM2/SMPOND",
+	  "REGION_VICTORY_ROAD_SECRET_ROOM2/SEPOND",
+	  "REGION_VICTORY_ROAD_SECRET_ROOM2/MLPOND",
+	  "REGION_VICTORY_ROAD_SECRET_ROOM2/MRPOND",
+	  "REGION_VICTORY_ROAD_SECRET_ROOM2/MNWPOND",
+	  "REGION_VICTORY_ROAD_SECRET_ROOM2/MNEPOND",
+	  "REGION_VICTORY_ROAD_SECRET_ROOM2/NWPOND",
+	  "REGION_VICTORY_ROAD_SECRET_ROOM2/NEPOND"
+	],
+    "warps": [
+      "MAP_VICTORY_ROAD_SECRET_ROOM2:0/MAP_VICTORY_ROAD_SECRET_ROOM1:1",
+	  "MAP_VICTORY_ROAD_SECRET_ROOM2:1/MAP_VICTORY_ROAD_SECRET_ROOM3:0"
+    ]
+  },
+
+},
+  "REGION_VICTORY_ROAD_SECRET_ROOM2/SWPOND": {
+    "parent_map": "MAP_VICTORY_ROAD_SECRET_ROOM2",
+    "has_grass": false,
+    "has_water": true,
+    "has_fishing": true,
+    "locations": [],
+    "events": [],
+    "exits": [],
+    "warps": []
+  },
+  
+},
+  "REGION_VICTORY_ROAD_SECRET_ROOM2/SMPOND": {
+    "parent_map": "MAP_VICTORY_ROAD_SECRET_ROOM2",
+    "has_grass": false,
+    "has_water": true,
+    "has_fishing": true,
+    "locations": [],
+    "events": [],
+    "exits": [],
+    "warps": []
+  },
+  
+},
+  "REGION_VICTORY_ROAD_SECRET_ROOM2/SEPOND": {
+    "parent_map": "MAP_VICTORY_ROAD_SECRET_ROOM2",
+    "has_grass": false,
+    "has_water": true,
+    "has_fishing": true,
+    "locations": [],
+    "events": [],
+    "exits": [],
+    "warps": []
+  },
+  
+},
+  "REGION_VICTORY_ROAD_SECRET_ROOM2/MLPOND": {
+    "parent_map": "MAP_VICTORY_ROAD_SECRET_ROOM2",
+    "has_grass": false,
+    "has_water": true,
+    "has_fishing": true,
+    "locations": [],
+    "events": [],
+    "exits": [],
+    "warps": []
+  },
+  
+},
+  "REGION_VICTORY_ROAD_SECRET_ROOM2/MRPOND": {
+    "parent_map": "MAP_VICTORY_ROAD_SECRET_ROOM2",
+    "has_grass": false,
+    "has_water": true,
+    "has_fishing": true,
+    "locations": [],
+    "events": [],
+    "exits": [],
+    "warps": []
+  },
+  
+},
+  "REGION_VICTORY_ROAD_SECRET_ROOM2/MNWPOND": {
+    "parent_map": "MAP_VICTORY_ROAD_SECRET_ROOM2",
+    "has_grass": false,
+    "has_water": true,
+    "has_fishing": true,
+    "locations": [],
+    "events": [],
+    "exits": [],
+    "warps": []
+  },
+
+},
+  "REGION_VICTORY_ROAD_SECRET_ROOM2/MNEPOND": {
+    "parent_map": "MAP_VICTORY_ROAD_SECRET_ROOM2",
+    "has_grass": false,
+    "has_water": true,
+    "has_fishing": true,
+    "locations": [],
+    "events": [],
+    "exits": [],
+    "warps": []
+  },
+
+},
+  "REGION_VICTORY_ROAD_SECRET_ROOM2/NWPOND": {
+    "parent_map": "MAP_VICTORY_ROAD_SECRET_ROOM2",
+    "has_grass": false,
+    "has_water": true,
+    "has_fishing": true,
+    "locations": [],
+    "events": [],
+    "exits": [],
+    "warps": []
+  },
+  
+},
+  "REGION_VICTORY_ROAD_SECRET_ROOM2/NEPOND": {
+    "parent_map": "MAP_VICTORY_ROAD_SECRET_ROOM2",
+    "has_grass": false,
+    "has_water": true,
+    "has_fishing": true,
+    "locations": [],
+    "events": [],
+    "exits": [],
+    "warps": []
+  },
+  
+  
+{
+  "REGION_VICTORY_ROAD_SECRET_ROOM3/MAIN": {
+    "parent_map": "MAP_VICTORY_ROAD_SECRET_ROOM3",
+    "has_grass": true,
+    "has_water": false,
+    "has_fishing": false,
+    "locations": [],
     "events": [],
     "exits": [],
     "warps": [
-      "MAP_VICTORY_ROAD_SECRET:0/MAP_VICTORY_ROAD_1F:8"
+      "MAP_VICTORY_ROAD_SECRET_ROOM3:0/MAP_VICTORY_ROAD_SECRET_ROOM2:1",
+	  "MAP_VICTORY_ROAD_SECRET_ROOM3:1/MAP_ROUTE224:0"
     ]
   },
   
@@ -1704,17 +2022,85 @@
     "has_water": false,
     "has_fishing": false,
     "locations": [
-      "
-	  
+      "ITEM_FULL_HEAL",
+	  "ITEM_ESCAPE_ROPE",
+	  "ITEM_PP_UP",
+	  "ITEM_FULL_RESTORE"
+	  "HIDDEN_ITEM_STAR_PIECE",
+	  "TRAINER_COMMANDER_MARS_2_REWARD",
+	  "TRAINER_COMMANDER_JUPITER_REWARD"
     ],
+    "events": [],
+    "exits": [],
+    "warps": [
+      "MAP_STARK_MOUNTAIN_ROOM1:0/MAP_STARK_MOUNTAIN_EXTERIOR:0",
+	  "MAP_STARK_MOUNTAIN_ROOM1:1/MAP_STARK_MOUNTAIN_ROOM2:0"
+    ]
+  },
+  
+{
+  "REGION_STARK_MOUNTAIN_ROOM2/MAIN": {
+    "parent_map": "MAP_STARK_MOUNTAIN_ROOM2",
+    "has_grass": true,
+    "has_water": false,
+    "has_fishing": false,
+    "locations": [
+      "ITEM_RARE_CANDY",
+	  "ITEM_ULTRA_BALL",
+	  "ITEM_CALCIUM",
+	  "ITEM_IRON_BALL",
+	  "ITEM_MAX_ELIXIR",
+	  "ITEM_MAX_REVIVE",
+	  "ITEM_NUGGET",
+	  "ITEM_TM_OVERHEAT",
+	  "HIDDEN_ITEM_ULTRA_BALL",
+	  "HIDDEN_ITEM_FLAME_PLATE",
+	  "HIDDEN_ITEM_FIRE_STONE",
+	  "HIDDEN_ITEM_MAX_REVIVE",
+	  "HIDDEN_ITEM_IRON",
+	  "HIDDEN_ITEM_STARDUST",
+	  "HIDDEN_ITEM_STAR_PIECE",
+	  "TRAINER_PSYCHIC_STERLING_REWARD",
+	  "TRAINER_PSYCHIC_CHELSEY_REWARD",
+	  "TRAINER_DRAGON_TAMER_KENNY_REWARD",
+	  "TRAINER_VETERAN_HARLAN_REWARD",
+	  "TRAINER_ACE_TRAINER_ABEL_REWARD",
+	  "TRAINER_ACE_TRAINER_MONIQUE_REWARD",
+	  "TRAINER_ACE_TRAINER_SKYLAR_REWARD",
+	  "TRAINER_ACE_TRAINER_NATASHA_REWARD",
+	  "TRAINER_BIRD_KEEPER_KRYSTAL_REWARD",
+	  "TRAINER_BLACK_BELT_RAY_REWARD",
+	  "TRAINER_ACE_TRAINER_KASSANDRA_REWARD",
+	  "TRAINER_ACE_TRAINER_KEENAN_REWARD",
+	  "TRAINER_ACE_TRAINER_STEFAN_REWARD",
+	  "TRAINER_ACE_TRAINER_JASMIN_REWARD",
+	  "TRAINER_DRAGON_TAMER_DRAKE_REWARD",
+	  "TRAINER_BLACK_BELT_JARRETT_REWARD"
+    ],
+    "events": [],
+    "exits": [],
+    "warps": [
+      "MAP_STARK_MOUNTAIN_ROOM2:0/MAP_STARK_MOUNTAIN_ROOM1:1",
+	  "MAP_STARK_MOUNTAIN_ROOM2:1/MAP_STARK_MOUNTAIN_ROOM3:0"
+    ]
+  },
+ 
+ {
+  "REGION_STARK_MOUNTAIN_ROOM3/MAIN": {
+    "parent_map": "MAP_STARK_MOUNTAIN_ROOM3",
+    "has_grass": true,
+    "has_water": false,
+    "has_fishing": false,
+    "locations": [],
     "events": [
-	  "E
+	  "EVENT_RETREIVE_MAGMA_STONE"
 	],
     "exits": [],
     "warps": [
-      "
+      "MAP_STARK_MOUNTAIN_ROOM3:0/MAP_STARK_MOUNTAIN_ROOM2:1"
     ]
   },
+
   
 {
   "REGION_ROCK_PEAK_RUINS/MAIN": {

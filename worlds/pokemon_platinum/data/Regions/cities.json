@@ -1502,7 +1502,7 @@
 	],
     "exits": [
 	  "REGION_ROUTE204_NORTH/MAIN",
-	  "REGION_ROUTE205_SOUTH/MAIN",
+	  "REGION_ROUTE205/SOUTH",
 	  "REGION_FUEGO_IRONWORKS_EXTERIOR/MAIN"
 	]
 	"warps": [
@@ -1640,8 +1640,10 @@
 	  "EVENT_VISITED_ETERNA_CITY"
 	],
     "exits": [
-	  "REGION_ROUTE205_NORTH/MAIN",
-	  "REGION_ROUTE211_WEST/MAIN"
+	  "REGION_ROUTE205/NORTH",
+	  "REGION_ROUTE211_WEST/MAIN",
+	  "REGION_ETERNA_CITY/SEPOND",
+	  "REGION_ETERNA_CITY/NEPOND"
 	]
 	"warps": [
 	  "MAP_ETERNA_CITY:0/MAP_ETERNA_CITY_HOUSE1:0",
@@ -1656,6 +1658,30 @@
 	  "MAP_ETERNA_CITY:9/MAP_ETERNA_CITY_HOUSE2:0"
 	  "MAP_ETERNA_CITY:10,11/MAP_ROUTE206_NORTH_GATE:0"
 	]
+  },
+  
+},
+  "REGION_ETERNA_CITY/SEPOND": {
+    "parent_map": "MAP_ETERNA_CITY",
+    "has_grass": false,
+    "has_water": true,
+    "has_fishing": true,
+    "locations": [],
+    "events": [],
+    "exits": [],
+    "warps": []
+  },
+
+},
+  "REGION_ETERNA_CITY/NEPOND": {
+    "parent_map": "MAP_ETERNA_CITY",
+    "has_grass": false,
+    "has_water": true,
+    "has_fishing": true,
+    "locations": [],
+    "events": [],
+    "exits": [],
+    "warps": []
   },
   
 {
@@ -2393,8 +2419,8 @@
 	  "MAP_SOLACEON_TOWN:4/MAP_SOLACEON_TOWN_HOUSE1:0",
 	  "MAP_SOLACEON_TOWN:5/MAP_SOLACEON_TOWN_HOUSE2:0",
 	  "MAP_SOLACEON_TOWN:6/MAP_SOLACEON_TOWN_HOUSE3:0",
-	  "MAP_SOLACEON_TOWN:7/MAP_SOLACEON_TOWN_SOLACEON_RUINS:0",
-	  "MAP_SOLACEON_TOWN:8/MAP_SOLACEON_TOWN_SOLACEON_RUINS_UPPER:0"
+	  "MAP_SOLACEON_TOWN:7/MAP_SOLACEON_RUINS_1F:0",
+	  "MAP_SOLACEON_TOWN:8/MAP_SOLACEON_RUINS_UPPER:0"
 	]
   },
   
@@ -3067,7 +3093,8 @@
 	  "EVENT_CHASE_GALACTIC_GRUNT"
 	],
     "exits": [
-	  "REGION_ROUTE212_SOUTH/MAIN"
+	  "REGION_ROUTE212_SOUTH/MAIN",
+	  "REGION_PASTORIA_CITY/LAKE"
 	]
 	"warps": [
 	  "MAP_PASTORIA_CITY:0/MAP_PASTORIA_CITY_HOUSE1:0",
@@ -3081,6 +3108,18 @@
 	  "MAP_PASTORIA_CITY:9/MAP_PASTORIA_CITY_HOUSE4:0",
 	  "MAP_PASTORIA_CITY:10,11/MAP_PASTORIA_CITY_ROUTE213_GATE:1"
 	]
+  },
+
+},
+  "REGION_PASTORIA_CITY/LAKE": {
+    "parent_map": "MAP_PASTORIA_CITY",
+    "has_grass": false,
+    "has_water": true,
+    "has_fishing": true,
+    "locations": [],
+    "events": [],
+    "exits": [],
+    "warps": []
   },
 
 {
@@ -3330,12 +3369,13 @@
     "exits": [
 	  "REGION_ROUTE211_EAST/MAIN",
 	  "REGION_ROUTE210_NORTH/MAIN",
-	  "REGION_CELESTIC_TOWN/POND"
+	  "REGION_CELESTIC_TOWN/SOUTHPOND",
+	  "REGION_CELESTIC_TOWN/NORTHPOND"
 	]
 	"warps": [
 	  "MAP_CELESTIC_TOWN:0/MAP_CELESTIC_TOWN_HOUSE1:0",
 	  "MAP_CELESTIC_TOWN:1/MAP_CELESTIC_TOWN_HOUSE2:0",
-	  "MAP_CELESTIC_TOWN:2/MAP_CELESTIC_TOWN_CELESTIC_RUINS:0",
+	  "MAP_CELESTIC_TOWN:2/MAP_CELESTIC_RUINS:0",
 	  "MAP_CELESTIC_TOWN:3/MAP_CELESTIC_TOWN_HOUSE3:0",
 	  "MAP_CELESTIC_TOWN:4/MAP_CELESTIC_TOWN_POKEMON_CENTER_1F",
 	  "MAP_CELESTIC_TOWN:5/MAP_CELESTIC_TOWN_HOUSE4:0"
@@ -3343,7 +3383,19 @@
   },
   
 },
-  "REGION_CELESTIC_TOWN/POND": {
+  "REGION_CELESTIC_TOWN/SOUTHPOND": {
+    "parent_map": "MAP_CELESTIC_TOWN",
+    "has_grass": false,
+    "has_water": true,
+    "has_fishing": true,
+    "locations": [],
+    "events": [],
+    "exits": [],
+    "warps": []
+  },
+  
+},
+  "REGION_CELESTIC_TOWN/NORTHPOND": {
     "parent_map": "MAP_CELESTIC_TOWN",
     "has_grass": false,
     "has_water": true,
@@ -3479,7 +3531,9 @@
     "events": [
 	  "EVENT_VISITED_CANALAVE_CITY"
 	],
-    "exits": []
+    "exits": [
+	  "REGION_CANALAVE_CITY/PORT"
+	]
 	"warps": [
 	  "MAP_CANALAVE_CITY:0/MAP_IRON_ISLAND:0",
 	  "MAP_CANALAVE_CITY:1/MAP_CANALAVE_CITY_HOUSE1:0",
@@ -3491,10 +3545,24 @@
 	  "MAP_CANALAVE_CITY:8/MAP_CANALAVE_CITY_MART:0",
 	  "MAP_CANALAVE_CITY:9/MAP_CANALAVE_CITY_MOVE_DELETER:0",
 	  "MAP_CANALAVE_CITY:10/MAP_CANALAVE_CITY_POKEMON_CENTER_1F:0",
-	  "MAP_CANALAVE_CITY:11/MAP_CANALAVE_CITY_HARBOR_INN:0"
+	  "MAP_CANALAVE_CITY:11/MAP_CANALAVE_CITY_HARBOR_INN:0",
+	  "MAP_CANALAVE_CITY:12/MAP_FULLMOON_ISLAND:0",
+	  "MAP_CANALAVE_CITY:13/MAP_NEWMOON_ISALND:0"
 	]
   },
 
+},
+  "REGION_CANALAVE_CITY/PORT": {
+    "parent_map": "MAP_CANALAVE_CITY",
+    "has_grass": false,
+    "has_water": true,
+    "has_fishing": true,
+    "locations": [],
+    "events": [],
+    "exits": [],
+    "warps": []
+  },
+  
 {
   "REGION_CANALAVE_CITY_HOUSE1/MAIN": {
     "parent_map": "MAP_CANALAVE_CITY_HOUSE1",
@@ -4375,7 +4443,7 @@
 	  "MAP_FIGHT_AREA:2/MAP_FIGHT_AREA_HOUSE1:0",
 	  "MAP_FIGHT_AREA:3/MAP_FIGHT_AREA_HOUSE2:0",
 	  "MAP_FIGHT_AREA:4/MAP_FIGHT_AREA_POKEMON_CENTER_1F:0",
-	  "MAP_FIGHT_AREA:5,6/MAP_FIGHT_AREA_BATTLE_FRONTIER_GATE:0,1,2",
+	  "MAP_FIGHT_AREA:5,6/MAP_BATTLE_FRONTIER_GATE:0,1,2",
 	  "MAP_FIGHT_AREA:7/MAP_FIGHT_AREA_MART:0"
 	]
   },
@@ -4450,21 +4518,6 @@
     "exits": []
 	"warps": [
 	  "MAP_FIGHT_AREA_POKEMON_CENTER_2F:0/MAP_FIGHT_AREA_POKEMON_CENTER_1F:2"
-	]
-  },
-
-{
-  "REGION_FIGHT_AREA_BATTLE_FRONTIER_GATE/MAIN": {
-    "parent_map": "MAP_FIGHT_AREA_BATTLE_FRONTIER_GATE",
-    "has_grass": false,
-    "has_water": false,
-    "has_fishing": false,
-    "locations": [],
-    "events": [],
-    "exits": [],
-    "warps": [
-	"MAP_FIGHT_AREA_BATTLE_FRONTIER_GATE:0,1,2/MAP_FIGHT_AREA:5,6",
-	"MAP_FIGHT_AREA_BATTLE_FRONTIER_GATE:3,4,5/MAP_BATTLE_FRONTIER:0,1"
 	]
   },
 
@@ -4628,7 +4681,8 @@
 	  "EVENT_VISITED_RESORT_AREA"
 	],
     "exits": [
-	  "REGION_"
+	  "REGION_ROUTE229/MAIN",
+	  "REGION_RESORT_AREA/POND"
 	]
 	"warps": [
 	  "MAP_RESORT_AREA:0/MAP_RESORT_AREA_POKEMON_CENTER_1F:0",
@@ -4636,6 +4690,18 @@
 	  "MAP_RESORT_AREA:2/MAP_RESORT_AREA_RIBBON_SYNDICATE:0",
 	  "MAP_RESORT_AREA:3/MAP_RESORT_AREA_VILLA:0"
 	]
+  },
+  
+},
+  "REGION_RESORT_AREA/POND": {
+    "parent_map": "MAP_RESORT_AREA",
+    "has_grass": false,
+    "has_water": true,
+    "has_fishing": true,
+    "locations": [],
+    "events": [],
+    "exits": [],
+    "warps": []
   },
   
 { 

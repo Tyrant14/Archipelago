@@ -31,3 +31,65 @@
 	"MAP_IRON_ISLAND_HOUSE1:0/MAP_IRON_ISLAND:1"
 	]
   },
+
+{
+  "REGION_FULLMOON_ISLAND/MAIN": {
+    "parent_map": "MAP_FULLMOON_ISLAND",
+    "has_grass": false,
+    "has_water": false,
+    "has_fishing": false,
+    "locations": [],
+    "events": [],
+    "exits": [],
+    "warps": [
+	"MAP_FULLMOON_ISLAND:0/MAP_CANALAVE_CITY:12",
+	"MAP_FULLMOON_ISLAND:1/MAP_FULLMOON_ISLAND_INTERIOR:0"
+	]
+  },
+  
+{
+  "REGION_FULLMOON_ISLAND_INTERIOR/MAIN": {
+    "parent_map": "MAP_FULLMOON_ISLAND_INTERIOR",
+    "has_grass": false,
+    "has_water": false,
+    "has_fishing": false,
+    "locations": [
+	  "ITEM_LUNAR_WING"
+	],
+    "events": [
+	  "EVENT_RELEASE_CRESSELIA"
+	],
+    "exits": [],
+    "warps": [
+	"MAP_FULLMOON_ISLAND_INTERIOR:0/MAP_FULLMOON_ISLAND:1"
+	]
+  },
+  
+{
+  "REGION_NEWMOON_ISLAND/MAIN": {
+    "parent_map": "MAP_NEWMOON_ISLAND",
+    "has_grass": false,
+    "has_water": false,
+    "has_fishing": false,
+    "locations": [],
+    "events": [],
+    "exits": [],
+    "warps": [
+	"MAP_NEWMOON_ISLAND:0/MAP_CANALAVE_CITY:13",
+	"MAP_NEWMOON_ISLAND:1/MAP_NEWMOON_ISLAND_INTERIOR:0"
+	]
+  },
+  
+{
+  "REGION_NEWMOON_ISLAND_INTERIOR/MAIN": {
+    "parent_map": "MAP_NEWMOON_ISLAND_INTERIOR",
+    "has_grass": false,
+    "has_water": false,
+    "has_fishing": false,
+    "locations": [],
+    "events": [],
+    "exits": [],
+    "warps": [
+	"MAP_NEWMOON_ISLAND_INTERIOR:0/MAP_NEWMOON_ISLAND:1"
+	]
+  },
