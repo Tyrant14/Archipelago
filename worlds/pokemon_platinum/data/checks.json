@@ -19,8 +19,6 @@
   ]
 },
 
-	# Overworld Items
-
 {
 	"tag": "Ultra Ball",
 	"long_description": "Acuity Lakefront - Item in northeast corner",
@@ -2751,8 +2749,6 @@
  	"vanilla_item": 386,
 	"requirements": ["HM_WATERFALL & HM_SURF"]
 },
-
-	# Hidden Items
 	
 	{
  	"tag": "Big Pearl",
