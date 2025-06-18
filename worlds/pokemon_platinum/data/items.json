@@ -10,7 +10,7 @@
  
  {
 	"tag": "TM43 Secret Power",
-	"long_description": "Amity Square - Item in middle of pond",
+	"long_description": "Amity Square - Item on middle island",
 	"location": "Amity Square",
 	"item_flag": "0x42A",
 	"vanilla_item": 370,
@@ -19,7 +19,7 @@
  
  {
 	"tag": "TM45 Attract",
-	"long_description": "Amity Square - Item middle below house",
+	"long_description": "Amity Square - Item below middle warp hut",
 	"location": "Amity Square",
 	"item_flag": "0x428",
 	"vanilla_item": 372,
@@ -28,7 +28,7 @@
  
  {
 	"tag": "Amulet Coin",
-	"long_description": "Amity Square - Item top right above bench",
+	"long_description": "Amity Square - Item behind bench",
 	"location": "Amity Square",
 	"item_flag": "0x4F0",
 	"vanilla_item": 223,
@@ -37,7 +37,7 @@
  
  {
 	"tag": "Spooky Plate",
-	"long_description": "Amity Square - Item bottom right below house",
+	"long_description": "Amity Square - Item reached with warp huts",
 	"location": "Amity Square",
 	"item_flag": "0x42B",
 	"vanilla_item": 310,
@@ -399,7 +399,7 @@
  	"tag": "TM14 Blizzard",
  	"long_description": "Lake Acuity - Item in grass patch top right (Surf required)",
  	"location": "Lake Acuity",
- 	"item_flag": "04E7",
+ 	"item_flag": "0x4E7",
  	"vanilla_item": 341,
 	"requirements": ["HM_SURF"]
  },
@@ -408,7 +408,7 @@
  	"tag": "TM25 Thunder",
  	"long_description": "Lake Valor - Item in grass patch bottom right (Surf required)",
  	"location": "Lake Valor",
- 	"item_flag": "04E6",
+ 	"item_flag": "0x4E6",
  	"vanilla_item": 352,
 	"requirements": ["HM_SURF"]
  },

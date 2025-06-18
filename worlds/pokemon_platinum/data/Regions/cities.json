@@ -678,6 +678,7 @@
     "has_water": false,
     "has_fishing": false,
     "locations": [
+	  "NPC_GIFT_RECEIVED_POKEDEX",
 	  "NPC_GIFT_RECEIVED_POKE_RADAR"
 	],
     "events": [
@@ -784,7 +785,9 @@
     "has_grass": false,
     "has_water": false,
     "has_fishing": false,
-    "locations": [],
+    "locations": [
+	  "NPC_GIFT_RECEIVED_POTION"
+	],
     "events": [],
     "exits": []
 	"warps": [

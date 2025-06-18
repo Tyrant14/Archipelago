@@ -26,7 +26,8 @@
 	"ITEM_ROUTE_202_POTION",
 	"TRAINER_YOUNGSTER_TRISTAN_REWARD",
 	"TRAINER_LASS_NATALIE_REWARD",
-	"TRAINER_YOUNGSTER_LOGAN_REWARD"
+	"TRAINER_YOUNGSTER_LOGAN_REWARD",
+	"NPC_GIFT_RECEIVED_POKEBALLS"
 	],
     "events": [],
     "exits": [
@@ -97,7 +98,7 @@
 	  "REGION_ROUTE204/NORTHPOND"
     ],
     "warps": [
-	"MAP_ROUTE204/SOUTH:0/MAP_RAVAGED_PATH:0"
+	"MAP_ROUTE204:0/MAP_RAVAGED_PATH:0"
 	]
   },
  
@@ -157,7 +158,7 @@
       "REGION_FLOAROMA_TOWN/MAIN"
     ],
     "warps": [
-	"MAP_ROUTE204/NORTH:0/MAP_RAVAGED_PATH:1"
+	"MAP_ROUTE204:1/MAP_RAVAGED_PATH:1"
 	]
   },
   
@@ -375,7 +376,9 @@
     "has_grass": false,
     "has_water": false,
     "has_fishing": false,
-    "locations": [],
+    "locations": [
+	  "NPC_GIFT_RECIEVED_EXP_SHARE"
+	],
     "events": [],
     "exits": [],
     "warps": [
@@ -450,7 +453,7 @@
 	  "REGION_ROUTE207/MAIN"
     ],
     "warps": [
-	"MAP_ROUTE206:0,1,2,3/MAP_ROUTE206_CYCLING_ROAD:3,4,5",
+	"MAP_ROUTE206:0,1,2,3/MAP_ROUTE206_SOUTH_GATE:3,4,5",
 	"MAP_ROUTE206:4/MAP_WAYWARD_CAVE:0",
 	"MAP_ROUTE206:5/MAP_WAYWARD_CAVE_SECRET:0"
 	]

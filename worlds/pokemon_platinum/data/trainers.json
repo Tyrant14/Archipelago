@@ -5,8 +5,8 @@
 	"requirements": []
 	}
 	{
-	"tag": "TRAINER_",
-	"location": "LOCATION_",
+	"tag": "TRAINER_YOUNGSTER_LOGAN",
+	"location": "LOCATION_ROUTE202",
 	"trigger_flag": "0x552",
 	"requirements": []
 	}
@@ -146,49 +146,49 @@
 	"tag": "TRAINER_CYCLIST_AXEL",
 	"location": "LOCATION_ROUTE206",
 	"trigger_flag": "0x569",
-	"requirements": []
+	"requirements": ["BICYCLE"]
 	}
 	{
 	"tag": "TRAINER_CYCLIST_JAMES",
 	"location": "LOCATION_ROUTE206",
 	"trigger_flag": "0x56A",
-	"requirements": []
+	"requirements": ["BICYCLE"]
 	}
 	{
 	"tag": "TRAINER_CYCLIST_JOHN",
 	"location": "LOCATION_ROUTE206",
 	"trigger_flag": "0x56B",
-	"requirements": []
+	"requirements": ["BICYCLE"]
 	}
 	{
 	"tag": "TRAINER_CYCLIST_RYAN",
 	"location": "LOCATION_ROUTE206",
 	"trigger_flag": "0x56C",
-	"requirements": []
+	"requirements": ["BICYCLE"]
 	}
 	{
 	"tag": "TRAINER_CYCLIST_MEGAN",
 	"location": "LOCATION_ROUTE206",
 	"trigger_flag": "0x56D",
-	"requirements": []
+	"requirements": ["BICYCLE"]
 	}
 	{
 	"tag": "TRAINER_CYCLIST_NICOLE",
 	"location": "LOCATION_ROUTE206",
 	"trigger_flag": "0x56E",
-	"requirements": []
+	"requirements": ["BICYCLE"]
 	}
 	{
 	"tag": "TRAINER_CYCLIST_KAYLA",
 	"location": "LOCATION_ROUTE206",
 	"trigger_flag": "0x56F",
-	"requirements": []
+	"requirements": ["BICYCLE"]
 	}
 	{
 	"tag": "TRAINER_CYCLIST_RACHEL",
 	"location": "LOCATION_ROUTE206",
 	"trigger_flag": "0x570",
-	"requirements": []
+	"requirements": ["BICYCLE"]
 	}
 	{
 	"tag": "TRAINER_YOUNGSTER_AUSTIN",
@@ -236,7 +236,7 @@
 	"tag": "TRAINER_HIKER_ALEXANDER",
 	"location": "LOCATION_ROUTE208",
 	"trigger_flag": "0x578",
-	"requirements": []
+	"requirements": ["HM_ROCK_CLIMB"]
 	}
 	{
 	"tag": "TRAINER_HIKER_JONATHAN",
@@ -254,7 +254,7 @@
 	"tag": "TRAINER_FISHERMAN_CODY",
 	"location": "LOCATION_ROUTE208",
 	"trigger_flag": "0x57B",
-	"requirements": []
+	"requirements": ["HM_SURF"]
 	}
 	{
 	"tag": "TRAINER_AROMA_LADY_HANNAH",
@@ -407,8 +407,8 @@
 	"requirements": []
 	}
 	{
-	"tag": "TRAINER_",
-	"location": "LOCATION_",
+	"tag": "TRAINER_BLACK_BELT_ADAM",
+	"location": "LOCATION_ROUTE210",
 	"trigger_flag": "0x595",
 	"requirements": []
 	}
@@ -434,11 +434,11 @@
 	"tag": "TRAINER_DRAGON_TAMER_PATRICK",
 	"location": "LOCATION_ROUTE210",
 	"trigger_flag": "0x599",
-	"requirements": []
+	"requirements": ["HM_ROCK_CLIMB"]
 	}
 	{
-	"tag": "TRAINER_",
-	"location": "LOCATION_",
+	"tag": "TRAINER_BIRD_KEEPER_BRIANNA",
+	"location": "LOCATION_ROUTE210",
 	"trigger_flag": "0x59A",
 	"requirements": []
 	}
@@ -452,7 +452,7 @@
 	"tag": "TRAINER_BIRD_KEEPER_ALEXANDRA",
 	"location": "LOCATION_ROUTE211",
 	"trigger_flag": "0x59C",
-	"requirements": []
+	"requirements": ["HM_ROCK_SMASH"]
 	}
 	{
 	"tag": "TRAINER_",
@@ -614,25 +614,25 @@
 	"tag": "TRAINER_SWIMMER♂_SHELTIN",
 	"location": "LOCATION_ROUTE213",
 	"trigger_flag": "0x5B7",
-	"requirements": []
+	"requirements": ["HM_SURF"]
 	}
 	{
 	"tag": "TRAINER_SWIMMER♂_EVAN",
 	"location": "LOCATION_ROUTE213",
 	"trigger_flag": "0x5B8",
-	"requirements": []
+	"requirements": ["HM_SURF"]
 	}
 	{
 	"tag": "TRAINER_SWIMMER♀_HALEY",
 	"location": "LOCATION_ROUTE213",
 	"trigger_flag": "0x5B9",
-	"requirements": []
+	"requirements": ["HM_SURF"]
 	}
 	{
 	"tag": "TRAINER_SWIMMER♀_MARY",
 	"location": "LOCATION_ROUTE213",
 	"trigger_flag": "0x5BA",
-	"requirements": []
+	"requirements": ["HM_SURF"]
 	}
 	{
 	"tag": "TRAINER_TUBER_JARED",
@@ -656,7 +656,7 @@
 	"tag": "TRAINER_SAILOR_PAUL",
 	"location": "LOCATION_ROUTE213",
 	"trigger_flag": "0x5BE",
-	"requirements": []
+	"requirements": ["HM_SURF"]
 	}
 	{
 	"tag": "TRAINER_FISHERMAN_KENNETH",
@@ -758,7 +758,7 @@
 	"tag": "TRAINER_BLACK_BELT_GREGORY",
 	"location": "LOCATION_ROUTE215",
 	"trigger_flag": "0x5CF",
-	"requirements": []
+	"requirements": ["HM_CUT"]
 	}
 	{
 	"tag": "TRAINER_BLACK_BELT_DEREK",
@@ -812,7 +812,7 @@
 	"tag": "TRAINER_SKIER_BRADLEY",
 	"location": "LOCATION_ROUTE216",
 	"trigger_flag": "0x5D8",
-	"requirements": []
+	"requirements": ["HM_ROCK_CLIMB"]
 	}
 	{
 	"tag": "TRAINER_SKIER_EDWARD",
@@ -824,13 +824,13 @@
 	"tag": "TRAINER_SKIER_KAITLYN",
 	"location": "LOCATION_ROUTE216",
 	"trigger_flag": "0x5DA",
-	"requirements": []
+	"requirements": ["HM_ROCK_CLIMB"]
 	}
 	{
 	"tag": "TRAINER_SKIER_ANDREA",
 	"location": "LOCATION_ROUTE216",
 	"trigger_flag": "0x5DB",
-	"requirements": []
+	"requirements": ["HM_ROCK_CLIMB"]
 	}
 	{
 	"tag": "TRAINER_ACE_TRAINER_DALTON",
@@ -914,13 +914,13 @@
 	"tag": "TRAINER_FISHERMAN_MIGUEL",
 	"location": "LOCATION_ROUTE218",
 	"trigger_flag": "0x5E9",
-	"requirements": []
+	"requirements": ["HM_SURF"]
 	}
 	{
 	"tag": "TRAINER_FISHERMAN_LUC",
 	"location": "LOCATION_ROUTE218",
 	"trigger_flag": "0x5EA",
-	"requirements": []
+	"requirements": ["HM_SURF"]
 	}
 	{
 	"tag": "TRAINER_",
@@ -950,37 +950,37 @@
 	"tag": "TRAINER_SWIMMER♂_ADRIAN",
 	"location": "LOCATION_ROUTE220",
 	"trigger_flag": "0x5EF",
-	"requirements": []
+	"requirements": ["HM_SURF"]
 	}
 	{
 	"tag": "TRAINER_SWIMMER♂_ERIK",
 	"location": "LOCATION_ROUTE220",
 	"trigger_flag": "0x5F0",
-	"requirements": []
+	"requirements": ["HM_SURF"]
 	}
 	{
 	"tag": "TRAINER_SWIMMER♂_VINCENT",
 	"location": "LOCATION_ROUTE220",
 	"trigger_flag": "0x5F1",
-	"requirements": []
+	"requirements": ["HM_SURF"]
 	}
 	{
 	"tag": "TRAINER_SWIMMER♀_JESSICA",
 	"location": "LOCATION_ROUTE220",
 	"trigger_flag": "0x5F2",
-	"requirements": []
+	"requirements": ["HM_SURF"]
 	}
 	{
 	"tag": "TRAINER_SWIMMER♀_ERICA",
 	"location": "LOCATION_ROUTE220",
 	"trigger_flag": "0x5F3",
-	"requirements": []
+	"requirements": ["HM_SURF"]
 	}
 	{
 	"tag": "TRAINER_SWIMMER♀_KATELYN",
 	"location": "LOCATION_ROUTE220",
 	"trigger_flag": "0x5F4",
-	"requirements": []
+	"requirements": ["HM_SURF"]
 	}
 	{
 	"tag": "TRAINER_",
@@ -992,19 +992,19 @@
 	"tag": "TRAINER_SWIMMER♂_DILLON",
 	"location": "LOCATION_ROUTE221",
 	"trigger_flag": "0x5F6",
-	"requirements": []
+	"requirements": ["HM_SURF"]
 	}
 	{
 	"tag": "TRAINER_SWIMMER♀_VANESSA",
 	"location": "LOCATION_ROUTE221",
 	"trigger_flag": "0x5F7",
-	"requirements": []
+	"requirements": ["HM_SURF"]
 	}
 	{
 	"tag": "TRAINER_FISHERMAN_CORY",
 	"location": "LOCATION_ROUTE221",
 	"trigger_flag": "0x5F8",
-	"requirements": []
+	"requirements": ["HM_SURF"]
 	}
 	{
 	"tag": "TRAINER_",
@@ -1016,35 +1016,35 @@
 	"tag": "TRAINER_ACE_TRAINER_JAKE",
 	"location": "LOCATION_ROUTE221",
 	"trigger_flag": "0x5FA",
-	"requirements": []
+	"requirements": ["HM_SURF"]
 	}
 	{
 	"tag": "TRAINER_ACE_TRAINER_SHANNON",
 	"location": "LOCATION_ROUTE221",
 	"trigger_flag": "0x5FB",
-	"requirements": []
+	"requirements": ["HM_SURF"]
 	}
 	{
-	"tag": "TRAINER_",
-	"location": "LOCATION_",
+	"tag": "TRAINER_FISHERMAN_BRETT",
+	"location": "LOCATION_ROUTE222",
 	"trigger_flag": "0x5FC",
 	"requirements": []
 	}
 	{
-	"tag": "TRAINER_",
-	"location": "LOCATION_",
+	"tag": "TRAINER_FISHERMAN_ALEC",
+	"location": "LOCATION_ROUTE222",
 	"trigger_flag": "0x5FD",
 	"requirements": []
 	}
 	{
-	"tag": "TRAINER_",
-	"location": "LOCATION_",
+	"tag": "TRAINER_FISHERMAN_GEORGE",
+	"location": "LOCATION_ROUTE222",
 	"trigger_flag": "0x5FE",
 	"requirements": []
 	}
 	{
-	"tag": "TRAINER_",
-	"location": "LOCATION_",
+	"tag": "TRAINER_FISHERMAN_COLE",
+	"location": "LOCATION_ROUTE222",
 	"trigger_flag": "0x5FF",
 	"requirements": []
 	}
@@ -1073,8 +1073,8 @@
 	"requirements": []
 	}
 	{
-	"tag": "TRAINER_",
-	"location": "LOCATION_",
+	"tag": "TRAINER_SAILOR_LUTHER",
+	"location": "LOCATION_ROUTE222",
 	"trigger_flag": "0x604",
 	"requirements": []
 	}
@@ -1091,76 +1091,76 @@
 	"requirements": []
 	}
 	{
-	"tag": "TRAINER_",
-	"location": "LOCATION_",
+	"tag": "TRAINER_SWIMMER♂_WESLEY",
+	"location": "LOCATION_ROUTE223",
 	"trigger_flag": "0x607",
-	"requirements": []
+	"requirements": ["HM_SURF"]
 	}
 	{
-	"tag": "TRAINER_",
-	"location": "LOCATION_",
+	"tag": "TRAINER_SWIMMER♂_RICARDO",
+	"location": "LOCATION_ROUTE223",
 	"trigger_flag": "0x608",
-	"requirements": []
+	"requirements": ["HM_SURF"]
 	}
 	{
-	"tag": "TRAINER_",
-	"location": "LOCATION_",
+	"tag": "TRAINER_SWIMMER♂_FRANCISCO",
+	"location": "LOCATION_ROUTE223",
 	"trigger_flag": "0x609",
-	"requirements": []
+	"requirements": ["HM_SURF"]
 	}
 	{
-	"tag": "TRAINER_",
-	"location": "LOCATION_",
+	"tag": "TRAINER_SWIMMER♂_COLTON",
+	"location": "LOCATION_ROUTE223",
 	"trigger_flag": "0x60A",
-	"requirements": []
+	"requirements": ["HM_SURF"]
 	}
 	{
-	"tag": "TRAINER_",
-	"location": "LOCATION_",
+	"tag": "TRAINER_SWIMMER♂_TROY",
+	"location": "LOCATION_ROUTE223",
 	"trigger_flag": "0x60B",
-	"requirements": []
+	"requirements": ["HM_SURF"]
 	}
 	{
-	"tag": "TRAINER_",
-	"location": "LOCATION_",
+	"tag": "TRAINER_SWIMMER♂_OSCAR",
+	"location": "LOCATION_ROUTE223",
 	"trigger_flag": "0x60C",
-	"requirements": []
+	"requirements": ["HM_SURF"]
 	}
 	{
-	"tag": "TRAINER_",
-	"location": "LOCATION_",
+	"tag": "TRAINER_SWIMMER♀_MIRANDA",
+	"location": "LOCATION_ROUTE223",
 	"trigger_flag": "0x60D",
-	"requirements": []
+	"requirements": ["HM_SURF"]
 	}
 	{
-	"tag": "TRAINER_",
+	"tag": "TRAINER_SWIMMER♀_AUBREE",
 	"location": "LOCATION_",
 	"trigger_flag": "0x60E",
-	"requirements": []
+	"requirements": ["HM_SURF"]
 	}
 	{
-	"tag": "TRAINER_",
+	"tag": "TRAINER_SWIMMER♀_PAIGE",
 	"location": "LOCATION_",
 	"trigger_flag": "0x60F",
-	"requirements": []
+	"requirements": ["HM_SURF"]
 	}
 	{
-	"tag": "TRAINER_",
+	"tag": "TRAINER_SWIMMER♀_CRYSTAL",
 	"location": "LOCATION_",
 	"trigger_flag": "0x610",
-	"requirements": []
+	"requirements": ["HM_SURF"]
 	}
 	{
-	"tag": "TRAINER_",
+	"tag": "TRAINER_SWIMMER♀_CASSANDRA",
 	"location": "LOCATION_",
 	"trigger_flag": "0x611",
-	"requirements": []
+	"requirements": ["HM_SURF"]
 	}
 	{
-	"tag": "TRAINER_",
+	"tag": "TRAINER_SWIMMER♀_GABRIELLE",
 	"location": "LOCATION_",
 	"trigger_flag": "0x612",
-	"requirements": []
+	"requirements": ["HM_SURF"]
 	}
 	{
 	"tag": "TRAINER_WORKER_COLIN",
@@ -1340,49 +1340,49 @@
 	"tag": "TRAINER_ACE_TRAINER_OMAR",
 	"location": "LOCATION_VICTORY_ROAD_2F",
 	"trigger_flag": "0x630",
-	"requirements": []
+	"requirements": ["HM_ROCK_SMASH & HM_STRENGTH"]
 	}
 	{
-	"tag": "TRAINER_",
-	"location": "LOCATION_",
+	"tag": "TRAINER_ACE_TRAINER_HENRY",
+	"location": "LOCATION_VICTORY_ROAD_B1F",
 	"trigger_flag": "0x631",
-	"requirements": []
+	"requirements": ["HM_SURF"]
 	}
 	{
-	"tag": "TRAINER_",
-	"location": "LOCATION_",
+	"tag": "TRAINER_ACE_TRAINER_MARIAH",
+	"location": "LOCATION_VICTORY_ROAD_1F",
 	"trigger_flag": "0x632",
-	"requirements": []
+	"requirements": ["HM_ROCK_CLIMB"]
 	}
 	{
-	"tag": "TRAINER_",
-	"location": "LOCATION_",
+	"tag": "TRAINER_ACE_TRAINER_SYDNEY",
+	"location": "LOCATION_VICTORY_ROAD_2F",
 	"trigger_flag": "0x633",
-	"requirements": []
+	"requirements": ["HM_ROCK_SMASH & HM_STRENGTH"]
 	}
 	{
-	"tag": "TRAINER_",
-	"location": "LOCATION_",
+	"tag": "TRAINER_VETERAN_EDGAR",
+	"location": "LOCATION_VICTORY_ROAD_1F",
 	"trigger_flag": "0x634",
 	"requirements": []
 	}
 	{
-	"tag": "TRAINER_",
-	"location": "LOCATION_",
+	"tag": "TRAINER_VETERAN_CLAYTON",
+	"location": "LOCATION_VICTORY_ROAD_2F",
 	"trigger_flag": "0x635",
-	"requirements": []
+	"requirements": ["HM_ROCK_SMASH & HM_STRENGTH"]
 	}
 	{
-	"tag": "TRAINER_",
-	"location": "LOCATION_",
+	"tag": "TRAINER_DRAGON_TAMER_ONDREJ",
+	"location": "LOCATION_VICTORY_ROAD_B1F",
 	"trigger_flag": "0x636",
-	"requirements": []
+	"requirements": ["HM_SURF & HM_WATERFALL"]
 	}
 	{
-	"tag": "TRAINER_",
-	"location": "LOCATION_",
+	"tag": "TRAINER_DRAGON_TAMER_CLINTON",
+	"location": "LOCATION_VICTORY_ROAD_1F",
 	"trigger_flag": "0x637",
-	"requirements": []
+	"requirements": ["HM_ROCK_CLIMB"]
 	}
 	{
 	"tag": "TRAINER_BLACK_BELT_DAVID",
@@ -1391,28 +1391,28 @@
 	"requirements": []
 	}
 	{
-	"tag": "TRAINER_",
-	"location": "LOCATION_",
+	"tag": "TRAINER_BIRD_KEEPER_HANA",
+	"location": "LOCATION_VICTORY_ROAD_1F",
 	"trigger_flag": "0x639",
 	"requirements": []
 	}
 	{
-	"tag": "TRAINER_",
-	"location": "LOCATION_",
+	"tag": "TRAINER_PSYCHIC_BRYCE",
+	"location": "LOCATION_VICTORY_ROAD_1F",
 	"trigger_flag": "0x63A",
-	"requirements": []
+	"requirements": ["HM_ROCK_CLIMB"]
 	}
 	{
-	"tag": "TRAINER_",
-	"location": "LOCATION_",
+	"tag": "TRAINER_DOUBLE_TEAM_PAT_&_JO",
+	"location": "LOCATION_VICTORY_ROAD_B1F",
 	"trigger_flag": "0x63B",
-	"requirements": []
+	"requirements": ["HM_SURF"]
 	}
 	{
-	"tag": "TRAINER_",
-	"location": "LOCATION_",
+	"tag": "TRAINER_DOUBLE_TEAM_AL_&_KAY",
+	"location": "LOCATION_VICTORY_ROAD_2F",
 	"trigger_flag": "0x63C",
-	"requirements": []
+	"requirements": ["HM_ROCK_SMASH & HM_STRENGTH"]
 	}
 	{
 	"tag": "TRAINER_",
@@ -1436,7 +1436,7 @@
 	"tag": "TRAINER_VETERAN_GRANT",
 	"location": "LOCATION_OREBURGH_GATE",
 	"trigger_flag": "0x640",
-	"requirements": []
+	"requirements": ["HM_SURF"]
 	}
 	{
 	"tag": "TRAINER_",
@@ -1475,20 +1475,20 @@
 	"requirements": []
 	}
 	{
-	"tag": "TRAINER_",
-	"location": "LOCATION_",
+	"tag": "TRAINER_RIVAL_BARRY",
+	"location": "LOCATION_ROUTE203",
 	"trigger_flag": "0x647",
 	"requirements": []
 	}
 	{
-	"tag": "TRAINER_",
-	"location": "LOCATION_",
+	"tag": "TRAINER_RIVAL_BARRY",
+	"location": "LOCATION_ROUTE203",
 	"trigger_flag": "0x648",
 	"requirements": []
 	}
 	{
-	"tag": "TRAINER_",
-	"location": "LOCATION_",
+	"tag": "TRAINER_RIVAL_BARRY",
+	"location": "LOCATION_ROUTE203",
 	"trigger_flag": "0x649",
 	"requirements": []
 	}
@@ -1544,7 +1544,7 @@
 	"tag": "TRAINER_BLACK_BELT_PHILIP",
 	"location": "LOCATION_ROUTE216",
 	"trigger_flag": "0x652",
-	"requirements": []
+	"requirements": ["HM_ROCK_CLIMB"]
 	}
 	{
 	"tag": "TRAINER_AROMA_LADY_JENNA",
@@ -1559,26 +1559,26 @@
 	"requirements": []
 	}
 	{
-	"tag": "TRAINER_",
-	"location": "LOCATION_",
+	"tag": "TRAINER_ELITE_FOUR_AARON",
+	"location": "LOCATION_POKEMON_LEAGUE",
 	"trigger_flag": "0x655",
 	"requirements": []
 	}
 	{
-	"tag": "TRAINER_",
-	"location": "LOCATION_",
+	"tag": "TRAINER_ELITE_FOUR_BERTHA",
+	"location": "LOCATION_POKEMON_LEAGUE",
 	"trigger_flag": "0x656",
 	"requirements": []
 	}
 	{
-	"tag": "TRAINER_",
-	"location": "LOCATION_",
+	"tag": "TRAINER_ELITE_FOUR_FLINT",
+	"location": "LOCATION_POKEMON_LEAGUE",
 	"trigger_flag": "0x657",
 	"requirements": []
 	}
 	{
-	"tag": "TRAINER_",
-	"location": "LOCATION_",
+	"tag": "TRAINER_ELITE_FOUR_LUCIAN",
+	"location": "LOCATION_POKEMON_LEAGUE",
 	"trigger_flag": "0x658",
 	"requirements": []
 	}
@@ -1595,32 +1595,32 @@
 	"requirements": []
 	}
 	{
-	"tag": "TRAINER_",
-	"location": "LOCATION_",
+	"tag": "TRAINER_CHAMPION_CYNTHIA",
+	"location": "LOCATION_POKEMON_LEAGUE",
 	"trigger_flag": "0x65B",
 	"requirements": []
 	}
 	{
-	"tag": "TRAINER_",
-	"location": "LOCATION_",
+	"tag": "TRAINER_ACE_TRAINER_SERGIO",
+	"location": "LOCATION_SNOWPOINT_GYM",
 	"trigger_flag": "0x65C",
 	"requirements": []
 	}
 	{
-	"tag": "TRAINER_",
-	"location": "LOCATION_",
+	"tag": "TRAINER_ACE_TRAINER_ISAIAH",
+	"location": "LOCATION_SNOWPOINT_GYM",
 	"trigger_flag": "0x65D",
 	"requirements": []
 	}
 	{
-	"tag": "TRAINER_",
-	"location": "LOCATION_",
+	"tag": "TRAINER_ACE_TRAINER_SAVANNAH",
+	"location": "LOCATION_SNOWPOINT_GYM",
 	"trigger_flag": "0x65E",
 	"requirements": []
 	}
 	{
-	"tag": "TRAINER_",
-	"location": "LOCATION_",
+	"tag": "TRAINER_ACE_TRAINER_ALICIA",
+	"location": "LOCATION_SNOWPOINT_GYM",
 	"trigger_flag": "0x65F",
 	"requirements": []
 	}
@@ -1640,7 +1640,7 @@
 	"tag": "TRAINER_COLLECTOR_IVAN",
 	"location": "LOCATION_ROUTE221",
 	"trigger_flag": "0x662",
-	"requirements": []
+	"requirements": ["HM_SURF"]
 	}
 	{
 	"tag": "TRAINER_COLLECTOR_FERNANDO",
@@ -1679,8 +1679,8 @@
 	"requirements": []
 	}
 	{
-	"tag": "TRAINER_",
-	"location": "LOCATION_",
+	"tag": "TRAINER_ACE_TRAINER_ZACHERY",
+	"location": "LOCATION_SUNYSHORE_GYM",
 	"trigger_flag": "0x669",
 	"requirements": []
 	}
@@ -1703,8 +1703,8 @@
 	"requirements": []
 	}
 	{
-	"tag": "TRAINER_",
-	"location": "LOCATION_",
+	"tag": "TRAINER_ACE_TRAINER_DESTINY",
+	"location": "LOCATION_SUNYSHORE_GYM",
 	"trigger_flag": "0x66D",
 	"requirements": []
 	}
@@ -1763,20 +1763,20 @@
 	"requirements": []
 	}
 	{
-	"tag": "TRAINER_",
-	"location": "LOCATION_",
+	"tag": "TRAINER_COMMANDER_MARS",
+	"location": "LOCATION_VALLEY_WINDWORKS",
 	"trigger_flag": "0x677",
 	"requirements": []
 	}
 	{
-	"tag": "TRAINER_",
-	"location": "LOCATION_",
+	"tag": "TRAINER_GALACTIC_GRUNT",
+	"location": "LOCATION_FLOAROMA_MEADOW",
 	"trigger_flag": "0x678",
 	"requirements": []
 	}
 	{
-	"tag": "TRAINER_",
-	"location": "LOCATION_",
+	"tag": "TRAINER_GALACTIC_GRUNT",
+	"location": "LOCATION_FLOAROMA_MEADOW",
 	"trigger_flag": "0x679",
 	"requirements": []
 	}
@@ -1796,23 +1796,23 @@
 	"tag": "TRAINER_GUITARIST_TONY",
 	"location": "LOCATION_ROUTE218",
 	"trigger_flag": "0x67C",
-	"requirements": []
+	"requirements": ["HM_SURF"]
 	}
 	{
-	"tag": "TRAINER_",
-	"location": "LOCATION_",
+	"tag": "TRAINER_GUITARIST_JERRY",
+	"location": "LOCATION_SUNYSHORE_GYM",
 	"trigger_flag": "0x67D",
 	"requirements": []
 	}
 	{
-	"tag": "TRAINER_",
-	"location": "LOCATION_",
+	"tag": "TRAINER_GUITARIST_PRESTON",
+	"location": "LOCATION_SUNYSHORE_GYM",
 	"trigger_flag": "0x67E",
 	"requirements": []
 	}
 	{
-	"tag": "TRAINER_",
-	"location": "LOCATION_",
+	"tag": "TRAINER_GUITARIST_LONNIE",
+	"location": "LOCATION_SUNYSHORE_GYM",
 	"trigger_flag": "0x67F",
 	"requirements": []
 	}
@@ -1907,14 +1907,14 @@
 	"requirements": []
 	}
 	{
-	"tag": "TRAINER_LEADER",
+	"tag": "TRAINER_LEADER_CANDICE",
 	"location": "LOCATION_SNOWPOINT_GYM",
 	"trigger_flag": "0x68F",
 	"requirements": []
 	}
 	{
 	"tag": "TRAINER_LEADER_VOLKNER",
-	"location": "LOCATION_SUNNYSHORE_GYM",
+	"location": "LOCATION_SUNYSHORE_GYM",
 	"trigger_flag": "0x690",
 	"requirements": []
 	}
@@ -1964,7 +1964,7 @@
 	"tag": "TRAINER_PARASOL_LADY_SABRINA",
 	"location": "LOCATION_ROUTE212",
 	"trigger_flag": "0x698",
-	"requirements": []
+	"requirements": ["HM_CUT & BICYCLE"]
 	}
 	{
 	"tag": "TRAINER_PICNICKER_DIANA",
@@ -1979,8 +1979,8 @@
 	"requirements": []
 	}
 	{
-	"tag": "TRAINER_",
-	"location": "LOCATION_",
+	"tag": "TRAINER_POKE_KID_MEGHAN",
+	"location": "LOCATION_SUNYSHORE_GYM",
 	"trigger_flag": "0x69B",
 	"requirements": []
 	}
@@ -1991,8 +1991,8 @@
 	"requirements": []
 	}
 	{
-	"tag": "TRAINER_",
-	"location": "LOCATION_",
+	"tag": "TRAINER_POLICEMAN_THOMAS",
+	"location": "LOCATION_ROUTE222",
 	"trigger_flag": "0x69D",
 	"requirements": []
 	}
@@ -2003,8 +2003,8 @@
 	"requirements": []
 	}
 	{
-	"tag": "TRAINER_",
-	"location": "LOCATION_",
+	"tag": "TRAINER_RICH_BOY_TREY",
+	"location": "LOCATION_ROUTE222",
 	"trigger_flag": "0x69F",
 	"requirements": []
 	}
@@ -2015,8 +2015,8 @@
 	"requirements": []
 	}
 	{
-	"tag": "TRAINER_",
-	"location": "LOCATION_",
+	"tag": "TRAINER_SAILOR_MARC",
+	"location": "LOCATION_ROUTE222",
 	"trigger_flag": "0x6A1",
 	"requirements": []
 	}
@@ -2024,7 +2024,7 @@
 	"tag": "TRAINER_SAILOR_SKYLER",
 	"location": "LOCATION_ROUTE218",
 	"trigger_flag": "0x6A2",
-	"requirements": []
+	"requirements": ["HM_SURF"]
 	}
 	{
 	"tag": "TRAINER_SAILOR_DAMIAN",
@@ -2039,14 +2039,14 @@
 	"requirements": []
 	}
 	{
-	"tag": "TRAINER_",
-	"location": "LOCATION_",
+	"tag": "TRAINER_SCHOOL_KID_FORREST",
+	"location": "LOCATION_SUNYSHORE_GYM",
 	"trigger_flag": "0x6A5",
 	"requirements": []
 	}
 	{
-	"tag": "TRAINER_",
-	"location": "LOCATION_",
+	"tag": "TRAINER_SCHOOL_KID_HARRISON",
+	"location": "LOCATION_TRAINER_SCHOOL",
 	"trigger_flag": "0x6A6",
 	"requirements": []
 	}
@@ -2057,14 +2057,14 @@
 	"requirements": []
 	}
 	{
-	"tag": "TRAINER_",
-	"location": "LOCATION_",
+	"tag": "TRAINER_SCHOOL_KID_TIERA",
+	"location": "LOCATION_SUNYSHORE_GYM",
 	"trigger_flag": "0x6A8",
 	"requirements": []
 	}
 	{
-	"tag": "TRAINER_",
-	"location": "LOCATION_",
+	"tag": "TRAINER_SCHOOL_KID_CHRISTINE",
+	"location": "LOCATION_TRAINER_SCHOOL",
 	"trigger_flag": "0x6A9",
 	"requirements": []
 	}
@@ -2144,25 +2144,25 @@
 	"tag": "TRAINER_TUBER_TRENTON",
 	"location": "LOCATION_ROUTE219",
 	"trigger_flag": "0x6B6",
-	"requirements": []
+	"requirements": ["HM_SURF"]
 	}
 	{
-	"tag": "TRAINER_",
-	"location": "LOCATION_",
+	"tag": "TRAINER_TUBER_CONNER",
+	"location": "LOCATION_ROUTE222",
 	"trigger_flag": "0x6B7",
-	"requirements": []
+	"requirements": ["HM_SURF"]
 	}
 	{
 	"tag": "TRAINER_TUBER_MARIEL",
 	"location": "LOCATION_ROUTE219",
 	"trigger_flag": "0x6B8",
-	"requirements": []
+	"requirements": ["HM_SURF"]
 	}
 	{
-	"tag": "TRAINER_",
-	"location": "LOCATION_",
+	"tag": "TRAINER_TUBER_HOLLY",
+	"location": "LOCATION_ROUTE222",
 	"trigger_flag": "0x6B9",
-	"requirements": []
+	"requirements": ["HM_SURF"]
 	}
 	{
 	"tag": "TRAINER_",
@@ -2261,8 +2261,8 @@
 	"requirements": []
 	}
 	{
-	"tag": "TRAINER_",
-	"location": "LOCATION_",
+	"tag": "TRAINER_CAMPER_LAWRENCE",
+	"location": "LOCATION_IRON_ISLAND_B1F_1",
 	"trigger_flag": "0x6CA",
 	"requirements": []
 	}
@@ -2270,13 +2270,13 @@
 	"tag": "TRAINER_CAMPER_DIEGO",
 	"location": "LOCATION_WAYWARD_CAVE",
 	"trigger_flag": "0x6CB",
-	"requirements": []
+	"requirements": ["HM_ROCK_SMASH"]
 	}
 	{
 	"tag": "TRAINER_CAMPER_PARKER",
 	"location": "LOCATION_WAYWARD_CAVE",
 	"trigger_flag": "0x6CC",
-	"requirements": []
+	"requirements": ["HM_ROCK_SMASH"]
 	}
 	{
 	"tag": "TRAINER_COLLECTOR_DEAN",
@@ -2294,7 +2294,7 @@
 	"tag": "TRAINER_COLLECTOR_TERRY",
 	"location": "LOCATION_WAYWARD_CAVE",
 	"trigger_flag": "0x6CF",
-	"requirements": []
+	"requirements": ["HM_ROCK_SMASH"]
 	}
 	{
 	"tag": "TRAINER_",
@@ -2411,44 +2411,44 @@
 	"requirements": []
 	}
 	{
-	"tag": "TRAINER_",
-	"location": "LOCATION_",
+	"tag": "TRAINER_GALACTIC_BOSS_CYRUS",
+	"location": "LOCATION_TEAM_GALACTIC_HQ_4F1",
 	"trigger_flag": "0x6E3",
-	"requirements": []
+	"requirements": ["GALACTIC_KEY"]
 	}
 	{
-	"tag": "TRAINER_",
-	"location": "LOCATION_",
+	"tag": "TRAINER_GALACTIC_BOSS_CYRUS",
+	"location": "LOCATION_DISTORTION_WORLD",
 	"trigger_flag": "0x6E4",
-	"requirements": []
+	"requirements": ["HM_STRENGTH & HM_SURF"]
 	}
 	{
-	"tag": "TRAINER_",
-	"location": "LOCATION_",
+	"tag": "TRAINER_COMMANDER_MARS",
+	"location": "LOCATION_LAKE_VERITY",
 	"trigger_flag": "0x6E5",
 	"requirements": []
 	}
 	{
-	"tag": "TRAINER_",
-	"location": "LOCATION_",
+	"tag": "TRAINER_COMMANDER_JUPITER",
+	"location": "LOCATION_GALACTIC_ETERNA_BUILDING_4F",
 	"trigger_flag": "0x6E6",
 	"requirements": []
 	}
 	{
-	"tag": "TRAINER_",
-	"location": "LOCATION_",
+	"tag": "TRAINER_COMMANDER_JUPITER",
+	"location": "LOCATION_SPEAR_PILLAR",
 	"trigger_flag": "0x6E7",
 	"requirements": []
 	}
 	{
-	"tag": "TRAINER_",
-	"location": "LOCATION_",
+	"tag": "TRAINER_COMMANDER_SATURN",
+	"location": "LOCATION_LAKE_VALOR",
 	"trigger_flag": "0x6E8",
 	"requirements": []
 	}
 	{
-	"tag": "TRAINER_",
-	"location": "LOCATION_",
+	"tag": "TRAINER_COMMANDER_SATURN",
+	"location": "LOCATION_TEAM_GALACTIC_HQ_4F3",
 	"trigger_flag": "0x6E9",
 	"requirements": []
 	}
@@ -2477,20 +2477,20 @@
 	"requirements": []
 	}
 	{
-	"tag": "TRAINER_",
-	"location": "LOCATION_",
+	"tag": "TRAINER_GALACTIC_GRUNT",
+	"location": "LOCATION_JUBILIFE_CITY",
 	"trigger_flag": "0x6EE",
 	"requirements": []
 	}
 	{
-	"tag": "TRAINER_",
-	"location": "LOCATION_",
+	"tag": "TRAINER_GALACTIC_GRUNT",
+	"location": "LOCATION_JUBILIFE_CITY",
 	"trigger_flag": "0x6EF",
 	"requirements": []
 	}
 	{
-	"tag": "TRAINER_",
-	"location": "LOCATION_",
+	"tag": "TRAINER_GALACTIC_GRUNT",
+	"location": "LOCATION_CELESTIC_TOWN",
 	"trigger_flag": "0x6F0",
 	"requirements": []
 	}
@@ -2561,14 +2561,14 @@
 	"requirements": []
 	}
 	{
-	"tag": "TRAINER_",
-	"location": "LOCATION_",
+	"tag": "TRAINER_GALACTIC_GRUNT",
+	"location": "LOCATION_TEAM_GALACTIC_HQ",
 	"trigger_flag": "0x6FC",
 	"requirements": []
 	}
 	{
-	"tag": "TRAINER_",
-	"location": "LOCATION_",
+	"tag": "TRAINER_GALACTIC_GRUNT",
+	"location": "LOCATION_TEAM_GALACTIC_HQ",
 	"trigger_flag": "0x6FD",
 	"requirements": []
 	}
@@ -2654,11 +2654,11 @@
 	"tag": "TRAINER_RUIN_MANIAC_GERALD",
 	"location": "LOCATION_WAYWARD_CAVE",
 	"trigger_flag": "0x70B",
-	"requirements": []
+	"requirements": ["HM_ROCK_SMASH"]
 	}
 	{
-	"tag": "TRAINER_",
-	"location": "LOCATION_",
+	"tag": "TRAINER_BLACK_BELT_MILES",
+	"location": "LOCATION_VICTORY_ROAD_1F",
 	"trigger_flag": "0x70C",
 	"requirements": []
 	}
@@ -2696,13 +2696,13 @@
 	"tag": "TRAINER_LASS_CASSIDY",
 	"location": "LOCATION_WAYWARD_CAVE",
 	"trigger_flag": "0x712",
-	"requirements": []
+	"requirements": ["HM_ROCK_SMASH"]
 	}
 	{
 	"tag": "TRAINER_HIKER_THEODORE",
 	"location": "LOCATION_ROUTE206",
 	"trigger_flag": "0x713",
-	"requirements": []
+	"requirements": ["HM_CUT"]
 	}
 	{
 	"tag": "TRAINER_HIKER_DAMON",
@@ -2720,13 +2720,13 @@
 	"tag": "TRAINER_HIKER_REGINALD",
 	"location": "LOCATION_WAYWARD_CAVE",
 	"trigger_flag": "0x716",
-	"requirements": []
+	"requirements": ["HM_ROCK_SMASH"]
 	}
 	{
 	"tag": "TRAINER_HIKER_LORENZO",
 	"location": "LOCATION_WAYWARD_CAVE",
 	"trigger_flag": "0x717",
-	"requirements": []
+	"requirements": ["HM_ROCK_SMASH"]
 	}
 	{
 	"tag": "TRAINER_PICNICKER_KARINA",
@@ -2744,13 +2744,13 @@
 	"tag": "TRAINER_PICNICKER_TORI",
 	"location": "LOCATION_WAYWARD_CAVE",
 	"trigger_flag": "0x71A",
-	"requirements": []
+	"requirements": ["HM_ROCK_SMASH"]
 	}
 	{
 	"tag": "TRAINER_PICNICKER_ANA",
 	"location": "LOCATION_WAYWARD_CAVE",
 	"trigger_flag": "0x71B",
-	"requirements": []
+	"requirements": ["HM_ROCK_SMASH"]
 	}
 	{
 	"tag": "TRAINER_",
@@ -2813,82 +2813,82 @@
 	"requirements": []
 	}
 	{
-	"tag": "TRAINER_",
-	"location": "LOCATION_",
+	"tag": "TRAINER_RIVAL_BARRY",
+	"location": "LOCATION_ROUTE209",
 	"trigger_flag": "0x726",
 	"requirements": []
 	}
 	{
-	"tag": "TRAINER_",
-	"location": "LOCATION_",
+	"tag": "TRAINER_RIVAL_BARRY",
+	"location": "LOCATION_ROUTE209",
 	"trigger_flag": "0x727",
 	"requirements": []
 	}
 	{
-	"tag": "TRAINER_",
-	"location": "LOCATION_",
+	"tag": "TRAINER_RIVAL_BARRY",
+	"location": "LOCATION_ROUTE209",
 	"trigger_flag": "0x728",
 	"requirements": []
 	}
 	{
-	"tag": "TRAINER_",
-	"location": "LOCATION_",
+	"tag": "TRAINER_RIVAL_BARRY",
+	"location": "LOCATION_PASTORIA_CITY",
 	"trigger_flag": "0x729",
 	"requirements": []
 	}
 	{
-	"tag": "TRAINER_",
-	"location": "LOCATION_",
+	"tag": "TRAINER_RIVAL_BARRY",
+	"location": "LOCATION_PASTORIA_CITY",
 	"trigger_flag": "0x72A",
 	"requirements": []
 	}
 	{
-	"tag": "TRAINER_",
-	"location": "LOCATION_",
+	"tag": "TRAINER_RIVAL_BARRY",
+	"location": "LOCATION_PASTORIA_CITY",
 	"trigger_flag": "0x72B",
 	"requirements": []
 	}
 	{
-	"tag": "TRAINER_",
-	"location": "LOCATION_",
+	"tag": "TRAINER_RIVAL_BARRY",
+	"location": "LOCATION_CANALAVE_CITY",
 	"trigger_flag": "0x72C",
 	"requirements": []
 	}
 	{
-	"tag": "TRAINER_",
-	"location": "LOCATION_",
+	"tag": "TRAINER_RIVAL_BARRY",
+	"location": "LOCATION_CANALAVE_CITY",
 	"trigger_flag": "0x72D",
 	"requirements": []
 	}
 	{
-	"tag": "TRAINER_",
-	"location": "LOCATION_",
+	"tag": "TRAINER_RIVAL_BARRY",
+	"location": "LOCATION_CANALAVE_CITY",
 	"trigger_flag": "0x72E",
 	"requirements": []
 	}
 	{
-	"tag": "TRAINER_",
-	"location": "LOCATION_",
+	"tag": "TRAINER_RIVAL_BARRY",
+	"location": "LOCATION_POKEMON_LEAGUE",
 	"trigger_flag": "0x72F",
 	"requirements": []
 	}
 	{
-	"tag": "TRAINER_",
-	"location": "LOCATION_",
+	"tag": "TRAINER_RIVAL_BARRY",
+	"location": "LOCATION_POKEMON_LEAGUE",
 	"trigger_flag": "0x730",
 	"requirements": []
 	}
 	{
-	"tag": "TRAINER_",
-	"location": "LOCATION_",
+	"tag": "TRAINER_RIVAL_BARRY",
+	"location": "LOCATION_POKEMON_LEAGUE",
 	"trigger_flag": "0x731",
 	"requirements": []
 	}
 	{
-	"tag": "TRAINER_",
-	"location": "LOCATION_",
+	"tag": "TRAINER_SAILOR_ZACHARIAH",
+	"location": "LOCATION_ROUTE223",
 	"trigger_flag": "0x732",
-	"requirements": []
+	"requirements": ["HM_SURF"]
 	}
 	{
 	"tag": "TRAINER_SAILOR_SAMSON",
@@ -2912,7 +2912,7 @@
 	"tag": "TRAINER_SCIENTIST_SHAUN",
 	"location": "LOCATION_ROUTE212",
 	"trigger_flag": "0x736",
-	"requirements": []
+	"requirements": ["HM_CUT & BICYCLE"]
 	}
 	{
 	"tag": "TRAINER_",
@@ -2945,10 +2945,10 @@
 	"requirements": []
 	}
 	{
-	"tag": "TRAINER_",
-	"location": "LOCATION_",
+	"tag": "TRAINER_BEAUTY_NICOLA",
+	"location": "LOCATION_ROUTE222",
 	"trigger_flag": "0x73C",
-	"requirements": []
+	"requirements": ["HM_SURF"]
 	}
 	{
 	"tag": "TRAINER_",
@@ -2960,7 +2960,7 @@
 	"tag": "TRAINER_SWIMMER♀_CLAIRE",
 	"location": "LOCATION_ROUTE220",
 	"trigger_flag": "0x73E",
-	"requirements": []
+	"requirements": ["HM_SURF"]
 	}
 	{
 	"tag": "TRAINER_",
@@ -2972,7 +2972,7 @@
 	"tag": "TRAINER_YOUNGSTER_WAYNE",
 	"location": "LOCATION_WAYWARD_CAVE",
 	"trigger_flag": "0x740",
-	"requirements": []
+	"requirements": ["HM_ROCK_SMASH"]
 	}
 	{
 	"tag": "TRAINER_TUBER_JACKY",
@@ -3035,26 +3035,26 @@
 	"requirements": []
 	}
 	{
-	"tag": "TRAINER_",
-	"location": "LOCATION_",
+	"tag": "TRAINER_GALACTIC_GRUNT",
+	"location": "LOCATION_GALACTIC_WAREHOUSE",
 	"trigger_flag": "0x74B",
 	"requirements": []
 	}
 	{
-	"tag": "TRAINER_",
-	"location": "LOCATION_",
+	"tag": "TRAINER_GALACTIC_GRUNT",
+	"location": "LOCATION_GALACTIC_WAREHOUSE",
 	"trigger_flag": "0x74C",
 	"requirements": []
 	}
 	{
-	"tag": "TRAINER_",
-	"location": "LOCATION_",
+	"tag": "TRAINER_GALACTIC_GRUNT",
+	"location": "LOCATION_TEAM_GALACTIC_HQ",
 	"trigger_flag": "0x74D",
 	"requirements": []
 	}
 	{
-	"tag": "TRAINER_",
-	"location": "LOCATION_",
+	"tag": "TRAINER_GALACTIC_GRUNT",
+	"location": "LOCATION_TEAM_GALACTIC_HQ",
 	"trigger_flag": "0x74E",
 	"requirements": []
 	}
@@ -3065,56 +3065,56 @@
 	"requirements": []
 	}
 	{
-	"tag": "TRAINER_",
-	"location": "LOCATION_",
+	"tag": "TRAINER_GALACTIC_GRUNT",
+	"location": "LOCATION_TEAM_GALACTIC_HQ",
 	"trigger_flag": "0x750",
 	"requirements": []
 	}
 	{
-	"tag": "TRAINER_",
-	"location": "LOCATION_",
+	"tag": "TRAINER_GALACTIC_GRUNT",
+	"location": "LOCATION_TEAM_GALACTIC_HQ",
 	"trigger_flag": "0x751",
 	"requirements": []
 	}
 	{
-	"tag": "TRAINER_",
-	"location": "LOCATION_",
+	"tag": "TRAINER_GALACTIC_GRUNT",
+	"location": "LOCATION_TEAM_GALACTIC_HQ",
 	"trigger_flag": "0x752",
 	"requirements": []
 	}
 	{
-	"tag": "TRAINER_",
-	"location": "LOCATION_",
+	"tag": "TRAINER_GALACTIC_GRUNT",
+	"location": "LOCATION_MOUNT_CORONET_3F",
 	"trigger_flag": "0x753",
 	"requirements": []
 	}
 	{
-	"tag": "TRAINER_",
-	"location": "LOCATION_",
+	"tag": "TRAINER_GALACTIC_GRUNT",
+	"location": "LOCATION_MOUNT_CORONET_4F",
 	"trigger_flag": "0x754",
 	"requirements": []
 	}
 	{
-	"tag": "TRAINER_",
-	"location": "LOCATION_",
+	"tag": "TRAINER_GALACTIC_GRUNT",
+	"location": "LOCATION_MOUNT_CORONET_4F",
 	"trigger_flag": "0x755",
 	"requirements": []
 	}
 	{
-	"tag": "TRAINER_",
-	"location": "LOCATION_",
+	"tag": "TRAINER_GALACTIC_GRUNT",
+	"location": "LOCATION_MOUNT_CORONET_TUNNEL",
 	"trigger_flag": "0x756",
-	"requirements": []
+	"requirements": ["HM_ROCK_CLIMB"]
 	}
 	{
-	"tag": "TRAINER_",
-	"location": "LOCATION_",
+	"tag": "TRAINER_GALACTIC_GRUNT",
+	"location": "LOCATION_MOUNT_CORONET_TUNNEL",
 	"trigger_flag": "0x757",
-	"requirements": []
+	"requirements": ["HM_ROCK_CLIMB"]
 	}
 	{
-	"tag": "TRAINER_",
-	"location": "LOCATION_",
+	"tag": "TRAINER_GALACTIC_GRUNT",
+	"location": "LOCATION_MOUNT_CORONET_6F",
 	"trigger_flag": "0x758",
 	"requirements": []
 	}
@@ -3125,32 +3125,32 @@
 	"requirements": []
 	}
 	{
-	"tag": "TRAINER_",
-	"location": "LOCATION_",
+	"tag": "TRAINER_GALACTIC_GRUNT",
+	"location": "LOCATION_TEAM_GALACTIC_HQ",
 	"trigger_flag": "0x75A",
 	"requirements": []
 	}
 	{
-	"tag": "TRAINER_",
-	"location": "LOCATION_",
+	"tag": "TRAINER_GALACTIC_GRUNT",
+	"location": "LOCATION_MOUNT_CORONET_3F",
 	"trigger_flag": "0x75B",
 	"requirements": []
 	}
 	{
-	"tag": "TRAINER_",
-	"location": "LOCATION_",
+	"tag": "TRAINER_GALACTIC_GRUNT",
+	"location": "LOCATION_MOUNT_CORONET_TUNNEL",
 	"trigger_flag": "0x75C",
-	"requirements": []
+	"requirements": ["HM_ROCK_CLIMB"]
 	}
 	{
-	"tag": "TRAINER_",
-	"location": "LOCATION_",
+	"tag": "TRAINER_GALACTIC_GRUNT",
+	"location": "LOCATION_MOUNT_CORONET_6F",
 	"trigger_flag": "0x75D",
 	"requirements": []
 	}
 	{
-	"tag": "TRAINER_",
-	"location": "LOCATION_",
+	"tag": "TRAINER_GALACTIC_GRUNT",
+	"location": "LOCATION_MOUNT_CORONET_7F",
 	"trigger_flag": "0x75E",
 	"requirements": []
 	}
@@ -3161,8 +3161,8 @@
 	"requirements": []
 	}
 	{
-	"tag": "TRAINER_",
-	"location": "LOCATION_",
+	"tag": "TRAINER_COMMANDER_MARS",
+	"location": "LOCATION_SPEAR_PILLAR",
 	"trigger_flag": "0x760",
 	"requirements": []
 	}
@@ -3635,20 +3635,20 @@
 	"requirements": []
 	}
 	{
-	"tag": "TRAINER_",
-	"location": "LOCATION_",
+	"tag": "TRAINER_RIVAL_BARRY",
+	"location": "LOCATION_SPEAR_PILLAR",
 	"trigger_flag": "0x7AF",
 	"requirements": []
 	}
 	{
-	"tag": "TRAINER_",
-	"location": "LOCATION_",
+	"tag": "TRAINER_CHERYL",
+	"location": "LOCATION_ETERNA_FOREST",
 	"trigger_flag": "0x7B0",
 	"requirements": []
 	}
 	{
-	"tag": "TRAINER_",
-	"location": "LOCATION_",
+	"tag": "TRAINER_RILEY",
+	"location": "LOCATION_IRON_ISLAND_B2F",
 	"trigger_flag": "0x7B1",
 	"requirements": []
 	}
@@ -3665,8 +3665,8 @@
 	"requirements": []
 	}
 	{
-	"tag": "TRAINER_",
-	"location": "LOCATION_",
+	"tag": "TRAINER_MIRA",
+	"location": "LOCATION_WAYWARD_CAVE",
 	"trigger_flag": "0x7B4",
 	"requirements": []
 	}
@@ -3707,14 +3707,14 @@
 	"requirements": []
 	}
 	{
-	"tag": "TRAINER_",
-	"location": "LOCATION_",
+	"tag": "TRAINER_RIVAL_BARRY",
+	"location": "LOCATION_SPEAR_PILLAR",
 	"trigger_flag": "0x7BB",
 	"requirements": []
 	}
 	{
-	"tag": "TRAINER_",
-	"location": "LOCATION_",
+	"tag": "TRAINER_RIVAL_BARRY",
+	"location": "LOCATION_SPEAR_PILLAR",
 	"trigger_flag": "0x7BC",
 	"requirements": []
 	}
@@ -3756,67 +3756,67 @@
 	}
 	{
 	"tag": "TRAINER_AROMA_LADY_ELIZABETH_(REMATCH_1)",
-	"location": "LOCATION_",
+	"location": "LOCATION_ROUTE205",
 	"trigger_flag": "0x7C3",
 	"requirements": []
 	}
 	{
 	"tag": "TRAINER_AROMA_LADY_ELIZABETH_(REMATCH_2)",
-	"location": "LOCATION_",
+	"location": "LOCATION_ROUTE205",
 	"trigger_flag": "0x7C4",
 	"requirements": []
 	}
 	{
 	"tag": "TRAINER_AROMA_LADY_ELIZABETH_(REMATCH_3)",
-	"location": "LOCATION_",
+	"location": "LOCATION_ROUTE205",
 	"trigger_flag": "0x7C5",
 	"requirements": []
 	}
 	{
 	"tag": "TRAINER_ARTIST_WILLIAM_(REMATCH_1)",
-	"location": "LOCATION_",
+	"location": "LOCATION_ROUTE208",
 	"trigger_flag": "0x7C6",
 	"requirements": []
 	}
 	{
 	"tag": "TRAINER_ARTIST_WILLIAM_(REMATCH_2)",
-	"location": "LOCATION_",
+	"location": "LOCATION_ROUTE208",
 	"trigger_flag": "0x7C7",
 	"requirements": []
 	}
 	{
 	"tag": "TRAINER_ARTIST_WILLIAM_(REMATCH_3)",
-	"location": "LOCATION_",
+	"location": "LOCATION_ROUTE208",
 	"trigger_flag": "0x7C8",
 	"requirements": []
 	}
 	{
 	"tag": "TRAINER_BATTLE_GIRL_HELEN_(REMATCH_1)",
-	"location": "LOCATION_",
+	"location": "LOCATION_ROUTE207",
 	"trigger_flag": "0x7C9",
 	"requirements": []
 	}
 	{
 	"tag": "TRAINER_BATTLE_GIRL_HELEN_(REMATCH_2)",
-	"location": "LOCATION_",
+	"location": "LOCATION_ROUTE207",
 	"trigger_flag": "0x7CA",
 	"requirements": []
 	}
 	{
 	"tag": "TRAINER_BATTLE_GIRL_HELEN_(REMATCH_3)",
-	"location": "LOCATION_",
+	"location": "LOCATION_ROUTE207",
 	"trigger_flag": "0x7CB",
 	"requirements": []
 	}
 	{
 	"tag": "TRAINER_BIRD_KEEPER_BRIANNA_(REMATCH_1)",
-	"location": "LOCATION_",
+	"location": "LOCATION_ROUTE210",
 	"trigger_flag": "0x7CC",
 	"requirements": []
 	}
 	{
 	"tag": "TRAINER_BIRD_KEEPER_BRIANNA_(REMATCH_2)",
-	"location": "LOCATION_",
+	"location": "LOCATION_ROUTE210",
 	"trigger_flag": "0x7CD",
 	"requirements": []
 	}
@@ -3828,37 +3828,37 @@
 	}
 	{
 	"tag": "TRAINER_POKÉMON_BREEDER_ALBERT_(REMATCH_1)",
-	"location": "LOCATION_",
+	"location": "LOCATION_ROUTE209",
 	"trigger_flag": "0x7CF",
 	"requirements": []
 	}
 	{
 	"tag": "TRAINER_POKÉMON_BREEDER_ALBERT_(REMATCH_2)",
-	"location": "LOCATION_",
+	"location": "LOCATION_ROUTE209",
 	"trigger_flag": "0x7D0",
 	"requirements": []
 	}
 	{
 	"tag": "TRAINER_POKÉMON_BREEDER_ALBERT_(REMATCH_3)",
-	"location": "LOCATION_",
+	"location": "LOCATION_ROUTE209",
 	"trigger_flag": "0x7D1",
 	"requirements": []
 	}
 	{
 	"tag": "TRAINER_POKÉMON_BREEDER_JENNIFER_(REMATCH_1)",
-	"location": "LOCATION_",
+	"location": "LOCATION_ROUTE209",
 	"trigger_flag": "0x7D2",
 	"requirements": []
 	}
 	{
 	"tag": "TRAINER_POKÉMON_BREEDER_JENNIFER_(REMATCH_2)",
-	"location": "LOCATION_",
+	"location": "LOCATION_ROUTE209",
 	"trigger_flag": "0x7D3",
 	"requirements": []
 	}
 	{
 	"tag": "TRAINER_POKÉMON_BREEDER_JENNIFER_(REMATCH_3)",
-	"location": "LOCATION_",
+	"location": "LOCATION_ROUTE209",
 	"trigger_flag": "0x7D4",
 	"requirements": []
 	}
@@ -4223,40 +4223,40 @@
 	"requirements": []
 	}
 	{
-	"tag": "TRAINER_",
-	"location": "LOCATION_",
+	"tag": "TRAINER_ACE_TRAINER_ANTON",
+	"location": "LOCATION_SNOWPOINT_GYM",
 	"trigger_flag": "0x88B",
 	"requirements": []
 	}
 	{
-	"tag": "TRAINER_",
-	"location": "LOCATION_",
+	"tag": "TRAINER_ACE_TRAINER_BRENNA",
+	"location": "LOCATION_SNOWPOINT_GYM",
 	"trigger_flag": "0x88C",
 	"requirements": []
 	}
 	{
-	"tag": "TRAINER_",
-	"location": "LOCATION_",
+	"tag": "TRAINER_SCIENTIST_DARRIUS",
+	"location": "LOCATION_TEAM_GALACTIC_HQ",
 	"trigger_flag": "0x88D",
 	"requirements": []
 	}
 	{
-	"tag": "TRAINER_",
-	"location": "LOCATION_",
+	"tag": "TRAINER_SCIENTIST_FREDERICK",
+	"location": "LOCATION_TEAM_GALACTIC_HQ",
 	"trigger_flag": "0x88E",
 	"requirements": []
 	}
 	{
-	"tag": "TRAINER_SCIENTIST_TRAVON_DEFEATED",
+	"tag": "TRAINER_SCIENTIST_TRAVON",
 	"location": "LOCATION_TEAM_GALACTIC_ETERNA_BUILDING",
 	"trigger_flag": "0x88F",
 	"requirements": []
 	}
 	{
-	"tag": "TRAINER_",
-	"location": "LOCATION_",
+	"tag": "TRAINER_POKE_KID_JANET",
+	"location": "LOCATION_ROUTE222",
 	"trigger_flag": "0x890",
-	"requirements": []
+	"requirements": ["HM_SURF"]
 	}
 	{
 	"tag": "TRAINER_",
@@ -4271,14 +4271,14 @@
 	"requirements": []
 	}
 	{
-	"tag": "TRAINER_",
-	"location": "LOCATION_",
+	"tag": "TRAINER_GALACTIC_GRUNT",
+	"location": "LOCATION_IRON_ISLAND_B2F",
 	"trigger_flag": "0x893",
 	"requirements": []
 	}
 	{
-	"tag": "TRAINER_",
-	"location": "LOCATION_",
+	"tag": "TRAINER_GALACTIC_GRUNT",
+	"location": "LOCATION_IRON_ISLAND_B2F",
 	"trigger_flag": "0x894",
 	"requirements": []
 	}
@@ -4319,32 +4319,32 @@
 	"requirements": []
 	}
 	{
-	"tag": "TRAINER_",
-	"location": "LOCATION_",
+	"tag": "TRAINER_GALACTIC_GRUNT",
+	"location": "LOCATION_VALLEY_WINDWORKS",
 	"trigger_flag": "0x89B",
 	"requirements": []
 	}
 	{
-	"tag": "TRAINER_WORKER_DILLAN_DEFEATED",
+	"tag": "TRAINER_WORKER_DILLAN",
 	"location": "LOCATION_FUEGO_IRONWORKS",
 	"trigger_flag": "0x89C",
 	"requirements": []
 	}
 	{
-	"tag": "TRAINER_WORKER_HOLDEN_DEFEATED",
+	"tag": "TRAINER_WORKER_HOLDEN",
 	"location": "LOCATION_FUEGO_IRONWORKS",
 	"trigger_flag": "0x89D",
 	"requirements": []
 	}
 	{
-	"tag": "TRAINER_WORKER_CONRAD_DEFEATED",
+	"tag": "TRAINER_WORKER_CONRAD",
 	"location": "LOCATION_FUEGO_IRONWORKS",
 	"trigger_flag": "0x89E",
 	"requirements": []
 	}
 	{
-	"tag": "TRAINER_",
-	"location": "LOCATION_",
+	"tag": "TRAINER_GALACTIC_GRUNT",
+	"location": "LOCATION_VALOR_LAKEFRONT",
 	"trigger_flag": "0x89F",
 	"requirements": []
 	}
@@ -4361,20 +4361,20 @@
 	"requirements": []
 	}
 	{
-	"tag": "TRAINER_",
-	"location": "LOCATION_",
+	"tag": "TRAINER_RIVAL_BARRY",
+	"location": "LOCATION_ROUTE201",
 	"trigger_flag": "0x8A2",
 	"requirements": []
 	}
 	{
-	"tag": "TRAINER_",
-	"location": "LOCATION_",
+	"tag": "TRAINER_RIVAL_BARRY",
+	"location": "LOCATION_ROUTE201",
 	"trigger_flag": "0x8A3",
 	"requirements": []
 	}
 	{
-	"tag": "TRAINER_",
-	"location": "LOCATION_",
+	"tag": "TRAINER_RIVAL_BARRY",
+	"location": "LOCATION_ROUTE201",
 	"trigger_flag": "0x8A4",
 	"requirements": []
 	}
