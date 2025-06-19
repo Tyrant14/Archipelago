@@ -23,36 +23,6 @@
 	"requirements": []
 	}
 	{
-	"tag": "TRAINER_",
-	"location": "LOCATION_",
-	"trigger_flag": "0x555",
-	"requirements": []
-	}
-	{
-	"tag": "TRAINER_",
-	"location": "LOCATION_",
-	"trigger_flag": "0x556",
-	"requirements": []
-	}
-	{
-	"tag": "TRAINER_",
-	"location": "LOCATION_",
-	"trigger_flag": "0x557",
-	"requirements": []
-	}
-	{
-	"tag": "TRAINER_",
-	"location": "LOCATION_",
-	"trigger_flag": "0x558",
-	"requirements": []
-	}
-	{
-	"tag": "TRAINER_",
-	"location": "LOCATION_",
-	"trigger_flag": "0x559",
-	"requirements": []
-	}
-	{
 	"tag": "TRAINER_YOUNGSTER_TYLER",
 	"location": "LOCATION_ROUTE204",
 	"trigger_flag": "0x55A",
@@ -293,33 +263,9 @@
 	"requirements": []
 	}
 	{
-	"tag": "TRAINER_",
-	"location": "LOCATION_",
-	"trigger_flag": "0x582",
-	"requirements": []
-	}
-	{
-	"tag": "TRAINER_",
-	"location": "LOCATION_",
-	"trigger_flag": "0x583",
-	"requirements": []
-	}
-	{
-	"tag": "TRAINER_",
-	"location": "LOCATION_",
-	"trigger_flag": "0x584",
-	"requirements": []
-	}
-	{
 	"tag": "TRAINER_POKÉ_KID_DANIELLE",
 	"location": "LOCATION_ROUTE209",
 	"trigger_flag": "0x585",
-	"requirements": []
-	}
-	{
-	"tag": "TRAINER_",
-	"location": "LOCATION_",
-	"trigger_flag": "0x586",
 	"requirements": []
 	}
 	{
@@ -338,48 +284,6 @@
 	"tag": "TRAINER_PKMN_BREEDER_AMBER",
 	"location": "LOCATION_ROUTE210",
 	"trigger_flag": "0x589",
-	"requirements": []
-	}
-	{
-	"tag": "TRAINER_",
-	"location": "LOCATION_",
-	"trigger_flag": "0x58A",
-	"requirements": []
-	}
-	{
-	"tag": "TRAINER_",
-	"location": "LOCATION_",
-	"trigger_flag": "0x58B",
-	"requirements": []
-	}
-	{
-	"tag": "TRAINER_",
-	"location": "LOCATION_",
-	"trigger_flag": "0x58C",
-	"requirements": []
-	}
-	{
-	"tag": "TRAINER_",
-	"location": "LOCATION_",
-	"trigger_flag": "0x58D",
-	"requirements": []
-	}
-	{
-	"tag": "TRAINER_",
-	"location": "LOCATION_",
-	"trigger_flag": "0x58E",
-	"requirements": []
-	}
-	{
-	"tag": "TRAINER_",
-	"location": "LOCATION_",
-	"trigger_flag": "0x58F",
-	"requirements": []
-	}
-	{
-	"tag": "TRAINER_",
-	"location": "LOCATION_",
-	"trigger_flag": "0x590",
 	"requirements": []
 	}
 	{
@@ -455,12 +359,6 @@
 	"requirements": ["HM_ROCK_SMASH"]
 	}
 	{
-	"tag": "TRAINER_",
-	"location": "LOCATION_",
-	"trigger_flag": "0x59D",
-	"requirements": []
-	}
-	{
 	"tag": "TRAINER_NINJA_BOY_ZACH",
 	"location": "LOCATION_ROUTE211",
 	"trigger_flag": "0x59E",
@@ -506,18 +404,6 @@
 	"tag": "TRAINER_SOCIALITE_REINA",
 	"location": "LOCATION_ROUTE212",
 	"trigger_flag": "0x5A5",
-	"requirements": []
-	}
-	{
-	"tag": "TRAINER_",
-	"location": "LOCATION_",
-	"trigger_flag": "0x5A6",
-	"requirements": []
-	}
-	{
-	"tag": "TRAINER_",
-	"location": "LOCATION_",
-	"trigger_flag": "0x5A7",
 	"requirements": []
 	}
 	{
@@ -575,33 +461,9 @@
 	"requirements": []
 	}
 	{
-	"tag": "TRAINER_",
-	"location": "LOCATION_",
-	"trigger_flag": "0x5B1",
-	"requirements": []
-	}
-	{
-	"tag": "TRAINER_",
-	"location": "LOCATION_",
-	"trigger_flag": "0x5B2",
-	"requirements": []
-	}
-	{
 	"tag": "TRAINER_SCIENTIST_STEFANO",
 	"location": "LOCATION_ROUTE212",
 	"trigger_flag": "0x5B3",
-	"requirements": []
-	}
-	{
-	"tag": "TRAINER_",
-	"location": "LOCATION_",
-	"trigger_flag": "0x5B4",
-	"requirements": []
-	}
-	{
-	"tag": "TRAINER_",
-	"location": "LOCATION_",
-	"trigger_flag": "0x5B5",
 	"requirements": []
 	}
 	{
@@ -647,12 +509,6 @@
 	"requirements": []
 	}
 	{
-	"tag": "TRAINER_",
-	"location": "LOCATION_",
-	"trigger_flag": "0x5BD",
-	"requirements": []
-	}
-	{
 	"tag": "TRAINER_SAILOR_PAUL",
 	"location": "LOCATION_ROUTE213",
 	"trigger_flag": "0x5BE",
@@ -665,12 +521,6 @@
 	"requirements": []
 	}
 	{
-	"tag": "TRAINER_",
-	"location": "LOCATION_",
-	"trigger_flag": "0x5C0",
-	"requirements": []
-	}
-	{
 	"tag": "TRAINER_RUIN_MANIAC_BRYAN",
 	"location": "LOCATION_ROUTE214",
 	"trigger_flag": "0x5C1",
@@ -680,30 +530,6 @@
 	"tag": "TRAINER_RUIN_MANIAC_RONALD",
 	"location": "LOCATION_ROUTE214",
 	"trigger_flag": "0x5C2",
-	"requirements": []
-	}
-	{
-	"tag": "TRAINER_",
-	"location": "LOCATION_",
-	"trigger_flag": "0x5C3",
-	"requirements": []
-	}
-	{
-	"tag": "TRAINER_",
-	"location": "LOCATION_",
-	"trigger_flag": "0x5C4",
-	"requirements": []
-	}
-	{
-	"tag": "TRAINER_",
-	"location": "LOCATION_",
-	"trigger_flag": "0x5C5",
-	"requirements": []
-	}
-	{
-	"tag": "TRAINER_",
-	"location": "LOCATION_",
-	"trigger_flag": "0x5C6",
 	"requirements": []
 	}
 	{
@@ -722,36 +548,6 @@
 	"tag": "TRAINER_PI_CARLOS",
 	"location": "LOCATION_ROUTE214",
 	"trigger_flag": "0x5C9",
-	"requirements": []
-	}
-	{
-	"tag": "TRAINER_",
-	"location": "LOCATION_",
-	"trigger_flag": "0x5CA",
-	"requirements": []
-	}
-	{
-	"tag": "TRAINER_",
-	"location": "LOCATION_",
-	"trigger_flag": "0x5CB",
-	"requirements": []
-	}
-	{
-	"tag": "TRAINER_",
-	"location": "LOCATION_",
-	"trigger_flag": "0x5CC",
-	"requirements": []
-	}
-	{
-	"tag": "TRAINER_",
-	"location": "LOCATION_",
-	"trigger_flag": "0x5CD",
-	"requirements": []
-	}
-	{
-	"tag": "TRAINER_",
-	"location": "LOCATION_",
-	"trigger_flag": "0x5CE",
 	"requirements": []
 	}
 	{
@@ -776,12 +572,6 @@
 	"tag": "TRAINER_JOGGER_SCOTT",
 	"location": "LOCATION_ROUTE215",
 	"trigger_flag": "0x5D2",
-	"requirements": []
-	}
-	{
-	"tag": "TRAINER_",
-	"location": "LOCATION_",
-	"trigger_flag": "0x5D3",
 	"requirements": []
 	}
 	{
@@ -887,30 +677,6 @@
 	"requirements": []
 	}
 	{
-	"tag": "TRAINER_",
-	"location": "LOCATION_",
-	"trigger_flag": "0x5E5",
-	"requirements": []
-	}
-	{
-	"tag": "TRAINER_",
-	"location": "LOCATION_",
-	"trigger_flag": "0x5E6",
-	"requirements": []
-	}
-	{
-	"tag": "TRAINER_",
-	"location": "LOCATION_",
-	"trigger_flag": "0x5E7",
-	"requirements": []
-	}
-	{
-	"tag": "TRAINER_",
-	"location": "LOCATION_",
-	"trigger_flag": "0x5E8",
-	"requirements": []
-	}
-	{
 	"tag": "TRAINER_FISHERMAN_MIGUEL",
 	"location": "LOCATION_ROUTE218",
 	"trigger_flag": "0x5E9",
@@ -921,30 +687,6 @@
 	"location": "LOCATION_ROUTE218",
 	"trigger_flag": "0x5EA",
 	"requirements": ["HM_SURF"]
-	}
-	{
-	"tag": "TRAINER_",
-	"location": "LOCATION_",
-	"trigger_flag": "0x5EB",
-	"requirements": []
-	}
-	{
-	"tag": "TRAINER_",
-	"location": "LOCATION_",
-	"trigger_flag": "0x5EC",
-	"requirements": []
-	}
-	{
-	"tag": "TRAINER_",
-	"location": "LOCATION_",
-	"trigger_flag": "0x5ED",
-	"requirements": []
-	}
-	{
-	"tag": "TRAINER_",
-	"location": "LOCATION_",
-	"trigger_flag": "0x5EE",
-	"requirements": []
 	}
 	{
 	"tag": "TRAINER_SWIMMER♂_ADRIAN",
@@ -983,12 +725,6 @@
 	"requirements": ["HM_SURF"]
 	}
 	{
-	"tag": "TRAINER_",
-	"location": "LOCATION_",
-	"trigger_flag": "0x5F5",
-	"requirements": []
-	}
-	{
 	"tag": "TRAINER_SWIMMER♂_DILLON",
 	"location": "LOCATION_ROUTE221",
 	"trigger_flag": "0x5F6",
@@ -1005,12 +741,6 @@
 	"location": "LOCATION_ROUTE221",
 	"trigger_flag": "0x5F8",
 	"requirements": ["HM_SURF"]
-	}
-	{
-	"tag": "TRAINER_",
-	"location": "LOCATION_",
-	"trigger_flag": "0x5F9",
-	"requirements": []
 	}
 	{
 	"tag": "TRAINER_ACE_TRAINER_JAKE",
@@ -1049,45 +779,9 @@
 	"requirements": []
 	}
 	{
-	"tag": "TRAINER_",
-	"location": "LOCATION_",
-	"trigger_flag": "0x600",
-	"requirements": []
-	}
-	{
-	"tag": "TRAINER_",
-	"location": "LOCATION_",
-	"trigger_flag": "0x601",
-	"requirements": []
-	}
-	{
-	"tag": "TRAINER_",
-	"location": "LOCATION_",
-	"trigger_flag": "0x602",
-	"requirements": []
-	}
-	{
-	"tag": "TRAINER_",
-	"location": "LOCATION_",
-	"trigger_flag": "0x603",
-	"requirements": []
-	}
-	{
 	"tag": "TRAINER_SAILOR_LUTHER",
 	"location": "LOCATION_ROUTE222",
 	"trigger_flag": "0x604",
-	"requirements": []
-	}
-	{
-	"tag": "TRAINER_",
-	"location": "LOCATION_",
-	"trigger_flag": "0x605",
-	"requirements": []
-	}
-	{
-	"tag": "TRAINER_",
-	"location": "LOCATION_",
-	"trigger_flag": "0x606",
 	"requirements": []
 	}
 	{
@@ -1175,30 +869,6 @@
 	"requirements": []
 	}
 	{
-	"tag": "TRAINER_",
-	"location": "LOCATION_",
-	"trigger_flag": "0x615",
-	"requirements": []
-	}
-	{
-	"tag": "TRAINER_",
-	"location": "LOCATION_",
-	"trigger_flag": "0x616",
-	"requirements": []
-	}
-	{
-	"tag": "TRAINER_",
-	"location": "LOCATION_",
-	"trigger_flag": "0x617",
-	"requirements": []
-	}
-	{
-	"tag": "TRAINER_",
-	"location": "LOCATION_",
-	"trigger_flag": "0x618",
-	"requirements": []
-	}
-	{
 	"tag": "TRAINER_BUG_CATCHER_JACK",
 	"location": "LOCATION_ETERNA_FOREST",
 	"trigger_flag": "0x619",
@@ -1232,108 +902,6 @@
 	"tag": "TRAINER_PSYCHIC_LINDSEY",
 	"location": "LOCATION_ETERNA_FOREST",
 	"trigger_flag": "0x61E",
-	"requirements": []
-	}
-	{
-	"tag": "TRAINER_",
-	"location": "LOCATION_",
-	"trigger_flag": "0x61F",
-	"requirements": []
-	}
-	{
-	"tag": "TRAINER_",
-	"location": "LOCATION_",
-	"trigger_flag": "0x620",
-	"requirements": []
-	}
-	{
-	"tag": "TRAINER_",
-	"location": "LOCATION_",
-	"trigger_flag": "0x621",
-	"requirements": []
-	}
-	{
-	"tag": "TRAINER_",
-	"location": "LOCATION_",
-	"trigger_flag": "0x622",
-	"requirements": []
-	}
-	{
-	"tag": "TRAINER_",
-	"location": "LOCATION_",
-	"trigger_flag": "0x623",
-	"requirements": []
-	}
-	{
-	"tag": "TRAINER_",
-	"location": "LOCATION_",
-	"trigger_flag": "0x624",
-	"requirements": []
-	}
-	{
-	"tag": "TRAINER_",
-	"location": "LOCATION_",
-	"trigger_flag": "0x625",
-	"requirements": []
-	}
-	{
-	"tag": "TRAINER_",
-	"location": "LOCATION_",
-	"trigger_flag": "0x626",
-	"requirements": []
-	}
-	{
-	"tag": "TRAINER_",
-	"location": "LOCATION_",
-	"trigger_flag": "0x627",
-	"requirements": []
-	}
-	{
-	"tag": "TRAINER_",
-	"location": "LOCATION_",
-	"trigger_flag": "0x628",
-	"requirements": []
-	}
-	{
-	"tag": "TRAINER_",
-	"location": "LOCATION_",
-	"trigger_flag": "0x629",
-	"requirements": []
-	}
-	{
-	"tag": "TRAINER_",
-	"location": "LOCATION_",
-	"trigger_flag": "0x62A",
-	"requirements": []
-	}
-	{
-	"tag": "TRAINER_",
-	"location": "LOCATION_",
-	"trigger_flag": "0x62B",
-	"requirements": []
-	}
-	{
-	"tag": "TRAINER_",
-	"location": "LOCATION_",
-	"trigger_flag": "0x62C",
-	"requirements": []
-	}
-	{
-	"tag": "TRAINER_",
-	"location": "LOCATION_",
-	"trigger_flag": "0x62D",
-	"requirements": []
-	}
-	{
-	"tag": "TRAINER_",
-	"location": "LOCATION_",
-	"trigger_flag": "0x62E",
-	"requirements": []
-	}
-	{
-	"tag": "TRAINER_",
-	"location": "LOCATION_",
-	"trigger_flag": "0x62F",
 	"requirements": []
 	}
 	{
@@ -1403,58 +971,28 @@
 	"requirements": ["HM_ROCK_CLIMB"]
 	}
 	{
-	"tag": "TRAINER_DOUBLE_TEAM_PAT_&_JO",
+	"tag": "TRAINER_PSYCHIC_VALENCIA",
 	"location": "LOCATION_VICTORY_ROAD_B1F",
 	"trigger_flag": "0x63B",
 	"requirements": ["HM_SURF"]
 	}
 	{
+	"tag": "TRAINER_DOUBLE_TEAM_PAT_&_JO",
+	"location": "LOCATION_VICTORY_ROAD_B1F",
+	"trigger_flag": "0x63C",
+	"requirements": ["HM_SURF"]
+	}
+	{
 	"tag": "TRAINER_DOUBLE_TEAM_AL_&_KAY",
 	"location": "LOCATION_VICTORY_ROAD_2F",
-	"trigger_flag": "0x63C",
-	"requirements": ["HM_ROCK_SMASH & HM_STRENGTH"]
-	}
-	{
-	"tag": "TRAINER_",
-	"location": "LOCATION_",
 	"trigger_flag": "0x63D",
-	"requirements": []
-	}
-	{
-	"tag": "TRAINER_",
-	"location": "LOCATION_",
-	"trigger_flag": "0x63E",
-	"requirements": []
-	}
-	{
-	"tag": "TRAINER_",
-	"location": "LOCATION_",
-	"trigger_flag": "0x63F",
-	"requirements": []
+	"requirements": ["HM_ROCK_SMASH & HM_STRENGTH"]
 	}
 	{
 	"tag": "TRAINER_VETERAN_GRANT",
 	"location": "LOCATION_OREBURGH_GATE",
 	"trigger_flag": "0x640",
 	"requirements": ["HM_SURF"]
-	}
-	{
-	"tag": "TRAINER_",
-	"location": "LOCATION_",
-	"trigger_flag": "0x641",
-	"requirements": []
-	}
-	{
-	"tag": "TRAINER_",
-	"location": "LOCATION_",
-	"trigger_flag": "0x642",
-	"requirements": []
-	}
-	{
-	"tag": "TRAINER_",
-	"location": "LOCATION_",
-	"trigger_flag": "0x643",
-	"requirements": []
 	}
 	{
 	"tag": "TRAINER_YOUNGSTER_JONATHON",
@@ -1496,36 +1034,6 @@
 	"tag": "TRAINER_LEADER_BYRON",
 	"location": "LOCATION_CANALAVE_GYM",
 	"trigger_flag": "0x64A",
-	"requirements": []
-	}
-	{
-	"tag": "TRAINER_",
-	"location": "LOCATION_",
-	"trigger_flag": "0x64B",
-	"requirements": []
-	}
-	{
-	"tag": "TRAINER_",
-	"location": "LOCATION_",
-	"trigger_flag": "0x64C",
-	"requirements": []
-	}
-	{
-	"tag": "TRAINER_",
-	"location": "LOCATION_",
-	"trigger_flag": "0x64D",
-	"requirements": []
-	}
-	{
-	"tag": "TRAINER_",
-	"location": "LOCATION_",
-	"trigger_flag": "0x64E",
-	"requirements": []
-	}
-	{
-	"tag": "TRAINER_",
-	"location": "LOCATION_",
-	"trigger_flag": "0x64F",
 	"requirements": []
 	}
 	{
@@ -1655,10 +1163,10 @@
 	"requirements": []
 	}
 	{
-	"tag": "TRAINER_",
-	"location": "LOCATION_",
+	"tag": "TRAINER_DRAGON_TAMER_HAYDEN",
+	"location": "LOCATION_ROUTE224",
 	"trigger_flag": "0x665",
-	"requirements": []
+	"requirements": ["HM_SURF"]
 	}
 	{
 	"tag": "TRAINER_ACE_TRAINER_DENNIS",
@@ -1685,8 +1193,8 @@
 	"requirements": []
 	}
 	{
-	"tag": "TRAINER_",
-	"location": "LOCATION_",
+	"tag": "TRAINER_ACE_TRAINER_RUBEN",
+	"location": "LOCATION_ROUTE224",
 	"trigger_flag": "0x66A",
 	"requirements": []
 	}
@@ -1709,8 +1217,8 @@
 	"requirements": []
 	}
 	{
-	"tag": "TRAINER_",
-	"location": "LOCATION_",
+	"tag": "TRAINER_ACE_TRAINER_JAMIE",
+	"location": "LOCATION_ROUTE224",
 	"trigger_flag": "0x66E",
 	"requirements": []
 	}
@@ -1721,14 +1229,14 @@
 	"requirements": []
 	}
 	{
-	"tag": "TRAINER_",
-	"location": "LOCATION_",
+	"tag": "TRAINER_PSYCHIC_MAXWELL",
+	"location": "LOCATION_ROUTE224",
 	"trigger_flag": "0x670",
 	"requirements": []
 	}
 	{
-	"tag": "TRAINER_",
-	"location": "LOCATION_",
+	"tag": "TRAINER_PSYCHIC_BRITTNEY",
+	"location": "LOCATION_ROUTE224",
 	"trigger_flag": "0x671",
 	"requirements": []
 	}
@@ -1736,12 +1244,6 @@
 	"tag": "TRAINER_BELLE_&_PA_AVA_&_MATT",
 	"location": "LOCATION_ROUTE210",
 	"trigger_flag": "0x672",
-	"requirements": []
-	}
-	{
-	"tag": "TRAINER_",
-	"location": "LOCATION_",
-	"trigger_flag": "0x673",
 	"requirements": []
 	}
 	{
@@ -1823,8 +1325,8 @@
 	"requirements": []
 	}
 	{
-	"tag": "TRAINER_",
-	"location": "LOCATION_",
+	"tag": "TRAINER_RUIN_MANIAC_LARRY",
+	"location": "LOCATION_ROUTE224",
 	"trigger_flag": "0x681",
 	"requirements": []
 	}
@@ -1871,8 +1373,8 @@
 	"requirements": []
 	}
 	{
-	"tag": "TRAINER_",
-	"location": "LOCATION_",
+	"tag": "TRAINER_BLACK_BELT_CARL",
+	"location": "LOCATION_ROUTE224",
 	"trigger_flag": "0x689",
 	"requirements": []
 	}
@@ -1895,7 +1397,7 @@
 	"requirements": []
 	}
 	{
-	"tag": "TRAINER_LEADER_MAYLEEN",
+	"tag": "TRAINER_LEADER_MAYLENE",
 	"location": "LOCATION_VEILSTONE_GYM",
 	"trigger_flag": "0x68D",
 	"requirements": []
@@ -1916,12 +1418,6 @@
 	"tag": "TRAINER_LEADER_VOLKNER",
 	"location": "LOCATION_SUNYSHORE_GYM",
 	"trigger_flag": "0x690",
-	"requirements": []
-	}
-	{
-	"tag": "TRAINER_",
-	"location": "LOCATION_",
-	"trigger_flag": "0x691",
 	"requirements": []
 	}
 	{
@@ -1997,21 +1493,9 @@
 	"requirements": []
 	}
 	{
-	"tag": "TRAINER_",
-	"location": "LOCATION_",
-	"trigger_flag": "0x69E",
-	"requirements": []
-	}
-	{
 	"tag": "TRAINER_RICH_BOY_TREY",
 	"location": "LOCATION_ROUTE222",
 	"trigger_flag": "0x69F",
-	"requirements": []
-	}
-	{
-	"tag": "TRAINER_",
-	"location": "LOCATION_",
-	"trigger_flag": "0x6A0",
 	"requirements": []
 	}
 	{
@@ -2075,54 +1559,6 @@
 	"requirements": []
 	}
 	{
-	"tag": "TRAINER_",
-	"location": "LOCATION_",
-	"trigger_flag": "0x6AB",
-	"requirements": []
-	}
-	{
-	"tag": "TRAINER_BEAUTY_LINDSAY",
-	"location": "LOCATION_ETERNA_GYM",
-	"trigger_flag": "0x6AC",
-	"requirements": []
-	}
-	{
-	"tag": "TRAINER_",
-	"location": "LOCATION_",
-	"trigger_flag": "0x6AD",
-	"requirements": []
-	}
-	{
-	"tag": "TRAINER_",
-	"location": "LOCATION_",
-	"trigger_flag": "0x6AE",
-	"requirements": []
-	}
-	{
-	"tag": "TRAINER_",
-	"location": "LOCATION_",
-	"trigger_flag": "0x6AF",
-	"requirements": []
-	}
-	{
-	"tag": "TRAINER_",
-	"location": "LOCATION_",
-	"trigger_flag": "0x6B0",
-	"requirements": []
-	}
-	{
-	"tag": "TRAINER_",
-	"location": "LOCATION_",
-	"trigger_flag": "0x6B1",
-	"requirements": []
-	}
-	{
-	"tag": "TRAINER_",
-	"location": "LOCATION_",
-	"trigger_flag": "0x6B2",
-	"requirements": []
-	}
-	{
 	"tag": "TRAINER_YOUNGSTER_DALLAS",
 	"location": "LOCATION_ROUTE203",
 	"trigger_flag": "0x6B3",
@@ -2165,27 +1601,9 @@
 	"requirements": ["HM_SURF"]
 	}
 	{
-	"tag": "TRAINER_",
-	"location": "LOCATION_",
+	"tag": "TRAINER_VETERAN_ARMANDO",
+	"location": "LOCATION_ROUTE224",
 	"trigger_flag": "0x6BA",
-	"requirements": []
-	}
-	{
-	"tag": "TRAINER_",
-	"location": "LOCATION_",
-	"trigger_flag": "0x6BB",
-	"requirements": []
-	}
-	{
-	"tag": "TRAINER_",
-	"location": "LOCATION_",
-	"trigger_flag": "0x6BC",
-	"requirements": []
-	}
-	{
-	"tag": "TRAINER_",
-	"location": "LOCATION_",
-	"trigger_flag": "0x6BD",
 	"requirements": []
 	}
 	{
@@ -2201,26 +1619,26 @@
 	"requirements": []
 	}
 	{
-	"tag": "TRAINER_",
-	"location": "LOCATION_",
+	"tag": "TRAINER_INTERVIEWERS_ROXY_&_OLI",
+	"location": "LOCATION_ETERNA_POKEMON_CENTER",
 	"trigger_flag": "0x6C0",
 	"requirements": []
 	}
 	{
-	"tag": "TRAINER_",
-	"location": "LOCATION_",
+	"tag": "TRAINER_CAMERAMAN_TEVIN",
+	"location": "LOCATION_JUBILIFE_POKEMON_CENTER",
 	"trigger_flag": "0x6C1",
 	"requirements": []
 	}
 	{
-	"tag": "TRAINER_",
-	"location": "LOCATION_",
+	"tag": "TRAINER_REPORTER_KINSEY",
+	"location": "LOCATION_JUBILIFE_POKEMON_CENTER",
 	"trigger_flag": "0x6C2",
 	"requirements": []
 	}
 	{
-	"tag": "TRAINER_",
-	"location": "LOCATION_",
+	"tag": "TRAINER_IDOL_GRACE",
+	"location": "LOCATION_OREBURGH_POKEMON_CENTER",
 	"trigger_flag": "0x6C3",
 	"requirements": []
 	}
@@ -2231,27 +1649,9 @@
 	"requirements": []
 	}
 	{
-	"tag": "TRAINER_",
-	"location": "LOCATION_",
+	"tag": "TRAINER_BIRD_KEEPER_AUTUMN",
+	"location": "LOCATION_VICTORY_ROAD_1F",
 	"trigger_flag": "0x6C5",
-	"requirements": []
-	}
-	{
-	"tag": "TRAINER_",
-	"location": "LOCATION_",
-	"trigger_flag": "0x6C6",
-	"requirements": []
-	}
-	{
-	"tag": "TRAINER_",
-	"location": "LOCATION_",
-	"trigger_flag": "0x6C7",
-	"requirements": []
-	}
-	{
-	"tag": "TRAINER_",
-	"location": "LOCATION_",
-	"trigger_flag": "0x6C8",
 	"requirements": []
 	}
 	{
@@ -2297,27 +1697,9 @@
 	"requirements": ["HM_ROCK_SMASH"]
 	}
 	{
-	"tag": "TRAINER_",
-	"location": "LOCATION_",
-	"trigger_flag": "0x6D0",
-	"requirements": []
-	}
-	{
-	"tag": "TRAINER_",
-	"location": "LOCATION_",
-	"trigger_flag": "0x6D1",
-	"requirements": []
-	}
-	{
-	"tag": "TRAINER_",
-	"location": "LOCATION_",
+	"tag": "TRAINER_DRAGON_TAMER_JOE",
+	"location": "LOCATION_VICTORY_ROAD_1F",
 	"trigger_flag": "0x6D2",
-	"requirements": []
-	}
-	{
-	"tag": "TRAINER_",
-	"location": "LOCATION_",
-	"trigger_flag": "0x6D3",
 	"requirements": []
 	}
 	{
@@ -2327,21 +1709,15 @@
 	"requirements": []
 	}
 	{
-	"tag": "TRAINER_",
-	"location": "LOCATION_",
+	"tag": "TRAINER_ACE_TRAINER_MICAH",
+	"location": "LOCATION_VICTORY_ROAD_1F",
 	"trigger_flag": "0x6D5",
 	"requirements": []
 	}
 	{
-	"tag": "TRAINER_",
-	"location": "LOCATION_",
+	"tag": "TRAINER_ACE_TRAINER_ARTHUR",
+	"location": "LOCATION_VICTORY_ROAD_1F",
 	"trigger_flag": "0x6D6",
-	"requirements": []
-	}
-	{
-	"tag": "TRAINER_",
-	"location": "LOCATION_",
-	"trigger_flag": "0x6D7",
 	"requirements": []
 	}
 	{
@@ -2351,14 +1727,14 @@
 	"requirements": []
 	}
 	{
-	"tag": "TRAINER_",
-	"location": "LOCATION_",
+	"tag": "TRAINER_ACE_TRAINER_BRANDI",
+	"location": "LOCATION_VICTORY_ROAD_1F",
 	"trigger_flag": "0x6D9",
 	"requirements": []
 	}
 	{
-	"tag": "TRAINER_",
-	"location": "LOCATION_",
+	"tag": "TRAINER_ACE_TRAINER_CLARICE",
+	"location": "LOCATION_VICTORY_ROAD_1F",
 	"trigger_flag": "0x6DA",
 	"requirements": []
 	}
@@ -2369,14 +1745,14 @@
 	"requirements": []
 	}
 	{
-	"tag": "TRAINER_",
-	"location": "LOCATION_",
+	"tag": "TRAINER_PSYCHIC_LANDON",
+	"location": "LOCATION_VICTORY_ROAD_1F",
 	"trigger_flag": "0x6DC",
 	"requirements": []
 	}
 	{
-	"tag": "TRAINER_",
-	"location": "LOCATION_",
+	"tag": "TRAINER_PSYCHIC_DEANDRE",
+	"location": "LOCATION_VICTORY_ROAD_1F",
 	"trigger_flag": "0x6DD",
 	"requirements": []
 	}
@@ -2387,14 +1763,14 @@
 	"requirements": []
 	}
 	{
-	"tag": "TRAINER_",
-	"location": "LOCATION_",
+	"tag": "TRAINER_PSYCHIC_DESIREE",
+	"location": "LOCATION_VICTORY_ROAD_1F",
 	"trigger_flag": "0x6DF",
 	"requirements": []
 	}
 	{
-	"tag": "TRAINER_",
-	"location": "LOCATION_",
+	"tag": "TRAINER_PSYCHIC_KENDRA",
+	"location": "LOCATION_VICTORY_ROAD_1F",
 	"trigger_flag": "0x6E0",
 	"requirements": []
 	}
@@ -2402,12 +1778,6 @@
 	"tag": "TRAINER_FISHERMAN_WALTER",
 	"location": "LOCATION_PASTORIA_GYM",
 	"trigger_flag": "0x6E1",
-	"requirements": []
-	}
-	{
-	"tag": "TRAINER_",
-	"location": "LOCATION_",
-	"trigger_flag": "0x6E2",
 	"requirements": []
 	}
 	{
@@ -2459,21 +1829,9 @@
 	"requirements": []
 	}
 	{
-	"tag": "TRAINER_",
-	"location": "LOCATION_",
-	"trigger_flag": "0x6EB",
-	"requirements": []
-	}
-	{
 	"tag": "TRAINER_GALACTIC_GRUNT",
 	"location": "LOCATION_TEAM_GALACTIC_ETERNA_BUILDING",
 	"trigger_flag": "0x6EC",
-	"requirements": []
-	}
-	{
-	"tag": "TRAINER_",
-	"location": "LOCATION_",
-	"trigger_flag": "0x6ED",
 	"requirements": []
 	}
 	{
@@ -2537,12 +1895,6 @@
 	"requirements": []
 	}
 	{
-	"tag": "TRAINER_",
-	"location": "LOCATION_",
-	"trigger_flag": "0x6F8",
-	"requirements": []
-	}
-	{
 	"tag": "TRAINER_GALACTIC_GRUNT",
 	"location": "LOCATION_LAKE_VALOR",
 	"trigger_flag": "0x6F9",
@@ -2569,79 +1921,13 @@
 	{
 	"tag": "TRAINER_GALACTIC_GRUNT",
 	"location": "LOCATION_TEAM_GALACTIC_HQ",
-	"trigger_flag": "0x6FD",
-	"requirements": []
-	}
-	{
-	"tag": "TRAINER_",
-	"location": "LOCATION_",
 	"trigger_flag": "0x6FE",
 	"requirements": []
 	}
 	{
-	"tag": "TRAINER_",
-	"location": "LOCATION_",
+	"tag": "TRAINER_GUITARIST_ARTURO",
+	"location": "LOCATION_PASTORIA_POKEMON_CENTER",
 	"trigger_flag": "0x6FF",
-	"requirements": []
-	}
-	{
-	"tag": "TRAINER_",
-	"location": "LOCATION_",
-	"trigger_flag": "0x700",
-	"requirements": []
-	}
-	{
-	"tag": "TRAINER_",
-	"location": "LOCATION_",
-	"trigger_flag": "0x701",
-	"requirements": []
-	}
-	{
-	"tag": "TRAINER_",
-	"location": "LOCATION_",
-	"trigger_flag": "0x702",
-	"requirements": []
-	}
-	{
-	"tag": "TRAINER_",
-	"location": "LOCATION_",
-	"trigger_flag": "0x703",
-	"requirements": []
-	}
-	{
-	"tag": "TRAINER_",
-	"location": "LOCATION_",
-	"trigger_flag": "0x704",
-	"requirements": []
-	}
-	{
-	"tag": "TRAINER_",
-	"location": "LOCATION_",
-	"trigger_flag": "0x705",
-	"requirements": []
-	}
-	{
-	"tag": "TRAINER_",
-	"location": "LOCATION_",
-	"trigger_flag": "0x706",
-	"requirements": []
-	}
-	{
-	"tag": "TRAINER_",
-	"location": "LOCATION_",
-	"trigger_flag": "0x707",
-	"requirements": []
-	}
-	{
-	"tag": "TRAINER_",
-	"location": "LOCATION_",
-	"trigger_flag": "0x708",
-	"requirements": []
-	}
-	{
-	"tag": "TRAINER_",
-	"location": "LOCATION_",
-	"trigger_flag": "0x709",
 	"requirements": []
 	}
 	{
@@ -2669,27 +1955,15 @@
 	"requirements": []
 	}
 	{
-	"tag": "TRAINER_",
-	"location": "LOCATION_",
+	"tag": "TRAINER_BLACK_BELT_EDDIE",
+	"location": "LOCATION_VICTORY_ROAD_1F",
 	"trigger_flag": "0x70E",
 	"requirements": []
 	}
 	{
-	"tag": "TRAINER_",
-	"location": "LOCATION_",
+	"tag": "TRAINER_BLACK_BELT_WILLIE",
+	"location": "LOCATION_VICTORY_ROAD_1F",
 	"trigger_flag": "0x70F",
-	"requirements": []
-	}
-	{
-	"tag": "TRAINER_",
-	"location": "LOCATION_",
-	"trigger_flag": "0x710",
-	"requirements": []
-	}
-	{
-	"tag": "TRAINER_",
-	"location": "LOCATION_",
-	"trigger_flag": "0x711",
 	"requirements": []
 	}
 	{
@@ -2753,63 +2027,15 @@
 	"requirements": ["HM_ROCK_SMASH"]
 	}
 	{
-	"tag": "TRAINER_",
-	"location": "LOCATION_",
+	"tag": "TRAINER_CLOWN_LEE",
+	"location": "LOCATION_HEARTHOME_POKEMON_CENTER",
 	"trigger_flag": "0x71C",
 	"requirements": []
 	}
 	{
-	"tag": "TRAINER_",
-	"location": "LOCATION_",
-	"trigger_flag": "0x71D",
-	"requirements": []
-	}
-	{
-	"tag": "TRAINER_",
-	"location": "LOCATION_",
-	"trigger_flag": "0x71E",
-	"requirements": []
-	}
-	{
-	"tag": "TRAINER_",
-	"location": "LOCATION_",
-	"trigger_flag": "0x71F",
-	"requirements": []
-	}
-	{
-	"tag": "TRAINER_",
-	"location": "LOCATION_",
-	"trigger_flag": "0x720",
-	"requirements": []
-	}
-	{
-	"tag": "TRAINER_",
-	"location": "LOCATION_",
+	"tag": "TRAINER_POKE_KID_ARIEL",
+	"location": "LOCATION_FLOAROMA_POKEMON_CENTER",
 	"trigger_flag": "0x721",
-	"requirements": []
-	}
-	{
-	"tag": "TRAINER_",
-	"location": "LOCATION_",
-	"trigger_flag": "0x722",
-	"requirements": []
-	}
-	{
-	"tag": "TRAINER_",
-	"location": "LOCATION_",
-	"trigger_flag": "0x723",
-	"requirements": []
-	}
-	{
-	"tag": "TRAINER_",
-	"location": "LOCATION_",
-	"trigger_flag": "0x724",
-	"requirements": []
-	}
-	{
-	"tag": "TRAINER_",
-	"location": "LOCATION_",
-	"trigger_flag": "0x725",
 	"requirements": []
 	}
 	{
@@ -2897,28 +2123,10 @@
 	"requirements": []
 	}
 	{
-	"tag": "TRAINER_",
-	"location": "LOCATION_",
-	"trigger_flag": "0x734",
-	"requirements": []
-	}
-	{
-	"tag": "TRAINER_",
-	"location": "LOCATION_",
-	"trigger_flag": "0x735",
-	"requirements": []
-	}
-	{
 	"tag": "TRAINER_SCIENTIST_SHAUN",
 	"location": "LOCATION_ROUTE212",
 	"trigger_flag": "0x736",
 	"requirements": ["HM_CUT & BICYCLE"]
-	}
-	{
-	"tag": "TRAINER_",
-	"location": "LOCATION_",
-	"trigger_flag": "0x737",
-	"requirements": []
 	}
 	{
 	"tag": "TRAINER_NINJA_BOY_FABIAN",
@@ -2951,22 +2159,10 @@
 	"requirements": ["HM_SURF"]
 	}
 	{
-	"tag": "TRAINER_",
-	"location": "LOCATION_",
-	"trigger_flag": "0x73D",
-	"requirements": []
-	}
-	{
 	"tag": "TRAINER_SWIMMER♀_CLAIRE",
 	"location": "LOCATION_ROUTE220",
 	"trigger_flag": "0x73E",
 	"requirements": ["HM_SURF"]
-	}
-	{
-	"tag": "TRAINER_",
-	"location": "LOCATION_",
-	"trigger_flag": "0x73F",
-	"requirements": []
 	}
 	{
 	"tag": "TRAINER_YOUNGSTER_WAYNE",
@@ -2987,27 +2183,15 @@
 	"requirements": []
 	}
 	{
-	"tag": "TRAINER_",
-	"location": "LOCATION_",
+	"tag": "TRAINER_VETERAN_TERRELL",
+	"location": "LOCATION_VICTORY_ROAD_1F",
 	"trigger_flag": "0x743",
 	"requirements": []
 	}
 	{
-	"tag": "TRAINER_",
-	"location": "LOCATION_",
+	"tag": "TRAINER_VETERAN_BRENDAN",
+	"location": "LOCATION_VICTORY_ROAD_1F",
 	"trigger_flag": "0x744",
-	"requirements": []
-	}
-	{
-	"tag": "TRAINER_",
-	"location": "LOCATION_",
-	"trigger_flag": "0x745",
-	"requirements": []
-	}
-	{
-	"tag": "TRAINER_",
-	"location": "LOCATION_",
-	"trigger_flag": "0x746",
 	"requirements": []
 	}
 	{
@@ -3056,12 +2240,6 @@
 	"tag": "TRAINER_GALACTIC_GRUNT",
 	"location": "LOCATION_TEAM_GALACTIC_HQ",
 	"trigger_flag": "0x74E",
-	"requirements": []
-	}
-	{
-	"tag": "TRAINER_",
-	"location": "LOCATION_",
-	"trigger_flag": "0x74F",
 	"requirements": []
 	}
 	{
@@ -3119,8 +2297,8 @@
 	"requirements": []
 	}
 	{
-	"tag": "TRAINER_",
-	"location": "LOCATION_",
+	"tag": "TRAINER_GALACTIC_GRUNT",
+	"location": "LOCATION_SPEAR_PILLAR",
 	"trigger_flag": "0x759",
 	"requirements": []
 	}
@@ -3155,8 +2333,8 @@
 	"requirements": []
 	}
 	{
-	"tag": "TRAINER_",
-	"location": "LOCATION_",
+	"tag": "TRAINER_GALACTIC_GRUNT",
+	"location": "LOCATION_SPEAR_PILLAR",
 	"trigger_flag": "0x75F",
 	"requirements": []
 	}
@@ -3317,441 +2495,315 @@
 	"requirements": []
 	}
 	{
-	"tag": "TRAINER_",
-	"location": "LOCATION_",
+	"tag": "TRAINER_BIRD_KEEPER_AUDREY",
+	"location": "LOCATION_ROUTE225",
 	"trigger_flag": "0x77A",
 	"requirements": []
 	}
 	{
-	"tag": "TRAINER_",
-	"location": "LOCATION_",
+	"tag": "TRAINER_BIRD_KEEPER_GENEVA",
+	"location": "LOCATION_ROUTE226",
 	"trigger_flag": "0x77B",
 	"requirements": []
 	}
 	{
-	"tag": "TRAINER_",
-	"location": "LOCATION_",
+	"tag": "TRAINER_BIRD_KEEPER_KRYSTAL",
+	"location": "LOCATION_STARK_MOUNTAIN",
 	"trigger_flag": "0x77C",
 	"requirements": []
 	}
 	{
-	"tag": "TRAINER_",
-	"location": "LOCATION_",
+	"tag": "TRAINER_DRAGON_TAMER_GEOFFREY",
+	"location": "LOCATION_ROUTE225",
 	"trigger_flag": "0x77D",
 	"requirements": []
 	}
 	{
-	"tag": "TRAINER_",
-	"location": "LOCATION_",
+	"tag": "TRAINER_DRAGON_TAMER_DARIEN",
+	"location": "LOCATION_STARK_MOUNTAIN_EXTERIOR",
 	"trigger_flag": "0x77E",
 	"requirements": []
 	}
 	{
-	"tag": "TRAINER_",
-	"location": "LOCATION_",
+	"tag": "TRAINER_DRAGON_TAMER_KEEGAN",
+	"location": "LOCATION_ROUTE228",
 	"trigger_flag": "0x77F",
 	"requirements": []
 	}
 	{
-	"tag": "TRAINER_",
-	"location": "LOCATION_",
+	"tag": "TRAINER_DRAGON_TAMER_STANLEY",
+	"location": "LOCATION_ROUTE226",
 	"trigger_flag": "0x780",
 	"requirements": []
 	}
 	{
-	"tag": "TRAINER_",
-	"location": "LOCATION_",
+	"tag": "TRAINER_DRAGON_TAMER_DRAKE",
+	"location": "LOCATION_STARK_MOUNTAIN",
 	"trigger_flag": "0x781",
 	"requirements": []
 	}
 	{
-	"tag": "TRAINER_",
-	"location": "LOCATION_",
+	"tag": "TRAINER_DRAGON_TAMER_KENNY",
+	"location": "LOCATION_STARK_MOUNTAIN",
 	"trigger_flag": "0x782",
 	"requirements": []
 	}
 	{
-	"tag": "TRAINER_",
-	"location": "LOCATION_",
+	"tag": "TRAINER_ACE_TRAINER_RODOLFO",
+	"location": "LOCATION_ROUTE225",
 	"trigger_flag": "0x783",
 	"requirements": []
 	}
 	{
-	"tag": "TRAINER_",
-	"location": "LOCATION_",
+	"tag": "TRAINER_ACE_TRAINER_SAUL",
+	"location": "LOCATION_ROUTE227",
 	"trigger_flag": "0x784",
 	"requirements": []
 	}
 	{
-	"tag": "TRAINER_",
-	"location": "LOCATION_",
+	"tag": "TRAINER_ACE_TRAINER_JOSE",
+	"location": "LOCATION_ROUTE228",
 	"trigger_flag": "0x785",
 	"requirements": []
 	}
 	{
-	"tag": "TRAINER_",
-	"location": "LOCATION_",
+	"tag": "TRAINER_ACE_TRAINER_FELIX",
+	"location": "LOCATION_ROUTE229",
 	"trigger_flag": "0x786",
 	"requirements": []
 	}
 	{
-	"tag": "TRAINER_",
-	"location": "LOCATION_",
+	"tag": "TRAINER_ACE_TRAINER_QUINN",
+	"location": "LOCATION_ROUTE225",
 	"trigger_flag": "0x787",
 	"requirements": []
 	}
 	{
-	"tag": "TRAINER_",
-	"location": "LOCATION_",
+	"tag": "TRAINER_ACE_TRAINER_GRAHAM",
+	"location": "LOCATION_ROUTE226",
 	"trigger_flag": "0x788",
 	"requirements": []
 	}
 	{
-	"tag": "TRAINER_",
-	"location": "LOCATION_",
+	"tag": "TRAINER_ACE_TRAINER_KEENAN",
+	"location": "LOCATION_STARK_MOUNTAIN",
 	"trigger_flag": "0x789",
 	"requirements": []
 	}
 	{
-	"tag": "TRAINER_",
-	"location": "LOCATION_",
+	"tag": "TRAINER_ACE_TRAINER_STEFAN",
+	"location": "LOCATION_STARK_MOUNTAIN",
 	"trigger_flag": "0x78A",
 	"requirements": []
 	}
 	{
-	"tag": "TRAINER_",
-	"location": "LOCATION_",
+	"tag": "TRAINER_ACE_TRAINER_SKYLAR",
+	"location": "LOCATION_STARK_MOUNTAIN",
 	"trigger_flag": "0x78B",
 	"requirements": []
 	}
 	{
-	"tag": "TRAINER_",
-	"location": "LOCATION_",
+	"tag": "TRAINER_ACE_TRAINER_ABEL",
+	"location": "LOCATION_STARK_MOUNTAIN",
 	"trigger_flag": "0x78C",
 	"requirements": []
 	}
 	{
-	"tag": "TRAINER_",
-	"location": "LOCATION_",
+	"tag": "TRAINER_ACE_TRAINER_DEANNA",
+	"location": "LOCATION_ROUTE225",
 	"trigger_flag": "0x78D",
 	"requirements": []
 	}
 	{
-	"tag": "TRAINER_",
-	"location": "LOCATION_",
+	"tag": "TRAINER_ACE_TRAINER_MOIRA",
+	"location": "LOCATION_ROUTE228",
 	"trigger_flag": "0x78E",
 	"requirements": []
 	}
 	{
-	"tag": "TRAINER_",
-	"location": "LOCATION_",
+	"tag": "TRAINER_ACE_TRAINER_DANA",
+	"location": "LOCATION_ROUTE229",
 	"trigger_flag": "0x78F",
 	"requirements": []
 	}
 	{
-	"tag": "TRAINER_",
-	"location": "LOCATION_",
+	"tag": "TRAINER_ACE_TRAINER_MIKAYLA",
+	"location": "LOCATION_ROUTE227",
 	"trigger_flag": "0x790",
 	"requirements": []
 	}
 	{
-	"tag": "TRAINER_",
-	"location": "LOCATION_",
+	"tag": "TRAINER_ACE_TRAINER_MEAGAN",
+	"location": "LOCATION_ROUTE228",
 	"trigger_flag": "0x791",
 	"requirements": []
 	}
 	{
-	"tag": "TRAINER_",
-	"location": "LOCATION_",
+	"tag": "TRAINER_ACE_TRAINER_SANDRA",
+	"location": "LOCATION_ROUTE229",
 	"trigger_flag": "0x792",
 	"requirements": []
 	}
 	{
-	"tag": "TRAINER_",
-	"location": "LOCATION_",
+	"tag": "TRAINER_ACE_TRAINER_KASSANDRA",
+	"location": "LOCATION_STARK_MOUNTAIN",
 	"trigger_flag": "0x793",
 	"requirements": []
 	}
 	{
-	"tag": "TRAINER_",
-	"location": "LOCATION_",
+	"tag": "TRAINER_ACE_TRAINER_JASMIN",
+	"location": "LOCATION_STARK_MOUNTAIN",
 	"trigger_flag": "0x794",
 	"requirements": []
 	}
 	{
-	"tag": "TRAINER_",
-	"location": "LOCATION_",
+	"tag": "TRAINER_ACE_TRAINER_NATASHA",
+	"location": "LOCATION_STARK_MOUNTAIN",
 	"trigger_flag": "0x795",
 	"requirements": []
 	}
 	{
-	"tag": "TRAINER_",
-	"location": "LOCATION_",
+	"tag": "TRAINER_ACE_TRAINER_MONIQUE",
+	"location": "LOCATION_STARK_MOUNTAIN",
 	"trigger_flag": "0x796",
 	"requirements": []
 	}
 	{
-	"tag": "TRAINER_",
-	"location": "LOCATION_",
+	"tag": "TRAINER_PSYCHIC_CORBIN",
+	"location": "LOCATION_ROUTE228",
 	"trigger_flag": "0x797",
 	"requirements": []
 	}
 	{
-	"tag": "TRAINER_",
-	"location": "LOCATION_",
+	"tag": "TRAINER_PSYCHIC_STERLING",
+	"location": "LOCATION_STARK_MOUNTAIN",
 	"trigger_flag": "0x798",
 	"requirements": []
 	}
 	{
-	"tag": "TRAINER_",
-	"location": "LOCATION_",
+	"tag": "TRAINER_PSYCHIC_DAISY",
+	"location": "LOCATION_ROUTE225",
 	"trigger_flag": "0x799",
 	"requirements": []
 	}
 	{
-	"tag": "TRAINER_",
-	"location": "LOCATION_",
+	"tag": "TRAINER_PSYCHIC_CHELSEY",
+	"location": "LOCATION_STARK_MOUNTAIN",
 	"trigger_flag": "0x79A",
 	"requirements": []
 	}
 	{
-	"tag": "TRAINER_",
-	"location": "LOCATION_",
+	"tag": "TRAINER_BLACK_BELT_DAVON",
+	"location": "LOCATION_ROUTE228",
 	"trigger_flag": "0x79B",
 	"requirements": []
 	}
 	{
-	"tag": "TRAINER_",
-	"location": "LOCATION_",
+	"tag": "TRAINER_BLACK_BELT_GRIFFIN",
+	"location": "LOCATION_ROUTE227",
 	"trigger_flag": "0x79C",
 	"requirements": []
 	}
 	{
-	"tag": "TRAINER_",
-	"location": "LOCATION_",
+	"tag": "TRAINER_BLACK_BELT_RAY",
+	"location": "LOCATION_STARK_MOUNTAIN",
 	"trigger_flag": "0x79D",
 	"requirements": []
 	}
 	{
-	"tag": "TRAINER_",
-	"location": "LOCATION_",
+	"tag": "TRAINER_BLACK_BELT_JARRETT",
+	"location": "LOCATION_STARK_MOUNTAIN",
 	"trigger_flag": "0x79E",
 	"requirements": []
 	}
 	{
-	"tag": "TRAINER_",
-	"location": "LOCATION_",
+	"tag": "TRAINER_POKEMON_RANGER_KYLER",
+	"location": "LOCATION_ROUTE228",
 	"trigger_flag": "0x79F",
 	"requirements": []
 	}
 	{
-	"tag": "TRAINER_",
-	"location": "LOCATION_",
+	"tag": "TRAINER_POKEMON_RANGER_DESHAWN",
+	"location": "LOCATION_ROUTE229",
 	"trigger_flag": "0x7A0",
 	"requirements": []
 	}
 	{
-	"tag": "TRAINER_",
-	"location": "LOCATION_",
+	"tag": "TRAINER_POKEMON_RANGER_DWAYNE",
+	"location": "LOCATION_ROUTE225",
 	"trigger_flag": "0x7A1",
 	"requirements": []
 	}
 	{
-	"tag": "TRAINER_",
-	"location": "LOCATION_",
+	"tag": "TRAINER_POKEMON_RANGER_ASHLEE",
+	"location": "LOCATION_ROUTE225",
 	"trigger_flag": "0x7A2",
 	"requirements": []
 	}
 	{
-	"tag": "TRAINER_",
-	"location": "LOCATION_",
+	"tag": "TRAINER_POKEMON_RANGER_FELICIA",
+	"location": "LOCATION_ROUTE227",
 	"trigger_flag": "0x7A3",
 	"requirements": []
 	}
 	{
-	"tag": "TRAINER_",
-	"location": "LOCATION_",
+	"tag": "TRAINER_POKEMON_RANGER_KRISTA",
+	"location": "LOCATION_ROUTE228",
 	"trigger_flag": "0x7A4",
 	"requirements": []
 	}
 	{
-	"tag": "TRAINER_",
-	"location": "LOCATION_",
+	"tag": "TRAINER_SWIMMER♂_GLENN",
+	"location": "LOCATION_ROUTE230",
 	"trigger_flag": "0x7A5",
-	"requirements": []
+	"requirements": ["HM_SURF"]
 	}
 	{
-	"tag": "TRAINER_",
-	"location": "LOCATION_",
+	"tag": "TRAINER_SWIMMER♂_KURT",
+	"location": "LOCATION_ROUTE230",
 	"trigger_flag": "0x7A6",
-	"requirements": []
+	"requirements": ["HM_SURF"]
 	}
 	{
-	"tag": "TRAINER_",
-	"location": "LOCATION_",
+	"tag": "TRAINER_SWIMMER♂_SAM",
+	"location": "LOCATION_ROUTE230",
 	"trigger_flag": "0x7A7",
-	"requirements": []
+	"requirements": ["HM_SURF"]
 	}
 	{
-	"tag": "TRAINER_",
-	"location": "LOCATION_",
+	"tag": "TRAINER_SWIMMER♂_WADE",
+	"location": "LOCATION_ROUTE226",
 	"trigger_flag": "0x7A8",
-	"requirements": []
+	"requirements": ["HM_SURF"]
 	}
 	{
-	"tag": "TRAINER_",
-	"location": "LOCATION_",
+	"tag": "TRAINER_SWIMMER♀_JOANNA",
+	"location": "LOCATION_ROUTE230",
 	"trigger_flag": "0x7A9",
-	"requirements": []
+	"requirements": ["HM_SURF"]
 	}
 	{
-	"tag": "TRAINER_",
-	"location": "LOCATION_",
+	"tag": "TRAINER_SWIMMER♀_SOPHIA",
+	"location": "LOCATION_ROUTE230",
 	"trigger_flag": "0x7AA",
-	"requirements": []
+	"requirements": ["HM_SURF"]
 	}
 	{
-	"tag": "TRAINER_",
-	"location": "LOCATION_",
+	"tag": "TRAINER_SWIMMER♀_MALLORY",
+	"location": "LOCATION_ROUTE230",
 	"trigger_flag": "0x7AB",
-	"requirements": []
+	"requirements": ["HM_SURF"]
 	}
 	{
-	"tag": "TRAINER_",
-	"location": "LOCATION_",
+	"tag": "TRAINER_SWIMMER♀_LYDIA",
+	"location": "LOCATION_ROUTE226",
 	"trigger_flag": "0x7AC",
-	"requirements": []
+	"requirements": ["HM_SURF"]
 	}
 	{
-	"tag": "TRAINER_",
-	"location": "LOCATION_",
-	"trigger_flag": "0x7AD",
-	"requirements": []
-	}
-	{
-	"tag": "TRAINER_",
-	"location": "LOCATION_",
+	"tag": "TRAINER_VETERAN_HARLAN",
+	"location": "LOCATION_STARK_MOUNTAIN",
 	"trigger_flag": "0x7AE",
-	"requirements": []
-	}
-	{
-	"tag": "TRAINER_RIVAL_BARRY",
-	"location": "LOCATION_SPEAR_PILLAR",
-	"trigger_flag": "0x7AF",
-	"requirements": []
-	}
-	{
-	"tag": "TRAINER_CHERYL",
-	"location": "LOCATION_ETERNA_FOREST",
-	"trigger_flag": "0x7B0",
-	"requirements": []
-	}
-	{
-	"tag": "TRAINER_RILEY",
-	"location": "LOCATION_IRON_ISLAND_B2F",
-	"trigger_flag": "0x7B1",
-	"requirements": []
-	}
-	{
-	"tag": "TRAINER_",
-	"location": "LOCATION_",
-	"trigger_flag": "0x7B2",
-	"requirements": []
-	}
-	{
-	"tag": "TRAINER_",
-	"location": "LOCATION_",
-	"trigger_flag": "0x7B3",
-	"requirements": []
-	}
-	{
-	"tag": "TRAINER_MIRA",
-	"location": "LOCATION_WAYWARD_CAVE",
-	"trigger_flag": "0x7B4",
-	"requirements": []
-	}
-	{
-	"tag": "TRAINER_",
-	"location": "LOCATION_",
-	"trigger_flag": "0x7B5",
-	"requirements": []
-	}
-	{
-	"tag": "TRAINER_",
-	"location": "LOCATION_",
-	"trigger_flag": "0x7B6",
-	"requirements": []
-	}
-	{
-	"tag": "TRAINER_",
-	"location": "LOCATION_",
-	"trigger_flag": "0x7B7",
-	"requirements": []
-	}
-	{
-	"tag": "TRAINER_",
-	"location": "LOCATION_",
-	"trigger_flag": "0x7B8",
-	"requirements": []
-	}
-	{
-	"tag": "TRAINER_",
-	"location": "LOCATION_",
-	"trigger_flag": "0x7B9",
-	"requirements": []
-	}
-	{
-	"tag": "TRAINER_",
-	"location": "LOCATION_",
-	"trigger_flag": "0x7BA",
-	"requirements": []
-	}
-	{
-	"tag": "TRAINER_RIVAL_BARRY",
-	"location": "LOCATION_SPEAR_PILLAR",
-	"trigger_flag": "0x7BB",
-	"requirements": []
-	}
-	{
-	"tag": "TRAINER_RIVAL_BARRY",
-	"location": "LOCATION_SPEAR_PILLAR",
-	"trigger_flag": "0x7BC",
-	"requirements": []
-	}
-	{
-	"tag": "TRAINER_",
-	"location": "LOCATION_",
-	"trigger_flag": "0x7BD",
-	"requirements": []
-	}
-	{
-	"tag": "TRAINER_",
-	"location": "LOCATION_",
-	"trigger_flag": "0x7BE",
-	"requirements": []
-	}
-	{
-	"tag": "TRAINER_",
-	"location": "LOCATION_",
-	"trigger_flag": "0x7BF",
-	"requirements": []
-	}
-	{
-	"tag": "TRAINER_",
-	"location": "LOCATION_",
-	"trigger_flag": "0x7C0",
-	"requirements": []
-	}
-	{
-	"tag": "TRAINER_",
-	"location": "LOCATION_",
-	"trigger_flag": "0x7C1",
-	"requirements": []
-	}
-	{
-	"tag": "TRAINER_",
-	"location": "LOCATION_",
-	"trigger_flag": "0x7C2",
 	"requirements": []
 	}
 	{
@@ -3863,362 +2915,806 @@
 	"requirements": []
 	}
 	{
-	"tag": "TRAINER_REMATCH_FIGHT",
-	"location": "LOCATION_",
+	"tag": "TRAINER_CAMPER_ZACKARY_(REMATCH_1)",
+	"location": "LOCATION_ROUTE205",
 	"trigger_flag": "0x7D5",
 	"requirements": []
 	}
 	{
-	"tag": "TRAINER_REMATCH_FIGHT",
-	"location": "LOCATION_",
+	"tag": "TRAINER_CAMPER_ZACKARY_(REMATCH_2)",
+	"location": "LOCATION_ROUTE205",
 	"trigger_flag": "0x7D6",
 	"requirements": []
 	}
 	{
-	"tag": "TRAINER_REMATCH_FIGHT",
-	"location": "LOCATION_",
+	"tag": "TRAINER_CAMPER_ZACKARY_(REMATCH_3)",
+	"location": "LOCATION_ROUTE205",
 	"trigger_flag": "0x7D7",
 	"requirements": []
 	}
 	{
-	"tag": "TRAINER_REMATCH_FIGHT",
-	"location": "LOCATION_",
+	"tag": "TRAINER_ACE_TRAINER_DALTON_REMATCH",
+	"location": "LOCATION_ROUTE217",
 	"trigger_flag": "0x7D8",
 	"requirements": []
 	}
 	{
-	"tag": "TRAINER_REMATCH_FIGHT",
-	"location": "LOCATION_",
+	"tag": "TRAINER_ACE_TRAINER_OLIVIA_REMATCH",
+	"location": "LOCATION_ROUTE217",
 	"trigger_flag": "0x7D9",
 	"requirements": []
 	}
 	{
-	"tag": "TRAINER_REMATCH_FIGHT",
-	"location": "LOCATION_",
+	"tag": "TRAINER_COLLECTOR_IVAN_REMATCH",
+	"location": "LOCATION_ROUTE221",
 	"trigger_flag": "0x7DA",
-	"requirements": []
+	"requirements": ["HM_SURF"]
 	}
 	{
-	"tag": "TRAINER_",
-	"location": "LOCATION_",
-	"trigger_flag": "0x7DB",
-	"requirements": []
-	}
-	{
-	"tag": "TRAINER_",
-	"location": "LOCATION_",
-	"trigger_flag": "0x7DC",
-	"requirements": []
-	}
-	{
-	"tag": "TRAINER_REMATCH_FIGHT",
-	"location": "LOCATION_",
+	"tag": "TRAINER_CYCLIST_JOHN_(REMATCH_1)",
+	"location": "LOCATION_ROUTE206",
 	"trigger_flag": "0x7DD",
 	"requirements": []
 	}
 	{
-	"tag": "TRAINER_REMATCH_FIGHT",
-	"location": "LOCATION_",
+	"tag": "TRAINER_CYCLIST_JOHN_(REMATCH_2)",
+	"location": "LOCATION_ROUTE206",
 	"trigger_flag": "0x7DE",
 	"requirements": []
 	}
 	{
-	"tag": "TRAINER_REMATCH_FIGHT",
-	"location": "LOCATION_",
+	"tag": "TRAINER_CYCLIST_JOHN_(REMATCH_3)",
+	"location": "LOCATION_ROUTE206",
 	"trigger_flag": "0x7DF",
 	"requirements": []
 	}
 	{
-	"tag": "TRAINER_",
-	"location": "LOCATION_",
-	"trigger_flag": "0x85A",
+	"tag": "TRAINER_CYCLIST_KAYLA_(REMATCH_1)",
+	"location": "LOCATION_ROUTE206",
+	"trigger_flag": "0x7E0",
 	"requirements": []
 	}
 	{
-	"tag": "TRAINER_",
-	"location": "LOCATION_",
-	"trigger_flag": "0x85B",
+	"tag": "TRAINER_CYCLIST_KAYLA_(REMATCH_2)",
+	"location": "LOCATION_ROUTE206",
+	"trigger_flag": "0x7E1",
 	"requirements": []
 	}
 	{
-	"tag": "TRAINER_",
-	"location": "LOCATION_",
-	"trigger_flag": "0x85C",
+	"tag": "TRAINER_CYCLIST_KAYLA_(REMATCH_3)",
+	"location": "LOCATION_ROUTE206",
+	"trigger_flag": "0x7E2",
 	"requirements": []
 	}
 	{
-	"tag": "TRAINER_",
-	"location": "LOCATION_",
-	"trigger_flag": "0x85D",
+	"tag": "TRAINER_DRAGON_TAMER_PATRICK_(REMATCH_1)",
+	"location": "LOCATION_ROUTE210",
+	"trigger_flag": "0x7E3",
 	"requirements": []
 	}
 	{
-	"tag": "TRAINER_",
-	"location": "LOCATION_",
-	"trigger_flag": "0x85E",
+	"tag": "TRAINER_DRAGON_TAMER_PATRICK_(REMATCH_2)",
+	"location": "LOCATION_ROUTE210",
+	"trigger_flag": "0x7E4",
 	"requirements": []
 	}
 	{
-	"tag": "TRAINER_",
-	"location": "LOCATION_",
-	"trigger_flag": "0x85F",
+	"tag": "TRAINER_DRAGON_TAMER_HAYDEN_REMATCH",
+	"location": "LOCATION_ROUTE224",
+	"trigger_flag": "0x7E5",
 	"requirements": []
 	}
 	{
-	"tag": "TRAINER_",
-	"location": "LOCATION_",
-	"trigger_flag": "0x860",
+	"tag": "TRAINER_DRAGON_TAMER_GEOFFREY_REMATCH",
+	"location": "LOCATION_ROUTE225",
+	"trigger_flag": "0x7E6",
 	"requirements": []
 	}
 	{
-	"tag": "TRAINER_",
-	"location": "LOCATION_",
+	"tag": "TRAINER_ACE_TRAINER_JAKE_REMATCH",
+	"location": "LOCATION_ROUTE221",
+	"trigger_flag": "0x7E7",
+	"requirements": ["HM_SURF"]
+	}
+	{
+	"tag": "TRAINER_ACE_TRAINER_DENNIS_(REMATCH_1)",
+	"location": "LOCATION_ROUTE215",
+	"trigger_flag": "0x7E8",
+	"requirements": []
+	}
+	{
+	"tag": "TRAINER_ACE_TRAINER_DENNIS_(REMATCH_2)",
+	"location": "LOCATION_ROUTE215",
+	"trigger_flag": "0x7E9",
+	"requirements": []
+	}
+	{
+	"tag": "TRAINER_ACE_TRAINER_RODOLFO_REMATCH",
+	"location": "LOCATION_ROUTE225",
+	"trigger_flag": "0x7EA",
+	"requirements": []
+	}
+	{
+	"tag": "TRAINER_ACE_TRAINER_SAUL_REMATCH",
+	"location": "LOCATION_ROUTE227",
+	"trigger_flag": "0x7EB",
+	"requirements": []
+	}
+	{
+	"tag": "TRAINER_ACE_TRAINER_SHANNON_REMATCH",
+	"location": "LOCATION_ROUTE221",
+	"trigger_flag": "0x7EC",
+	"requirements": ["HM_SURF"]
+	}
+	{
+	"tag": "TRAINER_ACE_TRAINER_MAYA_(REMATCH_1)",
+	"location": "LOCATION_ROUTE215",
+	"trigger_flag": "0x7ED",
+	"requirements": []
+	}
+	{
+	"tag": "TRAINER_ACE_TRAINER_MAYA_(REMATCH_2)",
+	"location": "LOCATION_ROUTE215",
+	"trigger_flag": "0x7EE",
+	"requirements": []
+	}
+	{
+	"tag": "TRAINER_ACE_TRAINER_DEANNA_REMATCH",
+	"location": "LOCATION_ROUTE225",
+	"trigger_flag": "0x7EF",
+	"requirements": []
+	}
+	{
+	"tag": "TRAINER_ACE_TRAINER_MOIRA_REMATCH",
+	"location": "LOCATION_ROUTE228",
+	"trigger_flag": "0x7F0",
+	"requirements": []
+	}
+	{
+	"tag": "TRAINER_PSYCHIC_MITCHELL_(REMATCH_1)",
+	"location": "LOCATION_ROUTE214",
+	"trigger_flag": "0x7F1",
+	"requirements": []
+	}
+	{
+	"tag": "TRAINER_PSYCHIC_MITCHELL_(REMATCH_2)",
+	"location": "LOCATION_ROUTE214",
+	"trigger_flag": "0x7F2",
+	"requirements": []
+	}
+	{
+	"tag": "TRAINER_PSYCHIC_MAXWELL_REMATCH",
+	"location": "LOCATION_ROUTE224",
+	"trigger_flag": "0x7F3",
+	"requirements": []
+	}
+	{
+	"tag": "TRAINER_PSYCHIC_CORBIN_REMATCH",
+	"location": "LOCATION_ROUTE228",
+	"trigger_flag": "0x7F4",
+	"requirements": []
+	}
+	{
+	"tag": "TRAINER_PSYCHIC_ABIGAL_(REMATCH_1)",
+	"location": "LOCATION_ROUTE214",
+	"trigger_flag": "0x7F5",
+	"requirements": []
+	}
+	{
+	"tag": "TRAINER_PSYCHIC_ABIGAL_(REMATCH_2)",
+	"location": "LOCATION_ROUTE214",
+	"trigger_flag": "0x7F6",
+	"requirements": []
+	}
+	{
+	"tag": "TRAINER_PSYCHIC_BRITTNEY_REMATCH",
+	"location": "LOCATION_ROUTE224",
+	"trigger_flag": "0x7F7",
+	"requirements": []
+	}
+	{
+	"tag": "TRAINER_PSYCHIC_DAISY_REMATCH",
+	"location": "LOCATION_ROUTE225",
+	"trigger_flag": "0x7F8",
+	"requirements": []
+	}
+	{
+	"tag": "TRAINER_RANCHER_MARCO_(REMATCH_1)",
+	"location": "LOCATION_ROUTE210",
+	"trigger_flag": "0x7F9",
+	"requirements": []
+	}
+	{
+	"tag": "TRAINER_RANCHER_MARCO_(REMATCH_2)",
+	"location": "LOCATION_ROUTE214",
+	"trigger_flag": "0x7FA",
+	"requirements": []
+	}
+	{
+	"tag": "TRAINER_FISHERMAN_JOSEPH_(REMATCH_1)",
+	"location": "LOCATION_ROUTE205",
+	"trigger_flag": "0x7FB",
+	"requirements": []
+	}
+	{
+	"tag": "TRAINER_FISHERMAN_JOSEPH_(REMATCH_2)",
+	"location": "LOCATION_ROUTE205",
+	"trigger_flag": "0x7FC",
+	"requirements": []
+	}
+	{
+	"tag": "TRAINER_FISHERMAN_MIGUEL_REMATCH",
+	"location": "LOCATION_ROUTE218",
+	"trigger_flag": "0x7FD",
+	"requirements": []
+	}
+	{
+	"tag": "TRAINER_FISHERMAN_ALEC_REMATCH",
+	"location": "LOCATION_ROUTE222",
+	"trigger_flag": "0x7FE",
+	"requirements": []
+	}
+	{
+	"tag": "TRAINER_TWINS_TERI_&_TIA_(REMATCH_1)",
+	"location": "LOCATION_ROUTE210",
+	"trigger_flag": "0x7FF",
+	"requirements": []
+	}
+	{
+	"tag": "TRAINER_TWINS_TERI_&_TIA_(REMATCH_2)",
+	"location": "LOCATION_ROUTE210",
+	"trigger_flag": "0x800",
+	"requirements": []
+	}
+	{
+	"tag": "TRAINER_PI_CARLOS_(REMATCH_1)",
+	"location": "LOCATION_ROUTE214",
+	"trigger_flag": "0x801",
+	"requirements": []
+	}
+	{
+	"tag": "TRAINER_PI_CARLOS_(REMATCH_2)",
+	"location": "LOCATION_ROUTE214",
+	"trigger_flag": "0x802",
+	"requirements": []
+	}
+	{
+	"tag": "TRAINER_GENTLEMAN_JEREMY_(REMATCH_1)",
+	"location": "LOCATION_ROUTE212",
+	"trigger_flag": "0x803",
+	"requirements": []
+	}
+	{
+	"tag": "TRAINER_GENTLEMAN_JEREMY_(REMATCH_2)",
+	"location": "LOCATION_ROUTE212",
+	"trigger_flag": "0x804",
+	"requirements": []
+	}
+	{
+	"tag": "TRAINER_GENTLEMAN_JEREMY_(REMATCH_3)",
+	"location": "LOCATION_ROUTE212",
+	"trigger_flag": "0x805",
+	"requirements": []
+	}
+	{
+	"tag": "TRAINER_GUITARIST_TONY_REMATCH",
+	"location": "LOCATION_ROUTE218",
+	"trigger_flag": "0x806",
+	"requirements": []
+	}
+	{
+	"tag": "TRAINER_RUIN_MANIAC_HARRY_(REMATCH_1)",
+	"location": "LOCATION_ROUTE211",
+	"trigger_flag": "0x807",
+	"requirements": []
+	}
+	{
+	"tag": "TRAINER_RUIN_MANIAC_HARRY_(REMATCH_2)",
+	"location": "LOCATION_ROUTE211",
+	"trigger_flag": "0x808",
+	"requirements": []
+	}
+	{
+	"tag": "TRAINER_JOGGER_CRAIG_(REMATCH_1)",
+	"location": "LOCATION_ROUTE215",
+	"trigger_flag": "0x809",
+	"requirements": []
+	}
+	{
+	"tag": "TRAINER_JOGGER_CRAIG_(REMATCH_2)",
+	"location": "LOCATION_ROUTE215",
+	"trigger_flag": "0x80A",
+	"requirements": []
+	}
+	{
+	"tag": "TRAINER_BLACK_BELT_PHILIP_REMATCH",
+	"location": "LOCATION_ROUTE216",
+	"trigger_flag": "0x80B",
+	"requirements": ["HM_ROCK_CLIMB"]
+	}
+	{
+	"tag": "TRAINER_BLACK_BELT_DAVON_REMATCH",
+	"location": "LOCATION_ROUTE228",
+	"trigger_flag": "0x80C",
+	"requirements": []
+	}
+	{
+	"tag": "TRAINER_SOCIALITE_REINA_(REMATCH_1)",
+	"location": "LOCATION_ROUTE212",
+	"trigger_flag": "0x80D",
+	"requirements": []
+	}
+	{
+	"tag": "TRAINER_SOCIALITE_REINA_(REMATCH_2)",
+	"location": "LOCATION_ROUTE212",
+	"trigger_flag": "0x80E",
+	"requirements": []
+	}
+	{
+	"tag": "TRAINER_LASS_SAMANTHA_(REMATCH_1)",
+	"location": "LOCATION_ROUTE204",
+	"trigger_flag": "0x80F",
+	"requirements": []
+	}
+	{
+	"tag": "TRAINER_LASS_SAMANTHA_(REMATCH_2)",
+	"location": "LOCATION_ROUTE204",
+	"trigger_flag": "0x810",
+	"requirements": []
+	}
+	{
+	"tag": "TRAINER_LASS_SAMANTHA_(REMATCH_3)",
+	"location": "LOCATION_ROUTE204",
+	"trigger_flag": "0x811",
+	"requirements": []
+	}
+	{
+	"tag": "TRAINER_LASS_MADELINE_(REMATCH_1)",
+	"location": "LOCATION_ROUTE203",
+	"trigger_flag": "0x812",
+	"requirements": []
+	}
+	{
+	"tag": "TRAINER_LASS_MADELINE_(REMATCH_2)",
+	"location": "LOCATION_ROUTE203",
+	"trigger_flag": "0x813",
+	"requirements": []
+	}
+	{
+	"tag": "TRAINER_LASS_MADELINE_(REMATCH_3)",
+	"location": "LOCATION_ROUTE203",
+	"trigger_flag": "0x814",
+	"requirements": []
+	}
+	{
+	"tag": "TRAINER_HIKER_THEODORE_(REMATCH_1)",
+	"location": "LOCATION_ROUTE206",
+	"trigger_flag": "0x815",
+	"requirements": []
+	}
+	{
+	"tag": "TRAINER_HIKER_THEODORE_(REMATCH_2)",
+	"location": "LOCATION_ROUTE206",
+	"trigger_flag": "0x816",
+	"requirements": []
+	}
+	{
+	"tag": "TRAINER_HIKER_THEODORE_(REMATCH_3)",
+	"location": "LOCATION_ROUTE206",
+	"trigger_flag": "0x817",
+	"requirements": []
+	}
+	{
+	"tag": "TRAINER_BUG_CATCHER_BRANDON_(REMATCH_1)",
+	"location": "LOCATION_ROUTE204",
+	"trigger_flag": "0x818",
+	"requirements": []
+	}
+	{
+	"tag": "TRAINER_BUG_CATCHER_BRANDON_(REMATCH_2)",
+	"location": "LOCATION_ROUTE204",
+	"trigger_flag": "0x819",
+	"requirements": []
+	}
+	{
+	"tag": "TRAINER_BUG_CATCHER_BRANDON_(REMATCH_3)",
+	"location": "LOCATION_ROUTE204",
+	"trigger_flag": "0x81A",
+	"requirements": []
+	}
+	{
+	"tag": "TRAINER_PARASOL_LADY_ALEXA_(REMATCH_1)",
+	"location": "LOCATION_ROUTE212",
+	"trigger_flag": "0x81B",
+	"requirements": []
+	}
+	{
+	"tag": "TRAINER_PARASOL_LADY_ALEXA_(REMATCH_2)",
+	"location": "LOCATION_ROUTE212",
+	"trigger_flag": "0x81C",
+	"requirements": []
+	}
+	{
+	"tag": "TRAINER_PARASOL_LADY_ALEXA_(REMATCH_3)",
+	"location": "LOCATION_ROUTE212",
+	"trigger_flag": "0x81D",
+	"requirements": []
+	}
+	{
+	"tag": "TRAINER_PICNICKER_KARINA_(REMATCH_1)",
+	"location": "LOCATION_ROUTE205",
+	"trigger_flag": "0x81E",
+	"requirements": []
+	}
+	{
+	"tag": "TRAINER_PICNICKER_KARINA_(REMATCH_2)",
+	"location": "LOCATION_ROUTE205",
+	"trigger_flag": "0x81F",
+	"requirements": []
+	}
+	{
+	"tag": "TRAINER_PICNICKER_KARINA_(REMATCH_3)",
+	"location": "LOCATION_ROUTE205",
+	"trigger_flag": "0x820",
+	"requirements": []
+	}
+	{
+	"tag": "TRAINER_POKÉ_KID_DANIELLE_(REMATCH_1)",
+	"location": "LOCATION_ROUTE209",
+	"trigger_flag": "0x821",
+	"requirements": []
+	}
+	{
+	"tag": "TRAINER_POKÉ_KID_DANIELLE_(REMATCH_2)",
+	"location": "LOCATION_ROUTE209",
+	"trigger_flag": "0x822",
+	"requirements": []
+	}
+	{
+	"tag": "TRAINER_POKÉ_KID_DANIELLE_(REMATCH_3)",
+	"location": "LOCATION_ROUTE209",
+	"trigger_flag": "0x823",
+	"requirements": []
+	}
+	{
+	"tag": "TRAINER_POLICEMAN_DANNY_(REMATCH_1)",
+	"location": "LOCATION_ROUTE212",
+	"trigger_flag": "0x824",
+	"requirements": []
+	}
+	{
+	"tag": "TRAINER_POLICEMAN_DANNY_(REMATCH_2)",
+	"location": "LOCATION_ROUTE212",
+	"trigger_flag": "0x825",
+	"requirements": []
+	}
+	{
+	"tag": "TRAINER_POLICEMAN_DANNY_(REMATCH_3)",
+	"location": "LOCATION_ROUTE212",
+	"trigger_flag": "0x826",
+	"requirements": []
+	}
+	{
+	"tag": "TRAINER_RICH_BOY_TREY_(REMATCH_1)",
+	"location": "LOCATION_ROUTE222",
+	"trigger_flag": "0x827",
+	"requirements": []
+	}
+	{
+	"tag": "TRAINER_RICH_BOY_TREY_(REMATCH_2)",
+	"location": "LOCATION_ROUTE222",
+	"trigger_flag": "0x828",
+	"requirements": []
+	}
+	{
+	"tag": "TRAINER_LADY_MELISSA_(REMATCH_1)",
+	"location": "LOCATION_ROUTE212",
+	"trigger_flag": "0x829",
+	"requirements": []
+	}
+	{
+	"tag": "TRAINER_LADY_MELISSA_(REMATCH_2)",
+	"location": "LOCATION_ROUTE212",
+	"trigger_flag": "0x82A",
+	"requirements": []
+	}
+	{
+	"tag": "TRAINER_LADY_MELISSA_(REMATCH_3)",
+	"location": "LOCATION_ROUTE212",
+	"trigger_flag": "0x82B",
+	"requirements": []
+	}
+	{
+	"tag": "TRAINER_PKMN_RANGER_TAYLOR_(REMATCH_1)",
+	"location": "LOCATION_ROUTE212",
+	"trigger_flag": "0x82C",
+	"requirements": []
+	}
+	{
+	"tag": "TRAINER_PKMN_RANGER_TAYLOR_(REMATCH_2)",
+	"location": "LOCATION_ROUTE212",
+	"trigger_flag": "0x82D",
+	"requirements": []
+	}
+	{
+	"tag": "TRAINER_PKMN_RANGER_TAYLOR_(REMATCH_3)",
+	"location": "LOCATION_ROUTE212",
+	"trigger_flag": "0x82E",
+	"requirements": []
+	}
+	{
+	"tag": "TRAINER_POKEMON_RANGER_KYLER_REMATCH",
+	"location": "LOCATION_ROUTE228",
+	"trigger_flag": "0x82F",
+	"requirements": []
+	}
+	{
+	"tag": "TRAINER_PKMN_RANGER_ALLISON_(REMATCH_1)",
+	"location": "LOCATION_ROUTE212",
+	"trigger_flag": "0x830",
+	"requirements": []
+	}
+	{
+	"tag": "TRAINER_PKMN_RANGER_ALLISON_(REMATCH_2)",
+	"location": "LOCATION_ROUTE212",
+	"trigger_flag": "0x831",
+	"requirements": []
+	}
+	{
+	"tag": "TRAINER_PKMN_RANGER_ALLISON_(REMATCH_3)",
+	"location": "LOCATION_ROUTE212",
+	"trigger_flag": "0x832",
+	"requirements": []
+	}
+	{
+	"tag": "TRAINER_POKEMON_RANGER_ASHLEE_REMATCH",
+	"location": "LOCATION_ROUTE225",
+	"trigger_flag": "0x833",
+	"requirements": []
+	}
+	{
+	"tag": "TRAINER_SAILOR_MARC_(REMATCH_1)",
+	"location": "LOCATION_ROUTE222",
+	"trigger_flag": "0x834",
+	"requirements": []
+	}
+	{
+	"tag": "TRAINER_SAILOR_MARC_(REMATCH_2)",
+	"location": "LOCATION_ROUTE222",
+	"trigger_flag": "0x835",
+	"requirements": []
+	}
+	{
+	"tag": "TRAINER_SAILOR_ZACHARIAH_REMATCH",
+	"location": "LOCATION_ROUTE223",
+	"trigger_flag": "0x836",
+	"requirements": []
+	}
+	{
+	"tag": "TRAINER_SCIENTIST_SHAUN_(REMATCH_1)",
+	"location": "LOCATION_ROUTE212",
+	"trigger_flag": "0x837",
+	"requirements": []
+	}
+	{
+	"tag": "TRAINER_SCIENTIST_SHAUN_(REMATCH_2)",
+	"location": "LOCATION_ROUTE212",
+	"trigger_flag": "0x838",
+	"requirements": []
+	}
+	{
+	"tag": "TRAINER_SCIENTIST_SHAUN_(REMATCH_3)",
+	"location": "LOCATION_ROUTE212",
+	"trigger_flag": "0x839",
+	"requirements": []
+	}
+	{
+	"tag": "TRAINER_NINJA_BOY_ZACH_(REMATCH_1)",
+	"location": "LOCATION_ROUTE211",
+	"trigger_flag": "0x83A",
+	"requirements": []
+	}
+	{
+	"tag": "TRAINER_NINJA_BOY_ZACH_(REMATCH_2)",
+	"location": "LOCATION_ROUTE211",
+	"trigger_flag": "0x83B",
+	"requirements": []
+	}
+	{
+	"tag": "TRAINER_NINJA_BOY_ZACH_(REMATCH_3)",
+	"location": "LOCATION_ROUTE211",
+	"trigger_flag": "0x83C",
+	"requirements": []
+	}
+	{
+	"tag": "TRAINER_BEAUTY_CYNDY_(REMATCH_1)",
+	"location": "LOCATION_ROUTE213",
+	"trigger_flag": "0x83D",
+	"requirements": []
+	}
+	{
+	"tag": "TRAINER_BEAUTY_CYNDY_(REMATCH_2)",
+	"location": "LOCATION_ROUTE213",
+	"trigger_flag": "0x83E",
+	"requirements": []
+	}
+	{
+	"tag": "TRAINER_SKIER_EDWARD_(REMATCH_1)",
+	"location": "LOCATION_ROUTE216",
+	"trigger_flag": "0x83F",
+	"requirements": []
+	}
+	{
+	"tag": "TRAINER_SKIER_EDWARD_(REMATCH_2)",
+	"location": "LOCATION_ROUTE216",
+	"trigger_flag": "0x840",
+	"requirements": []
+	}
+	{
+	"tag": "TRAINER_SKIER_BJORN_(REMATCH_1)",
+	"location": "LOCATION_ROUTE217",
+	"trigger_flag": "0x841",
+	"requirements": []
+	}
+	{
+	"tag": "TRAINER_SKIER_BJORN_(REMATCH_2)",
+	"location": "LOCATION_ROUTE217",
+	"trigger_flag": "0x842",
+	"requirements": []
+	}
+	{
+	"tag": "TRAINER_SKIER_ANDREA_(REMATCH_1)",
+	"location": "LOCATION_ROUTE216",
+	"trigger_flag": "0x843",
+	"requirements": ["HM_ROCK_CLIMB"]
+	}
+	{
+	"tag": "TRAINER_SKIER_ANDREA_(REMATCH_2)",
+	"location": "LOCATION_ROUTE216",
+	"trigger_flag": "0x844",
+	"requirements": ["HM_ROCK_CLIMB"]
+	}
+	{
+	"tag": "TRAINER_SKIER_MADISON_(REMATCH_1)",
+	"location": "LOCATION_ROUTE217",
+	"trigger_flag": "0x845",
+	"requirements": []
+	}
+	{
+	"tag": "TRAINER_SKIER_MADISON_(REMATCH_2)",
+	"location": "LOCATION_ROUTE217",
+	"trigger_flag": "0x846",
+	"requirements": []
+	}
+	{
+	"tag": "TRAINER_SWIMMER♂_WESLEY_REMATCH",
+	"location": "LOCATION_ROUTE223",
+	"trigger_flag": "0x847",
+	"requirements": ["HM_SURF"]
+	}
+	{
+	"tag": "TRAINER_SWIMMER♂_FRANCISCO_REMATCH",
+	"location": "LOCATION_ROUTE223",
+	"trigger_flag": "0x848",
+	"requirements": ["HM_SURF"]
+	}
+	{
+	"tag": "TRAINER_SWIMMER♂_GLENN_REMATCH",
+	"location": "LOCATION_ROUTE230",
+	"trigger_flag": "0x849",
+	"requirements": ["HM_SURF"]
+	}
+	{
+	"tag": "TRAINER_SWIMMER♀_MIRANDA_REMATCH",
+	"location": "LOCATION_ROUTE223",
+	"trigger_flag": "0x84A",
+	"requirements": []
+	}
+	{
+	"tag": "TRAINER_SWIMMER♀_CRYSTAL_REMATCH",
+	"location": "LOCATION_ROUTE223",
+	"trigger_flag": "0x84B",
+	"requirements": []
+	}
+	{
+	"tag": "TRAINER_SWIMMER♀_JOANNA_REMATCH",
+	"location": "LOCATION_ROUTE230",
+	"trigger_flag": "0x84C",
+	"requirements": []
+	}
+	{
+	"tag": "TRAINER_YOUNGSTER_TRISTAN_(REMATCH_1)",
+	"location": "LOCATION_ROUTE202",
+	"trigger_flag": "0x84D",
+	"requirements": []
+	}
+	{
+	"tag": "TRAINER_YOUNGSTER_TRISTAN_(REMATCH_2)",
+	"location": "LOCATION_ROUTE202",
+	"trigger_flag": "0x84E",
+	"requirements": []
+	}
+	{
+	"tag": "TRAINER_YOUNGSTER_TRISTAN_(REMATCH_3)",
+	"location": "LOCATION_ROUTE202",
+	"trigger_flag": "0x84F",
+	"requirements": []
+	}
+	{
+	"tag": "TRAINER_YOUNGSTER_DALLAS_(REMATCH_1)",
+	"location": "LOCATION_ROUTE203",
+	"trigger_flag": "0x850",
+	"requirements": []
+	}
+	{
+	"tag": "TRAINER_YOUNGSTER_DALLAS_(REMATCH_2)",
+	"location": "LOCATION_ROUTE203",
+	"trigger_flag": "0x851",
+	"requirements": []
+	}
+	{
+	"tag": "TRAINER_YOUNGSTER_DALLAS_(REMATCH_3)",
+	"location": "LOCATION_ROUTE203",
+	"trigger_flag": "0x852",
+	"requirements": []
+	}
+	{
+	"tag": "TRAINER_TUBER_JARED_(REMATCH_1)",
+	"location": "LOCATION_ROUTE213",
+	"trigger_flag": "0x853",
+	"requirements": []
+	}
+	{
+	"tag": "TRAINER_TUBER_JARED_(REMATCH_2)",
+	"location": "LOCATION_ROUTE213",
+	"trigger_flag": "0x854",
+	"requirements": []
+	}
+	{
+	"tag": "TRAINER_TUBER_CHELSEA_(REMATCH_1)",
+	"location": "LOCATION_ROUTE213",
+	"trigger_flag": "0x855",
+	"requirements": []
+	}
+	{
+	"tag": "TRAINER_VETERAN_BRIAN_(REMATCH_1)",
+	"location": "LOCATION_ROUTE210",
+	"trigger_flag": "0x856",
+	"requirements": []
+	}
+	{
+	"tag": "TRAINER_TUBER_CHELSEA_(REMATCH_2)",
+	"location": "LOCATION_ROUTE213",
+	"trigger_flag": "0x857",
+	"requirements": []
+	}
+	{
+	"tag": "TRAINER_VETERAN_BRIAN_(REMATCH_2)",
+	"location": "LOCATION_ROUTE210",
+	"trigger_flag": "0x858",
+	"requirements": []
+	}
+	{
+	"tag": "TRAINER_VETERAN_ARMANDO_REMATCH",
+	"location": "LOCATION_ROUTE224",
+	"trigger_flag": "0x859",
+	"requirements": []
+	}
+	{
+	"tag": "TRAINER_GUITARIST_ARTURO",
+	"location": "LOCATION_CANALAVE_POKEMON_CENTER",
 	"trigger_flag": "0x861",
 	"requirements": []
 	}
 	{
-	"tag": "TRAINER_",
-	"location": "LOCATION_",
+	"tag": "TRAINER_GUITARIST_ARTURO",
+	"location": "LOCATION_SUNYSHORE_POKEMON_CENTER",
 	"trigger_flag": "0x862",
 	"requirements": []
 	}
 	{
-	"tag": "TRAINER_",
-	"location": "LOCATION_",
-	"trigger_flag": "0x863",
-	"requirements": []
-	}
-	{
-	"tag": "TRAINER_",
-	"location": "LOCATION_",
-	"trigger_flag": "0x864",
-	"requirements": []
-	}
-	{
-	"tag": "TRAINER_",
-	"location": "LOCATION_",
-	"trigger_flag": "0x865",
-	"requirements": []
-	}
-	{
-	"tag": "TRAINER_",
-	"location": "LOCATION_",
-	"trigger_flag": "0x866",
-	"requirements": []
-	}
-	{
-	"tag": "TRAINER_",
-	"location": "LOCATION_",
-	"trigger_flag": "0x867",
-	"requirements": []
-	}
-	{
-	"tag": "TRAINER_",
-	"location": "LOCATION_",
-	"trigger_flag": "0x868",
-	"requirements": []
-	}
-	{
-	"tag": "TRAINER_",
-	"location": "LOCATION_",
-	"trigger_flag": "0x869",
-	"requirements": []
-	}
-	{
-	"tag": "TRAINER_",
-	"location": "LOCATION_",
-	"trigger_flag": "0x86A",
-	"requirements": []
-	}
-	{
-	"tag": "TRAINER_",
-	"location": "LOCATION_",
-	"trigger_flag": "0x86B",
-	"requirements": []
-	}
-	{
-	"tag": "TRAINER_",
-	"location": "LOCATION_",
-	"trigger_flag": "0x86C",
-	"requirements": []
-	}
-	{
-	"tag": "TRAINER_",
-	"location": "LOCATION_",
-	"trigger_flag": "0x86D",
-	"requirements": []
-	}
-	{
-	"tag": "TRAINER_",
-	"location": "LOCATION_",
-	"trigger_flag": "0x86E",
-	"requirements": []
-	}
-	{
-	"tag": "TRAINER_",
-	"location": "LOCATION_",
-	"trigger_flag": "0x86F",
-	"requirements": []
-	}
-	{
-	"tag": "TRAINER_",
-	"location": "LOCATION_",
-	"trigger_flag": "0x870",
-	"requirements": []
-	}
-	{
-	"tag": "TRAINER_",
-	"location": "LOCATION_",
-	"trigger_flag": "0x871",
-	"requirements": []
-	}
-	{
-	"tag": "TRAINER_",
-	"location": "LOCATION_",
-	"trigger_flag": "0x872",
-	"requirements": []
-	}
-	{
-	"tag": "TRAINER_",
-	"location": "LOCATION_",
-	"trigger_flag": "0x873",
-	"requirements": []
-	}
-	{
-	"tag": "TRAINER_",
-	"location": "LOCATION_",
-	"trigger_flag": "0x874",
-	"requirements": []
-	}
-	{
-	"tag": "TRAINER_",
-	"location": "LOCATION_",
-	"trigger_flag": "0x875",
-	"requirements": []
-	}
-	{
-	"tag": "TRAINER_",
-	"location": "LOCATION_",
-	"trigger_flag": "0x876",
-	"requirements": []
-	}
-	{
-	"tag": "TRAINER_",
-	"location": "LOCATION_",
-	"trigger_flag": "0x877",
-	"requirements": []
-	}
-	{
-	"tag": "TRAINER_",
-	"location": "LOCATION_",
-	"trigger_flag": "0x878",
-	"requirements": []
-	}
-	{
-	"tag": "TRAINER_",
-	"location": "LOCATION_",
-	"trigger_flag": "0x879",
-	"requirements": []
-	}
-	{
-	"tag": "TRAINER_",
-	"location": "LOCATION_",
-	"trigger_flag": "0x87A",
-	"requirements": []
-	}
-	{
-	"tag": "TRAINER_",
-	"location": "LOCATION_",
-	"trigger_flag": "0x87B",
-	"requirements": []
-	}
-	{
-	"tag": "TRAINER_",
-	"location": "LOCATION_",
-	"trigger_flag": "0x87C",
-	"requirements": []
-	}
-	{
-	"tag": "TRAINER_",
-	"location": "LOCATION_",
-	"trigger_flag": "0x87D",
-	"requirements": []
-	}
-	{
-	"tag": "TRAINER_",
-	"location": "LOCATION_",
-	"trigger_flag": "0x87E",
-	"requirements": []
-	}
-	{
-	"tag": "TRAINER_",
-	"location": "LOCATION_",
-	"trigger_flag": "0x87F",
-	"requirements": []
-	}
-	{
-	"tag": "TRAINER_",
-	"location": "LOCATION_",
-	"trigger_flag": "0x880",
-	"requirements": []
-	}
-	{
-	"tag": "TRAINER_",
-	"location": "LOCATION_",
-	"trigger_flag": "0x881",
-	"requirements": []
-	}
-	{
-	"tag": "TRAINER_",
-	"location": "LOCATION_",
-	"trigger_flag": "0x882",
-	"requirements": []
-	}
-	{
-	"tag": "TRAINER_",
-	"location": "LOCATION_",
-	"trigger_flag": "0x883",
-	"requirements": []
-	}
-	{
-	"tag": "TRAINER_",
-	"location": "LOCATION_",
-	"trigger_flag": "0x884",
-	"requirements": []
-	}
-	{
-	"tag": "TRAINER_",
-	"location": "LOCATION_",
-	"trigger_flag": "0x885",
-	"requirements": []
-	}
-	{
-	"tag": "TRAINER_",
-	"location": "LOCATION_",
-	"trigger_flag": "0x886",
-	"requirements": []
-	}
-	{
-	"tag": "TRAINER_",
-	"location": "LOCATION_",
-	"trigger_flag": "0x887",
-	"requirements": []
-	}
-	{
-	"tag": "TRAINER_",
-	"location": "LOCATION_",
-	"trigger_flag": "0x888",
-	"requirements": []
-	}
-	{
-	"tag": "TRAINER_",
-	"location": "LOCATION_",
-	"trigger_flag": "0x889",
-	"requirements": []
-	}
-	{
-	"tag": "TRAINER_",
-	"location": "LOCATION_",
+	"tag": "TRAINER_TOWER_TYCOON_PALMER",
+	"location": "LOCATION_BATTLE_TOWER",
 	"trigger_flag": "0x88A",
 	"requirements": []
 	}
@@ -4259,63 +3755,21 @@
 	"requirements": ["HM_SURF"]
 	}
 	{
-	"tag": "TRAINER_",
-	"location": "LOCATION_",
-	"trigger_flag": "0x891",
-	"requirements": []
-	}
-	{
-	"tag": "TRAINER_",
-	"location": "LOCATION_",
-	"trigger_flag": "0x892",
-	"requirements": []
-	}
-	{
-	"tag": "TRAINER_GALACTIC_GRUNT",
-	"location": "LOCATION_IRON_ISLAND_B2F",
-	"trigger_flag": "0x893",
-	"requirements": []
-	}
-	{
-	"tag": "TRAINER_GALACTIC_GRUNT",
-	"location": "LOCATION_IRON_ISLAND_B2F",
-	"trigger_flag": "0x894",
-	"requirements": []
-	}
-	{
-	"tag": "TRAINER_",
-	"location": "LOCATION_",
+	"tag": "TRAINER_RIVAL_BARRY",
+	"location": "LOCATION_SURVIVAL_AREA",
 	"trigger_flag": "0x895",
 	"requirements": []
 	}
 	{
-	"tag": "TRAINER_",
-	"location": "LOCATION_",
+	"tag": "TRAINER_RIVAL_BARRY",
+	"location": "LOCATION_SURVIVAL_AREA",
 	"trigger_flag": "0x896",
 	"requirements": []
 	}
 	{
-	"tag": "TRAINER_",
-	"location": "LOCATION_",
+	"tag": "TRAINER_RIVAL_BARRY",
+	"location": "LOCATION_SURVIVAL_AREA",
 	"trigger_flag": "0x897",
-	"requirements": []
-	}
-	{
-	"tag": "TRAINER_",
-	"location": "LOCATION_",
-	"trigger_flag": "0x898",
-	"requirements": []
-	}
-	{
-	"tag": "TRAINER_",
-	"location": "LOCATION_",
-	"trigger_flag": "0x899",
-	"requirements": []
-	}
-	{
-	"tag": "TRAINER_",
-	"location": "LOCATION_",
-	"trigger_flag": "0x89A",
 	"requirements": []
 	}
 	{
@@ -4349,14 +3803,14 @@
 	"requirements": []
 	}
 	{
-	"tag": "TRAINER_",
-	"location": "LOCATION_",
+	"tag": "TRAINER_GALACTIC_GRUNT",
+	"location": "LOCATION_VEILSTONE_CITY",
 	"trigger_flag": "0x8A0",
 	"requirements": []
 	}
 	{
-	"tag": "TRAINER_",
-	"location": "LOCATION_",
+	"tag": "TRAINER_GALACTIC_GRUNT",
+	"location": "LOCATION_VEILSTONE_CITY",
 	"trigger_flag": "0x8A1",
 	"requirements": []
 	}
@@ -4379,236 +3833,236 @@
 	"requirements": []
 	}
 	{
-	"tag": "TRAINER_",
-	"location": "LOCATION_",
+	"tag": "TRAINER_LEADER_CANDICE_REMATCH",
+	"location": "LOCATION_BATTLEGROUND",
 	"trigger_flag": "0x8A5",
 	"requirements": []
 	}
 	{
-	"tag": "TRAINER_",
-	"location": "LOCATION_",
+	"tag": "TRAINER_LEADER_MAYLENE_REMATCH",
+	"location": "LOCATION_BATTLEGROUND",
 	"trigger_flag": "0x8A6",
 	"requirements": []
 	}
 	{
-	"tag": "TRAINER_",
-	"location": "LOCATION_",
+	"tag": "TRAINER_LEADER_VOLKNER_REMATCH",
+	"location": "LOCATION_BATTLEGROUND",
 	"trigger_flag": "0x8A7",
 	"requirements": []
 	}
 	{
-	"tag": "TRAINER_",
-	"location": "LOCATION_",
+	"tag": "TRAINER_LEADER_BYRON_REMATCH",
+	"location": "LOCATION_BATTLEGROUND",
 	"trigger_flag": "0x8A8",
 	"requirements": []
 	}
 	{
-	"tag": "TRAINER_",
-	"location": "LOCATION_",
+	"tag": "TRAINER_LEADER_GARDENIA_REMATCH",
+	"location": "LOCATION_BATTLEGROUND",
 	"trigger_flag": "0x8A9",
 	"requirements": []
 	}
 	{
-	"tag": "TRAINER_",
-	"location": "LOCATION_",
+	"tag": "TRAINER_LEADER_ROARK_REMATCH",
+	"location": "LOCATION_BATTLEGROUND",
 	"trigger_flag": "0x8AA",
 	"requirements": []
 	}
 	{
-	"tag": "TRAINER_",
-	"location": "LOCATION_",
+	"tag": "TRAINER_LEADER_WAKE_REMATCH",
+	"location": "LOCATION_BATTLEGROUND",
 	"trigger_flag": "0x8AB",
 	"requirements": []
 	}
 	{
-	"tag": "TRAINER_",
-	"location": "LOCATION_",
+	"tag": "TRAINER_LEADER_FANTINA_REMATCH",
+	"location": "LOCATION_BATTLEGROUND",
 	"trigger_flag": "0x8AC",
 	"requirements": []
 	}
 	{
-	"tag": "TRAINER_",
-	"location": "LOCATION_",
+	"tag": "TRAINER_POKEMON_TRAINER_RILEY",
+	"location": "LOCATION_BATTLEGROUND",
 	"trigger_flag": "0x8AD",
 	"requirements": []
 	}
 	{
-	"tag": "TRAINER_",
-	"location": "LOCATION_",
+	"tag": "TRAINER_POKEMON_TRAINER_BUCK",
+	"location": "LOCATION_BATTLEGROUND",
 	"trigger_flag": "0x8AE",
 	"requirements": []
 	}
 	{
-	"tag": "TRAINER_",
-	"location": "LOCATION_",
+	"tag": "TRAINER_POKEMON_TRAINER_MARLEY",
+	"location": "LOCATION_BATTLEGROUND",
 	"trigger_flag": "0x8AF",
 	"requirements": []
 	}
 	{
-	"tag": "TRAINER_",
-	"location": "LOCATION_",
+	"tag": "TRAINER_POKEMON_TRAINER_MIRA",
+	"location": "LOCATION_BATTLEGROUND",
 	"trigger_flag": "0x8B0",
 	"requirements": []
 	}
 	{
-	"tag": "TRAINER_",
-	"location": "LOCATION_",
+	"tag": "TRAINER_POKEMON_TRAINER_CHERYL",
+	"location": "LOCATION_BATTLEGROUND",
 	"trigger_flag": "0x8B1",
 	"requirements": []
 	}
 	{
-	"tag": "TRAINER_",
-	"location": "LOCATION_",
+	"tag": "TRAINER_ELITE_FOUR_AARON_ROUND2",
+	"location": "LOCATION_POKEMON_LEAGUE",
 	"trigger_flag": "0x8B2",
 	"requirements": []
 	}
 	{
-	"tag": "TRAINER_",
-	"location": "LOCATION_",
+	"tag": "TRAINER_ELITE_FOUR_BERTHA_ROUND2",
+	"location": "LOCATION_POKEMON_LEAGUE",
 	"trigger_flag": "0x8B3",
 	"requirements": []
 	}
 	{
-	"tag": "TRAINER_",
-	"location": "LOCATION_",
+	"tag": "TRAINER_ELITE_FOUR_FLINT_ROUND2",
+	"location": "LOCATION_POKEMON_LEAGUE",
 	"trigger_flag": "0x8B4",
 	"requirements": []
 	}
 	{
-	"tag": "TRAINER_",
-	"location": "LOCATION_",
+	"tag": "TRAINER_ELITE_FOUR_LUCIAN_ROUND2",
+	"location": "LOCATION_POKEMON_LEAGUE",
 	"trigger_flag": "0x8B5",
 	"requirements": []
 	}
 	{
-	"tag": "TRAINER_",
-	"location": "LOCATION_",
+	"tag": "TRAINER_CHAMPION_CYNTHIA_ROUND2",
+	"location": "LOCATION_POKEMON_LEAGUE",
 	"trigger_flag": "0x8B6",
 	"requirements": []
 	}
 	{
-	"tag": "TRAINER_",
-	"location": "LOCATION_",
+	"tag": "TRAINER_RIVAL_BARRY",
+	"location": "LOCATION_SURVIVAL_AREA",
 	"trigger_flag": "0x8B7",
 	"requirements": []
 	}
 	{
-	"tag": "TRAINER_",
-	"location": "LOCATION_",
+	"tag": "TRAINER_RIVAL_BARRY",
+	"location": "LOCATION_SURVIVAL_AREA",
 	"trigger_flag": "0x8B8",
 	"requirements": []
 	}
 	{
-	"tag": "TRAINER_",
-	"location": "LOCATION_",
+	"tag": "TRAINER_RIVAL_BARRY",
+	"location": "LOCATION_SURVIVAL_AREA",
 	"trigger_flag": "0x8B9",
 	"requirements": []
 	}
 	{
-	"tag": "TRAINER_",
-	"location": "LOCATION_",
+	"tag": "TRAINER_CAMERAMAN_TEVIN_(REMATCH_1)",
+	"location": "LOCATION_JUBILIFE_POKEMON_CENTER",
 	"trigger_flag": "0x8BA",
 	"requirements": []
 	}
 	{
-	"tag": "TRAINER_",
-	"location": "LOCATION_",
+	"tag": "TRAINER_CAMERAMAN_TEVIN_(REMATCH_2)",
+	"location": "LOCATION_JUBILIFE_POKEMON_CENTER",
 	"trigger_flag": "0x8BB",
 	"requirements": []
 	}
 	{
-	"tag": "TRAINER_",
-	"location": "LOCATION_",
+	"tag": "TRAINER_CAMERAMAN_TEVIN_(REMATCH_3)",
+	"location": "LOCATION_JUBILIFE_POKEMON_CENTER",
 	"trigger_flag": "0x8BC",
 	"requirements": []
 	}
 	{
-	"tag": "TRAINER_",
-	"location": "LOCATION_",
+	"tag": "TRAINER_GUITARIST_ARTURO_(REMATCH_1)",
+	"location": "LOCATION_PASTORIA_POKEMON_CENTER",
 	"trigger_flag": "0x8BD",
 	"requirements": []
 	}
 	{
-	"tag": "TRAINER_",
-	"location": "LOCATION_",
+	"tag": "TRAINER_GUITARIST_ARTURO_(REMATCH_2)",
+	"location": "LOCATION_PASTORIA_POKEMON_CENTER",
 	"trigger_flag": "0x8BE",
 	"requirements": []
 	}
 	{
-	"tag": "TRAINER_",
-	"location": "LOCATION_",
+	"tag": "TRAINER_GUITARIST_ARTURO_(REMATCH_3)",
+	"location": "LOCATION_PASTORIA_POKEMON_CENTER",
 	"trigger_flag": "0x8BF",
 	"requirements": []
 	}
 	{
-	"tag": "TRAINER_",
-	"location": "LOCATION_",
+	"tag": "TRAINER_IDOL_GRACE_(REMATCH_1)",
+	"location": "LOCATION_OREBURGH_POKEMON_CENTER",
 	"trigger_flag": "0x8C0",
 	"requirements": []
 	}
 	{
-	"tag": "TRAINER_",
-	"location": "LOCATION_",
+	"tag": "TRAINER_IDOL_GRACE_(REMATCH_2)",
+	"location": "LOCATION_OREBURGH_POKEMON_CENTER",
 	"trigger_flag": "0x8C1",
 	"requirements": []
 	}
 	{
-	"tag": "TRAINER_",
-	"location": "LOCATION_",
+	"tag": "TRAINER_IDOL_GRACE_(REMATCH_3)",
+	"location": "LOCATION_OREBURGH_POKEMON_CENTER",
 	"trigger_flag": "0x8C2",
 	"requirements": []
 	}
 	{
-	"tag": "TRAINER_",
-	"location": "LOCATION_",
+	"tag": "TRAINER_INTERVIEWERS_ROXY_&_OLI_(REMATCH_1)",
+	"location": "LOCATION_ETERNA_POKEMON_CENTER",
 	"trigger_flag": "0x8C3",
 	"requirements": []
 	}
 	{
-	"tag": "TRAINER_",
-	"location": "LOCATION_",
+	"tag": "TRAINER_INTERVIEWERS_ROXY_&_OLI_(REMATCH_2)",
+	"location": "LOCATION_ETERNA_POKEMON_CENTER",
 	"trigger_flag": "0x8C4",
 	"requirements": []
 	}
 	{
-	"tag": "TRAINER_",
-	"location": "LOCATION_",
+	"tag": "TRAINER_INTERVIEWERS_ROXY_&_OLI_(REMATCH_3)",
+	"location": "LOCATION_ETERNA_POKEMON_CENTER",
 	"trigger_flag": "0x8C5",
 	"requirements": []
 	}
 	{
-	"tag": "TRAINER_",
-	"location": "LOCATION_",
+	"tag": "TRAINER_CLOWN_LEE_(REMATCH_1)",
+	"location": "LOCATION_HEARTHOME_POKEMON_CENTER",
 	"trigger_flag": "0x8C6",
 	"requirements": []
 	}
 	{
-	"tag": "TRAINER_",
-	"location": "LOCATION_",
+	"tag": "TRAINER_CLOWN_LEE_(REMATCH_2)",
+	"location": "LOCATION_HEARTHOME_POKEMON_CENTER",
 	"trigger_flag": "0x8C7",
 	"requirements": []
 	}
 	{
-	"tag": "TRAINER_",
-	"location": "LOCATION_",
+	"tag": "TRAINER_CLOWN_LEE_(REMATCH_3)",
+	"location": "LOCATION_HEARTHOME_POKEMON_CENTER",
 	"trigger_flag": "0x8C8",
 	"requirements": []
 	}
 	{
-	"tag": "TRAINER_",
-	"location": "LOCATION_",
+	"tag": "TRAINER_POKE_KID_ARIEL_(REMATCH_1)",
+	"location": "LOCATION_FLOAROMA_POKEMON_CENTER",
 	"trigger_flag": "0x8C9",
 	"requirements": []
 	}
 	{
-	"tag": "TRAINER_",
-	"location": "LOCATION_",
+	"tag": "TRAINER_POKE_KID_ARIEL_(REMATCH_2)",
+	"location": "LOCATION_FLOAROMA_POKEMON_CENTER",
 	"trigger_flag": "0x8CA",
 	"requirements": []
 	}
 	{
-	"tag": "TRAINER_",
-	"location": "LOCATION_",
+	"tag": "TRAINER_POKE_KID_ARIEL_(REMATCH_3)",
+	"location": "LOCATION_FLOAROMA_POKEMON_CENTER",
 	"trigger_flag": "0x8CB",
 	"requirements": []
 	}
@@ -4625,206 +4079,182 @@
 	"requirements": []
 	}
 	{
-	"tag": "",
-	"location": "",
+	"tag": "TRAINER_REPORTER_KINSEY_(REMATCH_1)",
+	"location": "LOCATION_JUBILIFE_POKEMON_CENTER",
 	"trigger_flag": "0x8CE",
 	"requirements": []
 	}
 	{
-	"tag": "",
-	"location": "",
+	"tag": "TRAINER_REPORTER_KINSEY_(REMATCH_2)",
+	"location": "LOCATION_JUBILIFE_POKEMON_CENTER",
 	"trigger_flag": "0x8CF",
 	"requirements": []
 	}
 	{
-	"tag": "",
-	"location": "",
+	"tag": "TRAINER_REPORTER_KINSEY_(REMATCH_3)",
+	"location": "LOCATION_JUBILIFE_POKEMON_CENTER",
 	"trigger_flag": "0x8D0",
 	"requirements": []
 	}
 	{
-	"tag": "",
-	"location": "",
+	"tag": "TRAINER_MAID_BELINDA",
+	"location": "LOCATION_POKÉMON_MANSION",
 	"trigger_flag": "0x8D1",
 	"requirements": []
 	}
 	{
-	"tag": "",
-	"location": "",
+	"tag": "TRAINER_MAID_SOPHIE",
+	"location": "LOCATION_POKÉMON_MANSION",
 	"trigger_flag": "0x8D2",
 	"requirements": []
 	}
 	{
-	"tag": "",
-	"location": "",
+	"tag": "TRAINER_MAID_EMILY",
+	"location": "LOCATION_POKÉMON_MANSION",
 	"trigger_flag": "0x8D3",
 	"requirements": []
 	}
 	{
-	"tag": "",
-	"location": "",
+	"tag": "TRAINER_MAID_ELENA",
+	"location": "LOCATION_POKÉMON_MANSION",
 	"trigger_flag": "0x8D4",
 	"requirements": []
 	}
 	{
-	"tag": "",
-	"location": "",
+	"tag": "TRAINER_MAID_CLARE",
+	"location": "LOCATION_POKÉMON_MANSION",
 	"trigger_flag": "0x8D5",
 	"requirements": []
 	}
 	{
-	"tag": "",
-	"location": "",
+	"tag": "TRAINER_HALL_MATRON_ARGENTA",
+	"location": "LOCATION_BATTLE_HALL",
 	"trigger_flag": "0x8D6",
 	"requirements": []
 	}
 	{
-	"tag": "",
-	"location": "",
+	"tag": "TRAINER_FACTORY_HEAD_THORTON",
+	"location": "LOCATION_BATTLE_FACTORY",
 	"trigger_flag": "0x8D7",
 	"requirements": []
 	}
 	{
-	"tag": "",
-	"location": "",
+	"tag": "TRAINER_ARCADE_STAR_DAHLIA",
+	"location": "LOCATION_BATTLE_ARCADE",
 	"trigger_flag": "0x8D8",
 	"requirements": []
 	}
 	{
-	"tag": "",
-	"location": "",
+	"tag": "TRAINER_CASTLE_VALET_DARACH",
+	"location": "LOCATION_BATTLE_CASTLE",
 	"trigger_flag": "0x8D9",
 	"requirements": []
 	}
 	{
-	"tag": "",
-	"location": "",
+	"tag": "TRAINER_CAMERAMAN_TEVIN_(REMATCH_4)",
+	"location": "LOCATION_HEARTHOME_POKEMON_CENTER",
 	"trigger_flag": "0x8DA",
 	"requirements": []
 	}
 	{
-	"tag": "",
-	"location": "",
+	"tag": "TRAINER_GUITARIST_ARTURO_(REMATCH_4)",
+	"location": "LOCATION_SUNYSHORE_POKEMON_CENTER",
 	"trigger_flag": "0x8DB",
 	"requirements": []
 	}
 	{
-	"tag": "",
-	"location": "",
+	"tag": "TRAINER_IDOL_GRACE_(REMATCH_4)",
+	"location": "LOCATION_OREBURGH_POKEMON_CENTER",
 	"trigger_flag": "0x8DC",
 	"requirements": []
 	}
 	{
-	"tag": "",
-	"location": "",
+	"tag": "TRAINER_INTERVIEWERS_ROXY_&_OLI_(REMATCH_4)",
+	"location": "LOCATION_ETERNA_POKEMON_CENTER",
 	"trigger_flag": "0x8DD",
 	"requirements": []
 	}
 	{
-	"tag": "",
-	"location": "",
+	"tag": "TRAINER_CLOWN_LEE_(REMATCH_4)",
+	"location": "LOCATION_HEARTHOME_POKEMON_CENTER",
 	"trigger_flag": "0x8DE",
 	"requirements": []
 	}
 	{
-	"tag": "",
-	"location": "",
+	"tag": "TRAINER_POKE_KID_ARIEL_(REMATCH_4)",
+	"location": "LOCATION_FLOAROMA_POKEMON_CENTER",
 	"trigger_flag": "0x8DF",
 	"requirements": []
 	}
 	{
-	"tag": "",
-	"location": "",
+	"tag": "TRAINER_REPORTER_KINSEY_(REMATCH_4)",
+	"location": "LOCATION_JUBILIFE_POKEMON_CENTER",
 	"trigger_flag": "0x8E0",
 	"requirements": []
 	}
 	{
-	"tag": "",
-	"location": "",
+	"tag": "TRAINER_GALACTIC_BOSS_CYRUS",
+	"location": "LOCATION_DISTORTION_WORLD",
 	"trigger_flag": "0x8E1",
 	"requirements": []
 	}
 	{
-	"tag": "",
-	"location": "",
+	"tag": "TRAINER_CAMERAMAN_TEVIN_(REMATCH_5)",
+	"location": "LOCATION_FIGHT_AREA_POKEMON_CENTER",
 	"trigger_flag": "0x8E2",
 	"requirements": []
 	}
 	{
-	"tag": "",
-	"location": "",
+	"tag": "TRAINER_GUITARIST_ARTURO_(REMATCH_5)",
+	"location": "LOCATION_SUNYSHORE_POKEMON_CENTER",
 	"trigger_flag": "0x8E3",
 	"requirements": []
 	}
 	{
-	"tag": "",
-	"location": "",
+	"tag": "TRAINER_IDOL_GRACE_(REMATCH_5)",
+	"location": "LOCATION_SNOWPOINT_POKEMON_CENTER",
 	"trigger_flag": "0x8E4",
 	"requirements": []
 	}
 	{
-	"tag": "",
-	"location": "",
+	"tag": "TRAINER_INTERVIEWERS_ROXY_&_OLI_(REMATCH_5)",
+	"location": "LOCATION_VEILSTONE_POKEMON_CENTER",
 	"trigger_flag": "0x8E5",
 	"requirements": []
 	}
 	{
-	"tag": "",
-	"location": "",
+	"tag": "TRAINER_CLOWN_LEE_(REMATCH_5)",
+	"location": "LOCATION_CELESTIC_POKEMON_CENTER",
 	"trigger_flag": "0x8E6",
 	"requirements": []
 	}
 	{
-	"tag": "",
-	"location": "",
+	"tag": "TRAINER_POKE_KID_ARIEL_(REMATCH_5)",
+	"location": "LOCATION_RESORT_AREA",
 	"trigger_flag": "0x8E7",
 	"requirements": []
 	}
 	{
-	"tag": "",
-	"location": "",
+	"tag": "TRAINER_REPORTER_KINSEY_(REMATCH_5)",
+	"location": "LOCATION_FIGHT_AREA_POKEMON_CENTER",
 	"trigger_flag": "0x8E8",
 	"requirements": []
 	}
 	{
-	"tag": "",
-	"location": "",
+	"tag": "TRAINER_LEADER_VOLKNER",
+	"location": "LOCATION_FIGHT_AREA",
 	"trigger_flag": "0x8E9",
 	"requirements": []
 	}
 	{
-	"tag": "",
-	"location": "",
-	"trigger_flag": "0x8EA",
-	"requirements": []
-	}
-	{
-	"tag": "",
-	"location": "",
-	"trigger_flag": "0x8EB",
-	"requirements": []
-	}
-	{
-	"tag": "",
-	"location": "",
-	"trigger_flag": "0x8EC",
-	"requirements": []
-	}
-	{
-	"tag": "",
-	"location": "",
-	"trigger_flag": "0x8ED",
-	"requirements": []
-	}
-	{
-	"tag": "",
-	"location": "",
+	"tag": "TRAINER_COMMANDER_MARS",
+	"location": "LOCATION_STARK_MOUNTAIN",
 	"trigger_flag": "0x8EE",
 	"requirements": []
 	}
 	{
-	"tag": "",
-	"location": "",
+	"tag": "TRAINER_COMMANDER_JUPITER",
+	"location": "LOCATION_STARK_MOUNTAIN",
 	"trigger_flag": "0x8EF",
 	"requirements": []
 	}
